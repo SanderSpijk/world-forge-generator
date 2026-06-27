@@ -279,7 +279,6 @@ async function _createAssetFolders() {
     try {
       worldForgeFolder = await Folder.create({
         name: "WorldForge",
-        type: "FilePicker.sources.data",
         parent: null,
       });
       console.log("WorldForge | Asset folder 'WorldForge' aangemaakt.");
@@ -299,7 +298,6 @@ async function _createAssetFolders() {
       try {
         await Folder.create({
           name: folderName,
-          type: "FilePicker.sources.data",
           parent: worldForgeFolder.id,
         });
         console.log(`WorldForge | Asset subfolder '${folderName}' aangemaakt.`);
