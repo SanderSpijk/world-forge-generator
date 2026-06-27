@@ -34,7 +34,7 @@ WorldForge Generator vereenvoudigt het voorbereiden van D&D campagnes door alles
 3. Klik **Install Module**
 4. Plak deze URL in het zoekveld:
    ```
-   https://github.com/[owner]/world-forge-generator/releases/download/v0.9.3/module.json
+   https://github.com/SanderSpijk/world-forge-generator/releases/download/v1.0.0/module.json
    ```
    (Of voeg de module handmatig toe in je modules folder)
 5. Klik **Install**
@@ -322,9 +322,9 @@ WorldForge slaat alles op in de **Foundry world database** (niet extern):
 
 ## 🐙 GitHub & Updates
 
-**Repository**: https://github.com/[owner]/world-forge-generator
-**Issues rapporteren**: https://github.com/[owner]/world-forge-generator/issues
-**Feature requests**: https://github.com/[owner]/world-forge-generator/discussions
+**Repository**: https://github.com/SanderSpijk/world-forge-generator
+**Issues rapporteren**: https://github.com/SanderSpijk/world-forge-generator/issues
+**Feature requests**: https://github.com/SanderSpijk/world-forge-generator/discussions
 
 ---
 
