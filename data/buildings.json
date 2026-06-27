@@ -1,0 +1,728 @@
+﻿{
+    "gebouw":  [
+                   {
+                       "nl":  "een smal stenen pand met een verweerde gevel",
+                       "en":  "a narrow stone building with a weathered facade",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een breed houten pand met luiken voor de ramen",
+                       "en":  "a wide wooden building with shutters on the windows",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een degelijk bakstenen gebouw met een beschilderde pui",
+                       "en":  "a solid brick building with a painted storefront",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een oud vakwerkhuis dat scheef tegen zijn buren lijkt te leunen",
+                       "en":  "an old half-timbered house that seems to lean against its neighbors",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een laag stenen gebouw met een diepe overkapping boven de ingang",
+                       "en":  "a low stone building with a deep canopy above the entrance",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een opvallend netjes onderhouden pand met frisse verf",
+                       "en":  "a noticeably well-maintained building with fresh paint",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een compact gebouw van donker hout en natuursteen",
+                       "en":  "a compact building of dark wood and natural stone",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een statig pand met hoge ramen en zware dubbele deuren",
+                       "en":  "a stately building with tall windows and heavy double doors",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een rommelig ogend gebouw waarvan de gevel vol haken, rekken en borden hangt",
+                       "en":  "a cluttered-looking building with a facade hung with hooks, racks and signs",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een oud maar stevig handelshuis met brede vensters aan de straatkant",
+                       "en":  "an old but sturdy merchant house with wide windows facing the street",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een smalle winkel tussen grotere panden, bijna verborgen in de straatwand",
+                       "en":  "a narrow building squeezed between larger ones, almost hidden in the street wall",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een uitnodigend hoekpand met een open etalage en veel zicht naar binnen",
+                       "en":  "an inviting corner building with an open display and clear view inside",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een zwaar gebouwd stenen huis dat eerder op een werkplaats lijkt",
+                       "en":  "a heavily built stone house that looks more like a workshop",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een rijk versierd pand met houtsnijwerk rond deuren en ramen",
+                       "en":  "a richly decorated building with woodcarving around doors and windows",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een praktisch en ongecompliceerd gebouw dat duidelijk voor handel is ingericht",
+                       "en":  "a practical, no-nonsense building clearly set up for trade",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een hoog en smal gebouw met meerdere verdiepingen boven de begane grond",
+                       "en":  "a tall and narrow building with multiple floors above ground level",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een donker, gesloten pand waarvan slechts een deel van het interieur zichtbaar is",
+                       "en":  "a dark, closed-off building of which only part of the interior is visible",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een lichtgekleurd gebouw met een verzorgde gevel en brede ingang",
+                       "en":  "a light-coloured building with a neat facade and wide entrance",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een stevig pand met metalen verstevigingen rond deur en ramen",
+                       "en":  "a sturdy building with metal reinforcements around the door and windows",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een pand dat ooit luxe moet zijn geweest, maar nu wat sleets oogt",
+                       "en":  "a building that must once have been luxurious but now looks somewhat worn",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een witgepleisterd gebouw",
+                       "en":  "a white plastered building",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een stevig fortachtig gebouw",
+                       "en":  "a sturdy fort-like building",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een kleurrijk geschilderd gebouw",
+                       "en":  "a brightly painted building",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een recent gerenoveerd gebouw met nieuw houtwerk",
+                       "en":  "a recently renovated building with new woodwork",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een gebouw met een open binnenplaats",
+                       "en":  "a building with an open courtyard",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een gebouw met dikke stenen muren",
+                       "en":  "a building with thick stone walls",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een half ingestort gebouw dat toch nog in gebruik is",
+                       "en":  "a partially collapsed building that is still in use",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een gebouw met een rieten aanbouw",
+                       "en":  "a building with a thatched extension",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een robuust handelsgebouw",
+                       "en":  "a robust trade building",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een oud en scheefgezakt gebouw",
+                       "en":  "an old and crooked building",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een gildehuis met het wapen van de ambachtsvereniging boven de deur",
+                       "en":  "a guildhall with the craftsmen\u0027s association crest above the door",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een oud stenen gebouw waarvan de gevel bezet is met magische runen",
+                       "en":  "a old stone building whose facade is marked with magical runes",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een pand gebouwd tegen de stadsmuur, met de muur als achterwand",
+                       "en":  "a building constructed against the city wall, using it as a back wall",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een toren die ooit bewoond werd door een tovenaar en nu als pand dient",
+                       "en":  "a tower once inhabited by a wizard, now repurposed as a building",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een half houten, half stenen gebouw typisch voor de middeleeuwse stadskern",
+                       "en":  "a half-timber, half-stone building typical of a medieval city center",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een gebouw met een uitgehangen gildeschild en versierd met ambachtssymbolen",
+                       "en":  "a building displaying a guild shield and decorated with craft symbols",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een stevig gebouw van ruwe veldsteen met smeedijzeren raamkozijnen",
+                       "en":  "a solid building of rough fieldstone with wrought iron window frames",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een pand waarvan de gevel gedeeltelijk begroeid is met klimop en mos",
+                       "en":  "a building whose facade is partially overgrown with ivy and moss",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een gebouw met een ondergrondse kelder die zichtbaar is via een luik in de stoep",
+                       "en":  "a building with an underground cellar visible through a hatch in the pavement",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een versterkt pand met smalle schietsleuven in plaats van ramen op de begane grond",
+                       "en":  "a fortified building with narrow arrow slits instead of windows on the ground floor",
+                       "theme":  "medieval"
+                   },
+                   {
+                       "nl":  "een kathedraal met spitsbogen en hoog oprijzende zijbeuken waaruit gekleurde lichten schijnen",
+                       "en":  "a cathedral with pointed arches and high-rising aisles from which coloured lights shine",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een gotisch klooster met twee binnenplaatsen gescheiden door gotische galerijen",
+                       "en":  "a gothic monastery with two courtyards separated by gothic galleries",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een kasteel waarvan de torens donker afsteken tegen de bewolkte hemel",
+                       "en":  "a castle whose towers loom dark against the cloudy sky",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een spookhuis waarvan de ramen volledig geblokkeerd zijn door houten planken",
+                       "en":  "a haunted house whose windows are completely blocked by wooden boards",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een stadspoort versierd met stenen beeldhouwwerk van heiligen en demonen",
+                       "en":  "a city gate decorated with stone sculptures of saints and demons",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een torenkamer waar een eenzame tovenaar zijn magische studies voert",
+                       "en":  "a tower room where a solitary sorcerer pursues their magical studies",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een gotische kapel waarvan de binnenmuren glimmen van ouderdom en vocht",
+                       "en":  "a gothic chapel whose inner walls shimmer with age and moisture",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een bibliotheek waarvan de plafonds zich oneindig hoog uitstrekken in schaduwen",
+                       "en":  "a library whose ceilings stretch infinitely high into shadows",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een gemeentehuis met gotische ramen en zwarte kraaien die op de daken neerslaan",
+                       "en":  "a town hall with gothic windows and black crows perched on the roofs",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een geheiligde begrafenisplaats omringd door spitsbogige muren vol beeldhouwwerk",
+                       "en":  "a hallowed burial ground surrounded by pointed-arch walls carved with sculptures",
+                       "theme":  "gothic"
+                   },
+                   {
+                       "nl":  "een pagoda van vijf verdiepingen waarvan de bovenste een waakzame tempelbel herbergt",
+                       "en":  "a five-storey pagoda whose top floor houses a watchful temple bell",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een theehuisje op houten palen boven een traag bewegende vijver vol lotussen",
+                       "en":  "a teahouse on wooden stilts above a slow-moving pond full of lotuses",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een tempel met rode zuilen en een gouden torii-poort die de heilige drempel markeert",
+                       "en":  "a shrine with red pillars and a gilded torii gate marking the sacred threshold",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een handelspakhuis met papieren lantaarns aan de dakrand en schuifdeuren van rijstpapier",
+                       "en":  "a trading warehouse with paper lanterns along the eaves and rice-paper sliding doors",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een dojo omringd door een grindtuin met zorgvuldig geharkte patronen",
+                       "en":  "a dojo surrounded by a gravel garden with carefully raked patterns",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een poorttoren met een houten brug over een droge greppel gevuld met bamboe",
+                       "en":  "a gatehouse with a wooden bridge over a dry moat filled with bamboo",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een medicijnwinkel waarvan de houten gevel hangt vol gedroogde kruiden en wortelstronken",
+                       "en":  "a medicine shop whose wooden facade is hung with dried herbs and root bundles",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een schrijnkamer met houten tabletten waarop de namen van voorouders zijn gegraveerd",
+                       "en":  "a shrine room with wooden tablets engraved with the names of ancestors",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een rechthuis met zwarte dakpannen en een rode luifel waaronder mensen zitten te wachten",
+                       "en":  "a magistrate\u0027s hall with black roof tiles and a red awning under which people wait",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een herberg met een overdekte binnenplaats en een bamboefonteintje in de hoek",
+                       "en":  "an inn with a covered inner courtyard and a bamboo water spout in the corner",
+                       "theme":  "asian"
+                   },
+                   {
+                       "nl":  "een karavanserai met een grote binnenplaats omringd door laderuimtes voor kamelen",
+                       "en":  "a caravanserai with a large courtyard surrounded by loading bays for camels",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een bazaar met smalle overdekte steegjes waar kooplieden hun waren tonen",
+                       "en":  "a bazaar with narrow covered alleyways where merchants display their wares",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een waterkasteel waarvan een ondergrondse qanat water van ver aanvoert",
+                       "en":  "a water fortress where an underground qanat brings water from afar",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een minaret van witgekalkte leemstenen waarvan de top door ooienvogels is gebruikt",
+                       "en":  "a minaret of whitewashed mud brick whose top is used by eagles as a roost",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een doelstelling waarvan de muren uit gestapelde rotsen zijn opgebouwd zonder mortel",
+                       "en":  "a fort built from stacked rocks without mortar bound by sheer weight",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een koepelkamer waarvan de architectuur geleid sound-focusing properties heeft",
+                       "en":  "a domed chamber whose architecture creates sound-focusing properties",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een huizen-ingestapeld dorp waar gebouwen tegen elkaar staan gebouwd voor schaduw en bescherming",
+                       "en":  "a densely-stacked village where buildings lean against each other for shade and protection",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een gaarhuys voor arme reizigers met alleen water en schoon zand voor reinheid",
+                       "en":  "a shelter for poor travellers with only water and clean sand for washing",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een klei-steengrote waar men nog steeds bakstenen voorbereidt in de traditionele stijl",
+                       "en":  "a clay pit where workers still prepare bricks in the traditional manner",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een tempel-heiligdom voorzien van schaduwvolle nissen voor stilte en samenkomst",
+                       "en":  "a temple sanctuary with shadowy niches for silence and gathering",
+                       "theme":  "desert"
+                   },
+                   {
+                       "nl":  "een groot stalhuis van houten bal-stapeling met een massief grondgebalk",
+                       "en":  "a large stable-house of stacked wooden logs with a massive ground sill",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een langhuis met twee rijen zware eikenpilaren waarvan het dak ondersteund wordt",
+                       "en":  "a longhouse with two rows of heavy oak pillars supporting the roof",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een ambachtswerkplaats waarvan de houten wanden donker geaard zijn door rook en tijd",
+                       "en":  "a craftsman\u0027s workshop whose wooden walls are darkened by smoke and age",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een tempel-hoogtepunt met gestileerde houten dakornaten die de nok overspoelen",
+                       "en":  "a temple structure with stylized wooden roof ornaments overhanging the ridge",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een pakhuis gebouwd op stenen fundering met luchtgaten voor ventilatie van de voorraden",
+                       "en":  "a storehouse built on a stone foundation with air vents for ventilating provisions",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een jachtershut diep in het bos, half ingegroeid met bemoste berkebomen",
+                       "en":  "a hunter\u0027s lodge deep in the forest, half-overgrown with moss-covered birch trees",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een smederij waarvan rode sintels door de kieren van de muren gloeien",
+                       "en":  "a smithy whose red embers glow through the cracks in the wooden walls",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een wachttoren van zware houten balken met een trap in de binnenkant",
+                       "en":  "a watchtower of heavy wooden beams with an internal staircase",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een graanmagazijn op houten palen ter bescherming tegen dierlijke indringers",
+                       "en":  "a grain store on wooden stilts protecting against animal intruders",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een herberg waarvan de rookwolken nog altijd door het rietdak naar buiten kruipen",
+                       "en":  "an inn whose smoke still curls up through gaps in the thatched roof",
+                       "theme":  "nordic"
+                   },
+                   {
+                       "nl":  "een tempel met een zuilenportiek van witte marmeren Dorische zuilen",
+                       "en":  "a temple with a columned portico of white marble Doric columns",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een stoa waarlangs kooplieden en filosofen even beschut kunnen debatteren",
+                       "en":  "a stoa along which merchants and philosophers debate in the shade",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een bouleuterion met trapsgewijs oplopende stenen zitbanken in een halve cirkel",
+                       "en":  "a bouleuterion with tiered stone benches arranged in a semicircle",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een gymnasium met een open oefenplaats omringd door zuilengangen",
+                       "en":  "a gymnasium with an open training ground surrounded by colonnades",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een openluchttheater uitgegraven in de heuvelflank met stenen zitplaatsen",
+                       "en":  "an open-air theatre cut into the hillside with stone seating",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een asklepion met slaapzalen voor zieken die wachten op een goddelijke droom",
+                       "en":  "an asklepion with dormitories for the sick awaiting a divine healing dream",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een prytaneion met een eeuwig brandend heilig vuur in een bronzen schaal",
+                       "en":  "a prytaneion with an eternally burning sacred flame in a bronze bowl",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een ergasterion waar ambachtslieden potten bakken en metaal bewerken",
+                       "en":  "an ergasterion where craftsmen fire pottery and work metal",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een heroon gewijd aan een gevallen held, met een offertafel voor bloemen en wijn",
+                       "en":  "a heroon dedicated to a fallen hero, with an offering table for flowers and wine",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een pandocheion voor reizigers met een binnenplaats en een stenen waterput",
+                       "en":  "a pandocheion for travellers with a courtyard and a stone well",
+                       "theme":  "greek"
+                   },
+                   {
+                       "nl":  "een gebouw op palen boven het water",
+                       "en":  "a building on stilts above the water",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw gebouwd van drijfhout en scheepsplanken",
+                       "en":  "a building made of driftwood and ship planks",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw met scheepshout en hergebruikte scheepsonderdelen",
+                       "en":  "a building made from ship timber and salvaged ship parts",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een stevig koloniaal gebouw met een brede veranda",
+                       "en":  "a sturdy colonial building with a wide veranda",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een eenvoudig vissersgebouw direct aan het water",
+                       "en":  "a simple fisherman\u0027s building right on the waterfront",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw dat half in het zand verzonken is",
+                       "en":  "a building partially sunk into the sand",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw omgeven door palmbomen en tropisch groen",
+                       "en":  "a building surrounded by palm trees and tropical greenery",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw met een groot balkon dat uitkijkt over de haven",
+                       "en":  "a building with a large balcony overlooking the harbor",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een gebouw met kleurrijke luiken in tropische tinten",
+                       "en":  "a building with colorful shutters in tropical hues",
+                       "theme":  "caribbean"
+                   },
+                   {
+                       "nl":  "een robuust pakhuis dat ook dienst doet als herberg",
+                       "en":  "a robust warehouse that also serves as an inn",
+                       "theme":  "caribbean"
+                   }
+               ],
+    "dak":  [
+                   {
+                       "nl":  "rieten dakbedekking",
+                       "en":  "a thatched roof",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "rode dakpannen",
+                       "en":  "red roof tiles",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "grijs leisteen",
+                       "en":  "grey slate",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "houten schindels",
+                       "en":  "wooden shingles",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "zwarte bitumen pannen",
+                       "en":  "black bitumen tiles",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "koperen daken met patina",
+                       "en":  "copper roofing with patina",
+                       "theme":  "generic"
+                   }
+               ],
+    "hoogte":  [
+                   {
+                       "nl":  "eenlaags",
+                       "en":  "a single storey",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "twee verdiepingen hoog",
+                       "en":  "two storeys tall",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "drie verdiepingen hoog",
+                       "en":  "three storeys tall",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "met een zolder eronder",
+                       "en":  "with a loft underneath",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "verhoogd op een onderkeldering",
+                       "en":  "elevated on a basement level",
+                       "theme":  "generic"
+                   }
+               ],
+    "drukte":  [
+                   {
+                       "nl":  "voorbijgangers lopen voortdurend in en uit",
+                       "en":  "pedestrians continuously pass in and out",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "het is druk met klanten en bezoekers",
+                       "en":  "it is bustling with customers and visitors",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "het ziet er rustig en verlaten uit",
+                       "en":  "it looks quiet and deserted",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "er zijn altijd enkele bezoekers",
+                       "en":  "there are always a few visitors",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "het bruist van leven en activiteit",
+                       "en":  "it's bustling with life and activity",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "het is doorgaans tamelijk leeg",
+                       "en":  "it is usually fairly empty",
+                       "theme":  "generic"
+                   }
+               ],
+    "detail_inn":  [
+                   {
+                       "nl":  "een haard brandt warm in de hoek",
+                       "en":  "a hearth glows warm in the corner",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "houten tafels en stoelen vullen de ruimte",
+                       "en":  "wooden tables and chairs fill the space",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "de geur van gebraden voedsel hangt in de lucht",
+                       "en":  "the smell of roasted food hangs in the air",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "kandelaren aan de muur werpen flakkerende schaduwen",
+                       "en":  "candelabras on the walls cast flickering shadows",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "ramen met gesloten luiken houden de straat buiten",
+                       "en":  "windows with closed shutters keep the street outside",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "het interieur is donker en gezellig",
+                       "en":  "the interior is dark and cozy",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "trappen leiden naar de kamers boven",
+                       "en":  "stairs lead up to rooms above",
+                       "theme":  "generic"
+                   }
+               ],
+    "detail_shop":  [
+                   {
+                       "nl":  "planken aan alle muren zijn vol met waar",
+                       "en":  "shelves on all walls are stocked with goods",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "een houten toonbank domineert de voorkant",
+                       "en":  "a wooden counter dominates the front",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "vitrines met fraaie items staan in de etalage",
+                       "en":  "display cases with fine items line the windows",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "manden met goederen staan opgestapeld op de vloer",
+                       "en":  "baskets of goods are stacked on the floor",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "haken en spijkers hangen vol met hangende artikelen",
+                       "en":  "hooks and pegs hang with suspended articles",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "olieLampen verlichten de donkere hoeken",
+                       "en":  "oil lamps illuminate the darker corners",
+                       "theme":  "generic"
+                   }
+               ],
+    "bouwmateriaal":  [
+                   {
+                       "nl":  "natuursteenblokken",
+                       "en":  "natural stone blocks",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "bakstenen",
+                       "en":  "brick",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "houten balken en planken",
+                       "en":  "wooden beams and planks",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "gemengde steen en vakwerk",
+                       "en":  "mixed stone and timber-frame",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "leemstenen",
+                       "en":  "mud brick",
+                       "theme":  "generic"
+                   }
+               ],
+    "sfeer":  [
+                   {
+                       "nl":  "vriendelijk en gastvrij",
+                       "en":  "friendly and welcoming",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "donker en geheimzinnig",
+                       "en":  "dark and mysterious",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "netjes en goed onderhouden",
+                       "en":  "neat and well-maintained",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "rommelig en wat verwaarloosd",
+                       "en":  "cluttered and somewhat neglected",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "levendig en vol lawaai",
+                       "en":  "lively and full of noise",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "stijl en elegantie",
+                       "en":  "style and elegance",
+                       "theme":  "generic"
+                   },
+                   {
+                       "nl":  "gerust en rustig",
+                       "en":  "calm and peaceful",
+                       "theme":  "generic"
+                   }
+               ]
+}

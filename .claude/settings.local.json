@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\\" -Filter \"node.exe\" -Recurse -ErrorAction SilentlyContinue -Depth 6 | Select-Object FullName | Where-Object { $_.FullName -notmatch \"Adobe\" })",
+      "PowerShell(python --version)",
+      "PowerShell(pip show python-docx 2>$null)",
+      "Bash(powershell -Command \"Get-Content 'D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\factions.json' | Select-String '\\\\\"category\\\\\"' | Group-Object | Measure-Object | Select-Object -ExpandProperty Count\")",
+      "Bash(sort -k2)",
+      "Bash(grep -A2 '\"id\": \"__TRACKED_VAR__\"' data/factions.json)",
+      "Bash(grep -q '\"id\": \"__TRACKED_VAR__\"' data/factions.json)",
+      "Bash(python3)",
+      "Bash(npm list *)",
+      "Bash(python3 create_v075_doc.py)",
+      "Bash(node -c \"D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\scripts\\\\market-stall-generator.js\")",
+      "Bash(python -m json.tool \"D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\market-stalls.json\")",
+      "Bash(python -c \"import json; data = json.load\\(open\\('D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\cities.json', encoding='utf-8'\\)\\); d = data.get\\('districts', []\\)[0] if data.get\\('districts'\\) else {}; print\\('buildings:', d.get\\('buildings', []\\)[:3] if d.get\\('buildings'\\) else 'none'\\)\")",
+      "Bash(python)",
+      "Bash(python -c \"import json; json.load\\(open\\(r'D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\cities.json'\\)\\)\")",
+      "Bash(python -c \"import json; json.load\\(open\\(r'D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\market-stalls.json'\\)\\)\")",
+      "Bash(powershell -Command ' *)",
+      "Bash(xargs grep -l \"rollClothingItem\\\\|rollAccessoryItem\\\\|rollWeapon\")",
+      "Bash(python \"C:\\\\Users\\\\sande\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\4cac2366-257c-4945-a6da-d95d6e237476\\\\4675fa84-0083-43e8-aae7-310b1a8cd836\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"WorldForge_v075.docx\" \"unpacked\")",
+      "PowerShell($json = Get-Content \"D:\\\\Documents2\\\\ADnD\\\\FoundryVTT\\\\Data\\\\modules\\\\world-forge-generator\\\\data\\\\shops.json\" -Raw | ConvertFrom-Json; $json.shops | Select-Object -ExpandProperty id | Sort-Object)",
+      "Bash(node scripts/audit-translations.js)",
+      "Bash(python scripts/audit-translations.py)",
+      "Bash(python scripts/add-missing-translations.py)",
+      "Bash(grep -E \"\\\\.js$\")"
+    ]
+  }
+}

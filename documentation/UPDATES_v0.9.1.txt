@@ -1,0 +1,202 @@
+================================================================================
+WORLDFORGE v0.9.1 - UPDATES FOR DOCUMENTATION
+Session: 2026-06-16
+================================================================================
+
+VERSION 0.9.1 SUMMARY
+================================================================================
+This update captures the latest improvements to the WorldForge module:
+
+1. Buildings.json Data Consolidation
+   - Fixed incomplete buildings.json (dak, hoogte, drukte, detail_inn,
+     detail_shop, sfeer, bouwmateriaal arrays were empty)
+   - Filled with generic fallback items (6 roof types, 5 heights, 6 activity
+     levels, 7 inn details, 6 shop details, 5 materials)
+   - Shop/Inn/Tavern descriptions now render correctly
+
+2. Section Header Translations
+   - Added 30+ missing translation keys to nl.json and en.json
+   - Inn/Tavern: Staff, Guests, Gossip, room types (Single, Double, Group,
+     Dormitory, PerNight, PerBed)
+   - Criminal Organization: Operations, Quirk, Services, Officers, all
+     Readout keys
+   - Faction: All Readout keys (IsA, OperatesFrom, Entrance, Resource, Goal,
+     Territory, OpStyle, Rival, Ally)
+
+3. House/Family Generator Enhancements
+   - Family members now render with wfNpcItem() UI component
+   - Integrated action buttons: Create Actor (🎭) and Campaign Codex (📖)
+   - Family composition moved to header as badge (alongside LARGE/WEALTHY)
+   - Backstory now uses wfReadout() layout (blockquote with gold border)
+   - Removed ComfyUI debug prompt display
+
+4. District House Button System
+   - Implemented houseType attribute in cities.json (matches shop/POI pattern)
+   - Buttons appear in residential districts:
+     • Noble District: villa, coach_house
+     • Middle Class: house, large_house
+     • Lower Class: small_house
+     • Slums: shack, tent
+   - Event handler in worldforge-app.js for house generation to chat
+
+5. Complete i18n Coverage
+   - All section headers, readouts, and labels now have translation keys
+   - No more untranslated "WF.*" keys visible to users
+   - Consistent formatting across all generators
+
+================================================================================
+KEY FIXES & CORRECTIONS
+================================================================================
+
+Buildings Data Consolidation
+  File: data/buildings.json
+  Issue: Arrays for dak, hoogte, drukte, detail_inn, detail_shop, sfeer,
+          bouwmateriaal were completely empty
+  Fix: Populated with generic items (generic theme)
+  Impact: Shop, Inn, Tavern descriptions now display correctly
+
+Translation Keys (nl.json + en.json)
+  Added:
+  - WF.Inn.Section.Staff, WF.Inn.Section.Guests, WF.Inn.Section.Gossip
+  - WF.Inn.Room.Single, Double, Group, Dormitory, PerNight, PerBed
+  - WF.Tavern.Section.Staff, Customers, Gossip
+  - WF.Crime.Section.Operations, Quirk, Services, Officers
+  - All WF.Crime.Readout.* keys
+  - All WF.Faction.Readout.* keys
+
+House Generator Updates
+  File: scripts/house-generator.js
+  Changes:
+  - Imported wfNpcItem from utils.js
+  - Family members now rendered via wfNpcItem(m, m.role)
+  - Removed debug ComfyUI prompt display
+  - Family composition badge moved to header
+  - Backstory section now uses wfReadout()
+
+District House Buttons
+  Files: scripts/city-generator.js, data/cities.json, scripts/worldforge-app.js
+  Changes:
+  - Added houseType check in buildingButton() function
+  - Updated building filter logic to include houseType
+  - Added event handler for house generation in worldforge-app.js
+  - Added houseType attributes to 6 residential districts
+
+UI Fixes
+  - Fixed Wizards Tower duplicate in Arcane district (kept poiId, removed shopType)
+  - Section headers now display correct translated labels
+  - House family composition appears as header badge
+
+================================================================================
+TRANSLATION KEYS REFERENCE
+================================================================================
+
+INN SECTION HEADERS
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  Beschrijving          │ Description
+  Kamers                │ Rooms
+  Menu                  │ Menu
+  Eigenaar              │ Owner
+  Personeel             │ Staff
+  Gasten                │ Guests
+  Roddelpraat           │ Gossip
+
+INN ROOM TYPES
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  Eenpersoonskamer      │ Single Room
+  Tweepersoonskamer     │ Double Room
+  Groepsvertrek         │ Group Room
+  Slaapzaal             │ Dormitory
+  per nacht             │ per night
+  per bed               │ per bed
+
+TAVERN SECTION HEADERS
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  Beschrijving          │ Description
+  Menu                  │ Menu
+  Eigenaar              │ Owner
+  Personeel             │ Staff
+  Klanten               │ Customers
+  Roddelpraat           │ Gossip
+
+CRIMINAL ORGANIZATION SECTIONS
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  Operaties             │ Operations
+  Eigenaardigheid       │ Quirk
+  Diensten              │ Services
+  Leider                │ Leader
+  Officieren            │ Officers
+  leden                 │ members
+
+CRIMINAL ORGANIZATION READOUTS
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  is                    │ is
+  opereert vanuit       │ operates from
+  Ingang:               │ Entrance:
+  Grondgebied:          │ Territory:
+  Operatiestijl:        │ Operating style:
+  Motief                │ Motive
+  Vijand:               │ Enemy:
+  Bondgenoot:           │ Ally:
+
+FACTION READOUTS
+  Dutch                 │ English
+  ─────────────────────┼──────────────
+  is                    │ is
+  opereert vanuit       │ operates from
+  Ingang:               │ Entrance:
+  Middel                │ Resource
+  Doel                  │ Goal
+  Grondgebied           │ Territory
+  Operatiestijl:        │ Operating style:
+  Rivaal                │ Rival
+  Bondgenoot            │ Ally
+
+================================================================================
+TECHNICAL CHANGES
+================================================================================
+
+Files Modified:
+  - scripts/house-generator.js (imports, wfNpcItem integration, layout changes)
+  - scripts/city-generator.js (houseType button support)
+  - scripts/worldforge-app.js (houseType event handler)
+  - data/buildings.json (7 empty arrays filled)
+  - data/cities.json (houseType attributes in 6 districts)
+  - lang/nl.json (30+ new keys)
+  - lang/en.json (30+ new keys)
+  - CLAUDE.md (documentation updated with v0.9.1 entry)
+
+New Patterns Implemented:
+  - District house buttons: Follows shop/POI pattern with data-house-type
+  - Family member rendering: Uses wfNpcItem() for consistent NPC display
+  - Readout formatting: Buildings and families use wfReadout() blockquote style
+  - Translation consistency: All labels now via WorldForgeSettings.t()
+
+================================================================================
+TESTING CHECKLIST
+================================================================================
+
+[ ] Inn/Tavern generators show correct section headers (not WF.* keys)
+[ ] Inn room types display correctly (Single, Double, etc.)
+[ ] Criminal Organization readout displays full description
+[ ] Faction readout displays full description
+[ ] House generator displays family composition badge in header
+[ ] House backstory shows in readout format
+[ ] Family members have Create Actor and Campaign Codex buttons
+[ ] Clicking district house buttons generates houses to chat
+[ ] All district houses render correctly for their type
+[ ] ComfyUI artwork generates without debug prompts visible
+
+================================================================================
+CLAUDE.md VERSION ENTRY
+================================================================================
+
+Add to versiegeschiedenis table:
+
+| 0.9.1 | 2026-06-16 | Buildings data consolidation (dak/hoogte/drukte/detail_inn/detail_shop/sfeer/bouwmateriaal filled); Section headers + readout keys for Inn/Tavern/Criminal/Faction; House family members via wfNpcItem() with actor/codex buttons; Family composition badge in header; District house button system implemented; Complete i18n coverage; Wizards Tower duplicate fixed |
+
+================================================================================

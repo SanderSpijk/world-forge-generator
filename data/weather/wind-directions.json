@@ -1,0 +1,12 @@
+{
+  "windDirections": [
+    { "nl": "Noord",     "en": "North"     },
+    { "nl": "Noordoost", "en": "Northeast" },
+    { "nl": "Oost",      "en": "East"      },
+    { "nl": "Zuidoost",  "en": "Southeast" },
+    { "nl": "Zuid",      "en": "South"     },
+    { "nl": "Zuidwest",  "en": "Southwest" },
+    { "nl": "West",      "en": "West"      },
+    { "nl": "Noordwest", "en": "Northwest" }
+  ]
+}

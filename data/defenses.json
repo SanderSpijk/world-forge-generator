@@ -1,0 +1,773 @@
+{
+  "defenses": [
+    {
+      "id": "none",
+      "nl": "Geen Verdediging",
+      "en": "No Defenses",
+      "minSize": 1,
+      "maxSize": 3,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "farming",
+        "trade",
+        "holy"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "temperate_forest",
+        "coastal"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "military",
+          "viking",
+          "pirate"
+        ],
+        "biomes": [
+          "arctic"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "zonder noemenswaardige verdediging",
+          "volledig open en onbeschermd"
+        ],
+        "en": [
+          "without any notable defenses",
+          "completely open and unprotected"
+        ]
+      },
+      "towers": null
+    },
+    {
+      "id": "simple_fence",
+      "nl": "Eenvoudige Omheining",
+      "en": "Simple Fence",
+      "minSize": 1,
+      "maxSize": 3,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "farming",
+        "holy",
+        "trade"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "temperate_forest"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "military",
+          "mining"
+        ],
+        "biomes": [
+          "underground",
+          "volcanic",
+          "arctic"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omgeven door een eenvoudige houten omheining",
+          "omringd door een versleten houten hek"
+        ],
+        "en": [
+          "surrounded by a simple wooden fence",
+          "encircled by a worn timber fence"
+        ]
+      },
+      "towers": null
+    },
+    {
+      "id": "ditch",
+      "nl": "Greppel en Aarden Wal",
+      "en": "Ditch and Earthwork",
+      "minSize": 1,
+      "maxSize": 4,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "farming",
+        "military",
+        "viking",
+        "mining"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "swamp",
+        "temperate_forest",
+        "coastal"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "greek",
+          "magic"
+        ],
+        "biomes": [
+          "underground",
+          "volcanic",
+          "mountains"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "beschermd door een brede greppel en aarden wal",
+          "omringd door een opgeworpen aarden wal met een droge gracht ervoor"
+        ],
+        "en": [
+          "protected by a wide ditch and earthwork",
+          "surrounded by a raised earthwork with a dry ditch before it"
+        ]
+      },
+      "towers": {
+        "chance": 0.3,
+        "nl": [
+          "met een eenvoudige houten uitkijkpost bij de ingang",
+          "met enkele houten uitkijkposten"
+        ],
+        "en": [
+          "with a simple wooden watchtower at the entrance",
+          "with a few wooden lookout posts"
+        ]
+      }
+    },
+    {
+      "id": "wooden_palisade",
+      "nl": "Houten Palissade",
+      "en": "Wooden Palisade",
+      "minSize": 2,
+      "maxSize": 5,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "military",
+        "farming",
+        "viking",
+        "mining",
+        "pirate"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal",
+        "jungle",
+        "arctic"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "greek",
+          "desert"
+        ],
+        "biomes": [
+          "underground",
+          "volcanic",
+          "desert"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omringd door een stevige houten palissade van puntige palen",
+          "beschermd door een hoge palissade van ruwe boomstammen"
+        ],
+        "en": [
+          "surrounded by a sturdy palisade of sharpened stakes",
+          "protected by a tall palisade of rough timber logs"
+        ]
+      },
+      "towers": {
+        "chance": 0.6,
+        "nl": [
+          "met houten wachttorens op regelmatige afstand",
+          "met torens alleen bij de stadspoort",
+          "met een hoge houten uitkijktoren bij de hoofdingang",
+          "met kleine wachthuisjes op de hoeken"
+        ],
+        "en": [
+          "with wooden watchtowers at regular intervals",
+          "with towers only at the main gate",
+          "with a tall wooden watchtower at the main entrance",
+          "with small guard posts at the corners"
+        ]
+      }
+    },
+    {
+      "id": "palisade_with_moat",
+      "nl": "Palissade met Gracht",
+      "en": "Palisade with Moat",
+      "minSize": 3,
+      "maxSize": 6,
+      "rarity": "uncommon",
+      "cityTypeAffinities": [
+        "military",
+        "mining",
+        "viking",
+        "trade"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "temperate_forest",
+        "swamp",
+        "coastal"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "greek",
+          "desert"
+        ],
+        "biomes": [
+          "underground",
+          "volcanic",
+          "desert",
+          "arctic",
+          "mountains"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "beschermd door een houten palissade met een brede gracht ervoor",
+          "omringd door een palissade met een watergevulde gracht als extra hindernis"
+        ],
+        "en": [
+          "protected by a wooden palisade with a wide moat before it",
+          "surrounded by a palisade with a water-filled moat as an additional obstacle"
+        ]
+      },
+      "towers": {
+        "chance": 0.65,
+        "nl": [
+          "met houten wachttorens boven de gracht",
+          "met torens bij elke brug over de gracht",
+          "met uitkijkposten op de palissade"
+        ],
+        "en": [
+          "with wooden watchtowers above the moat",
+          "with towers at every bridge over the moat",
+          "with lookout posts along the palisade"
+        ]
+      }
+    },
+    {
+      "id": "stone_wall",
+      "nl": "Stenen Stadsmuur",
+      "en": "Stone Wall",
+      "minSize": 5,
+      "maxSize": 9,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "holy",
+        "greek",
+        "mining"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "temperate_forest",
+        "coastal",
+        "mountains",
+        "desert"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "fey",
+          "pirate"
+        ],
+        "biomes": [
+          "underground",
+          "feywild",
+          "swamp"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omringd door een massieve stenen stadsmuur",
+          "beschermd door hoge stenen muren die de stad volledig omsluiten"
+        ],
+        "en": [
+          "surrounded by a massive stone city wall",
+          "protected by tall stone walls that completely encircle the city"
+        ]
+      },
+      "towers": {
+        "chance": 0.85,
+        "nl": [
+          "met wachttorens op regelmatige afstand langs de muur",
+          "met torens bij elke stadspoort en op de hoeken",
+          "met een imposante hoofdtoren boven de stadspoort",
+          "met talloze torens die boven de muur uitsteken",
+          "met verdedigingstorens alleen bij de drie stadspoorten"
+        ],
+        "en": [
+          "with watchtowers at regular intervals along the wall",
+          "with towers at every gate and on the corners",
+          "with an imposing main tower above the city gate",
+          "with numerous towers rising above the wall",
+          "with defensive towers only at the three city gates"
+        ]
+      }
+    },
+    {
+      "id": "stone_wall_with_moat",
+      "nl": "Stenen Muur met Gracht",
+      "en": "Stone Wall with Moat",
+      "minSize": 6,
+      "maxSize": 9,
+      "rarity": "uncommon",
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "holy",
+        "greek"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "coastal",
+        "temperate_forest",
+        "desert"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "fey",
+          "pirate",
+          "cursed"
+        ],
+        "biomes": [
+          "underground",
+          "feywild",
+          "mountains",
+          "arctic"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omringd door een stenen muur met een brede gracht ervoor",
+          "beschermd door massieve stenen muren en een diepe watergevulde gracht"
+        ],
+        "en": [
+          "surrounded by a stone wall with a wide moat before it",
+          "protected by massive stone walls and a deep water-filled moat"
+        ]
+      },
+      "towers": {
+        "chance": 0.9,
+        "nl": [
+          "met wachttorens boven de gracht op regelmatige afstand",
+          "met torens bij elke poort en brug over de gracht",
+          "met hoge ronde torens op de hoeken van de muur",
+          "met een ring van torens die de hele stad overzien"
+        ],
+        "en": [
+          "with watchtowers above the moat at regular intervals",
+          "with towers at every gate and bridge over the moat",
+          "with tall round towers at the corners of the wall",
+          "with a ring of towers overlooking the entire city"
+        ]
+      }
+    },
+    {
+      "id": "double_walls",
+      "nl": "Dubbele Stadsmuren",
+      "en": "Double City Walls",
+      "minSize": 7,
+      "maxSize": 9,
+      "rarity": "rare",
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "holy",
+        "greek"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "coastal",
+        "temperate_forest",
+        "mountains"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "fey",
+          "pirate",
+          "cursed",
+          "mining"
+        ],
+        "biomes": [
+          "underground",
+          "feywild",
+          "swamp",
+          "arctic"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omgeven door twee ringen van massieve stenen muren",
+          "beschermd door een dubbele ring van verdedigingsmuren met een tussenruimte voor de verdedigers"
+        ],
+        "en": [
+          "encircled by two rings of massive stone walls",
+          "protected by a double ring of defensive walls with space between them for defenders"
+        ]
+      },
+      "towers": {
+        "chance": 0.95,
+        "nl": [
+          "met wachttorens op beide muren op regelmatige afstand",
+          "met torens op de buitenmuur en een fortachtige binnenring",
+          "met tientallen torens die boven beide muren uitsteken",
+          "met zware hoektorens en wachttorens langs de hele omtrek"
+        ],
+        "en": [
+          "with watchtowers on both walls at regular intervals",
+          "with towers on the outer wall and a fortress-like inner ring",
+          "with dozens of towers rising above both walls",
+          "with heavy corner towers and watchtowers along the entire perimeter"
+        ]
+      }
+    },
+    {
+      "id": "fortified_harbour",
+      "nl": "Versterkte Haven",
+      "en": "Fortified Harbour",
+      "minSize": 3,
+      "maxSize": 9,
+      "rarity": "uncommon",
+      "cityTypeAffinities": [
+        "harbour",
+        "pirate",
+        "trade",
+        "military",
+        "island"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "jungle"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "farming",
+          "mining",
+          "fey"
+        ],
+        "biomes": [
+          "arctic",
+          "desert",
+          "underground",
+          "mountains",
+          "grasslands",
+          "temperate_forest",
+          "swamp",
+          "volcanic",
+          "feywild"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "met een versterkte haven met ketens en barricades tegen vijandige schepen",
+          "beschermd door een versterkte haven met kanonnen langs de kade"
+        ],
+        "en": [
+          "with a fortified harbour with chains and barricades against enemy ships",
+          "protected by a fortified harbour with cannons along the quay"
+        ]
+      },
+      "towers": {
+        "chance": 0.7,
+        "nl": [
+          "met uitkijktorens aan beide zijden van de havenmond",
+          "met een hoge wachttoren boven de havenpoort",
+          "met kleine wachtposten langs de kade",
+          "met twee zware torens die de havenmond flankeren"
+        ],
+        "en": [
+          "with watchtowers on both sides of the harbour mouth",
+          "with a tall watchtower above the harbour gate",
+          "with small guard posts along the quay",
+          "with two heavy towers flanking the harbour entrance"
+        ]
+      }
+    },
+    {
+      "id": "cliff_natural",
+      "nl": "Natuurlijke Klifverdediging",
+      "en": "Natural Cliff Defenses",
+      "minSize": 1,
+      "maxSize": 9,
+      "rarity": "uncommon",
+      "cityTypeAffinities": [
+        "mountain",
+        "mining",
+        "military",
+        "pirate",
+        "island"
+      ],
+      "biomeAffinities": [
+        "mountains",
+        "coastal",
+        "volcanic"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "farming",
+          "fey",
+          "greek"
+        ],
+        "biomes": [
+          "grasslands",
+          "desert",
+          "swamp",
+          "underground",
+          "feywild",
+          "arctic"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "beschermd door de natuurlijke kliffen waarop de stad gebouwd is",
+          "gelegen op een onneembare rots die de beste verdediging biedt die natuur kan geven"
+        ],
+        "en": [
+          "protected by the natural cliffs upon which the city is built",
+          "perched on an unassailable rock that offers the best defense nature can provide"
+        ]
+      },
+      "towers": {
+        "chance": 0.5,
+        "nl": [
+          "met wachttorens op de hoogste punten van de rots",
+          "met een uitkijkpost bij de enige toegangsweg",
+          "met torens gebouwd aan de rand van de kliffen"
+        ],
+        "en": [
+          "with watchtowers at the highest points of the rock",
+          "with a lookout post at the only access road",
+          "with towers built at the edge of the cliffs"
+        ]
+      }
+    },
+    {
+      "id": "cave_walls",
+      "nl": "De Grot Zelf",
+      "en": "The Cavern Itself",
+      "minSize": 1,
+      "maxSize": 9,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "mining",
+        "cursed",
+        "magic"
+      ],
+      "biomeAffinities": [
+        "underground"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "farming",
+          "greek",
+          "holy",
+          "fey"
+        ],
+        "biomes": [
+          "grasslands",
+          "temperate_forest",
+          "coastal",
+          "desert",
+          "arctic",
+          "jungle",
+          "swamp",
+          "volcanic",
+          "feywild",
+          "mountains"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "beschermd door de massieve rotswanden van de grot zelf",
+          "verdedigd door de enige smalle toegangsgang die gemakkelijk te blokkeren is"
+        ],
+        "en": [
+          "protected by the massive rock walls of the cavern itself",
+          "defended by the single narrow access tunnel that can easily be blocked"
+        ]
+      },
+      "towers": {
+        "chance": 0.4,
+        "nl": [
+          "met wachtposten uitgehouwen in de rotswand bij de ingang",
+          "met een houten uitkijkplatform bij de grotingang",
+          "met bewakde checkpoints diep in de toegangsgangen"
+        ],
+        "en": [
+          "with guard posts carved into the rock wall at the entrance",
+          "with a wooden lookout platform at the cave entrance",
+          "with guarded checkpoints deep in the access tunnels"
+        ]
+      }
+    },
+    {
+      "id": "ice_walls",
+      "nl": "IJsmuren en Aarden Wallen",
+      "en": "Ice Walls and Earthworks",
+      "minSize": 2,
+      "maxSize": 6,
+      "rarity": "uncommon",
+      "cityTypeAffinities": [
+        "military",
+        "viking",
+        "mining"
+      ],
+      "biomeAffinities": [
+        "arctic"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "greek",
+          "holy",
+          "fey",
+          "trade"
+        ],
+        "biomes": [
+          "grasslands",
+          "temperate_forest",
+          "coastal",
+          "desert",
+          "jungle",
+          "swamp",
+          "volcanic",
+          "feywild",
+          "mountains",
+          "underground"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omringd door opgeworpen aarden wallen bevroren tot ijsharde muren",
+          "beschermd door muren van aangestampte sneeuw en ijs die in de winter ondoordringbaar zijn"
+        ],
+        "en": [
+          "surrounded by raised earthworks frozen into ice-hard walls",
+          "protected by walls of packed snow and ice that become impenetrable in winter"
+        ]
+      },
+      "towers": {
+        "chance": 0.55,
+        "nl": [
+          "met houten uitkijktorens op de wallen",
+          "met een centrale wachttoren bij de hoofdingang",
+          "met kleine wachtposten op de hoeken van de wal"
+        ],
+        "en": [
+          "with wooden watchtowers on the earthworks",
+          "with a central watchtower at the main entrance",
+          "with small guard posts at the corners of the wall"
+        ]
+      }
+    },
+    {
+      "id": "magical_barrier",
+      "nl": "Magische Barrière",
+      "en": "Magical Barrier",
+      "minSize": 4,
+      "maxSize": 9,
+      "rarity": "rare",
+      "cityTypeAffinities": [
+        "magic",
+        "fey",
+        "holy",
+        "cursed"
+      ],
+      "biomeAffinities": [
+        "feywild",
+        "underground",
+        "temperate_forest",
+        "mountains"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "viking",
+          "pirate",
+          "mining",
+          "farming"
+        ],
+        "biomes": [
+          "desert",
+          "arctic",
+          "grasslands"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "omgeven door een zichtbare magische barrière die vreemdelingen tegenhoudt",
+          "beschermd door een onzichtbaar magisch schild dat de stad omsluit"
+        ],
+        "en": [
+          "surrounded by a visible magical barrier that repels strangers",
+          "protected by an invisible magical shield that encircles the city"
+        ]
+      },
+      "towers": {
+        "chance": 0.35,
+        "nl": [
+          "met magische baken-torens die de barrière in stand houden",
+          "met kristallen zuilen op de hoeken die energie uitstralen"
+        ],
+        "en": [
+          "with magical beacon towers that maintain the barrier",
+          "with crystal pillars at the corners radiating energy"
+        ]
+      }
+    },
+    {
+      "id": "swamp_defenses",
+      "nl": "Het Moeras Zelf",
+      "en": "The Swamp Itself",
+      "minSize": 1,
+      "maxSize": 9,
+      "rarity": "common",
+      "cityTypeAffinities": [
+        "cursed",
+        "trade",
+        "harbour"
+      ],
+      "biomeAffinities": [
+        "swamp"
+      ],
+      "negativeAffinities": {
+        "cityTypes": [
+          "greek",
+          "military",
+          "holy"
+        ],
+        "biomes": [
+          "grasslands",
+          "temperate_forest",
+          "mountains",
+          "desert",
+          "arctic",
+          "jungle",
+          "coastal",
+          "volcanic",
+          "feywild",
+          "underground"
+        ]
+      },
+      "sentence": {
+        "nl": [
+          "beschermd door het omringende moeras dat beter verdedigt dan elke muur",
+          "verdedigd door de ondoordringbare moerasgronden die de enige toegangswegen bewaken"
+        ],
+        "en": [
+          "protected by the surrounding swamp that defends better than any wall",
+          "defended by the impenetrable marshlands that guard the only access routes"
+        ]
+      },
+      "towers": {
+        "chance": 0.3,
+        "nl": [
+          "met een houten uitkijktoren op palen boven het moeras",
+          "met wachtposten bij de houten loopplanken naar de stad"
+        ],
+        "en": [
+          "with a wooden watchtower on stilts above the swamp",
+          "with guard posts at the wooden walkways leading to the city"
+        ]
+      }
+    }
+  ]
+}

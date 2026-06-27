@@ -1,0 +1,14 @@
+{
+  "name": "world-forge-generator",
+  "version": "0.9.3",
+  "description": "Foundry VTT module voor het genereren van NPCs, shops, cities, en meer",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "audit:translations": "python scripts/audit-translations.py"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

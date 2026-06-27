@@ -1,0 +1,1056 @@
+/* =============================================================
+   WorldForge – worldforge.css
+   Stijl gebaseerd op Campaign Codex: donker thema, gouden
+   accenten, Cinzel serif lettertype voor headers.
+   ============================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ── CSS variabelen ───────────────────────────────────────────
+   Alle kleuren en fonts op één plek. */
+.wf-card {
+  --wf-bg:          #1a1a1a;   /* Hoofdachtergrond (bijna zwart) */
+  --wf-bg2:         #242424;   /* Iets lichter, voor header/footer blokken */
+  --wf-bg3:         #2e2e2e;   /* Nog lichter, voor info-blokken en badges */
+  --wf-bg4:         #353535;   /* Lichtste achtergrond, voor npc-items en hover */
+  --wf-border:      #5c4a1e;   /* Donkerbruin, zelfde als Campaign Codex randen */
+  --wf-gold:        #c9a227;   /* Goud – primaire accentkleur */
+  --wf-gold-dim:    #8a6d1a;   /* Gedimpt goud voor subtiele accenten */
+  --wf-text:        #e8dcc8;   /* Crème tekst – goed leesbaar op donker */
+  --wf-text-dim:    #9e8e6e;   /* Gedimde tekst voor secundaire info */
+  --wf-font-head:   'Cinzel', 'Palatino Linotype', serif;
+  --wf-font-body:   'Crimson Text', 'Georgia', serif;
+  --wf-radius:      6px;
+}
+
+/* ── Basiskaart ───────────────────────────────────────────────
+   !important regels zijn nodig om Foundry's eigen chat-stijlen
+   te overschrijven. Foundry stelt standaard een witte achtergrond
+   in op .chat-message en zijn kinderen. Zonder !important wint
+   Foundry's stijl en verschijnt goud-op-wit. */
+.wf-card {
+  background:    var(--wf-bg) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: var(--wf-radius);
+  color:         var(--wf-text) !important;
+  font-family:   var(--wf-font-body);
+  font-size:     13px;
+  line-height:   1.5;
+  overflow:      hidden;
+}
+
+/* Foundry's eigen stylesheets geven tabellen, cellen en divs soms
+   een witte achtergrond. Deze regel reset alle elementen binnen de
+   kaart naar transparant zodat de kaartachtergrond doorschijnt.
+   Secties die een achtergrondkleur nodig hebben krijgen die verderop
+   expliciet met !important. */
+.wf-card * {
+  box-sizing:  border-box;
+  background:  transparent;
+  color:       inherit;
+}
+
+/* ── Header ──────────────────────────────────────────────────*/
+.wf-header {
+  display:    flex;
+  gap:        0;
+  background: var(--wf-bg2);
+}
+
+/* Portret-wrapper */
+.wf-portrait-wrap {
+  flex:       0 0 110px;
+  background: #111 !important;
+  overflow:   hidden;
+}
+
+.wf-portrait-wrap img {
+  width:            110px;
+  height:           140px;
+  object-fit:       cover;
+  object-position:  top center;
+  display:          block;
+  cursor:           pointer;
+  transition:       opacity 0.2s;
+}
+
+.wf-portrait-wrap img:hover { opacity: 0.85; }
+
+/* Titelbalk rechts van het portret */
+.wf-title-block {
+  flex:            1;
+  background:      var(--wf-bg2) !important;
+  border-left:     1px solid var(--wf-border);
+  padding:         10px 12px 8px;
+  display:         flex;
+  flex-direction:  column;
+  justify-content: center;
+  gap:             4px;
+}
+
+/* Naam in grote Cinzel letters */
+.wf-name {
+  font-family:    var(--wf-font-head) !important;
+  font-size:      18px !important;
+  font-weight:    700 !important;
+  color:          #fff !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height:    1.1;
+  margin:         0 !important;
+  border:         none !important;  /* Foundry voegt soms een border toe aan headings */
+  padding:        0 !important;
+}
+
+/* Ondertitel in goud */
+.wf-subtitle {
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  letter-spacing: 0.15em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  margin:         0 !important;
+}
+
+/* Meta-rij met badges */
+.wf-meta-row {
+  display:    flex;
+  flex-wrap:  wrap;
+  gap:        6px;
+  margin-top: 4px;
+}
+
+/* Badge */
+.wf-badge {
+  background:     var(--wf-bg3) !important;
+  border:         1px solid var(--wf-border) !important;
+  border-radius:  3px;
+  padding:        2px 7px;
+  font-size:      10px;
+  font-family:    var(--wf-font-head);
+  letter-spacing: 0.08em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+}
+
+/* ── Sectieheader ─────────────────────────────────────────────
+   Gouden cirkel-icoon + label, zoals Campaign Codex sectieheaders */
+.wf-section-header {
+  display:       flex;
+  align-items:   center;
+  gap:           8px;
+  background:    var(--wf-bg2) !important;
+  border-top:    1px solid var(--wf-border);
+  border-bottom: 1px solid var(--wf-border);
+  padding:       5px 12px;
+}
+
+.wf-section-header .wf-icon {
+  width:           18px;
+  height:          18px;
+  border-radius:   50%;
+  background:      var(--wf-gold) !important;
+  color:           #111 !important;
+  font-size:       10px;
+  font-weight:     bold;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  flex-shrink:     0;
+}
+
+.wf-section-header span {
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  letter-spacing: 0.2em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  font-weight:    700;
+}
+
+/* ── Inhoudsgebied ────────────────────────────────────────────*/
+.wf-body {
+  padding:    10px 12px;
+  background: var(--wf-bg) !important;
+  color:      var(--wf-text) !important;
+}
+
+/* Tussenkoppen */
+.wf-heading {
+  font-family:    var(--wf-font-head) !important;
+  font-size:      15px !important;
+  font-weight:    700 !important;
+  color:          #fff !important;
+  margin:         12px 0 4px !important;
+  border-bottom:  1px solid var(--wf-gold-dim) !important;
+  padding-bottom: 3px;
+  letter-spacing: 0.04em;
+}
+
+.wf-heading:first-child { margin-top: 0 !important; }
+
+/* Alinea's */
+.wf-body p {
+  margin:     0 0 6px !important;
+  color:      var(--wf-text) !important;
+  font-size:  13px;
+  background: transparent !important;
+}
+
+/* ── Read-out / blockquote ────────────────────────────────────
+   Cursief blok voor voorlezen aan spelers */
+.wf-readout {
+  border-left: 3px solid var(--wf-gold-dim) !important;
+  background:  rgba(201,162,39,0.08) !important;
+  padding:     8px 10px !important;
+  margin:      6px 0 !important;
+  font-style:  italic !important;
+  color:       var(--wf-text) !important;
+  font-size:   13px !important;
+}
+
+/* ── Info-tabel ───────────────────────────────────────────────
+   Twee kolommen: gouden label links, crème waarde rechts */
+.wf-info-table {
+  width:           100%;
+  border-collapse: collapse;
+  margin:          4px 0 8px;
+  font-size:       12px;
+  background:      var(--wf-bg) !important;  /* Zelfde als kaartachtergrond */
+}
+
+.wf-info-table tr {
+  background: var(--wf-bg) !important;  /* Foundry kleurt ook <tr> soms wit */
+}
+
+.wf-info-table td {
+  padding:        2px 4px;
+  vertical-align: top;
+  color:          var(--wf-text) !important;
+  background:     var(--wf-bg) !important;  /* Expliciet, niet transparant */
+  border:         none !important;
+}
+
+.wf-info-table td:first-child {
+  color:          var(--wf-gold) !important;
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space:    nowrap;
+  padding-right:  10px;
+  width:          1%;
+}
+
+/* ── Stat block ───────────────────────────────────────────────*/
+.wf-stats {
+  display:               grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap:                   4px;
+  margin:                6px 0;
+}
+
+.wf-stat {
+  background:    var(--wf-bg3) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: 4px;
+  text-align:    center;
+  padding:       4px 2px;
+}
+
+.wf-stat-label {
+  font-family:    var(--wf-font-head);
+  font-size:      9px;
+  letter-spacing: 0.1em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  display:        block;
+}
+
+.wf-stat-value {
+  font-size:   14px;
+  font-weight: 600;
+  color:       #fff !important;
+  display:     block;
+  line-height: 1.2;
+}
+
+.wf-stat-mod {
+  font-size: 10px;
+  color:     var(--wf-text-dim) !important;
+  display:   block;
+}
+
+/* ── NPC-item ─────────────────────────────────────────────────
+   Compacte NPC-weergave met gouden linkerbalk.
+   Gebruikt --wf-bg4 (iets lichter dan bg3) als achtergrond
+   zodat het afsteekt tegen de donkere body zonder wit te worden. */
+.wf-npc-item {
+  border-left: 2px solid var(--wf-gold-dim);
+  padding:     4px 8px;
+  margin:      6px 0;
+  background:  var(--wf-bg4) !important;  /* Was rgba(255,255,255,0.02) – transparant op wit */
+}
+
+.wf-npc-item strong {
+  font-family:    var(--wf-font-head) !important;
+  font-size:      11px;
+  letter-spacing: 0.06em;
+  color:          #fff !important;
+  text-transform: uppercase;
+}
+
+.wf-npc-item .wf-npc-role {
+  font-size:      10px;
+  color:          var(--wf-gold) !important;
+  font-family:    var(--wf-font-head);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wf-npc-item em {
+  display:    block;
+  font-size:  12px;
+  color:      var(--wf-text-dim) !important;
+  margin-top: 2px;
+}
+
+/* ── Menukaart ────────────────────────────────────────────────*/
+.wf-menu-section { margin: 6px 0; }
+
+.wf-menu-row {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     baseline;
+  border-bottom:   1px dotted var(--wf-border);
+  padding:         3px 0;
+  gap:             8px;
+  background:      transparent !important;
+}
+
+.wf-menu-row .wf-menu-item {
+  font-size:  12px;
+  color:      var(--wf-text) !important;
+  flex:       1;
+  background: transparent !important;
+}
+
+.wf-menu-row .wf-menu-price {
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  color:          var(--wf-gold) !important;
+  letter-spacing: 0.05em;
+  white-space:    nowrap;
+  background:     transparent !important;
+}
+
+.wf-menu-label {
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin:         6px 0 3px;
+  background:     transparent !important;
+}
+
+/* ── Roddels ──────────────────────────────────────────────────*/
+.wf-gossip-item {
+  display:    flex;
+  gap:        6px;
+  margin:     4px 0;
+  font-size:  12px;
+  color:      var(--wf-text) !important;
+  background: transparent !important;
+}
+
+.wf-gossip-item::before {
+  content:     "◆";
+  color:       var(--wf-gold-dim);
+  flex-shrink: 0;
+  font-size:   8px;
+  margin-top:  3px;
+}
+
+/* ── Quirk-blok ───────────────────────────────────────────────*/
+.wf-quirk {
+  background:    var(--wf-bg3) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: var(--wf-radius);
+  padding:       7px 10px;
+  margin:        4px 0;
+  font-size:     12px;
+  color:         var(--wf-text) !important;
+}
+
+.wf-quirk-label {
+  font-family:    var(--wf-font-head);
+  font-size:      9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:          var(--wf-gold) !important;
+  margin-bottom:  3px;
+  display:        block;
+}
+
+/* ── Statusbalk ───────────────────────────────────────────────*/
+.wf-status {
+  background:     var(--wf-bg2) !important;
+  border-top:     1px solid var(--wf-border);
+  padding:        5px 12px;
+  font-size:      11px;
+  color:          var(--wf-text-dim) !important;
+  font-family:    var(--wf-font-head);
+  letter-spacing: 0.05em;
+}
+
+.wf-status strong { color: var(--wf-gold) !important; }
+
+/* ── Prompt-blokken ───────────────────────────────────────────*/
+.wf-prompt-block {
+  background:   var(--wf-bg3) !important;
+  border:       1px solid var(--wf-border);
+  border-radius: var(--wf-radius);
+  padding:      8px 10px;
+  font-size:    11px;
+  color:        var(--wf-text-dim) !important;
+  line-height:  1.4;
+  margin:       4px 0;
+  font-family:  monospace;
+  word-break:   break-word;
+}
+
+details > summary {
+  cursor:         pointer;
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color:          var(--wf-gold) !important;
+  padding:        6px 0;
+  user-select:    none;
+  background:     transparent !important;
+}
+
+/* ── Actieknoppen ─────────────────────────────────────────────*/
+.wf-actions {
+  display:         flex;
+  flex-wrap:       wrap;
+  gap:             6px;
+  padding:         10px 12px;
+  background:      var(--wf-bg2) !important;
+  border-top:      1px solid var(--wf-border);
+  justify-content: center;
+}
+
+.wf-btn {
+  font-family:    var(--wf-font-head);
+  font-size:      10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border:         1px solid var(--wf-border) !important;
+  border-radius:  3px;
+  padding:        5px 10px;
+  cursor:         pointer;
+  transition:     background 0.15s, border-color 0.15s;
+  color:          var(--wf-text) !important;
+  background:     var(--wf-bg3) !important;
+  line-height:    1;
+}
+
+.wf-btn:hover {
+  background:   #3a3020 !important;
+  border-color: var(--wf-gold) !important;
+  color:        var(--wf-gold) !important;
+}
+
+.wf-btn-primary              { background: #3a2e10 !important; border-color: var(--wf-gold) !important; color: var(--wf-gold) !important; }
+.wf-btn-primary:hover        { background: #4a3a14 !important; }
+
+.wf-btn-purple               { border-color: #7c5cbf !important; color: #b89de0 !important; }
+.wf-btn-purple:hover         { background: #2a1e3a !important; border-color: #b89de0 !important; color: #d4c0f0 !important; }
+
+.wf-btn-green                { border-color: #3a6b4a !important; color: #7ab88a !important; }
+.wf-btn-green:hover          { background: #1a2e22 !important; border-color: #7ab88a !important; color: #9dd4ad !important; }
+
+.wf-btn-red                  { border-color: #7a2020 !important; color: #c07070 !important; }
+.wf-btn-red:hover            { background: #2a1010 !important; border-color: #c07070 !important; color: #e09090 !important; }
+
+.wf-btn:disabled,
+.wf-btn[disabled]            { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
+
+/* ── Brede afbeelding ─────────────────────────────────────────
+   Gebruikt door shop, inn, tavern artwork.
+   In de UI (worldforge-app) geen max-height zodat de afbeelding
+   volledig getoond wordt; in de chat wel. */
+.wf-wide-image {
+  width:         100%;
+  max-height:    200px;
+  object-fit:    cover;
+  display:       block;
+  cursor:        pointer !important;
+  border-top:    1px solid var(--wf-border);
+  border-bottom: 1px solid var(--wf-border);
+}
+
+.wf-wide-image:hover { opacity: 0.85; }
+
+/* In de WorldForge UI mag de afbeelding groter zijn */
+.worldforge-ui .wf-wide-image {
+  max-height:    280px;
+}
+
+/* NPC portret ook klikbaar */
+.wf-portrait-wrap img {
+  cursor: pointer !important;
+}
+
+/* ── Kamerblok ────────────────────────────────────────────────*/
+.wf-rooms {
+  display:               grid;
+  grid-template-columns: 1fr 1fr;
+  gap:                   4px;
+  margin:                4px 0;
+}
+
+.wf-room-item {
+  background:    var(--wf-bg3) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: 3px;
+  padding:       4px 8px;
+  font-size:     11px;
+}
+
+.wf-room-item .wf-room-type {
+  font-family:    var(--wf-font-head);
+  font-size:      9px;
+  letter-spacing: 0.1em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  display:        block;
+}
+
+.wf-room-item .wf-room-count {
+  font-size:   14px;
+  font-weight: 600;
+  color:       #fff !important;
+}
+
+.wf-room-item .wf-room-price {
+  font-size: 10px;
+  color:     var(--wf-text-dim) !important;
+}
+
+/* ── Scheepsspecs ─────────────────────────────────────────────*/
+.wf-ship-specs {
+  display:               grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:                   4px;
+  margin:                6px 0;
+}
+
+.wf-spec {
+  background:    var(--wf-bg3) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: 4px;
+  text-align:    center;
+  padding:       5px 4px;
+}
+
+.wf-spec-label {
+  font-family:    var(--wf-font-head);
+  font-size:      8px;
+  letter-spacing: 0.12em;
+  color:          var(--wf-gold) !important;
+  text-transform: uppercase;
+  display:        block;
+}
+
+.wf-spec-value {
+  font-size:   13px;
+  font-weight: 600;
+  color:       #fff !important;
+  display:     block;
+}
+
+/* ── Kwaliteitsbadge ──────────────────────────────────────────*/
+.wf-quality {
+  display:        inline-block;
+  padding:        2px 8px;
+  border-radius:  3px;
+  font-family:    var(--wf-font-head);
+  font-size:      9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border:         1px solid;
+}
+
+.wf-quality-Armoedig  { color: #c07070 !important; border-color: #6b3030; background: rgba(107,48,48,0.3) !important; }
+.wf-quality-Eenvoudig { color: #c0a870 !important; border-color: #6b5c30; background: rgba(107,92,48,0.3) !important; }
+.wf-quality-Gemiddeld { color: var(--wf-gold) !important; border-color: var(--wf-gold-dim); background: rgba(201,162,39,0.15) !important; }
+.wf-quality-Goed      { color: #7ab87a !important; border-color: #3a6b3a; background: rgba(58,107,58,0.3) !important; }
+.wf-quality-Luxe      { color: #c4aef0 !important; border-color: #7c5cbf; background: rgba(124,92,191,0.3) !important; }
+
+/* ── Weer generator ───────────────────────────────────────────*/
+.wf-weather-header {
+  min-height: 80px;
+}
+
+.wf-weather-icon-wrap {
+  flex:        0 0 80px;
+  display:     flex;
+  align-items: center;
+  justify-content: center;
+  padding:     8px;
+}
+
+.wf-weather-icon {
+  width:       72px;
+  height:      72px;
+  object-fit:  contain;
+}
+
+.wf-weather-body {
+  display:        flex;
+  flex-direction: column;
+  gap:            8px;
+}
+
+.wf-weather-stats {
+  display:   flex;
+  gap:       8px;
+  flex-wrap: wrap;
+}
+
+.wf-weather-stat {
+  display:        flex;
+  flex-direction: column;
+  align-items:    center;
+  background:     var(--wf-bg2) !important;
+  border:         1px solid var(--wf-border);
+  border-radius:  4px;
+  padding:        6px 12px;
+  min-width:      80px;
+  flex:           1;
+}
+
+.wf-weather-stat-label {
+  font-family:    var(--wf-font-head);
+  font-size:      9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color:          var(--wf-gold) !important;
+  margin-bottom:  2px;
+}
+
+.wf-weather-stat-value {
+  font-size:   18px;
+  font-weight: bold;
+  color:       var(--wf-text) !important;
+  line-height: 1.2;
+}
+
+.wf-weather-stat-sub {
+  font-size:  10px;
+  color:      var(--wf-text-dim) !important;
+  margin-top: 2px;
+}
+
+/* Dag/nacht knoppen */
+.wf-weather-time-btn {
+  background:    var(--wf-bg3) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: 4px;
+  color:         var(--wf-text) !important;
+  font-family:   var(--wf-font-head);
+  font-size:     10px;
+  padding:       4px 10px;
+  cursor:        pointer;
+  transition:    border-color 0.15s, background 0.15s;
+}
+
+.wf-weather-time-btn.active {
+  border-color: var(--wf-gold) !important;
+  background:   var(--wf-bg2) !important;
+  color:        var(--wf-gold) !important;
+}
+.wf-divider {
+  border:     none;
+  border-top: 1px solid var(--wf-border);
+  margin:     0;
+}
+
+/* ── NPC Item flexbox ─────────────────────────────────────────*/
+.wf-npc-item-top {
+  display:         flex;
+  justify-content: space-between;
+  align-items:     flex-start;
+  gap:             6px;
+}
+.wf-npc-item-meta  { flex: 1; min-width: 0; }
+.wf-npc-item-actions { display: flex; gap: 4px; flex-shrink: 0; }
+.wf-npc-item-actions .wf-btn { font-size: 10px; padding: 3px 7px; line-height: 1; }
+
+/* ── Ras Traits ───────────────────────────────────────────────*/
+.wf-traits-body { display: flex; flex-direction: column; gap: 6px; }
+.wf-trait-item {
+  display: flex; flex-direction: column; gap: 2px;
+  padding: 5px 8px;
+  background: var(--wf-bg2) !important;
+  border-left: 3px solid var(--wf-gold);
+  border-radius: 0 3px 3px 0;
+}
+.wf-trait-name {
+  font-family: var(--wf-font-head); font-size: 11px;
+  letter-spacing: 0.05em; color: var(--wf-gold) !important;
+  text-transform: uppercase;
+}
+.wf-trait-desc { font-size: 12px; color: var(--wf-text) !important; line-height: 1.4; }
+
+/* ── Building artwork rechts in header ────────────────────────*/
+.wf-art-wrap {
+  flex:         0 0 160px;
+  background:   #111 !important;
+  overflow:     hidden;
+  border-left:  1px solid var(--wf-border);
+}
+
+.wf-side-art {
+  width:           160px;
+  height:          100%;
+  min-height:      90px;
+  object-fit:      cover;
+  object-position: center;
+  display:         block;
+  cursor:          pointer !important;
+  transition:      opacity 0.2s;
+}
+
+.wf-side-art:hover { opacity: 0.85; }
+
+/* ── City/Town Generator ──────────────────────────────────────*/
+
+/* Categorie-header boven een groep districten (bijv. "Trade & Commerce") */
+.wf-city-cat-header {
+  font-family:     var(--wf-font-head);
+  font-size:       10px;
+  letter-spacing:  0.1em;
+  text-transform:  uppercase;
+  color:           var(--wf-gold-dim) !important;
+  padding:         8px 0 3px 0;
+  margin-top:      4px;
+  border-bottom:   1px solid var(--wf-border);
+}
+
+/* Eerste categorie-header heeft geen extra ruimte boven */
+.wf-city-cat-header:first-child { margin-top: 0; }
+
+/* ── City district gebouwen ───────────────────────────────────*/
+
+.wf-city-buildings {
+  display:   flex;
+  flex-wrap: wrap;
+  gap:       5px;
+  margin-top: 6px;
+}
+
+/* Genereerbare gebouwen — gouden knop stijl */
+.wf-city-shop-btn {
+  display:          inline-flex;
+  align-items:      center;
+  gap:              5px;
+  padding:          3px 10px;
+  background:       var(--wf-bg3) !important;
+  border:           1px solid var(--wf-gold-dim) !important;
+  border-radius:    3px;
+  color:            var(--wf-gold) !important;
+  font-family:      var(--wf-font-body);
+  font-size:        0.82em;
+  cursor:           pointer;
+  transition:       background 0.15s, border-color 0.15s;
+  white-space:      nowrap;
+}
+
+.wf-city-shop-btn:hover {
+  background:       var(--wf-bg4) !important;
+  border-color:     var(--wf-gold) !important;
+}
+
+.wf-city-shop-btn i {
+  font-size: 0.85em;
+  color:     var(--wf-gold-dim) !important;
+}
+
+/* Niet-genereerbare gebouwen — gewone tekst pill */
+.wf-city-building-plain {
+  display:       inline-block;
+  padding:       3px 8px;
+  background:    var(--wf-bg2) !important;
+  border:        1px solid var(--wf-border) !important;
+  border-radius: 3px;
+  color:         var(--wf-text-dim) !important;
+  font-size:     0.82em;
+  white-space:   nowrap;
+}
+
+/* ── City Inn/Tavern collapsable ──────────────────────────────*/
+
+.wf-city-inn-summary {
+  display:     flex;
+  align-items: flex-start;
+  gap:         8px;
+}
+
+.wf-city-inn-actions {
+  display:    flex;
+  gap:        6px;
+  margin-top: 10px;
+}
+
+/* Verberg de wf-card wrapper binnen de ingeklapte inn */
+.wf-city-inn-details .wf-card {
+  box-shadow: none;
+  border:     1px solid var(--wf-border);
+  margin:     0;
+}
+
+/* Verberg de status balk binnen de ingeklapte inn */
+.wf-city-inn-details .wf-status {
+  display: none;
+}
+
+/* ── PDF Export dropzone ──────────────────────────────────────*/
+
+.wf-pdf-dropzone {
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  min-height:      260px;
+  margin:          16px;
+  border:          2px dashed var(--wf-gold-dim);
+  border-radius:   6px;
+  background:      var(--wf-bg2);
+  cursor:          pointer;
+  transition:      border-color 0.2s, background 0.2s;
+}
+
+.wf-pdf-dropzone:hover {
+  border-color: var(--wf-gold);
+  background:   rgba(201, 162, 39, 0.06);
+}
+
+.wf-pdf-dropzone--active {
+  border-color: #5a8f5e;
+  background:   rgba(90, 143, 94, 0.10);
+}
+
+.wf-pdf-dropzone-inner {
+  text-align:     center;
+  color:          var(--wf-text-dim, #9e8e6e);
+  pointer-events: none;
+}
+
+.wf-pdf-dropzone-inner i {
+  font-size:     3rem;
+  color:         var(--wf-gold);
+  margin-bottom: 12px;
+  display:       block;
+  transition:    color 0.2s;
+}
+
+.wf-pdf-dropzone--active .wf-pdf-dropzone-inner i {
+  color: #5a8f5e;
+}
+
+.wf-pdf-dropzone-inner p {
+  margin:    4px 0;
+  font-size: 0.95em;
+}
+
+.wf-pdf-hint {
+  font-size:  0.8em !important;
+  color:      var(--wf-muted, #888) !important;
+  margin-top: 8px !important;
+}
+
+.wf-pdf-status {
+  margin:        0 16px 12px;
+  padding:       8px 12px;
+  background:    var(--wf-bg3);
+  border:        1px solid var(--wf-border);
+  border-radius: 4px;
+  font-size:     0.9em;
+  color:         var(--wf-text-dim);
+}
+
+.wf-pdf-export-card .wf-btn {
+  flex-shrink: 0;
+}
+
+
+/* ── CITY ATTACH KNOP ──────────────────────────────────────────────────────── */
+.wf-city-attach-wrap {
+  position:      relative;
+  margin-left:   auto;
+  align-self:    flex-start;
+  margin-top:    4px;
+}
+
+.wf-city-attach-btn {
+  background:    rgba(201,162,39,0.12);
+  border:        1px solid var(--wf-gold-dim, #8a6f1e);
+  border-radius: 4px;
+  color:         var(--wf-gold, #c9a227);
+  font-family:   var(--wf-font-head, 'Cinzel', serif);
+  font-size:     10px;
+  letter-spacing:0.08em;
+  padding:       4px 10px;
+  cursor:        pointer;
+  white-space:   nowrap;
+  display:       flex;
+  align-items:   center;
+  gap:           5px;
+}
+
+.wf-city-attach-btn:hover {
+  background: rgba(201,162,39,0.22);
+}
+
+.wf-city-attach-menu {
+  position:      absolute;
+  top:           100%;
+  right:         0;
+  margin-top:    4px;
+  background:    var(--wf-bg, #1a1a1a);
+  border:        1px solid var(--wf-gold-dim, #8a6f1e);
+  border-radius: 4px;
+  min-width:     160px;
+  z-index:       100;
+  box-shadow:    0 4px 12px rgba(0,0,0,0.4);
+}
+
+.wf-city-attach-item {
+  display:        flex;
+  align-items:    center;
+  gap:            8px;
+  width:          100%;
+  padding:        8px 12px;
+  background:     transparent;
+  border:         none;
+  color:          var(--wf-text, #d0c0a0);
+  font-family:    var(--wf-font-head, 'Cinzel', serif);
+  font-size:      11px;
+  letter-spacing: 0.06em;
+  cursor:         pointer;
+  text-align:     left;
+  white-space:    nowrap;
+}
+
+.wf-city-attach-item:hover {
+  background: rgba(201,162,39,0.1);
+  color:      var(--wf-gold, #c9a227);
+}
+
+.wf-city-attach-item i {
+  width:     14px;
+  opacity:   0.7;
+}
+
+/* ── GEKOPPELDE ORG IN CITY ─────────────────────────────────────────────────── */
+.wf-city-attached-org {
+  background:    rgba(255,255,255,0.03);
+  border:        1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+  padding:       8px 10px;
+  margin-bottom: 6px;
+}
+
+.wf-city-attached-org-header {
+  display:     flex;
+  align-items: center;
+  gap:         4px;
+  font-size:   12px;
+}
+
+.wf-muted {
+  color:       var(--wf-text-dim, #888);
+}
+
+/* ── CITY FACTION CARDS ─────────────────────────────────────────────────────── */
+.wf-city-faction-card {
+  background:    rgba(255,255,255,0.03);
+  border:        1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+  padding:       8px 10px;
+  margin-bottom: 6px;
+}
+
+.wf-city-faction-header {
+  display:        flex;
+  align-items:    center;
+  gap:            6px;
+}
+
+.wf-city-faction-title {
+  flex:      1;
+  font-size: 12px;
+}
+
+.wf-city-faction-actions {
+  display:    flex;
+  gap:        4px;
+  flex-shrink: 0;
+}
+
+.wf-city-faction-actions .wf-btn {
+  padding:     2px 6px;
+  font-size:   0.8em;
+  background:  transparent;
+  border:      1px solid rgba(255,255,255,0.15);
+  border-radius: 3px;
+  color:       var(--wf-text-dim, #888);
+  cursor:      pointer;
+}
+
+.wf-city-faction-actions .wf-btn:hover {
+  border-color: var(--wf-gold-dim, #8a6f1e);
+  color:        var(--wf-gold, #c9a227);
+}
+
+.wf-city-faction-location {
+  font-size:   0.83em;
+  font-style:  italic;
+  margin-top:  2px;
+  margin-bottom: 0;
+}
+
+.wf-city-faction-details {
+  margin-top:  10px;
+  border-top:  1px solid rgba(255,255,255,0.07);
+  padding-top: 8px;
+}
+
+.wf-city-faction-readout {
+  font-style:  italic;
+  font-size:   0.9em;
+  color:       var(--wf-text, #d0c0a0);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.wf-city-faction-quirk {
+  font-size:     0.88em;
+  color:         var(--wf-text-dim, #888);
+  border-left:   3px solid var(--wf-gold-dim, #8a6f1e);
+  padding-left:  8px;
+  margin-bottom: 8px;
+  font-style:    italic;
+}
+
+.wf-city-faction-services {
+  margin-bottom: 8px;
+}
+
+.wf-city-faction-members {
+  margin-top: 4px;
+}

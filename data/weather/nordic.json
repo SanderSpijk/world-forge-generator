@@ -1,0 +1,290 @@
+{
+  "weather_types": [
+    {
+      "name": "Clear",
+      "score": 0,
+      "description": {
+        "nl": "De lucht is helder en ijskoud. De zon staat laag aan de horizon en werpt lange schaduwen over het bevroren landschap.",
+        "en": "The sky is clear and bitterly cold. The sun sits low on the horizon, casting long shadows across the frozen landscape."
+      },
+      "min_temp": -5,
+      "max_temp": 10,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 3
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 4
+        },
+        {
+          "name": "Fog",
+          "weight": 2
+        },
+        {
+          "name": "Overcast",
+          "weight": 2
+        },
+        {
+          "name": "Snow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Partly Cloudy",
+      "score": 1,
+      "description": {
+        "nl": "Grijze wolken trekken over de hemel, af en toe de zwakke zon verbergend. De wind voelt snijdend aan.",
+        "en": "Grey clouds drift across the sky, occasionally hiding the weak sun. The wind feels biting."
+      },
+      "min_temp": -8,
+      "max_temp": 8,
+      "min_wind": 1,
+      "max_wind": 3,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 2
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Overcast",
+          "weight": 4
+        },
+        {
+          "name": "Snow",
+          "weight": 3
+        },
+        {
+          "name": "Fog",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "score": 1,
+      "description": {
+        "nl": "Een ijzige mist hangt laag over de fjorden en verzwelgt alles in een witte stilte.",
+        "en": "An icy mist hangs low over the fjords, swallowing everything in white silence."
+      },
+      "min_temp": -3,
+      "max_temp": 5,
+      "min_wind": 0,
+      "max_wind": 1,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 2
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Snow",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Overcast",
+      "score": 2,
+      "description": {
+        "nl": "Een zwaar wolkendek hangt laag boven het land. De lucht voelt beladen en koud, klaar om te sneeuwen.",
+        "en": "A heavy cloud layer hangs low over the land. The air feels laden and cold, ready to snow."
+      },
+      "min_temp": -6,
+      "max_temp": 4,
+      "min_wind": 2,
+      "max_wind": 5,
+      "next": [
+        {
+          "name": "Partly Cloudy",
+          "weight": 2
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Snow",
+          "weight": 5
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 2
+        },
+        {
+          "name": "Blizzard",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Light Rain",
+      "score": 3,
+      "description": {
+        "nl": "IJzige motregen valt neer en verandert paden in gladde modderstroken.",
+        "en": "Icy drizzle falls, turning paths into slippery mud strips."
+      },
+      "min_temp": -2,
+      "max_temp": 6,
+      "min_wind": 2,
+      "max_wind": 4,
+      "next": [
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Light Rain",
+          "weight": 3
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 2
+        },
+        {
+          "name": "Snow",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "name": "Snow",
+      "score": 3,
+      "description": {
+        "nl": "Sneeuwvlokken dwarrelen dicht neer en bedekken het landschap in een stil wit tapijt.",
+        "en": "Snowflakes fall thickly, blanketing the landscape in a quiet white carpet."
+      },
+      "min_temp": -10,
+      "max_temp": 0,
+      "min_wind": 1,
+      "max_wind": 5,
+      "next": [
+        {
+          "name": "Overcast",
+          "weight": 2
+        },
+        {
+          "name": "Snow",
+          "weight": 6
+        },
+        {
+          "name": "Blizzard",
+          "weight": 4
+        },
+        {
+          "name": "Light Rain",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Heavy Rain",
+      "score": 4,
+      "description": {
+        "nl": "Striemende regen slaat neer, vermengd met ijspegels. De wind jaagt golven over de fjorden.",
+        "en": "Stinging rain falls mixed with ice pellets. The wind drives waves across the fjords."
+      },
+      "min_temp": -2,
+      "max_temp": 5,
+      "min_wind": 4,
+      "max_wind": 7,
+      "next": [
+        {
+          "name": "Overcast",
+          "weight": 2
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 3
+        },
+        {
+          "name": "Snow",
+          "weight": 3
+        },
+        {
+          "name": "Storm",
+          "weight": 2
+        },
+        {
+          "name": "Blizzard",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Storm",
+      "score": 5,
+      "description": {
+        "nl": "Een woeste noorderstorm raast door de dalen. Bomen buigen en golven beuken de kliffen.",
+        "en": "A fierce northern storm rages through the valleys. Trees bend and waves pound the cliffs."
+      },
+      "min_temp": -5,
+      "max_temp": 3,
+      "min_wind": 6,
+      "max_wind": 10,
+      "next": [
+        {
+          "name": "Heavy Rain",
+          "weight": 3
+        },
+        {
+          "name": "Snow",
+          "weight": 3
+        },
+        {
+          "name": "Blizzard",
+          "weight": 4
+        },
+        {
+          "name": "Storm",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Blizzard",
+      "score": 5,
+      "description": {
+        "nl": "Een verwoestende sneeuwstorm maakt zicht vrijwel onmogelijk. Reizen is levensgevaarlijk.",
+        "en": "A devastating snowstorm makes visibility nearly impossible. Travel is life-threatening."
+      },
+      "min_temp": -18,
+      "max_temp": -4,
+      "min_wind": 7,
+      "max_wind": 12,
+      "next": [
+        {
+          "name": "Snow",
+          "weight": 5
+        },
+        {
+          "name": "Blizzard",
+          "weight": 4
+        },
+        {
+          "name": "Storm",
+          "weight": 2
+        },
+        {
+          "name": "Overcast",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

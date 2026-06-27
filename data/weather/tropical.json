@@ -1,0 +1,392 @@
+{
+  "weather_types": [
+    {
+      "name": "Clear",
+      "score": 0,
+      "description": {
+        "nl": "De lucht is helder en open. Zonlicht brandt fel neer en het zicht is uitstekend.",
+        "en": "The sky is clear and open. Sunlight burns down intensely and visibility is excellent."
+      },
+      "min_temp": 26,
+      "max_temp": 34,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 4
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 5
+        },
+        {
+          "name": "Cloudy",
+          "weight": 1
+        },
+        {
+          "name": "Fog",
+          "weight": 0.5
+        },
+        {
+          "name": "Heatwave",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Partly Cloudy",
+      "score": 1,
+      "description": {
+        "nl": "Verspreide wolken drijven over de hemel terwijl de warmte in de lucht blijft hangen.",
+        "en": "Scattered clouds drift across the sky while the heat hangs in the air."
+      },
+      "min_temp": 25,
+      "max_temp": 32,
+      "min_wind": 1,
+      "max_wind": 3,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 3
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 4
+        },
+        {
+          "name": "Cloudy",
+          "weight": 4
+        },
+        {
+          "name": "Fog",
+          "weight": 0.5
+        },
+        {
+          "name": "Light Rain",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Cloudy",
+      "score": 2,
+      "description": {
+        "nl": "De lucht is zwaar bewolkt en de hitte voelt drukkend onder het wolkendek.",
+        "en": "The sky is heavily overcast and the heat feels oppressive under the cloud cover."
+      },
+      "min_temp": 24,
+      "max_temp": 31,
+      "min_wind": 2,
+      "max_wind": 4,
+      "next": [
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Cloudy",
+          "weight": 4
+        },
+        {
+          "name": "Overcast",
+          "weight": 4
+        },
+        {
+          "name": "Light Rain",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "score": 1,
+      "description": {
+        "nl": "Warme nevel hangt laag over het land en maakt de lucht vochtig en zwaar.",
+        "en": "Warm haze hangs low over the land, making the air humid and heavy."
+      },
+      "min_temp": 22,
+      "max_temp": 28,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 2
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Cloudy",
+          "weight": 2
+        },
+        {
+          "name": "Fog",
+          "weight": 4
+        },
+        {
+          "name": "Light Rain",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Overcast",
+      "score": 2,
+      "description": {
+        "nl": "De hemel is volledig bedekt met donkere tropische wolken en de lucht voelt geladen.",
+        "en": "The sky is completely covered by dark tropical clouds and the air feels charged."
+      },
+      "min_temp": 23,
+      "max_temp": 30,
+      "min_wind": 2,
+      "max_wind": 4,
+      "next": [
+        {
+          "name": "Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Overcast",
+          "weight": 4
+        },
+        {
+          "name": "Light Rain",
+          "weight": 4
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Light Rain",
+      "score": 3,
+      "description": {
+        "nl": "Een warme regenbui valt neer en laat bladeren, aarde en hout dampen.",
+        "en": "A warm shower falls and makes leaves, earth and wood steam."
+      },
+      "min_temp": 24,
+      "max_temp": 30,
+      "min_wind": 2,
+      "max_wind": 5,
+      "next": [
+        {
+          "name": "Cloudy",
+          "weight": 2
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Light Rain",
+          "weight": 4
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 4
+        },
+        {
+          "name": "Thunderstorm",
+          "weight": 1.5
+        }
+      ]
+    },
+    {
+      "name": "Heavy Rain",
+      "score": 4,
+      "description": {
+        "nl": "Zware tropische regen stort neer in dichte gordijnen en maakt paden in modderige stromen.",
+        "en": "Heavy tropical rain pours down in thick curtains, turning paths into muddy streams."
+      },
+      "min_temp": 23,
+      "max_temp": 29,
+      "min_wind": 3,
+      "max_wind": 6,
+      "next": [
+        {
+          "name": "Overcast",
+          "weight": 2
+        },
+        {
+          "name": "Light Rain",
+          "weight": 5
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 4
+        },
+        {
+          "name": "Thunderstorm",
+          "weight": 2.5
+        },
+        {
+          "name": "Storm",
+          "weight": 1.5
+        },
+        {
+          "name": "Tornado",
+          "weight": 0.15
+        }
+      ]
+    },
+    {
+      "name": "Thunderstorm",
+      "score": 5,
+      "description": {
+        "nl": "Bliksem en donder rollen over de tropische hemel terwijl hevige regen en rukwinden losbarsten.",
+        "en": "Lightning and thunder roll across the tropical sky as heavy rain and gusts erupt."
+      },
+      "min_temp": 24,
+      "max_temp": 31,
+      "min_wind": 5,
+      "max_wind": 8,
+      "next": [
+        {
+          "name": "Heavy Rain",
+          "weight": 6
+        },
+        {
+          "name": "Thunderstorm",
+          "weight": 3
+        },
+        {
+          "name": "Storm",
+          "weight": 2
+        },
+        {
+          "name": "Tornado",
+          "weight": 0.35
+        }
+      ]
+    },
+    {
+      "name": "Storm",
+      "score": 5,
+      "description": {
+        "nl": "De wind huilt tussen palmen en masten terwijl de lucht openbarst in regen en geweld.",
+        "en": "The wind howls through palms and masts as the sky bursts open in rain and violence."
+      },
+      "min_temp": 24,
+      "max_temp": 30,
+      "min_wind": 6,
+      "max_wind": 9,
+      "next": [
+        {
+          "name": "Heavy Rain",
+          "weight": 4
+        },
+        {
+          "name": "Thunderstorm",
+          "weight": 4
+        },
+        {
+          "name": "Storm",
+          "weight": 2
+        },
+        {
+          "name": "Tornado",
+          "weight": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Sandstorm",
+      "score": 5,
+      "description": {
+        "nl": "Droge wind jaagt zand en stof door de lucht en verandert de hitte in een schurende muur.",
+        "en": "Dry wind drives sand and dust through the air, turning the heat into a grinding wall."
+      },
+      "min_temp": 29,
+      "max_temp": 38,
+      "min_wind": 5,
+      "max_wind": 9,
+      "next": [
+        {
+          "name": "Heatwave",
+          "weight": 4
+        },
+        {
+          "name": "Cloudy",
+          "weight": 1
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 3
+        },
+        {
+          "name": "Storm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Heatwave",
+      "score": 0,
+      "description": {
+        "nl": "Drukkende tropische hitte hangt als een deken over het land en laat de lucht trillen.",
+        "en": "Oppressive tropical heat hangs like a blanket over the land and makes the air shimmer."
+      },
+      "min_temp": 32,
+      "max_temp": 42,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 4
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 2
+        },
+        {
+          "name": "Heatwave",
+          "weight": 4
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 1
+        },
+        {
+          "name": "Cloudy",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Tornado",
+      "score": 6,
+      "description": {
+        "nl": "Een vernietigende wervelstorm raast door het gebied en sleurt alles mee wat niet vaststaat.",
+        "en": "A devastating whirlwind tears through the area, sweeping up everything not nailed down."
+      },
+      "min_temp": 25,
+      "max_temp": 33,
+      "min_wind": 9,
+      "max_wind": 12,
+      "next": [
+        {
+          "name": "Heavy Rain",
+          "weight": 6
+        },
+        {
+          "name": "Thunderstorm",
+          "weight": 4
+        },
+        {
+          "name": "Storm",
+          "weight": 3
+        },
+        {
+          "name": "Tornado",
+          "weight": 0.4
+        }
+      ]
+    }
+  ]
+}

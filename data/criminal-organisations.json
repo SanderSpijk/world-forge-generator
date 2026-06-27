@@ -1,0 +1,4233 @@
+{
+  "organisationTypes": [
+    {
+      "id": "pickpockets",
+      "nl": "Zakkenrollersbende",
+      "en": "Group of Pickpockets",
+      "weight": 3,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "pirate"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "grasslands",
+        "temperate_forest"
+      ],
+      "minSize": 1,
+      "scaleMin": 4,
+      "scaleMax": 15,
+      "operationStyle": {
+        "nl": [
+          "opereert in drukke markten en smalle steegjes",
+          "werkt op feesten en openbare samenkomsten",
+          "richt zich op reizigers bij stadspoorten en herbergen"
+        ],
+        "en": [
+          "operates in busy markets and narrow alleys",
+          "works at festivals and public gatherings",
+          "targets travellers at city gates and inns"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Stelen uitsluitend met de linkerhand als teken van hun traditie.",
+          "Laten na een succesvolle diefstal een koperen munt achter.",
+          "Gebruiken straatmuzikanten als afleidingsmechanisme.",
+          "Hebben een geheime gebarentaal met hoestjes, fluittonen en tikjes.",
+          "Stelen nooit van kinderen, bedelaars of priesters."
+        ],
+        "en": [
+          "They only steal with their left hand as a mark of tradition.",
+          "After a successful theft, they leave a copper coin behind.",
+          "They use street musicians as a distraction mechanism.",
+          "They have a secret sign language using coughs, whistles and taps.",
+          "They never steal from children, beggars or priests."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "De Vingersmid",
+          "Muntmeester",
+          "De Beurzensnijder",
+          "Handmeester",
+          "De Fluisterende Hand"
+        ],
+        "en": [
+          "The Fingersmith",
+          "Coinmaster",
+          "The Cutpurse King",
+          "Handmaster",
+          "The Whisperhand"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Cutpurse",
+          "Bumper",
+          "Spotter",
+          "Runner",
+          "Decoy",
+          "Fence Runner",
+          "Lookout",
+          "Sleight Trainer",
+          "Safecracker",
+          "Crew Boss"
+        ],
+        "nl": [
+          "Beurzensnijder",
+          "Botser",
+          "Verkenner",
+          "Vluchtloper",
+          "Lokvogel",
+          "Helersbode",
+          "Uitkijk",
+          "Behendigheidsleraar",
+          "Kraakspecialist",
+          "Districtsbas"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Fence",
+            "description": "The guild's fence will buy stolen goods, no questions asked. Prices are lower than market value, but it beats getting caught trying to sell hot merchandise yourself."
+          },
+          {
+            "name": "Distraction Crew",
+            "description": "For a fee, the guild can provide a crew of bumpers, decoys and street performers to create a diversion in any public location — useful for when the party needs a few minutes of unobserved movement."
+          },
+          {
+            "name": "Pickpocket Training",
+            "description": "The guild's sleight trainer will teach a willing student the basics of pickpocketing, granting proficiency with Sleight of Hand checks for stealing small items from distracted targets."
+          },
+          {
+            "name": "Surveillance",
+            "description": "The guild's spotters can tail a specific target for several days, reporting on their movements, habits and companions. Useful intel before a heist or social encounter."
+          },
+          {
+            "name": "Crowd Cover",
+            "description": "The guild can guarantee safe passage through a crowded area, surrounding the party with members who block, bump and redirect any guards or followers pursuing them."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Heler",
+            "description": "De gildeheler koopt gestolen goederen op, geen vragen gesteld. Prijzen liggen onder de marktwaarde, maar beter dan gepakt worden bij het doorverkopen."
+          },
+          {
+            "name": "Afleiding",
+            "description": "Het gilde levert een groep botselaars, lokvogels en straatartiesten die een afleiding creëren op een openbare locatie — handig als de party een paar ongestoorde minuten nodig heeft."
+          },
+          {
+            "name": "Zakkenrollerstraining",
+            "description": "De gildetrainer leert een gemotiveerde leerling de basis van het stelen, waarmee vaardigheid met Sleight of Hand checks voor kleine objecten van afleidende doelwitten wordt verkregen."
+          },
+          {
+            "name": "Bewaking",
+            "description": "De gildeverkenners schaduwen een specifiek doelwit meerdere dagen en rapporteren hun bewegingen, gewoonten en contacten. Nuttige informatie voor een rooftocht of sociaal gesprek."
+          },
+          {
+            "name": "Menigtedekking",
+            "description": "Het gilde garandeert veilige doorgang door een drukke ruimte, omringd door leden die bewakers of achtervolgers blokkeren en omleiden."
+          }
+        ]
+      }
+    },
+    {
+      "id": "smugglers",
+      "nl": "Smokkelaarsbende",
+      "en": "Smugglers Band",
+      "weight": 3,
+      "cityTypeAffinities": [
+        "harbour",
+        "trade",
+        "pirate",
+        "island"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "swamp",
+        "jungle"
+      ],
+      "minSize": 2,
+      "scaleMin": 8,
+      "scaleMax": 30,
+      "operationStyle": {
+        "nl": [
+          "verbergt goederen in dubbele bodems van karren en vaten",
+          "gebruikt geheime tunnels onder de stad",
+          "corrumpeert havenmeesters en douanebeambten"
+        ],
+        "en": [
+          "hides goods in false bottoms of carts and barrels",
+          "uses secret tunnels beneath the city",
+          "corrupts harbour masters and customs officials"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Verstoppen goederen in valse wijnvaten, doodskisten of religieuze ladingen.",
+          "Alle leden dragen een identieke tatoeage verborgen onder kleding.",
+          "Communiceren via scheepslantaarns, rooksignalen of vlagcodes.",
+          "Geloven sterk in bijgeloof rond stormen, vogels en ongeluksdagen.",
+          "Gebruiken altijd dezelfde neutrale ontmoetingsplaats zoals een oude molen, verlaten pier of grot."
+        ],
+        "en": [
+          "They hide goods in false wine barrels, coffins or religious shipments.",
+          "All members bear an identical tattoo hidden beneath their clothing.",
+          "They communicate via ship lanterns, smoke signals or flag codes.",
+          "They hold strong superstitions about storms, birds and unlucky days.",
+          "They always use the same neutral meeting place — an old mill, abandoned pier or cave."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Kwartiermeester",
+          "De Veerman",
+          "Laadmeester",
+          "De Lantaarnkapitein",
+          "Routebewaarder"
+        ],
+        "en": [
+          "Quartermaster",
+          "The Ferryman",
+          "Cargo Master",
+          "The Lantern Captain",
+          "Routekeeper"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Ship Captain",
+          "Route Planner",
+          "Cargo Loader",
+          "Forged Papers Specialist",
+          "Harbor Briber",
+          "Hidden Compartment Builder",
+          "Coast Watcher",
+          "Safehouse Keeper",
+          "Smuggling Courier",
+          "Quartermaster"
+        ],
+        "nl": [
+          "Scheepskapitein",
+          "Routeplanner",
+          "Laadbediende",
+          "Neppapiersspecialist",
+          "Havenomkoper",
+          "Verborgen Ruimtebouwer",
+          "Kustbewaker",
+          "Schuilplaatsbeheerder",
+          "Smokkelkoerier",
+          "Kwartiermeester"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Smuggling Run",
+            "description": "The band will transport any package, person or contraband to a specified destination, no questions asked. Price varies by distance, risk and cargo sensitivity."
+          },
+          {
+            "name": "Forged Travel Papers",
+            "description": "The smugglers' document specialist can provide convincing travel papers, merchant licenses or border passes, opening doors that would otherwise remain firmly shut."
+          },
+          {
+            "name": "Safe Passage",
+            "description": "For a fee, the band guarantees the party safe passage through a dangerous or heavily patrolled route, using their network of bribed officials and hidden paths."
+          },
+          {
+            "name": "Hidden Cache",
+            "description": "The band rents space in one of their hidden safehouse caches — a secure, unregistered location where the party can store valuables, weapons or wanted persons."
+          },
+          {
+            "name": "Harbour Contact",
+            "description": "The band's harbour briber can arrange quiet boarding, discreet cargo loading or a ship that asks no questions about passengers or freight."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Smokkelrit",
+            "description": "De bende transporteert elk pakket, persoon of verboden goed naar een opgegeven bestemming, geen vragen gesteld. Prijs varieert per afstand, risico en gevoeligheid van de lading."
+          },
+          {
+            "name": "Valse Reisdocumenten",
+            "description": "De documentspecialist van de smokkelaars levert overtuigende reisdocumenten, handelslicities of grenspasseringen die deuren openen die anders gesloten blijven."
+          },
+          {
+            "name": "Veilig Geleid",
+            "description": "De bende garandeert veilig geleid door een gevaarlijke of zwaar gepatrouilleerde route via hun netwerk van omgekochte ambtenaren en verborgen paden."
+          },
+          {
+            "name": "Verborgen Opslag",
+            "description": "De bende verhuurt ruimte in een verborgen schuilplaats — een veilige, niet-geregistreerde locatie waar waardevolle spullen, wapens of gezochte personen bewaard kunnen worden."
+          },
+          {
+            "name": "Havencontact",
+            "description": "De havenomkoper van de bende regelt rustig inschepen, discrete vrachtverlading of een schip dat geen vragen stelt over passagiers of lading."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pirates",
+      "nl": "Piratengroep",
+      "en": "Pirate Group",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "pirate",
+        "harbour",
+        "island"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "jungle"
+      ],
+      "minSize": 2,
+      "scaleMin": 15,
+      "scaleMax": 80,
+      "operationStyle": {
+        "nl": [
+          "opereert vanuit een verborgen baai of eiland",
+          "kapt handelsschepen op de grote routes af",
+          "heeft een netwerk van helers in de havenstad"
+        ],
+        "en": [
+          "operates from a hidden bay or island",
+          "intercepts merchant ships on major trade routes",
+          "has a network of fences in the harbour city"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Houden democratische stemmingen over grote beslissingen.",
+          "Nemen obsessief trofeeën van elk geënterd schip mee.",
+          "Hebben een strikte code tegen verraad onder de bemanning.",
+          "Zijn geobsedeerd door een mythische schat of verloren kaart.",
+          "Hun kapitein gebruikt een absurd luxe kledingstijl of theatrale titel."
+        ],
+        "en": [
+          "They hold democratic votes on major decisions.",
+          "They obsessively take trophies from every boarded ship.",
+          "They have a strict code against betrayal among the crew.",
+          "They are obsessed with a mythical treasure or lost map.",
+          "Their captain adopts an absurdly lavish style of dress or theatrical title."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Kapitein",
+          "Commandeur",
+          "De Zeewolf",
+          "De Zwarte Admiraal",
+          "Eerste Plunderaar"
+        ],
+        "en": [
+          "Captain",
+          "Commodore",
+          "Sea Wolf",
+          "The Black Admiral",
+          "First Reaver"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "First Mate",
+          "Navigator",
+          "Boarding Leader",
+          "Cannoneer",
+          "Quartermaster",
+          "Surgeon / Sawbones",
+          "Prize Master",
+          "Sailmaster",
+          "Rum Keeper",
+          "Lookout"
+        ],
+        "nl": [
+          "Eerste Stuurman",
+          "Navigator",
+          "Enterhaakleidster",
+          "Kanonnier",
+          "Kwartiermeester",
+          "Chirurgijn",
+          "Buitbeheerder",
+          "Zeilmeester",
+          "Rumhouder",
+          "Uitkijk"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Ship Charter",
+            "description": "The pirate group can provide a fast, armed vessel with crew for a voyage — ideal when the party needs to travel quickly and isn't fussy about the ship's registry."
+          },
+          {
+            "name": "Naval Combat Training",
+            "description": "An experienced boarding leader will train the party in ship combat, granting advantage on checks related to boarding actions and shipboard fighting."
+          },
+          {
+            "name": "Prize Recovery",
+            "description": "If the party has a target vessel they want taken, the pirates will board and capture it for a percentage of the cargo and a negotiated fee."
+          },
+          {
+            "name": "Smuggling Network",
+            "description": "The pirates can connect the party with their network of fences and hidden coves, providing access to stolen goods, rare commodities and unregistered weapons."
+          },
+          {
+            "name": "Island Hideout",
+            "description": "The group can provide temporary refuge at their hidden cove or island base — useful when the party is being hunted and needs to disappear for a while."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Scheepscharter",
+            "description": "De piratengroep levert een snel, bewapend schip met bemanning voor een reis — ideaal als de party snel moet reizen en niet kieskeurig is over het scheepsregister."
+          },
+          {
+            "name": "Scheepsgevechtstraining",
+            "description": "Een ervaren enterhaakleidster traint de party in scheepsgevechten, met voordeel op checks gerelateerd aan entacties en gevechten aan boord."
+          },
+          {
+            "name": "Kapingsoperatie",
+            "description": "Als de party een doelwit-schip wil laten overnemen, gaan de piraten aan boord en veroveren het voor een percentage van de lading en een onderhandelde vergoeding."
+          },
+          {
+            "name": "Smokkelen Netwerk",
+            "description": "De piraten verbinden de party met hun netwerk van helers en verborgen baaien, met toegang tot gestolen goederen, zeldzame waren en niet-geregistreerde wapens."
+          },
+          {
+            "name": "Eilandschuilplaats",
+            "description": "De groep biedt tijdelijk onderdak in hun verborgen baai of eilandbasis — nuttig als de party wordt gezocht en een tijdje moet verdwijnen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "thieves_guild",
+      "nl": "Dievengilde",
+      "en": "Thieves Guild",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "mining",
+        "military"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal",
+        "underground"
+      ],
+      "minSize": 4,
+      "scaleMin": 20,
+      "scaleMax": 100,
+      "operationStyle": {
+        "nl": [
+          "heft belasting op alle criminele activiteit in de stad",
+          "biedt bescherming aan winkeliers in ruil voor informatie",
+          "heeft contacten bij de stadsguard en het stadsbestuur"
+        ],
+        "en": [
+          "taxes all criminal activity in the city",
+          "offers protection to shopkeepers in exchange for information",
+          "has contacts within the city guard and city council"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Werken vanuit een volledig legitiem dekmantelbedrijf.",
+          "Nieuwe leden moeten een symbolische onmogelijke diefstal uitvoeren.",
+          "Hebben strikte territoriale regels per straat of district.",
+          "Registreren alle misdaden in een geheim boekhoudsysteem.",
+          "Gebruiken onschuldige voorwerpen zoals krijttekens, bloemen of waslijnen als geheime markeringen."
+        ],
+        "en": [
+          "They operate from a fully legitimate front company.",
+          "New members must perform a symbolic impossible theft as initiation.",
+          "They have strict territorial rules per street or district.",
+          "They record all crimes in a secret bookkeeping system.",
+          "They use innocent objects — chalk marks, flowers, washing lines — as secret signals."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Gildemeester",
+          "Schaduwmeester",
+          "De Slotmaker",
+          "Meester der Sleutels",
+          "De Nachtmakelaar"
+        ],
+        "en": [
+          "Guildmaster",
+          "Shadowmaster",
+          "The Locksmith",
+          "Master of Keys",
+          "The Night Broker"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Burglar",
+          "Safecracker",
+          "Fence",
+          "Information Broker",
+          "Blackmailer",
+          "Guild Enforcer",
+          "Scout",
+          "Recruiter",
+          "Spy Handler",
+          "Master Planner"
+        ],
+        "nl": [
+          "Inbreker",
+          "Kraakspecialist",
+          "Heler",
+          "Informatiemakelaar",
+          "Afperser",
+          "Gildeafdwinger",
+          "Verkenner",
+          "Werver",
+          "Spionleider",
+          "Meesterplanner"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Locksmith",
+            "description": "The guild's locksmith can open any lock the players bring to them, and sells thieves' tools for encounters they face on their own. High-security locks may require a higher fee."
+          },
+          {
+            "name": "Fence",
+            "description": "The guild maintains a network of fences who buy stolen, rare or otherwise hard-to-sell items at competitive prices, with no paperwork and no awkward questions."
+          },
+          {
+            "name": "Intelligence Package",
+            "description": "For a fee, the guild's information broker will provide a detailed dossier on any target — their daily routine, security arrangements, known associates and vulnerabilities."
+          },
+          {
+            "name": "Safe Cracker",
+            "description": "The guild's safecracker can be hired to accompany the party on a job, opening any vault, chest or locked room they encounter."
+          },
+          {
+            "name": "Heist Planning",
+            "description": "The guild's master planner will design a complete infiltration plan for any target location the party specifies — exits, guard rotations, blind spots and contingencies included."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Slotenmaker",
+            "description": "De slotenmaker van het gilde opent elk slot dat de spelers brengen en verkoopt inbrekersgerei voor sloten die ze zelf tegenkomen. Zwaar beveiligde sloten kosten meer."
+          },
+          {
+            "name": "Heler",
+            "description": "Het gilde onderhoudt een netwerk van helers die gestolen, zeldzame of moeilijk verkoopbare items kopen zonder vragen en zonder papierwerk."
+          },
+          {
+            "name": "Informatiepakket",
+            "description": "De informatiemakelaar levert een gedetailleerd dossier over elk doelwit — dagelijkse routine, beveiligingsarrangementen, bekende contacten en kwetsbaarheden."
+          },
+          {
+            "name": "Kraakspecialist",
+            "description": "De kraakspecialist begeleidt de party op een klus en opent elke kluis, kist of afgesloten ruimte die ze tegenkomen."
+          },
+          {
+            "name": "Rooftochtsplanning",
+            "description": "De meesterplanner ontwerpt een volledig infiltratieplan voor elk doelwit dat de party opgeeft — inclusief vluchtwegen, bewakersrotaties, blinde vlekken en noodplannen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "forgers",
+      "nl": "Vervalsersunie",
+      "en": "Forgers Union",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "trade",
+        "magic",
+        "holy"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal"
+      ],
+      "minSize": 3,
+      "scaleMin": 5,
+      "scaleMax": 25,
+      "operationStyle": {
+        "nl": [
+          "vervalst documenten, zegels en identiteitspapieren",
+          "opereert vanuit schijnbaar legitieme drukkerijen en schrijverswinkels",
+          "levert aan criminelen, vluchtelingen en politieke dissidenten"
+        ],
+        "en": [
+          "forges documents, seals and identity papers",
+          "operates from seemingly legitimate print shops and scribes",
+          "supplies criminals, refugees and political dissidents"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Elk vervalst document bevat een verborgen fout die alleen leden herkennen.",
+          "Beschouwen zichzelf als ambachtslieden, niet als criminelen.",
+          "Hebben een obsessieve collectie van originele zegels, stempels en papiersoorten.",
+          "Weigeren opdrachten die tot geweld leiden — ze stelen identiteiten, geen levens.",
+          "Nieuw lid worden vereist een meesterproef: het perfecte duplicaat van een officieel document."
+        ],
+        "en": [
+          "Every forged document contains a hidden error only members can recognise.",
+          "They consider themselves craftspeople, not criminals.",
+          "They maintain an obsessive collection of original seals, stamps and paper types.",
+          "They refuse jobs that lead to violence — they steal identities, not lives.",
+          "Joining requires a masterpiece test: a perfect duplicate of an official document."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Meester-Vervalser",
+          "De Schrijver",
+          "Bewaarder der Zegels",
+          "Inktvorst",
+          "De Imitator"
+        ],
+        "en": [
+          "Master Forger",
+          "The Scribe",
+          "Keeper of Seals",
+          "Ink Lord",
+          "The Imitator"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Document Forger",
+          "Seal Engraver",
+          "Paper Specialist",
+          "Ink Chemist",
+          "Signature Copyist",
+          "Identity Broker",
+          "Courier",
+          "Archive Keeper",
+          "Client Handler",
+          "Printing Press Operator"
+        ],
+        "nl": [
+          "Documentvervalser",
+          "Zegelgraveur",
+          "Papierspecialist",
+          "Inktchemicus",
+          "Handtekeningkopiist",
+          "Identiteitsmakelaar",
+          "Koerier",
+          "Archiefbeheerder",
+          "Klantbeheerder",
+          "Drukpersoperator"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Document Forgery",
+            "description": "The forgery master can create convincing copies of any document the party provides — deeds, warrants, letters of introduction, royal decrees or merchant licenses."
+          },
+          {
+            "name": "Identity Papers",
+            "description": "The union can forge a complete false identity for any party member, including name, profession, origin and official-looking certification papers."
+          },
+          {
+            "name": "Signature Replication",
+            "description": "Given a sample signature from any official, noble or merchant, the union's signature forger can replicate it perfectly for use on any document."
+          },
+          {
+            "name": "Seal Copying",
+            "description": "The union can duplicate any official seal, stamp or wax impression, allowing the party to produce documents that carry genuine-looking authority marks."
+          },
+          {
+            "name": "Authentication Sabotage",
+            "description": "If the party needs a genuine document discredited or declared a forgery, the union can provide expert testimony or tamper with authentication records."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Documentvervalsing",
+            "description": "De meester-vervalser maakt overtuigende kopieën van elk document dat de party aanlevert — aktes, bevelen, introductiebrieven, koninklijke decreten of handelslicities."
+          },
+          {
+            "name": "Identiteitsdocumenten",
+            "description": "De unie vervalst een complete valse identiteit voor elk partylid, inclusief naam, beroep, herkomst en officieel uitziende certificaten."
+          },
+          {
+            "name": "Handtekeningreplicatie",
+            "description": "Met een voorbeeldhandtekening van elke ambtenaar, edelman of koopman repliceert de handtekeningkopiist die perfect voor gebruik op elk document."
+          },
+          {
+            "name": "Zegelkopie",
+            "description": "De unie dupliceert elk officieel zegel, stempel of wasafdruk zodat de party documenten kan maken met echte autoriteitsmerken."
+          },
+          {
+            "name": "Authenticatiesabotage",
+            "description": "Als de party een echt document wil diskrediteren of als vervalsing wil laten verklaren, levert de unie deskundig getuigenis of knoeit met authenticatieregisters."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black_market",
+      "nl": "Zwarte Markt Handelaars",
+      "en": "Black Market Vendors",
+      "weight": 3,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "mining",
+        "magic"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal",
+        "desert"
+      ],
+      "minSize": 2,
+      "scaleMin": 6,
+      "scaleMax": 40,
+      "operationStyle": {
+        "nl": [
+          "verkoopt verboden goederen via frontbedrijven en geheime ontmoetingen",
+          "opereert in kelders, achterkamers en verlaten pakhuizen",
+          "heeft een netwerk van koeriers en tussenpersonen"
+        ],
+        "en": [
+          "sells forbidden goods through front companies and secret meetings",
+          "operates in cellars, backrooms and abandoned warehouses",
+          "maintains a network of couriers and middlemen"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "De markt verschijnt alleen op wisselende locaties en tijden.",
+          "Betalen liefst in vreemde valuta, gunsten of geheimen.",
+          "Iedere verkoper draagt een masker of vermomming.",
+          "Hanteren bizarre onderhandelrituelen voordat prijzen besproken worden.",
+          "Verkopen altijd één volledig nutteloos maar mysterieus item."
+        ],
+        "en": [
+          "The market only appears at shifting locations and times.",
+          "They prefer payment in foreign currency, favours or secrets.",
+          "Every vendor wears a mask or disguise.",
+          "They follow bizarre negotiation rituals before any price is discussed.",
+          "They always sell one completely useless but mysterious item."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Marktmeester",
+          "De Makelaar",
+          "Handelsprins/-prinses",
+          "De Veilingmeester",
+          "De Verzamelaar"
+        ],
+        "en": [
+          "Marketmaster",
+          "The Broker",
+          "Merchant Prince / Princess",
+          "The Auctioneer",
+          "The Collector"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Merchant",
+          "Auctioneer",
+          "Appraiser",
+          "Fence",
+          "Supplier",
+          "Security Enforcer",
+          "Courier",
+          "Exotic Goods Dealer",
+          "Information Seller",
+          "Market Organizer"
+        ],
+        "nl": [
+          "Koopman",
+          "Veilingmeester",
+          "Taxateur",
+          "Heler",
+          "Leverancier",
+          "Beveiligingsafdwinger",
+          "Koerier",
+          "Exotische Goederenhandelaar",
+          "Informatieverkopr",
+          "Marktorganisator"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Rare Goods Procurement",
+            "description": "The vendors can source almost anything that isn't available through legitimate channels — exotic materials, restricted alchemical components, banned books or unusual weapons."
+          },
+          {
+            "name": "Information Brokerage",
+            "description": "The market's information seller knows what other factions are buying and selling, who is looking for what, and what secrets are currently trading hands in the city."
+          },
+          {
+            "name": "No-Questions Sales",
+            "description": "The market will buy any item the party wants to sell, regardless of origin or legal status, at a fair if slightly reduced rate."
+          },
+          {
+            "name": "Specialist Equipment",
+            "description": "The market stocks equipment that isn't available in regular shops — grappling hooks, climbing gear, disguise kits, alchemist's fire, poison antidotes and more."
+          },
+          {
+            "name": "Auction Access",
+            "description": "With the right introduction, the market can grant the party access to a private auction where extraordinary items, rare knowledge and unusual services come up for sale."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Zeldzame Goederen",
+            "description": "De handelaars kunnen vrijwel alles verschaffen dat niet via legitieme kanalen beschikbaar is — exotische materialen, beperkte alchemische componenten, verboden boeken of ongewone wapens."
+          },
+          {
+            "name": "Informatiemakelaarij",
+            "description": "De informatieverkoper weet wat andere facties kopen en verkopen, wie wat zoekt en welke geheimen er momenteel circuleren in de stad."
+          },
+          {
+            "name": "Geen Vragen Verkoop",
+            "description": "De markt koopt elk item dat de party wil verkopen, ongeacht herkomst of juridische status, voor een eerlijke maar iets verlaagde prijs."
+          },
+          {
+            "name": "Specialistisch Materiaal",
+            "description": "De markt verkoopt materiaal dat niet in reguliere winkels te vinden is — enterhaken, klimuitrusting, vermomssets, alchemistenvuur, gifantitiotten en meer."
+          },
+          {
+            "name": "Veilingtoegang",
+            "description": "Met de juiste introductie regelt de markt toegang tot een privéveiling waar buitengewone items, zeldzame kennis en ongewone diensten worden aangeboden."
+          }
+        ]
+      }
+    },
+    {
+      "id": "burglary_ring",
+      "nl": "Inbraaksyndicaat",
+      "en": "Burglary Ring",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "trade",
+        "holy",
+        "military"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "mountains"
+      ],
+      "minSize": 2,
+      "scaleMin": 4,
+      "scaleMax": 20,
+      "operationStyle": {
+        "nl": [
+          "specialiseert in inbraken in rijke woningen en opslagplaatsen",
+          "gebruikt verkenners die zich voordoen als handelaars of bedienden",
+          "plant mollen in huishoudens van rijke families"
+        ],
+        "en": [
+          "specialises in breaking into wealthy homes and storage facilities",
+          "uses scouts posing as merchants or servants",
+          "plants moles in the households of wealthy families"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Laten altijd één klein voorwerp precies één centimeter verschoven achter als handelsmerk.",
+          "Gebruiken uitgebreide verkenning — een doelwit wordt minimaal twee weken geobserveerd.",
+          "Hebben gespecialiseerde rollen: sloten, alarmering, vluchtwegen en heler zijn altijd gescheiden.",
+          "Plegen nooit geweld — als er iemand thuis is, vertrekken ze en keren later terug.",
+          "Bewaren een gedetailleerde plattegrond van elk gebouw dat ze ooit hebben betreden."
+        ],
+        "en": [
+          "They always leave one small object exactly one centimetre out of place as a trademark.",
+          "They use extensive reconnaissance — a target is observed for at least two weeks.",
+          "They have specialised roles: locks, alarms, escape routes and fencing are always separate.",
+          "They never use violence — if someone is home, they leave and return later.",
+          "They keep a detailed floor plan of every building they have ever entered."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "De Inbreker",
+          "Meester der Sloten",
+          "De Schim",
+          "Huismeester",
+          "De Sleutelhouder"
+        ],
+        "en": [
+          "The Burglar",
+          "Master of Locks",
+          "The Phantom",
+          "House Master",
+          "The Keyholder"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Lockpick",
+          "Safecracker",
+          "Roof Runner",
+          "Fence",
+          "Scout / Surveyor",
+          "Getaway Driver",
+          "Alarm Disabler",
+          "Inside Man",
+          "Lookout",
+          "Planner"
+        ],
+        "nl": [
+          "Slotenopener",
+          "Kraakspecialist",
+          "Dakrenner",
+          "Heler",
+          "Verkenner",
+          "Vluchtrijder",
+          "Alarmuitschakelaar",
+          "Insider",
+          "Uitkijk",
+          "Planner"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Location Survey",
+            "description": "The ring's scouts will conduct a full surveillance of any target building — mapping entry points, guard patterns, alarm systems and the location of valuables."
+          },
+          {
+            "name": "Alarm Disabling",
+            "description": "The ring's alarm specialist can accompany the party or brief them on how to disable common magical and mechanical alarm systems."
+          },
+          {
+            "name": "Getaway Planning",
+            "description": "The ring's planner maps a complete escape route from any target location, including backup exits and prearranged safe drop points."
+          },
+          {
+            "name": "Fence Network",
+            "description": "The ring can move stolen goods through their trusted fence network, ensuring the party receives fair value without exposure."
+          },
+          {
+            "name": "Inside Man Placement",
+            "description": "Given enough time, the ring can place an insider in the target location — a servant, guard or clerk who can pass information and leave doors unlocked."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Locatieonderzoek",
+            "description": "De verkenners van de ring onderzoeken elk doelwitgebouw volledig — toegangspunten, bewakerspatronen, alarmsystemen en de locatie van waardevolle spullen."
+          },
+          {
+            "name": "Alarmuitschakeling",
+            "description": "De alarmspecialist begeleidt de party of informeert hen over het uitschakelen van veelvoorkomende magische en mechanische alarmsystemen."
+          },
+          {
+            "name": "Vluchtplanning",
+            "description": "De planner maakt een complete ontsnappingsroute vanuit elk doelwit, inclusief reserveuitgangen en vooraf afgesproken veilige dropplaatsen."
+          },
+          {
+            "name": "Helernetwerk",
+            "description": "De ring verplaatst gestolen goederen via hun vertrouwde helernetwerk zodat de party eerlijke waarde ontvangt zonder risico op ontdekking."
+          },
+          {
+            "name": "Insider Plaatsing",
+            "description": "Met genoeg tijd plaatst de ring een insider in het doelwit — een bediende, bewaker of klerk die informatie doorgeeft en deuren onvergrendeld laat."
+          }
+        ]
+      }
+    },
+    {
+      "id": "street_gang",
+      "nl": "Straatbende",
+      "en": "Local Street Gang",
+      "weight": 4,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "cursed",
+        "pirate"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "grasslands",
+        "temperate_forest",
+        "swamp"
+      ],
+      "minSize": 1,
+      "scaleMin": 6,
+      "scaleMax": 30,
+      "operationStyle": {
+        "nl": [
+          "controleert een specifieke wijk of straat in de stad",
+          "int beschermingsgeld van winkeliers en bewoners",
+          "vecht territoriumoorlogen met rivaliserende bendes"
+        ],
+        "en": [
+          "controls a specific district or street in the city",
+          "collects protection money from shopkeepers and residents",
+          "fights territory wars with rival gangs"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Draagt herkenbare kleuren, sjaals, sieraden of graffiti-symbolen.",
+          "Heeft een obsessieve rivaliteit met een andere buurtbende.",
+          "Beschouwt een specifieke straat, brug of markt als heilig terrein.",
+          "Spreekt in unieke slang of codetaal.",
+          "Hun leider is verrassend jong, oud of onverwacht beleefd."
+        ],
+        "en": [
+          "They wear recognisable colours, scarves, jewellery or graffiti symbols.",
+          "They have an obsessive rivalry with another neighbourhood gang.",
+          "They regard a specific street, bridge or market as sacred territory.",
+          "They speak in unique slang or a coded language.",
+          "Their leader is surprisingly young, old or unexpectedly well-mannered."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "De Baas",
+          "Bendehoofd",
+          "Blokvorst/-vorstin",
+          "Straatkapitein",
+          "De Topper"
+        ],
+        "en": [
+          "Boss",
+          "Crew Chief",
+          "Block King / Queen",
+          "Street Captain",
+          "The Top Dog"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Enforcer",
+          "Drug Runner",
+          "Lookout",
+          "Collector",
+          "Graffiti Marker",
+          "Territory Guard",
+          "Brawler",
+          "Recruiter",
+          "Messenger",
+          "Street Boss"
+        ],
+        "nl": [
+          "Afdwinger",
+          "Drugskoerier",
+          "Uitkijk",
+          "Incasseerder",
+          "Graffitimarker",
+          "Territoriumbewaker",
+          "Vechtbaas",
+          "Werver",
+          "Boodschapper",
+          "Straatbas"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Muscle for Hire",
+            "description": "The gang can provide several armed members to accompany the party as intimidating backup during negotiations, confrontations or debt collection."
+          },
+          {
+            "name": "Street Intelligence",
+            "description": "The gang's network of lookouts and locals know everything happening in their territory — who came through, what was said and where anyone is hiding."
+          },
+          {
+            "name": "Safe Passage",
+            "description": "The gang guarantees the party can move through their territory without being hassled, robbed or challenged — worth more than it sounds in a rough neighbourhood."
+          },
+          {
+            "name": "Distraction Brawl",
+            "description": "For a fee, the gang will start a loud, convincing brawl in any specified location to draw guards, crowds or attention away from where the party is operating."
+          },
+          {
+            "name": "Messenger Service",
+            "description": "The gang's messengers can deliver anything — notes, packages or people — quickly and discreetly to anywhere within the city."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Huurspierbundels",
+            "description": "De bende levert gewapende leden als intimiderende rugdekking tijdens onderhandelingen, confrontaties of schuldinning."
+          },
+          {
+            "name": "Straatinformatie",
+            "description": "Het netwerk van uitkijkposten en lokale leden weet alles wat er in hun territorium gebeurt — wie er langskwam, wat er gezegd werd en waar iemand zich schuilhoudt."
+          },
+          {
+            "name": "Veilig Geleid",
+            "description": "De bende garandeert dat de party door hun territorium kan bewegen zonder lastiggevallen, beroofd of uitgedaagd te worden."
+          },
+          {
+            "name": "Afleidingsvechtpartij",
+            "description": "De bende start een luide, overtuigende vechtpartij op een opgegeven locatie om bewakers, menigtes of aandacht weg te trekken van waar de party opereert."
+          },
+          {
+            "name": "Bezorgservice",
+            "description": "De boodschappers bezorgen alles — briefjes, pakketjes of personen — snel en discreet overal in de stad."
+          }
+        ]
+      }
+    },
+    {
+      "id": "assassins_guild",
+      "nl": "Moordenaarsgilde",
+      "en": "Assassins Guild",
+      "weight": 1,
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "magic",
+        "cursed"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "underground",
+        "mountains"
+      ],
+      "minSize": 4,
+      "scaleMin": 8,
+      "scaleMax": 40,
+      "operationStyle": {
+        "nl": [
+          "neemt contracten aan voor politieke moorden en wraakacties",
+          "opereert in absolute geheimhouding — leden kennen elkaars identiteit niet",
+          "heeft schuilplaatsen verspreid over de stad en omgeving"
+        ],
+        "en": [
+          "takes contracts for political assassinations and revenge killings",
+          "operates in absolute secrecy — members do not know each other's identity",
+          "has safe houses scattered throughout the city and surroundings"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Iedere moord moet een uniek artistiek element bevatten.",
+          "Contracten worden alleen aangenomen via een complex ritueel of codezin.",
+          "Leden kennen elkaars echte identiteit nooit.",
+          "Gebruiken steeds hetzelfde visitekaartje, symbool of doodsteken.",
+          "Hebben een strikte filosofische code over waardige en onwaardige doelwitten."
+        ],
+        "en": [
+          "Every kill must contain a unique artistic element.",
+          "Contracts are only accepted through a complex ritual or code phrase.",
+          "Members never know each other's true identity.",
+          "They always use the same calling card, symbol or killing method.",
+          "They have a strict philosophical code about worthy and unworthy targets."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Grootmeester",
+          "Het Stille Mes",
+          "Eerste Kling",
+          "De Beul",
+          "Meester der Schaduwen"
+        ],
+        "en": [
+          "Grandmaster",
+          "The Quiet Knife",
+          "First Blade",
+          "The Executioner",
+          "Master of Shadows"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Contract Killer",
+          "Poison Master",
+          "Tracker",
+          "Disguise Specialist",
+          "Information Gatherer",
+          "Cleaner",
+          "Alibi Forger",
+          "Weaponsmith",
+          "Handler",
+          "Master Assassin"
+        ],
+        "nl": [
+          "Huurmoordenaar",
+          "Gifmeester",
+          "Spoorzoeker",
+          "Vermommingsspecialist",
+          "Informatieverzamelaar",
+          "Opruimer",
+          "Alibivervager",
+          "Wapensmid",
+          "Contactpersoon",
+          "Meestersmoordenaar"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Contract Killing",
+            "description": "The guild accepts contracts on specific targets. Price varies by target's importance, security arrangements and desired method. The guild guarantees clean, untraceable results."
+          },
+          {
+            "name": "Poison Dealer",
+            "description": "The guild's poison master sells a range of malicious concoctions — sleep potions, knockout drops, sedatives, memory blockers, contact poisons and substances that simulate death."
+          },
+          {
+            "name": "Disappearance",
+            "description": "The guild can make a person vanish — transported, imprisoned in a hidden location or simply made to look dead. No permanent harm required."
+          },
+          {
+            "name": "Threat Delivery",
+            "description": "The guild will deliver a highly convincing threat to any target — a warning that makes clear what will happen if certain conditions are not met. Usually sufficient on its own."
+          },
+          {
+            "name": "Disguise Specialist",
+            "description": "The guild's disguise expert can transform any party member into a convincing version of almost anyone else, including specific known individuals."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Huurmoord",
+            "description": "Het gilde accepteert contracten op specifieke doelwitten. Prijs varieert per belang van het doelwit, beveiligingsarrangementen en gewenste methode. Het gilde garandeert schone, niet-traceerbare resultaten."
+          },
+          {
+            "name": "Gifdealer",
+            "description": "De gifmeester verkoopt een reeks kwaadaardige mengsels — slaapdrankjes, bewusteloosheidsdruppels, kalmerende middelen, geheugenblokkers, contactgiften en stoffen die de dood simuleren."
+          },
+          {
+            "name": "Verdwijning",
+            "description": "Het gilde laat een persoon verdwijnen — getransporteerd, opgesloten op een verborgen locatie of gewoon dood laten lijken. Permanente schade niet vereist."
+          },
+          {
+            "name": "Dreigement Levering",
+            "description": "Het gilde bezorgt een zeer overtuigend dreigement aan elk doelwit — een waarschuwing die duidelijk maakt wat er gebeurt als bepaalde voorwaarden niet worden nagekomen."
+          },
+          {
+            "name": "Vermommingsspecialist",
+            "description": "De vermommingsexpert transformeert elk partylid in een overtuigende versie van vrijwel iedereen anders, inclusief specifieke bekende personen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spy_network",
+      "nl": "Spionagenetwerk",
+      "en": "Spy Network",
+      "weight": 1,
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "holy",
+        "magic"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal"
+      ],
+      "minSize": 4,
+      "scaleMin": 10,
+      "scaleMax": 50,
+      "operationStyle": {
+        "nl": [
+          "verzamelt inlichtingen voor buitenlandse machten of rivaliserende facties",
+          "heeft infiltranten in het stadsbestuur, de gildjes en de kerk",
+          "verkoopt informatie aan de hoogste bieder"
+        ],
+        "en": [
+          "gathers intelligence for foreign powers or rival factions",
+          "has infiltrators in the city council, guilds and church",
+          "sells information to the highest bidder"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Opereren via schijnbaar onschuldige beroepen zoals bakkers, kappers of priesters.",
+          "Berichten zijn verborgen in liederen, recepten of religieuze teksten.",
+          "Agenten kennen slechts één schakel boven en onder hen.",
+          "Gebruiken een schijnbaar belachelijk wachtwoordensysteem met spreekwoorden.",
+          "Hun leider bestaat mogelijk alleen als mythe of codenaam."
+        ],
+        "en": [
+          "They operate through seemingly innocent professions — bakers, barbers, priests.",
+          "Messages are hidden in songs, recipes or religious texts.",
+          "Agents know only one link above and one below them.",
+          "They use an apparently ridiculous password system based on proverbs.",
+          "Their leader may exist only as a myth or code name."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Spionmeester",
+          "De Luisteraar",
+          "De Onzichtbare Hand",
+          "Cijfermeester",
+          "De Raaf"
+        ],
+        "en": [
+          "Spymaster",
+          "The Listener",
+          "The Invisible Hand",
+          "Ciphermaster",
+          "The Raven"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Field Agent",
+          "Informant",
+          "Cipher Expert",
+          "Code Courier",
+          "Interrogator",
+          "Infiltrator",
+          "Double Agent Handler",
+          "Analyst",
+          "Forgery Specialist",
+          "Spymaster's Liaison"
+        ],
+        "nl": [
+          "Veldagent",
+          "Informant",
+          "Coderingsexpert",
+          "Codekoerier",
+          "Ondervrager",
+          "Infiltrant",
+          "Dubbelagentleider",
+          "Analist",
+          "Vervalsingsspecialist",
+          "Spionmeesters Verbindingsofficier"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Intelligence Dossier",
+            "description": "The network's analysts will compile a detailed dossier on any individual, organisation or location — including secrets, schedules, relationships and known vulnerabilities."
+          },
+          {
+            "name": "Cipher Services",
+            "description": "The network's cipher expert can encode messages the party wants to send securely, or decode intercepted messages they cannot read themselves."
+          },
+          {
+            "name": "Infiltrator Placement",
+            "description": "The network can place an operative inside any organisation the party specifies, extracting information over a period of weeks and reporting back."
+          },
+          {
+            "name": "Counter-Surveillance",
+            "description": "The network can determine if the party is being watched, by whom and why — and arrange for that surveillance to be disrupted or misdirected."
+          },
+          {
+            "name": "Safe Communication",
+            "description": "The network provides access to their dead drop system — a series of hidden message locations across the city that allow completely untraceable communication."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Inlichtingendossier",
+            "description": "De netwerkanalistsen stellen een gedetailleerd dossier op over elk individu, organisatie of locatie — inclusief geheimen, schema's, relaties en bekende kwetsbaarheden."
+          },
+          {
+            "name": "Coderingsdiensten",
+            "description": "De coderingsexpert codeert berichten die de party veilig wil versturen, of decodeert onderschepte berichten die ze zelf niet kunnen lezen."
+          },
+          {
+            "name": "Infiltrantplaatsing",
+            "description": "Het netwerk plaatst een operatief binnen elke organisatie die de party opgeeft, informatie extractend over weken en rapporterend terug."
+          },
+          {
+            "name": "Tegenbewaking",
+            "description": "Het netwerk bepaalt of de party wordt geobserveerd, door wie en waarom — en regelt dat die bewaking wordt verstoord of verkeerd gericht."
+          },
+          {
+            "name": "Veilige Communicatie",
+            "description": "Het netwerk biedt toegang tot hun systeem van dode brievenbussen — verborgen berichtlocaties door de stad die volledig niet-traceerbare communicatie mogelijk maken."
+          }
+        ]
+      }
+    },
+    {
+      "id": "crime_family",
+      "nl": "Misdaadfamilie",
+      "en": "Crime Family",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "military",
+        "mining"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "grasslands",
+        "temperate_forest"
+      ],
+      "minSize": 5,
+      "scaleMin": 15,
+      "scaleMax": 80,
+      "operationStyle": {
+        "nl": [
+          "controleert meerdere criminele activiteiten tegelijk via familiebanden",
+          "heeft legale frontbedrijven als dekmantel voor criminele operaties",
+          "lost conflicten op via onderhandelingen — geweld is een laatste redmiddel"
+        ],
+        "en": [
+          "controls multiple criminal activities simultaneously through family ties",
+          "has legitimate front businesses as a cover for criminal operations",
+          "resolves conflicts through negotiation — violence is a last resort"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Familiediners functioneren als strategische bestuursvergaderingen.",
+          "Obsessieve nadruk op eer, schuld en loyaliteit.",
+          "Iedereen draagt een familiering, medaillon, tatoeage of herkenningsteken.",
+          "Publiekelijk profileren ze zich als gerespecteerde burgers.",
+          "Hebben een langdurige bloedvete met een andere familie."
+        ],
+        "en": [
+          "Family dinners function as strategic board meetings.",
+          "They have an obsessive emphasis on honour, debt and loyalty.",
+          "Everyone wears a family ring, medallion, tattoo or identifying mark.",
+          "Publicly they present themselves as respected citizens.",
+          "They maintain a long-standing blood feud with another family."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Don / Donna",
+          "Patriarch / Matriarch",
+          "Capo Supremo",
+          "De Peetvader / Peetmoeder",
+          "Hoofd van het Huis"
+        ],
+        "en": [
+          "Don / Donna",
+          "Patriarch / Matriarch",
+          "Capo Supremo",
+          "The Godfather / Godmother",
+          "Head of the House"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Consigliere",
+          "Capo",
+          "Collector",
+          "Enforcer",
+          "Smuggling Coordinator",
+          "Accountant",
+          "Bribery Specialist",
+          "Family Lawyer",
+          "Bodyguard",
+          "Heir Apparent"
+        ],
+        "nl": [
+          "Raadgever",
+          "Capo",
+          "Incasseerder",
+          "Afdwinger",
+          "Smokkelcoördinator",
+          "Boekhouder",
+          "Omkoopspecialist",
+          "Familieadvocaat",
+          "Lijfwacht",
+          "Erfgenaam"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Legal Protection",
+            "description": "The family's lawyer can make criminal charges disappear, witnesses recant or judges recuse themselves. Useful when the party has gotten themselves into legal trouble."
+          },
+          {
+            "name": "Debt Collection",
+            "description": "If someone owes the party money, goods or a favour and refuses to pay, the family's collectors will persuade them — convincingly and with minimal fuss."
+          },
+          {
+            "name": "Political Influence",
+            "description": "The family can arrange a meeting with, apply pressure on, or deliver a message to almost any official, noble or guild leader in the city."
+          },
+          {
+            "name": "Safe House",
+            "description": "The family provides a secure, comfortable location where the party can lie low, rest and plan without fear of discovery or interruption."
+          },
+          {
+            "name": "Money Laundering",
+            "description": "The family can convert suspicious wealth — stolen gold, unregistered gems, illegal goods — into clean, legitimate currency with no awkward paper trail."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Juridische Bescherming",
+            "description": "De familieadvocaat laat criminele aanklachten verdwijnen, getuigen hun verklaring intrekken of rechters zich wraken. Nuttig als de party juridisch in de problemen zit."
+          },
+          {
+            "name": "Schuldinning",
+            "description": "Als iemand de party geld, goederen of een gunst schuldig is en weigert te betalen, overtuigen de familie-incassospecialisten hen — overtuigend en met minimale ophef."
+          },
+          {
+            "name": "Politieke Invloed",
+            "description": "De familie kan een ontmoeting regelen met, druk uitoefenen op of een boodschap bezorgen aan vrijwel elke ambtenaar, edelman of gildeleider in de stad."
+          },
+          {
+            "name": "Schuilhuis",
+            "description": "De familie levert een veilige, comfortabele locatie waar de party laag kan duiken, rusten en plannen zonder angst voor ontdekking."
+          },
+          {
+            "name": "Witwassen",
+            "description": "De familie converteert verdacht vermogen — gestolen goud, niet-geregistreerde edelstenen, illegale goederen — naar schone, legitieme valuta zonder spoor van bewijs."
+          }
+        ]
+      }
+    },
+    {
+      "id": "drug_peddlers",
+      "nl": "Drugshandelaars",
+      "en": "Drug Peddlers",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "harbour",
+        "trade",
+        "cursed",
+        "pirate"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "jungle",
+        "swamp",
+        "feywild"
+      ],
+      "minSize": 2,
+      "scaleMin": 5,
+      "scaleMax": 35,
+      "operationStyle": {
+        "nl": [
+          "distribueert magische of alchemistische middelen via een netwerk van straatverkopers",
+          "gebruikt herbergen en apotheken als dekmantelverkooppunten",
+          "importeert grondstoffen via smokkelroutes"
+        ],
+        "en": [
+          "distributes magical or alchemical substances via a network of street dealers",
+          "uses inns and apothecaries as front-facing sales points",
+          "imports raw materials via smuggling routes"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Produceren hun middelen volgens bijna religieuze recepten.",
+          "Gebruiken verslavende producten als betaalmiddel.",
+          "Testen nieuwe substanties eerst op vrijwilligers, schuldenaren of gevangenen.",
+          "Hun producten hebben kleurrijke straatnamen en iconen.",
+          "Zijn geobsedeerd door geheimhouding rond hun ingrediëntenbron."
+        ],
+        "en": [
+          "They produce their substances according to near-religious recipes.",
+          "They use addictive products as currency.",
+          "They test new substances first on volunteers, debtors or prisoners.",
+          "Their products have colourful street names and icons.",
+          "They are obsessed with secrecy around their source of ingredients."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Apothekerskoning/-koningin",
+          "Brouwmeester",
+          "De Leverancier",
+          "De Chemicus",
+          "Meester Distilleerder"
+        ],
+        "en": [
+          "Apothecary King / Queen",
+          "Brewmaster",
+          "The Supplier",
+          "The Chemist",
+          "Master Distiller"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Chemist / Alchemist",
+          "Ingredient Supplier",
+          "Street Dealer",
+          "Distributor",
+          "Lab Guard",
+          "Recipe Keeper",
+          "Courier",
+          "Debt Collector",
+          "Addict Recruiter",
+          "Brewmaster"
+        ],
+        "nl": [
+          "Chemicus / Alchemist",
+          "Grondstoffenleverancier",
+          "Straatdealer",
+          "Distributeur",
+          "Labbewaker",
+          "Receptbeheerder",
+          "Koerier",
+          "Schuldinnerder",
+          "Verslaafdeenwerver",
+          "Brouwmeester"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Poison Dealer",
+            "description": "The peddlers sell a range of alchemical substances — sleep potions, knockout drops, truth serums, paralytic agents, hallucinogens and substances that simulate death convincingly."
+          },
+          {
+            "name": "Performance Enhancers",
+            "description": "The chemist produces substances that temporarily enhance strength, speed, focus or pain resistance — useful before a dangerous encounter, at a cost to be paid afterward."
+          },
+          {
+            "name": "Antidotes",
+            "description": "The brewmaster stocks antidotes for most common poisons and some magical afflictions — provided you can afford them and know which one you need."
+          },
+          {
+            "name": "Truth Serum",
+            "description": "A specially prepared substance that makes the target highly suggestible and talkative for a period of time — useful for interrogation, though effects vary."
+          },
+          {
+            "name": "Custom Brew",
+            "description": "Given time and the right ingredients, the chemist will formulate a custom substance to specification — a specific effect, duration and delivery method as required."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Gifdealer",
+            "description": "De handelaars verkopen een reeks alchemische stoffen — slaapdrankjes, bewusteloosheidsdruppels, waarheidssera, verlammende middelen, hallucinogenen en stoffen die de dood overtuigend simuleren."
+          },
+          {
+            "name": "Prestatieversterkende Middelen",
+            "description": "De chemicus produceert stoffen die tijdelijk kracht, snelheid, concentratie of pijnresistentie versterken — nuttig voor een gevaarlijke confrontatie, maar met een prijs achteraf."
+          },
+          {
+            "name": "Antitiotten",
+            "description": "De brouwmeester heeft antidota voor de meeste veelvoorkomende giften en sommige magische aandoeningen — mits je ze kunt betalen en weet welke je nodig hebt."
+          },
+          {
+            "name": "Waarheidsserum",
+            "description": "Een speciaal bereid middel dat het doelwit gedurende een periode zeer suggestibel en spraakzaam maakt — nuttig voor verhoor, hoewel de effecten variëren."
+          },
+          {
+            "name": "Maatwerkmengsel",
+            "description": "Met tijd en de juiste ingrediënten formuleert de chemicus een maatwerkstof naar specificaties — een specifiek effect, duur en toedieningswijze zoals gevraagd."
+          }
+        ]
+      }
+    },
+    {
+      "id": "fighting_pit",
+      "nl": "Vechtputcircuit",
+      "en": "Fighting Pit Circuit",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "military",
+        "trade",
+        "harbour",
+        "pirate"
+      ],
+      "biomeAffinities": [
+        "grasslands",
+        "coastal",
+        "underground"
+      ],
+      "minSize": 3,
+      "scaleMin": 10,
+      "scaleMax": 50,
+      "operationStyle": {
+        "nl": [
+          "organiseert illegale vechtspelen in kelders en verlaten gebouwen",
+          "heeft een netwerk van gokkers, bookmakers en omgekochte gokkers",
+          "rekruteert vechters via schulden, dwang of hebzucht"
+        ],
+        "en": [
+          "organises illegal fights in cellars and abandoned buildings",
+          "has a network of gamblers, bookmakers and bribed fighters",
+          "recruits fighters through debt, coercion or greed"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Iedere arena heeft bizarre huisregels of thema's.",
+          "Wedstrijden worden soms stiekem gefixt.",
+          "Kampioenen krijgen extravagante titels, maskers of bijnamen.",
+          "Gevechten gaan gepaard met een enorme gokcultuur.",
+          "Organisatoren verzamelen obsessief zeldzame vechters of monsters."
+        ],
+        "en": [
+          "Every arena has bizarre house rules or themes.",
+          "Matches are sometimes secretly fixed.",
+          "Champions receive extravagant titles, masks or nicknames.",
+          "Fights are accompanied by a massive gambling culture.",
+          "The organisers obsessively collect rare fighters or monsters."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Kuilmeester",
+          "Arenavoord/-vrouwe",
+          "De Koppelaar",
+          "Groot Kampioen",
+          "Meester der Kettingen"
+        ],
+        "en": [
+          "Pitmaster",
+          "Arena Lord / Lady",
+          "The Matchmaker",
+          "Grand Champion",
+          "Master of Chains"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Matchmaker",
+          "Gladiator Trainer",
+          "Gambler Liaison",
+          "Monster Handler",
+          "Pit Announcer",
+          "Medic / Bone Setter",
+          "Arena Guard",
+          "Fixer",
+          "Champion Manager",
+          "Bookmaker"
+        ],
+        "nl": [
+          "Koppelaar",
+          "Gladiatortrainer",
+          "Gokcontactpersoon",
+          "Monsterbewaker",
+          "Arenaomroeper",
+          "Medicus / Bottenzetster",
+          "Arenabewaker",
+          "Fixer",
+          "Kampioenenbeheerder",
+          "Bookmaker"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Combat Training",
+            "description": "The arena's gladiator trainer will work with any party member willing to put in the time, improving their fighting technique and granting advantage on a specific combat manoeuvre."
+          },
+          {
+            "name": "Gambling Tips",
+            "description": "The circuit's fixer knows which fights are fixed and which aren't — for a fee, they'll share that information before the betting closes."
+          },
+          {
+            "name": "Arena Contacts",
+            "description": "The promoter can arrange a meeting with any fighter, trainer or monster handler connected to the circuit — useful for finding specific individuals or rare creatures."
+          },
+          {
+            "name": "Muscle Hire",
+            "description": "Retired or between-contract fighters can be hired as bodyguards, enforcers or combat backup for the party's more dangerous operations."
+          },
+          {
+            "name": "Monster Procurement",
+            "description": "The circuit's monster handler has connections for sourcing unusual creatures — not for sale exactly, but arrangements can be made for the right price."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Gevechtsstraining",
+            "description": "De gladiatortrainer werkt met elk partylid dat de tijd erin wil steken, verbetert hun vechtechniek en geeft voordeel op een specifieke gevechtsmaneuvre."
+          },
+          {
+            "name": "Gokktips",
+            "description": "De fixer weet welke gevechten gemanipuleerd zijn en welke niet — voor een vergoeding deelt hij die informatie voor de wedkantoren sluiten."
+          },
+          {
+            "name": "Arenacontacten",
+            "description": "De promotor regelt een ontmoeting met elke vechter, trainer of monsterbewaker verbonden aan het circuit — nuttig voor het vinden van specifieke personen of zeldzame wezens."
+          },
+          {
+            "name": "Huurkrachten",
+            "description": "Gepensioneerde of tussen-contract-vechtende arenaleden kunnen worden ingehuurd als lijfwachten, afdwingers of gevechtsbegeleiding voor de gevaarlijkere operaties van de party."
+          },
+          {
+            "name": "Monstersaanschaf",
+            "description": "De monsterbewaker heeft contacten voor het verkrijgen van ongewone wezens — niet precies te koop, maar regelingen zijn mogelijk voor de juiste prijs."
+          }
+        ]
+      }
+    },
+    {
+      "id": "contraband",
+      "nl": "Contrabande Handelaars",
+      "en": "Contraband Traffickers",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "harbour",
+        "trade",
+        "pirate",
+        "military"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "jungle",
+        "swamp"
+      ],
+      "minSize": 3,
+      "scaleMin": 10,
+      "scaleMax": 60,
+      "operationStyle": {
+        "nl": [
+          "smokkelt verboden goederen over grote afstanden via karavanen en schepen",
+          "heeft contacten in meerdere steden en landen",
+          "corrumpeert grensbeambten, havenmeesters en tolwachters"
+        ],
+        "en": [
+          "smuggles forbidden goods over long distances via caravans and ships",
+          "has contacts in multiple cities and countries",
+          "corrupts border officials, harbour masters and toll guards"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Specialiseren zich obsessief in één soort illegale waar.",
+          "Gebruiken een onverwacht transportmiddel zoals bakkerijkarren, begrafenisstoeten of kloosters.",
+          "Vernietigen bewijs met bijna paranoïde precisie.",
+          "Werken met ingewikkelde tussenpersonenstructuren.",
+          "Houden nauwkeurige logistieke dossiers alsof ze een legitiem handelsbedrijf zijn."
+        ],
+        "en": [
+          "They obsessively specialise in one type of illegal goods.",
+          "They use unexpected transport — bakery carts, funeral processions, monasteries.",
+          "They destroy evidence with near-paranoid precision.",
+          "They operate through complex intermediary structures.",
+          "They keep accurate logistics records as if they were a legitimate trading company."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Handelsbaron",
+          "De Smokkelvorst/-vorstin",
+          "Vrachtmeester",
+          "De Verborgen Koopman",
+          "De Routekoning/-koningin"
+        ],
+        "en": [
+          "Trade Baron",
+          "The Smuggling Lord / Lady",
+          "Freightmaster",
+          "The Hidden Merchant",
+          "The Route King / Queen"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Cargo Broker",
+          "Hidden Shipment Planner",
+          "Bribe Negotiator",
+          "Warehouse Keeper",
+          "Route Scout",
+          "Courier Captain",
+          "Customs Infiltrator",
+          "Forged Manifest Writer",
+          "Distribution Chief",
+          "Smuggling Financier"
+        ],
+        "nl": [
+          "Laadmakelaar",
+          "Verborgen Ladingplanner",
+          "Omkooponderhandelaar",
+          "Pakhuisbeheerder",
+          "Routeverkennmer",
+          "Koeriers Kapitein",
+          "Douane-infiltrant",
+          "Valse Vrachtbriefschrijver",
+          "Distributiehoofd",
+          "Smokkelfinancier"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Long-Distance Transport",
+            "description": "The traffickers will move any cargo across long distances — between cities, across borders or overseas — using their established smuggling routes and corrupt official contacts."
+          },
+          {
+            "name": "Restricted Goods",
+            "description": "The traffickers can source goods that are banned, rationed or controlled by local authorities — from weapons and alchemical components to restricted texts and forbidden materials."
+          },
+          {
+            "name": "Customs Clearance",
+            "description": "The traffickers' customs infiltrators can ensure a specific shipment passes through checkpoints without inspection — for the party or for anyone the party nominates."
+          },
+          {
+            "name": "Storage Facility",
+            "description": "The traffickers rent secure, climate-controlled warehouse space for goods the party needs to store, no questions asked about contents or ownership."
+          },
+          {
+            "name": "Forged Manifests",
+            "description": "The traffickers' document specialist produces convincing shipping manifests, import licenses and customs declarations that will satisfy almost any inspection."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Langeafstandstransport",
+            "description": "De handelaars verplaatsen elke lading over lange afstanden — tussen steden, over grenzen of over zee — via hun gevestigde smokkeleruotes en corrupte ambtenarcontacten."
+          },
+          {
+            "name": "Beperkte Goederen",
+            "description": "De handelaars verschaffen goederen die verboden, gerantsoeneerd of gecontroleerd zijn door lokale autoriteiten — van wapens en alchemische componenten tot beperkte teksten en verboden materialen."
+          },
+          {
+            "name": "Douaneclearance",
+            "description": "De douane-infiltranten zorgen ervoor dat een specifieke lading controleposten passeert zonder inspectie — voor de party of voor iedereen die de party aanwijst."
+          },
+          {
+            "name": "Opslagfaciliteit",
+            "description": "De handelaars verhuren veilige, klimaatgecontroleerde pakhuisruimte voor goederen die de party wil opslaan, geen vragen gesteld over inhoud of eigendom."
+          },
+          {
+            "name": "Valse Vrachtbrieven",
+            "description": "De documentspecialist produceert overtuigende vrachtmanifesten, importlicities en douaneaangiften die vrijwel elke inspectie doorstaan."
+          }
+        ]
+      }
+    },
+    {
+      "id": "religious_cult",
+      "nl": "Religieuze Sekte",
+      "en": "Religious Cult",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "holy",
+        "cursed",
+        "magic",
+        "fey"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "swamp",
+        "underground",
+        "feywild"
+      ],
+      "minSize": 2,
+      "scaleMin": 8,
+      "scaleMax": 100,
+      "operationStyle": {
+        "nl": [
+          "rekruteert kwetsbare of wanhopige mensen via beloften van verlossing",
+          "controleert leden via geheimen, schaamte en sociale isolatie",
+          "heeft een legale religieuze façade die criminele activiteiten dekt"
+        ],
+        "en": [
+          "recruits vulnerable or desperate people through promises of salvation",
+          "controls members through secrets, shame and social isolation",
+          "has a legal religious façade covering criminal activities"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Leden dragen een subtiel religieus symbool verborgen in kleding of sieraden.",
+          "Hebben een vreemde dagelijkse rituele gewoonte.",
+          "Werven vooral mensen met een specifiek trauma, beroep of sociale klasse.",
+          "Geloven dat misdaad onderdeel is van een hogere spirituele missie.",
+          "Hun leider claimt directe communicatie met een god, demon, relikwie of droomwezen."
+        ],
+        "en": [
+          "Members wear a subtle religious symbol hidden in clothing or jewellery.",
+          "They have a strange daily ritual habit.",
+          "They recruit primarily people with a specific trauma, profession or social class.",
+          "They believe crime is part of a higher spiritual mission.",
+          "Their leader claims direct communication with a god, demon, relic or dream entity."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Hogeprofeet/-profetes",
+          "De Stem",
+          "Groot Hiërofant",
+          "Herder der Gelovigen",
+          "De Uitverkorene"
+        ],
+        "en": [
+          "High Prophet / Prophetess",
+          "The Voice",
+          "Grand Hierophant",
+          "Shepherd of the Faithful",
+          "The Chosen One"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Ritual Leader",
+          "Recruiter",
+          "Doctrine Keeper",
+          "Sacrifice Coordinator",
+          "Cult Enforcer",
+          "Relic Keeper",
+          "Preacher / Evangelist",
+          "Hidden Cell Leader",
+          "Oracle / Vision Interpreter",
+          "Tithe Collector"
+        ],
+        "nl": [
+          "Rituaalleidster",
+          "Werver",
+          "Leerstellingbeheerder",
+          "Offercoördinator",
+          "Sekteafdwinger",
+          "Relikwiehouder",
+          "Prediker / Evangelist",
+          "Verborgen Celleidster",
+          "Orakel / Visioenduider",
+          "Tiende-inzamelaar"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Ritual Services",
+            "description": "The cult's ritual leader can perform ceremonies that produce genuine magical effects — blessings, curses, divinations or consecrations — for those willing to participate in their rites."
+          },
+          {
+            "name": "Sanctuary",
+            "description": "The cult offers genuine protection within their temple or commune — a place where the cult's influence means no guard, bounty hunter or rival will follow."
+          },
+          {
+            "name": "Oracle Reading",
+            "description": "The cult's oracle will interpret visions, dreams or omens for the party — the accuracy of the reading varies, but the information is often surprisingly useful."
+          },
+          {
+            "name": "Relic Access",
+            "description": "The cult's relic keeper can provide access to religious artefacts in their possession — some of which possess genuine magical properties that may be borrowed or rented."
+          },
+          {
+            "name": "Congregation Influence",
+            "description": "The cult can spread a specific message, story or rumour through its congregation — reaching large numbers of people quickly in a way that appears organic and credible."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Rituele Diensten",
+            "description": "De rituaalleidster voert ceremonies uit die echte magische effecten produceren — zegeningen, vervloekingen, waarzeggerijen of wijdingen — voor wie bereid is deel te nemen aan hun riten."
+          },
+          {
+            "name": "Asiel",
+            "description": "De sekte biedt echte bescherming binnen hun tempel of commune — een plek waar de invloed van de sekte betekent dat geen bewaker, premiejager of rivaal hen volgt."
+          },
+          {
+            "name": "Orakellezing",
+            "description": "Het orakel interpreteert visioenen, dromen of voortekenen voor de party — de nauwkeurigheid varieert, maar de informatie is vaak verrassend nuttig."
+          },
+          {
+            "name": "Relikwietoegang",
+            "description": "De relikwiehouder geeft toegang tot religieuze artefacten in hun bezit — sommige met echte magische eigenschappen die kunnen worden geleend of gehuurd."
+          },
+          {
+            "name": "Congregatie-invloed",
+            "description": "De sekte verspreidt een specifieke boodschap, verhaal of gerucht door haar congregatie — groot aantal mensen snel bereikend op een manier die organisch en geloofwaardig overkomt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "highway_robbers",
+      "nl": "Struikrovers",
+      "en": "Highway Robbers",
+      "weight": 3,
+      "cityTypeAffinities": [
+        "farming",
+        "trade",
+        "military"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "mountains",
+        "grasslands"
+      ],
+      "minSize": 1,
+      "scaleMin": 4,
+      "scaleMax": 20,
+      "operationStyle": {
+        "nl": [
+          "overvalt karavaanen en reizigers op afgelegen wegen",
+          "heeft schuilplaatsen in bossen en rotsspleten langs de handelsroutes",
+          "betaalt lokale boeren voor informatie over waardevolle transporten"
+        ],
+        "en": [
+          "ambushes caravans and travellers on remote roads",
+          "has hideouts in forests and rock crevices along trade routes",
+          "pays local farmers for information about valuable shipments"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Laten reizigers altijd genoeg eten en water achter om veilig verder te reizen.",
+          "Hebben vaste afpersingsovereenkomsten met rijke kooplieden die betalen voor vrijgeleide.",
+          "Kennen elke zijweg, schuilplaats en patrouilleroute in hun territorium uit het hoofd.",
+          "Één lid is altijd vermommd als gewone reiziger om doelwitten vooruit te verkennen.",
+          "Hebben een bijgelovig ritueel voor en na elke overval."
+        ],
+        "en": [
+          "They always leave travellers enough food and water to continue safely.",
+          "They have fixed extortion agreements with wealthy merchants who pay for safe passage.",
+          "They know every side road, hiding spot and patrol route in their territory by heart.",
+          "One member is always disguised as an ordinary traveller to scout targets ahead.",
+          "They have a superstitious ritual before and after every ambush."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Roversbende Hoofd",
+          "De Wegvorst",
+          "Struikroverskapitein",
+          "Meester der Paden",
+          "De Tolheffer"
+        ],
+        "en": [
+          "Bandit Chief",
+          "The Road Lord",
+          "Highwayman Captain",
+          "Master of Paths",
+          "The Toll Taker"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Scout / Road Watcher",
+          "Ambush Leader",
+          "Lookout",
+          "Getaway Guide",
+          "Fence",
+          "Hostage Handler",
+          "Tracker",
+          "Safehouse Keeper",
+          "Loot Divider",
+          "Recruiter"
+        ],
+        "nl": [
+          "Verkenner / Wegwachter",
+          "Hinderlaagsleidster",
+          "Uitkijk",
+          "Vluchtgids",
+          "Heler",
+          "Gijzelaarsbewaker",
+          "Spoorzoeker",
+          "Schuilplaatsbeheerder",
+          "Buitverdeler",
+          "Werver"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Route Intelligence",
+            "description": "The robbers know every road in their territory intimately — patrol schedules, guard posts, ambush points and the safest paths between locations for those who pay for the knowledge."
+          },
+          {
+            "name": "Convoy Escort",
+            "description": "Ironically, the robbers will escort a party's cargo through their own territory for a fee — no one else dares attack a shipment under their protection."
+          },
+          {
+            "name": "Fence Network",
+            "description": "The robbers maintain a network of rural fences and traders who deal in goods without asking where they came from — useful for selling items far from where they were acquired."
+          },
+          {
+            "name": "Safe Passage",
+            "description": "For a negotiated fee, the robbers guarantee the party can travel through their territory unmolested, with a token that other groups in the region will recognise."
+          },
+          {
+            "name": "Ambush Arrangement",
+            "description": "The robbers will ambush any specific traveller, merchant or convoy the party wants intercepted — relieving them of valuables or simply stopping them from reaching their destination."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Routeinformatie",
+            "description": "De rovers kennen elk pad in hun territorium — patrouilleschema's, bewakersposten, hinderlaagpunten en de veiligste routes tussen locaties voor wie betaalt voor die kennis."
+          },
+          {
+            "name": "Konvooibegeleiding",
+            "description": "Ironisch genoeg begeleiden de rovers de lading van een party door hun eigen territorium — niemand anders durft een zending aan te vallen die onder hun bescherming staat."
+          },
+          {
+            "name": "Helernetwerk",
+            "description": "De rovers onderhouden een netwerk van landelijke helers en handelaars die goederen verhandelen zonder te vragen waar ze vandaan komen."
+          },
+          {
+            "name": "Veilig Geleid",
+            "description": "Voor een onderhandelde vergoeding garandeert de rover dat de party ongehinderd door hun territorium kan reizen, met een token dat andere groepen in de regio herkennen."
+          },
+          {
+            "name": "Hinderlaagregeling",
+            "description": "De rovers leggen een hinderlaag voor elke specifieke reiziger, koopman of konvooi die de party wil laten onderscheppen — hen beroven of simpelweg verhinderen hun bestemming te bereiken."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bandit_company",
+      "nl": "Bandieten Compagnie",
+      "en": "Bandit Company",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "military",
+        "farming",
+        "mining"
+      ],
+      "biomeAffinities": [
+        "mountains",
+        "grasslands",
+        "temperate_forest",
+        "arctic"
+      ],
+      "minSize": 3,
+      "scaleMin": 20,
+      "scaleMax": 100,
+      "operationStyle": {
+        "nl": [
+          "opereert als een semi-militaire organisatie met rangen en discipline",
+          "plundert dorpen en kleine steden die niet beschermd worden",
+          "huurt zichzelf soms uit als huurlingen voor betwistbare klussen"
+        ],
+        "en": [
+          "operates as a semi-military organisation with ranks and discipline",
+          "pillages villages and small towns that lack protection",
+          "sometimes hires itself out as mercenaries for questionable jobs"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Hanteert een strikte militaire hiërarchie met rangen, loon en discipline.",
+          "Elk lid draagt een uniform of kenteken van een nep-regiment.",
+          "Heeft een eigen chirurgijn, kok en proviandmeester voor lange campagnes.",
+          "Neemt soms legitieme huurlingsopdrachten aan als dekmantel.",
+          "De bevelhebber houdt gedetailleerde oorlogsdagboeken bij van elke operatie."
+        ],
+        "en": [
+          "They enforce a strict military hierarchy with ranks, pay and discipline.",
+          "Every member wears a uniform or insignia of a fake regiment.",
+          "They have their own surgeon, cook and quartermaster for long campaigns.",
+          "They sometimes take legitimate mercenary jobs as a cover.",
+          "The commander keeps detailed war journals of every operation."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Bevelhebber",
+          "Luitenant-Generaal",
+          "De Veldheer",
+          "Compagnieskapitein",
+          "Meester der Troepen"
+        ],
+        "en": [
+          "Commander",
+          "Lieutenant General",
+          "The Warlord",
+          "Company Captain",
+          "Master of the Ranks"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Lieutenant",
+          "Sergeant",
+          "Scout",
+          "Siege Specialist",
+          "Quartermaster",
+          "Medic",
+          "Cavalry Leader",
+          "Recruiter",
+          "Treasurer",
+          "Strategist"
+        ],
+        "nl": [
+          "Luitenant",
+          "Sergeant",
+          "Verkenner",
+          "Belegeringsspecialist",
+          "Kwartiermeester",
+          "Medicus",
+          "Cavalerieleider",
+          "Werver",
+          "Penningmeester",
+          "Strateeg"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Mercenary Hire",
+            "description": "The company offers its soldiers for hire — trained, disciplined fighters available for escort duty, siege support, bodyguard work or any other military application."
+          },
+          {
+            "name": "Siege Expertise",
+            "description": "The company's siege specialist can advise on attacking or defending fortified positions — or can accompany the party to a siege as a technical expert."
+          },
+          {
+            "name": "Military Intelligence",
+            "description": "The company's scouts can survey enemy positions, troop strengths and patrol routes — the kind of information that commanders pay well for."
+          },
+          {
+            "name": "Supply Raiding",
+            "description": "The company will raid a specific supply convoy, depot or position on the party's behalf — disrupting an enemy's logistics without the party needing to get their hands dirty."
+          },
+          {
+            "name": "Combat Training",
+            "description": "The company's sergeant will put willing party members through military training — improving formation fighting, weapon use and tactical coordination."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Huurling Inhuur",
+            "description": "De compagnie biedt haar soldaten te huur aan — getrainde, gedisciplineerde strijders beschikbaar voor escortedienst, belegeringssteun, lijfwachtwerk of andere militaire toepassingen."
+          },
+          {
+            "name": "Belegeringsexpertise",
+            "description": "De belegeringsspecialist adviseert over aanvallen of verdedigen van versterkte posities — of begeleidt de party naar een belegering als technisch expert."
+          },
+          {
+            "name": "Militaire Inlichtingen",
+            "description": "De verkenners van de compagnie beoordelen vijandige posities, troepensterkte en patrouilleroutes — het soort informatie waarvoor bevelhebbers goed betalen."
+          },
+          {
+            "name": "Bevoorradingsraiding",
+            "description": "De compagnie overvalt een specifiek bevoorradingskonvooi, depot of positie namens de party — de logistiek van een vijand verstorend zonder dat de party zelf de handen vies hoeft te maken."
+          },
+          {
+            "name": "Gevechtsstraining",
+            "description": "De sergeant traint bereidwillige partyleden militair — formatieverbetering, wapengebruik en tactische coördinatie."
+          }
+        ]
+      }
+    },
+    {
+      "id": "art_forgery",
+      "nl": "Kunstvervalsconsortium",
+      "en": "Art Forgery Consortium",
+      "weight": 1,
+      "cityTypeAffinities": [
+        "trade",
+        "magic",
+        "holy",
+        "greek"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "temperate_forest",
+        "grasslands"
+      ],
+      "minSize": 4,
+      "scaleMin": 4,
+      "scaleMax": 20,
+      "operationStyle": {
+        "nl": [
+          "vervalst schilderijen, sculpturen en antiquiteiten voor rijke kopers",
+          "heeft een netwerk van veilinghuizen en kunsthandelaars als medeplichtigen",
+          "steelt originelen om er perfecte kopieën van te maken"
+        ],
+        "en": [
+          "forges paintings, sculptures and antiquities for wealthy buyers",
+          "has a network of auction houses and art dealers as accomplices",
+          "steals originals to create perfect copies of them"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Elk vervalst werk bevat een verborgen handtekening of inside joke.",
+          "Beschouwen zichzelf als kunstenaars, niet als criminelen.",
+          "Wedijveren intern om wie de beste vervalsing kan maken.",
+          "Stelen eerst originele werken om ze maandenlang te bestuderen.",
+          "Hun werkplaatsen ruiken altijd naar een specifieke olie, hars of pigmentmengsel."
+        ],
+        "en": [
+          "Every forged work contains a hidden signature or inside joke.",
+          "They consider themselves artists, not criminals.",
+          "They compete internally over who can produce the best forgery.",
+          "They first steal original works to study them for months.",
+          "Their workshops always smell of a specific oil, resin or pigment mixture."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Curator",
+          "Meester-Vervalser",
+          "De Kopiist",
+          "Bewaarder der Doeken",
+          "De Patron"
+        ],
+        "en": [
+          "Curator",
+          "Master Forger",
+          "The Counterfeiter",
+          "Keeper of Canvases",
+          "The Patron"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Master Painter",
+          "Signature Forger",
+          "Artifact Replica Maker",
+          "Pigment Specialist",
+          "Original Theft Specialist",
+          "Authentication Saboteur",
+          "Fake Auction Broker",
+          "Restoration Expert",
+          "Wealthy Client Liaison",
+          "Workshop Master"
+        ],
+        "nl": [
+          "Meesterschilder",
+          "Handtekeningvervalser",
+          "Artefactnaspeler",
+          "Pigmentspecialist",
+          "Origineel Diefstalspecialist",
+          "Authenticatiesaboteur",
+          "Nep Veilingmakelaar",
+          "Restauratiedeskundige",
+          "Rijke Cliëntverbindingsofficier",
+          "Werkplaatsmeester"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Document Forgery",
+            "description": "The consortium's forgers produce convincing copies of letters, deeds, warrants and certificates — their expertise extends beyond art to any document requiring authenticity."
+          },
+          {
+            "name": "Replica Creation",
+            "description": "The consortium can produce a near-perfect replica of any item the party provides — a statue, painting, book, weapon or artefact — indistinguishable from the original to most eyes."
+          },
+          {
+            "name": "Provenance Fabrication",
+            "description": "The consortium can create a complete false history of ownership for any item — catalogue entries, auction records, collector correspondence — making stolen goods legitimate."
+          },
+          {
+            "name": "Appraisal Service",
+            "description": "The consortium's experts will authenticate or evaluate any item, identifying fakes, estimating true value and — for the right price — issuing certificates of authenticity for items that may not deserve them."
+          },
+          {
+            "name": "Art Recovery",
+            "description": "The consortium knows what is stolen, where it is likely to be and who would pay for its return — they can point the party toward specific pieces and connect them with interested buyers."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Documentvervalsing",
+            "description": "De vervalsers produceren overtuigende kopieën van brieven, aktes, bevelen en certificaten — hun expertise strekt zich uit voorbij kunst naar elk document dat authenticiteit vereist."
+          },
+          {
+            "name": "Replicacreatie",
+            "description": "Het consortium produceert een bijna perfecte replica van elk item dat de party aanlevert — een standbeeld, schilderij, boek, wapen of artefact — voor de meeste ogen niet van het origineel te onderscheiden."
+          },
+          {
+            "name": "Herkomstvervalsing",
+            "description": "Het consortium creëert een complete valse eigendomsgeschiedenis voor elk item — catalogusvermeldingen, veilingregisters, verzamelaarsbrievenisseling — gestolen goederen legitiem makend."
+          },
+          {
+            "name": "Taxatiedienst",
+            "description": "De experts authenticeren of evalueren elk item, identificeren vervalsingen, schatten echte waarde en — voor de juiste prijs — geven certificaten van authenticiteit af voor items die dat misschien niet verdienen."
+          },
+          {
+            "name": "Kunstrecovery",
+            "description": "Het consortium weet wat er gestolen is, waar het waarschijnlijk is en wie zou betalen voor de terugkeer — ze wijzen de party op specifieke stukken en verbinden hen met geïnteresseerde kopers."
+          }
+        ]
+      }
+    },
+    {
+      "id": "counterfeit_mint",
+      "nl": "Nep Munten Munt",
+      "en": "Counterfeit Coin Mint",
+      "weight": 1,
+      "cityTypeAffinities": [
+        "trade",
+        "mining",
+        "military"
+      ],
+      "biomeAffinities": [
+        "underground",
+        "mountains",
+        "temperate_forest"
+      ],
+      "minSize": 4,
+      "scaleMin": 6,
+      "scaleMax": 25,
+      "operationStyle": {
+        "nl": [
+          "produceert nagemaakte munten die bijna niet van echt te onderscheiden zijn",
+          "verspreidt nep munten via handelaars en herbergen",
+          "heeft experts in metallurgie en graveerkunst in dienst"
+        ],
+        "en": [
+          "produces counterfeit coins almost indistinguishable from the real thing",
+          "distributes fake coins through merchants and inns",
+          "employs experts in metallurgy and engraving"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Nep munten zijn altijd net iets te zwaar of te licht — een fout die ze bewust niet willen corrigeren.",
+          "Hebben de originele muntmallen of een perfect afdruk ervan in hun bezit.",
+          "Betalen eigen leden altijd in echte munten — nep geld is alleen voor buitenstaanders.",
+          "Beschermen hun smeltoven en gietermolen als een militair geheim.",
+          "Werken uitsluitend bij nacht en gebruiken geluiddempers op al hun gereedschap."
+        ],
+        "en": [
+          "Their fake coins are always ever so slightly too heavy or too light — a flaw they deliberately refuse to fix.",
+          "They possess the original coin moulds or a perfect impression of them.",
+          "They pay their own members exclusively in real coins — fake money is only for outsiders.",
+          "They guard their smelting furnace and casting mill like a military secret.",
+          "They work exclusively at night and use sound dampeners on all their tools."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Muntmeester",
+          "De Smeltvorst",
+          "Meester der Mallen",
+          "De Goudsmid",
+          "Bewaarder der Stempels"
+        ],
+        "en": [
+          "Coinmaster",
+          "The Smelter Lord",
+          "Master of the Moulds",
+          "The Goldsmith",
+          "Keeper of the Dies"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Die Engraver",
+          "Metallurgist",
+          "Smelter",
+          "Coin Distributor",
+          "Raw Materials Smuggler",
+          "Quality Checker",
+          "Press Operator",
+          "Fence",
+          "Bribery Agent",
+          "Security Guard"
+        ],
+        "nl": [
+          "Stempelgraveur",
+          "Metallurg",
+          "Smeltspecialist",
+          "Muntdistributeur",
+          "Grondstoffensmokkeleaar",
+          "Kwaliteitscontroleur",
+          "Persoperator",
+          "Heler",
+          "Omkoopagent",
+          "Bewaker"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Currency Exchange",
+            "description": "The mint will exchange foreign, rare or suspicious currency for local coin — useful when the party is carrying money that would raise questions in the wrong hands."
+          },
+          {
+            "name": "Bulk Coin Supply",
+            "description": "For parties who need a large quantity of coin quickly and aren't concerned about its origin, the mint can supply convincing currency at a fraction of its face value."
+          },
+          {
+            "name": "Metal Analysis",
+            "description": "The mint's metallurgist can identify the precise composition of any metal object, coin or alloy — useful for detecting magical metals, rare materials or hidden enchantments in metal items."
+          },
+          {
+            "name": "Object Duplication",
+            "description": "Beyond coins, the mint's craftspeople can produce convincing metal replicas of keys, seals, medallions, badges or any other metal object the party requires."
+          },
+          {
+            "name": "Smelting Service",
+            "description": "The mint will melt down and recast metal items — weapons, jewellery, stolen plate — into untraceable ingots or new objects with no identifying features."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Valutawissel",
+            "description": "De munt wisselt buitenlandse, zeldzame of verdachte valuta voor lokale munten — nuttig als de party geld draagt dat vragen oproept in de verkeerde handen."
+          },
+          {
+            "name": "Bulkmuntlevering",
+            "description": "Voor partijen die snel een grote hoeveelheid munten nodig hebben en niet bezorgd zijn over de herkomst, levert de munt overtuigende valuta voor een fractie van de nominale waarde."
+          },
+          {
+            "name": "Metaalanalyse",
+            "description": "De metallurg identificeert de precieze samenstelling van elk metaalobject, munt of legering — nuttig voor het detecteren van magische metalen, zeldzame materialen of verborgen betoveringen in metalen items."
+          },
+          {
+            "name": "Objectduplicatie",
+            "description": "Voorbij munten produceren de ambachtslieden overtuigende metalen replica's van sleutels, zegels, medaillons, insignes of elk ander metaalobject dat de party nodig heeft."
+          },
+          {
+            "name": "Smeltservice",
+            "description": "De munt smelt metalen items — wapens, sieraden, gestolen tafelzilver — om en giet ze opnieuw tot niet-traceerbare staven of nieuwe objecten zonder identificerende kenmerken."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gambling_den",
+      "nl": "Gokgelegenheid",
+      "en": "Gambling Den",
+      "weight": 3,
+      "cityTypeAffinities": [
+        "trade",
+        "harbour",
+        "pirate",
+        "military"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "grasslands",
+        "temperate_forest"
+      ],
+      "minSize": 2,
+      "scaleMin": 5,
+      "scaleMax": 30,
+      "operationStyle": {
+        "nl": [
+          "runt illegale gokhuizen in kelders en achterkamers van herbergen",
+          "manipuleert spelen via valse dobbelstenen en omgekochte dealers",
+          "leent geld aan verliezende spelers met woekerende rentes"
+        ],
+        "en": [
+          "runs illegal gambling houses in cellars and inn backrooms",
+          "manipulates games using loaded dice and bribed dealers",
+          "lends money to losing players at extortionate interest rates"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Houdt schuldenboeken bij op iedereen die ooit hier heeft geokt.",
+          "De mooiste en duurste dranken worden gratis aangeboden om spelers langer te houden.",
+          "Sommige dobbelstenen, kaarten of spinwielen zijn subtiel gemanipuleerd.",
+          "Heeft een netwerk van uitsmijters en incassospecialisten die schulden innen.",
+          "De eigenaar kent alle geheimen van zijn gasten — en gebruikt die kennis zorgvuldig."
+        ],
+        "en": [
+          "They keep debt records on everyone who has ever gambled here.",
+          "The finest and most expensive drinks are served free to keep players longer.",
+          "Some dice, cards or spinning wheels are subtly manipulated.",
+          "They have a network of bouncers and debt collectors who recover owed sums.",
+          "The owner knows every secret of their guests — and uses that knowledge carefully."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Huisbaas",
+          "De Dealer",
+          "Gokvorst/-vorstin",
+          "Meester der Kansen",
+          "De Bankhouder"
+        ],
+        "en": [
+          "House Boss",
+          "The Dealer",
+          "Gambling Lord / Lady",
+          "Master of Odds",
+          "The Banker"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Dealer",
+          "Pit Boss",
+          "Bookmaker",
+          "Loan Shark",
+          "Debt Collector",
+          "Bouncer",
+          "Card Cheat",
+          "Dice Loader",
+          "Hostess / Host",
+          "Money Counter"
+        ],
+        "nl": [
+          "Dealer",
+          "Tafelbas",
+          "Bookmaker",
+          "Woekerlener",
+          "Schuldinnerder",
+          "Uitsmijter",
+          "Kaartbedrieger",
+          "Dobbelstenenlader",
+          "Gastheer / Gastvrouw",
+          "Geldteller"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Fixed Bet",
+            "description": "The den's fixer can arrange for a specific outcome in an upcoming match, fight or game — guaranteeing the party wins their bet, for a percentage of the winnings."
+          },
+          {
+            "name": "Loan Sharking",
+            "description": "The den's moneylender will provide immediate funding with no questions asked — the interest rates are severe, but sometimes immediate cash is worth the price."
+          },
+          {
+            "name": "Debt Pressure",
+            "description": "If someone owes the party a debt and refuses to pay, the den's collectors can apply the kind of pressure that most people find very motivating."
+          },
+          {
+            "name": "Information Network",
+            "description": "Gamblers talk freely when winning, losing or drinking. The den's owner has heard things that would surprise even the city's official intelligence services, and some of it is for sale."
+          },
+          {
+            "name": "Private Room",
+            "description": "The den provides a private, neutral location for sensitive meetings — the kind of conversation that neither party wants overheard, in a place where discretion is guaranteed."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Gemanipuleerde Inzet",
+            "description": "De fixer regelt een specifieke uitkomst in een aankomende wedstrijd, gevecht of spel — garandeert dat de party hun inzet wint, voor een percentage van de winst."
+          },
+          {
+            "name": "Woekerlening",
+            "description": "De geldverstrekker levert onmiddellijke financiering zonder vragen — de rentepercentages zijn zwaar, maar soms is onmiddellijk geld de prijs waard."
+          },
+          {
+            "name": "Schuldendruk",
+            "description": "Als iemand de party een schuld weigert te betalen, past de incassoafdeling het soort druk toe dat de meeste mensen zeer motiverend vinden."
+          },
+          {
+            "name": "Informatienetwerk",
+            "description": "Gokkers praten vrijuit als ze winnen, verliezen of drinken. De eigenaar heeft dingen gehoord die zelfs de officiële inlichtingendiensten van de stad zouden verrassen, en een deel is te koop."
+          },
+          {
+            "name": "Privékamer",
+            "description": "De gelegenheid levert een privé, neutrale locatie voor gevoelige ontmoetingen — het soort gesprek dat geen van beide partijen wil dat er iemand bijstaat, op een plek waar discretie gegarandeerd is."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dockside_gang",
+      "nl": "Havenbende",
+      "en": "Dockside Gang",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "harbour",
+        "pirate",
+        "trade",
+        "island"
+      ],
+      "biomeAffinities": [
+        "coastal",
+        "swamp"
+      ],
+      "minSize": 2,
+      "scaleMin": 8,
+      "scaleMax": 40,
+      "operationStyle": {
+        "nl": [
+          "controleert de laden en lossen van goederen in de haven",
+          "int beschermingsgeld van scheepskapiteins en exporteurs",
+          "steelt uit ladingen en verkoopt goederen door aan helers"
+        ],
+        "en": [
+          "controls the loading and unloading of goods at the harbour",
+          "collects protection money from ship captains and exporters",
+          "steals from shipments and sells goods on to fences"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Havenarbeiders die niet meewerken vinden hun lading beschadigd of vermist.",
+          "Hebben een eigen havenkroeg die dient als betalingsplaats en ontmoetingspunt.",
+          "Elk schip dat aanmeert betaalt een informele havenbijdrage — of heeft snel een ongeluk.",
+          "Weten precies welk schip wat vervoert, lang voordat het aanmeert.",
+          "Hun leider is altijd een voormalig zeeman of havenbons met uitgebreide contacten."
+        ],
+        "en": [
+          "Dock workers who refuse to cooperate find their cargo damaged or missing.",
+          "They have their own harbour tavern that serves as payment point and meeting place.",
+          "Every ship that docks pays an informal harbour contribution — or quickly has an accident.",
+          "They know exactly what every ship is carrying long before it docks.",
+          "Their leader is always a former sailor or dock boss with extensive contacts."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Kadebas",
+          "Havenvorst",
+          "De Dokmeester",
+          "Meester der Kaden",
+          "De Havenrat"
+        ],
+        "en": [
+          "Dock Boss",
+          "Harbour Lord",
+          "The Dock Master",
+          "Master of the Quays",
+          "The Harbour Rat"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Dock Foreman",
+          "Cargo Thief",
+          "Harbor Spy",
+          "Fence",
+          "Bribe Collector",
+          "Lookout",
+          "Muscle / Enforcer",
+          "Ship Inspector",
+          "Smuggling Coordinator",
+          "Warehouse Guard"
+        ],
+        "nl": [
+          "Havenopzichter",
+          "Ladingdief",
+          "Havenspin",
+          "Heler",
+          "Omkoopincasseerder",
+          "Uitkijk",
+          "Spierbundel / Afdwinger",
+          "Scheepsinspecteur",
+          "Smokkelcoördinator",
+          "Pakhuisbewaker"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "Cargo Handling",
+            "description": "The gang controls loading and unloading in the harbour. For a fee, they can ensure a specific cargo is loaded, unloaded, lost, delayed or conveniently mislabelled."
+          },
+          {
+            "name": "Ship Access",
+            "description": "The gang can arrange quiet, unofficial access to any vessel in the harbour — for the party to search, plant something aboard or have a private conversation with someone on deck."
+          },
+          {
+            "name": "Harbour Intelligence",
+            "description": "The gang knows what every ship in the harbour is carrying, where it came from and where it is going — information the party may find more useful than the harbour master's official records."
+          },
+          {
+            "name": "Contraband Movement",
+            "description": "The gang will move any package, person or item in or out of the harbour without it passing through official inspection — their people are in the right places."
+          },
+          {
+            "name": "Dock Worker Cover",
+            "description": "The gang can provide the party with convincing cover identities as dock workers — papers, uniforms and a plausible shift assignment that will hold up to casual scrutiny."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Ladingafhandeling",
+            "description": "De bende controleert laden en lossen in de haven. Voor een vergoeding zorgen ze ervoor dat een specifieke lading wordt geladen, gelost, verloren, vertraagd of handig verkeerd gelabeld."
+          },
+          {
+            "name": "Scheepcstoegang",
+            "description": "De bende regelt stille, onofficiële toegang tot elk vaartuig in de haven — voor de party om te doorzoeken, iets aan boord te plaatsen of een privégesprek te voeren met iemand aan dek."
+          },
+          {
+            "name": "Haveninformatie",
+            "description": "De bende weet wat elk schip in de haven vervoert, waar het vandaan komt en waar het naartoe gaat — informatie die de party nuttiger vindt dan de officiële registers van de havenmeester."
+          },
+          {
+            "name": "Contrabandebewegingen",
+            "description": "De bende verplaatst elk pakket, persoon of item de haven in of uit zonder dat het een officiële inspectie passeert — hun mensen staan op de juiste plaatsen."
+          },
+          {
+            "name": "Havenarbeidersdekking",
+            "description": "De bende voorziet de party van overtuigende dekmantelidentiteiten als havenarbeiders — papieren, uniformen en een aannemelijke dienststoewijzing die oppervlakkig onderzoek doorstaat."
+          }
+        ]
+      }
+    },
+    {
+      "id": "beggars_union",
+      "nl": "Bedelaarsunie",
+      "en": "Beggars' Union",
+      "weight": 2,
+      "cityTypeAffinities": [
+        "trade",
+        "holy",
+        "cursed",
+        "harbour"
+      ],
+      "biomeAffinities": [
+        "temperate_forest",
+        "grasslands",
+        "coastal",
+        "swamp"
+      ],
+      "minSize": 2,
+      "scaleMin": 15,
+      "scaleMax": 80,
+      "operationStyle": {
+        "nl": [
+          "organiseert bedelaars en landlopers als een informatienetwerk",
+          "verkoopt inlichtingen aan de hoogste bieder",
+          "biedt een netwerk van veilige slaapplaatsen en eten aan leden"
+        ],
+        "en": [
+          "organises beggars and vagabonds as an intelligence network",
+          "sells information to the highest bidder",
+          "offers a network of safe sleeping places and food to members"
+        ]
+      },
+      "quirks": {
+        "nl": [
+          "Leden worden onzichtbaar — mensen kijken nooit naar bedelaars, maar de bedelaars zien alles.",
+          "Heeft een democratisch bestuur — elk lid heeft één stem.",
+          "Verkoopt inlichtingen aan meerdere partijen tegelijk en speelt ze handig tegen elkaar uit.",
+          "Nieuwe leden moeten een week bedelen zonder enige hulp als initiatie.",
+          "Beschermt haar leden tegen geweld van stadswachten en andere bendes."
+        ],
+        "en": [
+          "Members become invisible — people never look at beggars, but the beggars see everything.",
+          "They have a democratic leadership — every member has one vote.",
+          "They sell intelligence to multiple parties simultaneously and cleverly play them against each other.",
+          "New members must spend a week begging without any assistance as initiation.",
+          "They protect their members from violence by city guards and other gangs."
+        ]
+      },
+      "leaderTitles": {
+        "nl": [
+          "Unievoorzitter",
+          "De Bedelkoning/-koningin",
+          "Meester der Straten",
+          "De Gebroken Staf",
+          "Hoofd der Verschoppelingen"
+        ],
+        "en": [
+          "Union President",
+          "The Beggar King / Queen",
+          "Master of the Streets",
+          "The Broken Staff",
+          "Head of the Outcasts"
+        ]
+      },
+      "memberRoles": {
+        "en": [
+          "Lookout Beggar",
+          "Information Broker",
+          "District Warden",
+          "Pickpocket Trainer",
+          "Safe Route Guide",
+          "Message Runner",
+          "Spy / Informant",
+          "Shelter Keeper",
+          "Recruiter",
+          "Union Enforcer"
+        ],
+        "nl": [
+          "Uitkijkbedelaar",
+          "Informatiemakelaar",
+          "Districtsopzichter",
+          "Zakkenrollerstrainer",
+          "Veilige Route Gids",
+          "Boodschappenrenner",
+          "Spion / Informant",
+          "Schuilplaatsbeheerder",
+          "Werver",
+          "Unie-afdwinger"
+        ]
+      },
+      "services": {
+        "en": [
+          {
+            "name": "City-Wide Surveillance",
+            "description": "The union's members are everywhere and invisible. For a fee, they will watch a specific person, building or area for days, reporting everything they observe with surprising accuracy."
+          },
+          {
+            "name": "Message Network",
+            "description": "The union can pass any message anywhere in the city within hours, using their network of members who move freely through every district without attracting attention."
+          },
+          {
+            "name": "Rumour Seeding",
+            "description": "The union can spread any rumour, story or piece of information through the city's population quickly and credibly — beggars are the original social network."
+          },
+          {
+            "name": "Safe Routes",
+            "description": "The union knows every back alley, sewer access, unlocked gate and forgotten passage in the city — they can guide the party anywhere without using main streets."
+          },
+          {
+            "name": "Charity Network Access",
+            "description": "The union has connections to temples, charities and aid organisations across the city — useful for gathering information, finding specific individuals or accessing restricted locations through the back door."
+          }
+        ],
+        "nl": [
+          {
+            "name": "Stadsbreed Toezicht",
+            "description": "De leden van de unie zijn overal en onzichtbaar. Voor een vergoeding bewaken ze een specifieke persoon, gebouw of gebied meerdere dagen en rapporteren alles wat ze zien met verrassende nauwkeurigheid."
+          },
+          {
+            "name": "Berichtennetwerk",
+            "description": "De unie stuurt elk bericht overal in de stad binnen uren door, via hun netwerk van leden die vrij door elk district bewegen zonder aandacht te trekken."
+          },
+          {
+            "name": "Geruchtenspreiding",
+            "description": "De unie verspreidt elk gerucht, verhaal of stuk informatie snel en geloofwaardig door de stadsbevolking — bedelaars zijn het originele sociale netwerk."
+          },
+          {
+            "name": "Veilige Routes",
+            "description": "De unie kent elk achtersteegje, riooltoegang, ontgrendeld hek en vergeten doorgang in de stad — ze begeleiden de party overal naartoe zonder hoofdstraten te gebruiken."
+          },
+          {
+            "name": "Liefdadigheidsnetwerktoegang",
+            "description": "De unie heeft verbindingen met tempels, liefdadigheidsorganisaties en hulpverenigingen door de stad — nuttig voor het verzamelen van informatie, het vinden van specifieke personen of het via de achterdeur toegang krijgen tot beperkte locaties."
+          }
+        ]
+      }
+    }
+  ],
+  "names": {
+    "prefixes": {
+      "en": [
+        "Black",
+        "Crimson",
+        "Golden",
+        "Silver",
+        "Scarlet",
+        "Shadow",
+        "Silent",
+        "Hidden",
+        "Whispering",
+        "Broken",
+        "Iron",
+        "Velvet",
+        "Blood",
+        "Ashen",
+        "Midnight",
+        "Drowned",
+        "Hollow",
+        "Crooked",
+        "Cursed",
+        "Obsidian",
+        "Emerald",
+        "Sapphire",
+        "Ivory",
+        "Copper",
+        "Rusted",
+        "Grim",
+        "Burning",
+        "Frozen",
+        "Storm",
+        "Moonlit",
+        "Sunken",
+        "Gilded",
+        "Wicked",
+        "Savage",
+        "Fallen",
+        "Veiled",
+        "Shattered",
+        "Dark",
+        "Pale",
+        "Ghost",
+        "Raven",
+        "Wolf",
+        "Serpent",
+        "Thorn",
+        "Smiling",
+        "Red",
+        "White",
+        "Blue",
+        "Jade",
+        "Amber",
+        "Night",
+        "Forbidden",
+        "Shifting",
+        "Street",
+        "Alley",
+        "Bloody",
+        "Ebony",
+        "Venomous",
+        "Ancient",
+        "Fearless",
+        "Quiet",
+        "Terrible",
+        "Defiant",
+        "All-knowing",
+        "Determined",
+        "Lantern",
+        "Weeping",
+        "Laughing",
+        "Twisted",
+        "Forgotten"
+      ],
+      "nl": [
+        "Zwart",
+        "Karmozijn",
+        "Gouden",
+        "Zilveren",
+        "Scharlaken",
+        "Schaduw",
+        "Stil",
+        "Verborgen",
+        "Fluisterend",
+        "Gebroken",
+        "IJzeren",
+        "Fluwelen",
+        "Bloed",
+        "Asgrauw",
+        "Middernacht",
+        "Verdronken",
+        "Hol",
+        "Krom",
+        "Vervloekt",
+        "Obsidiaan",
+        "Smaragd",
+        "Saffier",
+        "Ivoor",
+        "Koper",
+        "Verroest",
+        "Grimmig",
+        "Brandend",
+        "Bevroren",
+        "Storm",
+        "Maanverlicht",
+        "Gezonken",
+        "Verguld",
+        "Verdorven",
+        "Wild",
+        "Gevallen",
+        "Gesluierd",
+        "Verbrijzeld",
+        "Donker",
+        "Bleek",
+        "Geest",
+        "Raaf",
+        "Wolf",
+        "Slangen",
+        "Doorn",
+        "Glimlachend",
+        "Rood",
+        "Wit",
+        "Blauw",
+        "Jade",
+        "Amber",
+        "Nacht",
+        "Verboden",
+        "Verschuivend",
+        "Straat",
+        "Steeg",
+        "Bloederig",
+        "Ebbenhout",
+        "Giftig",
+        "Oud",
+        "Vreesloos",
+        "Stil",
+        "Verschrikkelijk",
+        "Weerbarstig",
+        "Alwetend",
+        "Vastberaden",
+        "Lantaarn",
+        "Wenend",
+        "Lachend",
+        "Verdraaid",
+        "Vergeten"
+      ]
+    },
+    "names": {
+      "en": [
+        "Brotherhood",
+        "Syndicate",
+        "Cartel",
+        "Circle",
+        "Company",
+        "Consortium",
+        "Covenant",
+        "Guild",
+        "Family",
+        "Ring",
+        "Alliance",
+        "Network",
+        "Collective",
+        "Order",
+        "Legion",
+        "Crew",
+        "Fleet",
+        "Hand",
+        "Crown",
+        "Market",
+        "Pact",
+        "Society",
+        "Cabal",
+        "Union",
+        "Court",
+        "Band",
+        "House",
+        "Banner",
+        "Pactmakers",
+        "Traders",
+        "Corsairs",
+        "Raiders",
+        "Smugglers",
+        "Dealers",
+        "Knives",
+        "Masks",
+        "Serpents",
+        "Wolves",
+        "Ravens",
+        "Daggers",
+        "Coins",
+        "Lanterns",
+        "Chains",
+        "Crowns",
+        "Keys",
+        "Ashes",
+        "Stars",
+        "Roses",
+        "Bones",
+        "Blades",
+        "Stalkers",
+        "Shadow",
+        "Fingers",
+        "Fang",
+        "Eye",
+        "Veil",
+        "Claw",
+        "Tide",
+        "Web"
+      ],
+      "nl": [
+        "Broederschap",
+        "Syndicaat",
+        "Kartel",
+        "Kring",
+        "Compagnie",
+        "Consortium",
+        "Verbond",
+        "Gilde",
+        "Familie",
+        "Ring",
+        "Alliantie",
+        "Netwerk",
+        "Collectief",
+        "Orde",
+        "Legioen",
+        "Bende",
+        "Vloot",
+        "Hand",
+        "Kroon",
+        "Markt",
+        "Pact",
+        "Genootschap",
+        "Kabaal",
+        "Unie",
+        "Hof",
+        "Groep",
+        "Huis",
+        "Banier",
+        "Pactmakers",
+        "Handelaars",
+        "Kapers",
+        "Rovers",
+        "Smokkelaars",
+        "Dealers",
+        "Messen",
+        "Maskers",
+        "Slangen",
+        "Wolven",
+        "Raven",
+        "Dolken",
+        "Munten",
+        "Lantaarns",
+        "Kettingen",
+        "Kronen",
+        "Sleutels",
+        "As",
+        "Sterren",
+        "Rozen",
+        "Botten",
+        "Klingen",
+        "Belagers",
+        "Schaduw",
+        "Vingers",
+        "Tand",
+        "Oog",
+        "Sluier",
+        "Klauw",
+        "Vloed",
+        "Web"
+      ]
+    },
+    "suffixes": {
+      "en": [
+        "of Whispers",
+        "of Shadows",
+        "of Knives",
+        "of Ashes",
+        "of Blood",
+        "of Smoke",
+        "of Bones",
+        "of Silk",
+        "of Serpents",
+        "of the Black Tide",
+        "of the Drowned King",
+        "of Ravens",
+        "of Thorns",
+        "of Chains",
+        "of Masks",
+        "of Wolves",
+        "of Gold",
+        "of Silver",
+        "of Salt",
+        "of the Moon",
+        "of the Deep",
+        "of Embers",
+        "of Dust",
+        "of Mirrors",
+        "of Secrets",
+        "of the Veil",
+        "of Midnight",
+        "of Fortune",
+        "of Daggers",
+        "of Broken Crowns",
+        "of the Red Hand",
+        "of the Iron Coin",
+        "of Lanterns",
+        "of Storms",
+        "of Crows",
+        "of Serpents' Teeth",
+        "of the Hidden Sea",
+        "of Forgotten Names",
+        "of Poison",
+        "of Velvet",
+        "of the Hollow Star",
+        "of Black Powder",
+        "of Smiles",
+        "of the Grave",
+        "of the Kraken",
+        "of the Sapphire Eye",
+        "of False Saints",
+        "of Ash and Bone",
+        "of Silent Bells",
+        "of the Last Port",
+        "of the Road",
+        "of the Blind Eye",
+        "of Dead Men",
+        "of the Crooked Path",
+        "of Stolen Names"
+      ],
+      "nl": [
+        "van Gefluister",
+        "van Schaduwen",
+        "van Messen",
+        "van As",
+        "van Bloed",
+        "van Rook",
+        "van Botten",
+        "van Zijde",
+        "van Slangen",
+        "van de Zwarte Vloed",
+        "van de Verdronken Koning",
+        "van Raven",
+        "van Doornen",
+        "van Kettingen",
+        "van Maskers",
+        "van Wolven",
+        "van Goud",
+        "van Zilver",
+        "van Zout",
+        "van de Maan",
+        "van de Diepte",
+        "van Sintels",
+        "van Stof",
+        "van Spiegels",
+        "van Geheimen",
+        "van de Sluier",
+        "van Middernacht",
+        "van Fortuin",
+        "van Dolken",
+        "van Gebroken Kronen",
+        "van de Rode Hand",
+        "van de IJzeren Munt",
+        "van Lantaarns",
+        "van Stormen",
+        "van Kraaien",
+        "van Slangentanden",
+        "van de Verborgen Zee",
+        "van Vergeten Namen",
+        "van Vergif",
+        "van Fluweel",
+        "van de Holle Ster",
+        "van Zwart Poeder",
+        "van Glimlachen",
+        "van het Graf",
+        "van de Kraken",
+        "van het Saffieren Oog",
+        "van Valse Heiligen",
+        "van As en Botten",
+        "van Stille Klokken",
+        "van de Laatste Haven",
+        "van de Weg",
+        "van het Blinde Oog",
+        "van Dode Mannen",
+        "van het Kronkelige Pad",
+        "van Gestolen Namen"
+      ]
+    },
+    "nameWeights": {
+      "prefixName": 40,
+      "nameSuffix": 40,
+      "prefixNameSuffix": 20
+    }
+  },
+  "motives": {
+    "nl": [
+      "Puur winstbejag",
+      "Politieke macht verwerven",
+      "Overleven in de sloppenwijken",
+      "Wraak op de heersende klasse",
+      "Een oud familiegeheim beschermen",
+      "Een sluimerende god dienen",
+      "De stad destabiliseren voor een buitenlandse macht",
+      "Bescherming bieden aan de onderklasse",
+      "Een verloren artefact terugvinden",
+      "Controle over de hele onderwereld van de stad"
+    ],
+    "en": [
+      "Pure profit",
+      "Acquiring political power",
+      "Surviving in the slums",
+      "Revenge on the ruling class",
+      "Protecting an old family secret",
+      "Serving a dormant god",
+      "Destabilising the city for a foreign power",
+      "Offering protection to the underclass",
+      "Recovering a lost artefact",
+      "Control over the entire underworld of the city"
+    ]
+  },
+  "territories": {
+    "nl": [
+      "de havenbuurt",
+      "de marktstraten",
+      "de armenwijk",
+      "de rijke villawijk",
+      "de tunnels onder de stad",
+      "de tempelwijk",
+      "de handelskade",
+      "de gevangeniswijk",
+      "het hele stadscentrum",
+      "de buitenwijken"
+    ],
+    "en": [
+      "the harbour district",
+      "the market streets",
+      "the slums",
+      "the wealthy villa district",
+      "the tunnels beneath the city",
+      "the temple quarter",
+      "the trade quay",
+      "the prison district",
+      "the entire city centre",
+      "the outer districts"
+    ]
+  },
+  "enemies": {
+    "nl": [
+      "een rivaliserende criminele organisatie",
+      "de stadsguard",
+      "een private detectivegroep",
+      "de lokale adel",
+      "een religieuze orde",
+      "een ander stadsgilde",
+      "een groep avonturiers",
+      "de hogepriester van de tempel"
+    ],
+    "en": [
+      "a rival criminal organisation",
+      "the city guard",
+      "a private detective group",
+      "the local nobility",
+      "a religious order",
+      "another city guild",
+      "a group of adventurers",
+      "the high priest of the temple"
+    ]
+  },
+  "allies": {
+    "nl": [
+      "een corrupte stadswacht",
+      "een invloedrijke koopman",
+      "een herbergier die informatie doorgeeft",
+      "een havenmeester op de loonlijst",
+      "een notaris die documenten vervalst",
+      "een geneesheer die geen vragen stelt",
+      "een edelman met schulden"
+    ],
+    "en": [
+      "a corrupt city guard",
+      "an influential merchant",
+      "an innkeeper who passes on information",
+      "a harbour master on the payroll",
+      "a notary who falsifies documents",
+      "a healer who asks no questions",
+      "a nobleman with debts"
+    ]
+  },
+  "genericLeaderTitles": {
+    "en": [
+      "The Boss",
+      "The Chair",
+      "Prime Broker",
+      "The Keeper",
+      "The Patron",
+      "The Regent",
+      "The Director",
+      "The Hand",
+      "The Crown",
+      "The Architect",
+      "The Speaker",
+      "The Marshal",
+      "The Warden",
+      "First Among Equals",
+      "The Old Wolf",
+      "The Veiled One",
+      "Master of Coin",
+      "The Navigator",
+      "The Benefactor",
+      "The Oracle"
+    ],
+    "nl": [
+      "De Baas",
+      "De Voorzitter",
+      "Hoofdmakelaar",
+      "De Bewaarder",
+      "De Patron",
+      "De Regent",
+      "De Directeur",
+      "De Hand",
+      "De Kroon",
+      "De Architect",
+      "De Woordvoerder",
+      "De Maarschalk",
+      "De Bewaker",
+      "Eerste Onder Gelijken",
+      "De Oude Wolf",
+      "De Gesluierde",
+      "Meester der Munten",
+      "De Navigator",
+      "De Weldoener",
+      "Het Orakel"
+    ]
+  },
+  "genericMemberRoles": {
+    "en": [
+      "Leader",
+      "Second-in-Command",
+      "Treasurer",
+      "Recruiter",
+      "Enforcer",
+      "Spy / Informant",
+      "Quartermaster",
+      "Fixer",
+      "Courier",
+      "Cleaner",
+      "Fence",
+      "Bribery Agent",
+      "Safehouse Keeper",
+      "Interrogator",
+      "Diplomat / Negotiator",
+      "Trainer",
+      "Assassin",
+      "Smuggler",
+      "Accountant",
+      "Archivist"
+    ],
+    "nl": [
+      "Leider",
+      "Tweede Man/Vrouw",
+      "Penningmeester",
+      "Werver",
+      "Afdwinger",
+      "Spion / Informant",
+      "Kwartiermeester",
+      "Fixer",
+      "Koerier",
+      "Opruimer",
+      "Heler",
+      "Omkoopspecialist",
+      "Schuilplaatsbeheerder",
+      "Ondervrager",
+      "Diplomaat / Onderhandelaar",
+      "Trainer",
+      "Moordenaar",
+      "Smokkelaar",
+      "Boekhouder",
+      "Archivaris"
+    ]
+  },
+  "basesOfOperations": {
+    "generic": {
+      "locations": {
+        "en": [
+          "a forgotten cellar beneath a busy market square",
+          "an abandoned warehouse on the edge of the docks",
+          "a derelict manor house on the outskirts of town",
+          "a series of tunnels beneath the old city walls",
+          "a fortified room beneath a respectable inn",
+          "a disused mill at the edge of the river",
+          "a network of sewers connecting several districts",
+          "a cave system hidden behind a waterfall outside the city",
+          "an underground vault beneath a legitimate merchant's shop",
+          "a crumbling tower in the ruins of an old fort",
+          "a large cellar beneath a thriving bathhouse",
+          "a hidden floor beneath a popular gambling establishment",
+          "a series of interconnected basements beneath a residential block",
+          "a sealed wing of an abandoned noble estate",
+          "a converted crypt beneath the oldest temple in the city"
+        ],
+        "nl": [
+          "een vergeten kelder onder een druk marktplein",
+          "een verlaten pakhuis aan de rand van de havenwijk",
+          "een vervallen herenhuis aan de stadsrand",
+          "een reeks tunnels onder de oude stadsmuren",
+          "een versterkte ruimte onder een respectabel herberg",
+          "een buiten gebruik gestelde molen aan de rivieroever",
+          "een netwerk van riolen dat meerdere wijken verbindt",
+          "een grotenstelsel verborgen achter een waterval buiten de stad",
+          "een ondergrondse kluis onder de winkel van een legitieme koopman",
+          "een vervallen toren in de ruïnes van een oud fort",
+          "een grote kelder onder een druk badhuis",
+          "een verborgen verdieping onder een populaire gokgelegenheid",
+          "een reeks verbonden kelders onder een woonblok",
+          "een afgesloten vleugel van een verlaten adellijk landgoed",
+          "een verbouwde grafkelder onder de oudste tempel van de stad"
+        ]
+      },
+      "entrances": {
+        "en": [
+          "inside a seemingly abandoned crypt in a large graveyard",
+          "in an abandoned warehouse leading to a safehouse underneath",
+          "through a secret basement entrance beneath a notable tavern",
+          "hidden in a series of maze-like caves near a great mountain range",
+          "at the bottom of a dried-up well",
+          "through an underwater cave system in a nearby lake",
+          "behind a bookshelf in a massive public library",
+          "in the ruins of a burnt-down cathedral outside of town",
+          "inside an ancient shipwreck off the coast",
+          "through a trapdoor hidden beneath a market stall rug",
+          "behind a false wall in a butcher's cold storage room",
+          "through a hatch concealed beneath a public fountain",
+          "via a rotating fireplace in an old nobleman's study",
+          "through a hidden door disguised as part of a city wall",
+          "beneath the altar stone of a disused chapel",
+          "through a narrow gap behind a large waterfall",
+          "inside a hollowed-out statue in the city's oldest square",
+          "via a ladder hidden inside a dry drainage pipe",
+          "through a false floor in a chandler's storeroom",
+          "beneath a loose flagstone in a busy alleyway"
+        ],
+        "nl": [
+          "in een schijnbaar verlaten grafkelder op een groot kerkhof",
+          "in een verlaten pakhuis dat leidt naar een schuilruimte eronder",
+          "via een geheime kelderingang onder een bekend herberg",
+          "verborgen in een reeks labyrintachtige grotten nabij een bergketen",
+          "op de bodem van een drooggevallen put",
+          "via een onderwatertunnelstelsel in een nabijgelegen meer",
+          "achter een boekenkast in een grote openbare bibliotheek",
+          "in de ruïnes van een afgebrand kathedraal buiten de stad",
+          "in een oud scheepswrak voor de kust",
+          "via een valluik verborgen onder een marktkraammvloer",
+          "achter een valse muur in de koelruimte van een slager",
+          "via een luik verborgen onder een openbare fontein",
+          "via een draaiende open haard in de studeerkamer van een oud adellijk huis",
+          "door een verborgen deur vermomd als deel van een stadsmuur",
+          "onder de altaarsteen van een verlaten kapel",
+          "via een smalle doorgang achter een grote waterval",
+          "in een uitgehold standbeeld op het oudste plein van de stad",
+          "via een ladder verborgen in een droge afvoerbuis",
+          "via een valse vloer in de opslagkamer van een kaarsmaker",
+          "onder een losse kei in een druk steegje"
+        ]
+      }
+    },
+    "byType": {
+      "pickpockets": {
+        "locations": {
+          "en": [
+            "a cramped attic above a busy tavern",
+            "a series of rooftops connected by rope bridges",
+            "a hidden room above a market stall"
+          ],
+          "nl": [
+            "een krappe zolder boven een drukke herberg",
+            "een reeks daken verbonden door touwbruggen",
+            "een verborgen kamer boven een marktkraam"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a loose board in the floor of a popular inn",
+            "via a children's playground that conceals a trapdoor",
+            "through a gap in a market fence known only to members"
+          ],
+          "nl": [
+            "via een losse plank in de vloer van een populaire herberg",
+            "via een kinderspeelplaats die een valluik verbergt",
+            "door een gat in een marktomheining dat alleen leden kennen"
+          ]
+        }
+      },
+      "smugglers": {
+        "locations": {
+          "en": [
+            "a network of sea caves accessible only at low tide",
+            "a converted ship permanently moored in a hidden cove",
+            "a fortified cellar beneath the harbour master's office"
+          ],
+          "nl": [
+            "een netwerk van zeegrotten alleen toegankelijk bij laag water",
+            "een verbouwd schip permanent gemeerd in een verborgen baai",
+            "een versterkte kelder onder het kantoor van de havenmeester"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "via a submerged tunnel accessible only by diving",
+            "through a hidden sea gate beneath the harbour wall",
+            "inside a lighthouse that hasn't functioned in years"
+          ],
+          "nl": [
+            "via een ondergedompelde tunnel alleen bereikbaar door te duiken",
+            "door een verborgen zeepoort onder de havenmuur",
+            "in een vuurtoren die al jaren niet meer functioneert"
+          ]
+        }
+      },
+      "pirates": {
+        "locations": {
+          "en": [
+            "a hidden cove on an unmapped island",
+            "a converted merchant vessel used as a floating base",
+            "a sea cave accessible only by small boat"
+          ],
+          "nl": [
+            "een verborgen baai op een niet in kaart gebracht eiland",
+            "een verbouwd koopvaardijschip als drijvende basis",
+            "een zeegrot alleen bereikbaar met een kleine boot"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a narrow rock passage invisible at high tide",
+            "via a fake fishing village on a remote coast",
+            "beneath a derelict lighthouse on a rocky headland"
+          ],
+          "nl": [
+            "door een smalle rotspassage die bij vloed onzichtbaar is",
+            "via een nep vissersdorp aan een afgelegen kust",
+            "onder een vervallen vuurtoren op een rotsachtig kaap"
+          ]
+        }
+      },
+      "thieves_guild": {
+        "locations": {
+          "en": [
+            "a vast underground complex beneath the city's oldest district",
+            "a series of connected basements spanning an entire city block",
+            "a fortified chamber hidden within the city's drainage system"
+          ],
+          "nl": [
+            "een uitgestrekt ondergronds complex onder het oudste stadsdistrict",
+            "een reeks verbonden kelders die een heel stadsblok omspannen",
+            "een versterkte kamer verborgen in het rioolstelsel van de stad"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a tailor's shop whose fitting room contains a hidden door",
+            "via a specific grave in the city cemetery that opens on a mechanism",
+            "through the fireplace of an abandoned house that swings open when cold"
+          ],
+          "nl": [
+            "via een kleermakers winkel waarvan de paskamer een verborgen deur bevat",
+            "via een specifiek graf op het stadskerkhof dat opent via een mechanisme",
+            "door de open haard van een verlaten huis die openklapt als hij koud is"
+          ]
+        }
+      },
+      "forgers": {
+        "locations": {
+          "en": [
+            "a hidden workshop above a legitimate print shop",
+            "a sealed room within the city's archive building",
+            "an underground studio beneath a reputable scribe's office"
+          ],
+          "nl": [
+            "een verborgen werkplaats boven een legitieme drukkerij",
+            "een afgesloten kamer in het stadsarchief",
+            "een ondergrondse studio onder het kantoor van een gerespecteerde schrijver"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a filing cabinet in a notary's office that slides aside",
+            "via a printing press that conceals a staircase when moved",
+            "through a false bookend on the third shelf of a city clerk's office"
+          ],
+          "nl": [
+            "via een archiefkast in een notariskantoor die opzij schuift",
+            "via een drukpers die een trap verbergt als hij wordt verplaatst",
+            "door een valse boekensteun op de derde plank van een gemeenteklerk kantoor"
+          ]
+        }
+      },
+      "black_market": {
+        "locations": {
+          "en": [
+            "a rotating location that changes every new moon",
+            "a vast underground bazaar beneath the city slums",
+            "a chain of connected back rooms in different establishments"
+          ],
+          "nl": [
+            "een wisselende locatie die elke nieuwe maan verandert",
+            "een uitgestrekte ondergrondse bazaar onder de stadsarmoedewijk",
+            "een reeks verbonden achterruimtes in verschillende etablissementen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a password-protected door in the back of a herbalist shop",
+            "via a specific market stall that moves weekly",
+            "through a secret panel in the changing room of a bathhouse"
+          ],
+          "nl": [
+            "via een wachtwoordbeveiligde deur achter in een kruidenierszaak",
+            "via een specifieke marktkraam die wekelijks verplaatst",
+            "door een geheim paneel in de kleedkamer van een badhuis"
+          ]
+        }
+      },
+      "burglary_ring": {
+        "locations": {
+          "en": [
+            "a disused locksmith's workshop full of tools and floor plans",
+            "a rented house used exclusively for planning operations",
+            "a cellar packed with stolen goods and detailed city maps"
+          ],
+          "nl": [
+            "een buiten gebruik gestelde slotenmakerswerkplaats vol gereedschap en plattegronden",
+            "een gehuurd huis dat uitsluitend wordt gebruikt voor operatieplanning",
+            "een kelder vol gestolen goederen en gedetailleerde stadskaarten"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the back of a locksmith's shop via a hidden door in the tool rack",
+            "via a rope and pulley system through an upstairs window of an unremarkable house",
+            "through a tunnel entrance concealed beneath a coal delivery hatch"
+          ],
+          "nl": [
+            "via de achterkant van een slotenmakerszaak door een verborgen deur in het gereedschapsrek",
+            "via een touw en katrolsysteem door een bovenverdiepingraam van een onopvallend huis",
+            "door een tunnelingang verborgen onder een kolenleverlier luik"
+          ]
+        }
+      },
+      "street_gang": {
+        "locations": {
+          "en": [
+            "a fortified building in the heart of their territory",
+            "an abandoned factory claimed as their headquarters",
+            "a rooftop complex connected by planks and rope bridges"
+          ],
+          "nl": [
+            "een versterkt gebouw in het hart van hun territorium",
+            "een verlaten fabriek die ze als hoofdkwartier hebben ingenomen",
+            "een dakcomplex verbonden door planken en touwbruggen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a graffiti-marked door that only members can decode",
+            "via an alleyway entrance guarded at all times by two members",
+            "through the basement of a local shop whose owner pays protection money"
+          ],
+          "nl": [
+            "via een met graffiti gemarkeerde deur die alleen leden kunnen decoderen",
+            "via een steegingang die altijd door twee leden wordt bewaakt",
+            "door de kelder van een lokale winkel wiens eigenaar beschermingsgeld betaalt"
+          ]
+        }
+      },
+      "assassins_guild": {
+        "locations": {
+          "en": [
+            "an unremarkable townhouse whose interior is a fortified operations centre",
+            "a sealed underground complex accessible only via three separate entrances",
+            "a monastery whose monks are all retired assassins"
+          ],
+          "nl": [
+            "een onopvallend stadshuis waarvan het interieur een versterkt operatiecentrum is",
+            "een afgesloten ondergronds complex alleen toegankelijk via drie afzonderlijke ingangen",
+            "een klooster waarvan de monniken allemaal gepensioneerde moordenaren zijn"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a mortuary whose back room leads to a hidden staircase",
+            "via a specific grave marker in a cemetery that opens when pressed in sequence",
+            "through a barber's chair that descends into the floor when a lever is pulled"
+          ],
+          "nl": [
+            "via een mortuarium waarvan de achterruimte leidt naar een verborgen trap",
+            "via een specifieke grafmarker op een begraafplaats die opent als hij in volgorde wordt ingedrukt",
+            "via een kappersstoel die in de vloer daalt als er een hendel wordt getrokken"
+          ]
+        }
+      },
+      "spy_network": {
+        "locations": {
+          "en": [
+            "a series of safe houses spread across multiple districts with no central base",
+            "a legitimate courier company whose offices conceal an intelligence centre",
+            "a reading room in a private gentleman's club"
+          ],
+          "nl": [
+            "een reeks schuilhuizen verspreid over meerdere wijken zonder centrale basis",
+            "een legitiem koeriersbedrijf waarvan de kantoren een inlichtingencentrum verbergen",
+            "een leeskamer in een besloten herenclub"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a specific bookshop where asking for a particular out-of-print title opens a back room",
+            "via a messenger service that delivers to a concealed address",
+            "through a mirror in a private dining room that slides aside"
+          ],
+          "nl": [
+            "via een specifieke boekenwinkel waar het vragen naar een bepaalde vergrijpte titel een achterruimte opent",
+            "via een bezorgservice die levert aan een verborgen adres",
+            "door een spiegel in een privé eetkamer die opzij schuift"
+          ]
+        }
+      },
+      "crime_family": {
+        "locations": {
+          "en": [
+            "a grand estate on the wealthy side of town used as a legitimate family home",
+            "a fortified compound with guards disguised as household staff",
+            "a private dining club accessible only to family and associates"
+          ],
+          "nl": [
+            "een groots landgoed aan de rijke kant van de stad gebruikt als legitiem gezinshuis",
+            "een versterkt complex met bewakers vermomd als huishoudelijk personeel",
+            "een privé eetclub toegankelijk alleen voor familie en medewerkers"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the front door of an ordinary-looking townhouse with extraordinary security behind it",
+            "via a private entrance at the rear of a restaurant the family owns",
+            "through the wine cellar of a legitimate business that connects to the family's real base"
+          ],
+          "nl": [
+            "via de voordeur van een gewoon uitziend stadshuis met buitengewone beveiliging erachter",
+            "via een privé ingang aan de achterzijde van een restaurant dat de familie bezit",
+            "door de wijnkelder van een legitiem bedrijf dat verbonden is met de echte basis van de familie"
+          ]
+        }
+      },
+      "drug_peddlers": {
+        "locations": {
+          "en": [
+            "a converted farmhouse outside the city used as a production facility",
+            "a cellar laboratory beneath a legitimate apothecary shop",
+            "a hidden room in a warehouse packed with raw materials"
+          ],
+          "nl": [
+            "een verbouwde boerderij buiten de stad gebruikt als productielocatie",
+            "een kelderlab onder een legitieme apotheekwinkel",
+            "een verborgen kamer in een pakhuis vol grondstoffen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the back of an apothecary shop via a door hidden behind a medicine cabinet",
+            "via a trapdoor concealed under a haystack in a barn",
+            "through a ventilation shaft in an old mill that leads to the laboratory below"
+          ],
+          "nl": [
+            "via de achterkant van een apotheekwinkel door een deur verborgen achter een medicijnkast",
+            "via een valluik verborgen onder een hooiberg in een schuur",
+            "door een ventilatiekoker in een oude molen die leidt naar het lab eronder"
+          ]
+        }
+      },
+      "fighting_pit": {
+        "locations": {
+          "en": [
+            "a vast underground arena carved from natural rock",
+            "a converted slaughterhouse whose drainage system still functions",
+            "a sealed basement beneath an abandoned bathhouse"
+          ],
+          "nl": [
+            "een uitgestrekte ondergrondse arena uitgehouwen in natuurlijk gesteente",
+            "een verbouwd slachthuis waarvan het afvoersysteem nog steeds functioneert",
+            "een afgesloten kelder onder een verlaten badhuis"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a butcher's shop via a blood-stained door in the cold storage room",
+            "via a long staircase hidden beneath a manhole cover in a quiet alley",
+            "through a wrestling gym whose back room conceals the real entrance"
+          ],
+          "nl": [
+            "via een slagerij door een bebloed deur in de koelruimte",
+            "via een lange trap verborgen onder een mangat in een stil steegje",
+            "door een worstelgym waarvan de achterruimte de echte ingang verbergt"
+          ]
+        }
+      },
+      "contraband": {
+        "locations": {
+          "en": [
+            "a legitimate freight company whose warehouse conceals the real operation",
+            "a series of rented storage facilities spread across the city",
+            "a farm outside the city used as a staging post for incoming shipments"
+          ],
+          "nl": [
+            "een legitiem vrachtbedrijf waarvan het pakhuis de echte operatie verbergt",
+            "een reeks gehuurde opslagruimtes verspreid over de stad",
+            "een boerderij buiten de stad gebruikt als tussenstation voor inkomende ladingen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a loading bay that appears to be a legitimate freight entrance",
+            "via a concealed door in the false back of a wardrobe in a rented room",
+            "through a hatch in the floor of a hay-filled cart kept permanently in a stable"
+          ],
+          "nl": [
+            "via een laadperron dat eruitziet als een legitieme vrachtingang",
+            "via een verborgen deur in de valse achterwand van een kledingkast in een gehuurde kamer",
+            "door een luik in de vloer van een hooivol kar die permanent in een stal staat"
+          ]
+        }
+      },
+      "religious_cult": {
+        "locations": {
+          "en": [
+            "a legitimate temple whose inner sanctum conceals the cult's true activities",
+            "an ancient ruin used for ceremonies beneath the city",
+            "a commune outside the city walls where members live together"
+          ],
+          "nl": [
+            "een legitieme tempel waarvan het binnenste heiligdom de ware activiteiten van de sekte verbergt",
+            "een oude ruïne gebruikt voor ceremonies onder de stad",
+            "een commune buiten de stadsmuren waar leden samenleven"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the confession booth of a legitimate temple that connects to tunnels below",
+            "via a ritual circle carved into the floor of a ruined chapel that conceals a staircase",
+            "through a hollow tree trunk in a forest clearing that drops into a cavern"
+          ],
+          "nl": [
+            "via de biechtplaats van een legitieme tempel die verbonden is met tunnels eronder",
+            "via een rituele kring uitgehouwen in de vloer van een vervallen kapel die een trap verbergt",
+            "door een holle boomstam in een bosopen plek die uitkomt in een grot"
+          ]
+        }
+      },
+      "highway_robbers": {
+        "locations": {
+          "en": [
+            "a fortified cave system deep in the forest off the main trade route",
+            "an abandoned roadside inn used as a base between raids",
+            "a hunting lodge in the hills owned by a sympathetic local noble"
+          ],
+          "nl": [
+            "een versterkt grotenstelsel diep in het woud naast de hoofdhandelsroute",
+            "een verlaten wegkroes gebruikt als basis tussen de overvallen door",
+            "een jachthut in de heuvels eigendom van een sympathieke lokale edelman"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a hollow hillside concealed by dense undergrowth",
+            "via a rope bridge hidden above a gorge that only members know how to find",
+            "through a waterfall into a cave system behind it"
+          ],
+          "nl": [
+            "door een holle heuvelzijde verborgen door dichte begroeiing",
+            "via een touwbrug verborgen boven een kloof die alleen leden weten te vinden",
+            "door een waterval in een grotenstelsel erachter"
+          ]
+        }
+      },
+      "bandit_company": {
+        "locations": {
+          "en": [
+            "a fortified camp in a defensible mountain pass",
+            "a captured village whose inhabitants work for the company",
+            "an old military fort reclaimed and used as a base of operations"
+          ],
+          "nl": [
+            "een versterkt kamp in een verdedigbare bergpas",
+            "een veroverd dorp waarvan de inwoners voor de compagnie werken",
+            "een oud militair fort dat is teruggenomen en gebruikt als operatiebasis"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a guarded palisade gate on the only road into camp",
+            "via a mountain trail so narrow it must be walked single file",
+            "through an old drawbridge over a dry moat that is raised at night"
+          ],
+          "nl": [
+            "door een bewaakt palissadehek op de enige weg naar het kamp",
+            "via een bergpad zo smal dat je in een enkele file moet lopen",
+            "door een oude ophaalbrug over een droge gracht die 's nachts wordt opgetrokken"
+          ]
+        }
+      },
+      "art_forgery": {
+        "locations": {
+          "en": [
+            "a private gallery used as both a showroom and production facility",
+            "a well-lit studio disguised as a legitimate artist's workshop",
+            "a sealed vault beneath an auction house storing originals and forgeries alike"
+          ],
+          "nl": [
+            "een privégalerie gebruikt als zowel showroom als productielocatie",
+            "een goed verlicht atelier vermomd als een legitieme kunstenaars werkplaats",
+            "een afgesloten kluis onder een veilinghuis die zowel originelen als vervalsingen opbergt"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a framing workshop whose back wall is a concealed door",
+            "via a painting on the wall of a private gallery that swings open on a hinge",
+            "through a service entrance of an auction house that leads to a hidden studio below"
+          ],
+          "nl": [
+            "via een lijstenmakerswerkplaats waarvan de achterwand een verborgen deur is",
+            "via een schilderij aan de muur van een privégalerie dat openklapt op een scharnier",
+            "door een dienstingang van een veilinghuis die leidt naar een verborgen studio eronder"
+          ]
+        }
+      },
+      "counterfeit_mint": {
+        "locations": {
+          "en": [
+            "an underground foundry deep beneath a metalworker's legitimate shop",
+            "a converted mine shaft with equipment lowered through the shaft opening",
+            "a sealed room in a warehouse built specifically to muffle the sound of machinery"
+          ],
+          "nl": [
+            "een ondergrondse gieterij diep onder de legitieme winkel van een metaalbewerker",
+            "een verbouwde mijnschacht met apparatuur neergelaten door de schachtopening",
+            "een afgesloten kamer in een pakhuis gebouwd specifiek om het geluid van machines te dempen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a metalworker's forge whose back furnace slides aside to reveal a staircase",
+            "via a mine shaft entrance disguised as a sealed hazardous materials store",
+            "through a trapdoor beneath a heavy anvil that requires two people to move"
+          ],
+          "nl": [
+            "via de smederij van een metaalbewerker waarvan de achterste oven opzijschuift om een trap te onthullen",
+            "via een mijnschachtingang vermomd als een afgesloten gevaarlijk-materiaalopslag",
+            "via een valluik onder een zwaar aambeeld dat twee personen nodig heeft om te verplaatsen"
+          ]
+        }
+      },
+      "gambling_den": {
+        "locations": {
+          "en": [
+            "a sprawling underground club beneath a respectable merchant district",
+            "a converted wine cellar that has expanded into a full entertainment complex",
+            "a barge permanently moored outside city jurisdiction"
+          ],
+          "nl": [
+            "een uitgestrekte ondergrondse club onder een respectabele koopmanswijk",
+            "een verbouwde wijnkelder die is uitgegroeid tot een volledig entertainmentcomplex",
+            "een schip permanent gemeerd buiten de stadsjurisdictie"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the back room of a reputable money changer's shop",
+            "via a private members' door in an alley behind a theatre",
+            "through a barbershop whose proprietor acts as doorman"
+          ],
+          "nl": [
+            "via de achterruimte van een gerenommeerde wisselkantoor",
+            "via een ledensdeur in een steeg achter een theater",
+            "door een kapperszaak waarvan de eigenaar als portier fungeert"
+          ]
+        }
+      },
+      "dockside_gang": {
+        "locations": {
+          "en": [
+            "a fortified warehouse on the quayside officially used for legitimate cargo",
+            "a converted ship permanently docked at a private berth",
+            "a network of connected dock buildings spanning a full harbour section"
+          ],
+          "nl": [
+            "een versterkt pakhuis op de kade officieel gebruikt voor legitieme lading",
+            "een verbouwd schip permanent aangemeerd bij een privéligplaats",
+            "een netwerk van verbonden havengebouwen die een volledig havensectie omspannen"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through the loading doors of a warehouse that appear permanently locked but open via a hidden mechanism",
+            "via a rope ladder on the side of a docked vessel that is pulled up when not in use",
+            "through a hatch in the harbour floor accessible only by small boat at low tide"
+          ],
+          "nl": [
+            "via de laaddeuren van een pakhuis die permanent vergrendeld lijken maar openen via een verborgen mechanisme",
+            "via een touwladder aan de zijkant van een aangemeerd vaartuig dat omhoog wordt getrokken als het niet in gebruik is",
+            "door een luik in de havenbodem alleen bereikbaar met een kleine boot bij laag water"
+          ]
+        }
+      },
+      "beggars_union": {
+        "locations": {
+          "en": [
+            "a network of shelters and lean-tos beneath a city bridge",
+            "a hidden district of improvised homes in the city's forgotten underground spaces",
+            "a large abandoned building claimed as a commune and refuge"
+          ],
+          "nl": [
+            "een netwerk van schuilplaatsen en afdakjes onder een stadsbrug",
+            "een verborgen wijk van geïmproviseerde woningen in de vergeten ondergrondse ruimtes van de stad",
+            "een groot verlaten gebouw ingenomen als commune en toevluchtsoord"
+          ]
+        },
+        "entrances": {
+          "en": [
+            "through a gap in a city wall known only to members, disguised as rubble",
+            "via a beggar's blanket laid over a trapdoor in a busy square",
+            "through a drainage grate in an alley that swings open when tapped in a specific rhythm"
+          ],
+          "nl": [
+            "via een gat in een stadsmuur dat alleen leden kennen, vermomd als puin",
+            "via een bedelaarsdeken gelegd over een valluik op een druk plein",
+            "door een afvoerrooster in een steeg dat openklapt als er op een specifiek ritme op wordt getikt"
+          ]
+        }
+      }
+    }
+  }
+}

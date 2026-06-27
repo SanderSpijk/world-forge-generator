@@ -1,0 +1,992 @@
+{
+  "factions": [
+    {
+      "id": "piraten",
+      "nl": "Piraten",
+      "en": "Pirates",
+      "adjective": {
+        "nl": "Piraten",
+        "en": "Pirate"
+      },
+      "shipTypes": [
+        "pinas",
+        "sloep",
+        "bark",
+        "brigantijn"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "nederland",
+      "nl": "Nederland",
+      "en": "Netherlands",
+      "adjective": {
+        "nl": "Nederlandse",
+        "en": "Dutch"
+      },
+      "shipTypes": [
+        "pinas",
+        "sloep",
+        "bark",
+        "fluijt",
+        "brigantijn"
+      ],
+      "dutchName": true
+    },
+    {
+      "id": "spanje",
+      "nl": "Spanje",
+      "en": "Spain",
+      "adjective": {
+        "nl": "Spaanse",
+        "en": "Spanish"
+      },
+      "shipTypes": [
+        "brigantijn",
+        "handelsschip",
+        "galjoen",
+        "fregat"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "frankrijk",
+      "nl": "Frankrijk",
+      "en": "France",
+      "adjective": {
+        "nl": "Franse",
+        "en": "French"
+      },
+      "shipTypes": [
+        "pinas",
+        "sloep",
+        "bark",
+        "fluijt",
+        "brigantijn"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "engeland",
+      "nl": "Engeland",
+      "en": "England",
+      "adjective": {
+        "nl": "Engelse",
+        "en": "English"
+      },
+      "shipTypes": [
+        "pinas",
+        "sloep",
+        "bark",
+        "brigantijn",
+        "handelsschip",
+        "galjoen",
+        "fregat"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "indianen",
+      "nl": "Indianen",
+      "en": "Natives",
+      "adjective": {
+        "nl": "Indiaanse",
+        "en": "Native"
+      },
+      "shipTypes": [
+        "warcanoe",
+        "pinas"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "portugal",
+      "nl": "Portugal",
+      "en": "Portugal",
+      "adjective": {
+        "nl": "Portugese",
+        "en": "Portuguese"
+      },
+      "shipTypes": [
+        "brigantijn",
+        "handelsschip",
+        "galjoen",
+        "fregat"
+      ],
+      "dutchName": false
+    },
+    {
+      "id": "wic",
+      "nl": "WIC",
+      "en": "WIC",
+      "adjective": {
+        "nl": "Compagnie",
+        "en": "Company"
+      },
+      "shipTypes": [
+        "pinas",
+        "sloep",
+        "bark",
+        "fluijt",
+        "brigantijn",
+        "handelsschip",
+        "galjoen",
+        "fregat",
+        "koninklijk_fregat"
+      ],
+      "dutchName": true
+    }
+  ],
+  "shipTypes": [
+    {
+      "id": "warcanoe",
+      "nl": "Warcanoe",
+      "en": "War Canoe",
+      "maxLength": 20,
+      "maxWidth": 3,
+      "decks": "1",
+      "cannons": "0",
+      "masts": "0",
+      "crew": "25"
+    },
+    {
+      "id": "pinas",
+      "nl": "Pinas",
+      "en": "Pinnace",
+      "maxLength": 40,
+      "maxWidth": 18,
+      "decks": "2",
+      "cannons": "8",
+      "masts": "1",
+      "crew": "35"
+    },
+    {
+      "id": "sloep",
+      "nl": "Sloep",
+      "en": "Sloop",
+      "maxLength": 50,
+      "maxWidth": 20,
+      "decks": "2",
+      "cannons": "12",
+      "masts": "1",
+      "crew": "58"
+    },
+    {
+      "id": "bark",
+      "nl": "Bark",
+      "en": "Barque",
+      "maxLength": 70,
+      "maxWidth": 21,
+      "decks": "2",
+      "cannons": "16",
+      "masts": "2",
+      "crew": "104"
+    },
+    {
+      "id": "fluijt",
+      "nl": "Fluijt",
+      "en": "Fluyt",
+      "maxLength": 100,
+      "maxWidth": 50,
+      "decks": "3",
+      "cannons": "20",
+      "masts": "3",
+      "crew": "60"
+    },
+    {
+      "id": "brigantijn",
+      "nl": "Brigantijn",
+      "en": "Brigantine",
+      "maxLength": 150,
+      "maxWidth": 36,
+      "decks": "3",
+      "cannons": "20",
+      "masts": "2",
+      "crew": "138"
+    },
+    {
+      "id": "handelsschip",
+      "nl": "Handelsschip",
+      "en": "Merchant Ship",
+      "maxLength": 150,
+      "maxWidth": 36,
+      "decks": "4",
+      "cannons": "24",
+      "masts": "3",
+      "crew": "112"
+    },
+    {
+      "id": "galjoen",
+      "nl": "Galjoen",
+      "en": "Galleon",
+      "maxLength": 180,
+      "maxWidth": 45,
+      "decks": "4",
+      "cannons": "24",
+      "masts": "3",
+      "crew": "200"
+    },
+    {
+      "id": "fregat",
+      "nl": "Fregat",
+      "en": "Frigate",
+      "maxLength": 210,
+      "maxWidth": 60,
+      "decks": "4",
+      "cannons": "32",
+      "masts": "3",
+      "crew": "240"
+    },
+    {
+      "id": "koninklijk_fregat",
+      "nl": "Koninklijk Fregat",
+      "en": "Royal Frigate",
+      "maxLength": 210,
+      "maxWidth": 70,
+      "decks": "4",
+      "cannons": "36",
+      "masts": "3",
+      "crew": "260"
+    }
+  ],
+  "namen": {
+    "prefix": [
+      "Golden",
+      "Fallen",
+      "West",
+      "North",
+      "South",
+      "East",
+      "Night",
+      "Dark",
+      "Light",
+      "Soggy",
+      "Poisonous",
+      "Drunken"
+    ],
+    "suffix": [
+      "Basilisk",
+      "Hook",
+      "Blocker",
+      "Victory",
+      "Wind",
+      "Seaweed",
+      "Aster",
+      "Maid",
+      "Maiden",
+      "Neptune",
+      "Poseidon",
+      "Fire",
+      "Phoenix"
+    ],
+    "dutch": [
+      "Alkmaar",
+      "Amsterdam",
+      "Alkemade",
+      "Amersfoort",
+      "Anna Catharina",
+      "Arend",
+      "Zwarte Arend",
+      "Assendelft",
+      "Avonturier",
+      "Avondster",
+      "Batavia",
+      "Koning van Bantam",
+      "Barneveld",
+      "Batavier",
+      "Beemster",
+      "Gele Beer",
+      "Zwarte Beer",
+      "Jacoba van Beieren",
+      "Beschermer",
+      "Betuwe",
+      "Noord Beveland",
+      "De Bij",
+      "Bleiswijk",
+      "De Bode",
+      "Wakende Boei",
+      "Boekenrode",
+      "Boetzelaar",
+      "De Bok",
+      "Bonifacius",
+      "Bovenkarspel",
+      "Boterbloem",
+      "Brandgans",
+      "Breda",
+      "Den Briel",
+      "Broederlust",
+      "Broekerhaven",
+      "Brouwershaven",
+      "Bruinvis",
+      "Buitenleven",
+      "Gouden Buis",
+      "Buitenzorg",
+      "Bunschoten",
+      "Cacaoboon",
+      "Capelle",
+      "Castor",
+      "Castricum",
+      "Vrouwe Catharina Johanna",
+      "Ceylon",
+      "Coevorden",
+      "Concordia",
+      "Culemborg",
+      "Delfshaven",
+      "Dageraad",
+      "Delft",
+      "Deventer",
+      "De Dissel",
+      "Doggersbank",
+      "Dolfijn",
+      "Domburg",
+      "Dordrecht",
+      "Groene Draak",
+      "Vergulde Draak",
+      "Vliegende Draak",
+      "Drakestein",
+      "Duif",
+      "Dromedaris",
+      "Durgerdam",
+      "Edam",
+      "Eekhoorn",
+      "Eendracht",
+      "Egel",
+      "Eenhoorn",
+      "Egmond",
+      "Engel",
+      "Enkhuizen",
+      "Erasmus",
+      "Europa",
+      "Expeditie",
+      "Pollux"
+    ]
+  },
+  "omschrijving": {
+    "uiterlijk": [
+      {
+        "nl": "Het schip is gebouwd in de Oosterse stijl met geribte zeilen.",
+        "en": "The ship is built in an Eastern style with ribbed sails."
+      },
+      {
+        "nl": "Het schip is gebouwd door dwergen en is duidelijk meer gebouwd op functionaliteit dan op uiterlijk.",
+        "en": "The ship was built by dwarves and is clearly built more for function than appearance."
+      },
+      {
+        "nl": "Het schip is gebouwd in Europese stijl, praktisch en functioneel.",
+        "en": "The ship is built in a European style, practical and functional."
+      },
+      {
+        "nl": "Het schip is gemaakt door gnomes, kleiner dan andere schepen met vreemde technologie aan boord.",
+        "en": "The ship was made by gnomes, smaller than other ships with strange technology on board."
+      },
+      {
+        "nl": "Het schip is gehavend in de strijd en kan maar net blijven drijven.",
+        "en": "The ship is battered from battle and can barely stay afloat."
+      },
+      {
+        "nl": "Het schip is gebouwd in een onbekende stijl, je hebt nog nooit zoiets gezien.",
+        "en": "The ship is built in an unknown style, unlike anything you have ever seen."
+      },
+      {
+        "nl": "Het schip ziet er erg nieuw uit, net of hij net uit een droogdok is gedreven.",
+        "en": "The ship looks brand new, as if it just left a dry dock."
+      },
+      {
+        "nl": "Het schip is gebouwd voor Halflings, alles is kleiner dan normaal.",
+        "en": "The ship was built for Halflings; everything is smaller than normal."
+      },
+      {
+        "nl": "De boeg van het schip ziet er uit als een gigantische drakenkop.",
+        "en": "The bow of the ship is shaped like a giant dragon's head."
+      },
+      {
+        "nl": "Aan palen, die verbonden zijn met de mast, hangen visnetten.",
+        "en": "Fishing nets hang from poles connected to the mast."
+      },
+      {
+        "nl": "Het schip heeft volledige zwarte zeilen.",
+        "en": "The ship has fully black sails."
+      },
+      {
+        "nl": "Het schip heeft volledige rode zeilen.",
+        "en": "The ship has fully red sails."
+      },
+      {
+        "nl": "Op het dek van het schip is een soort tuin aangelegd, met planten, bosjes en zelfs kleine bomen.",
+        "en": "A kind of garden has been laid out on the deck, with plants, shrubs and even small trees."
+      },
+      {
+        "nl": "Rond het schip cirkelen een groot aantal zeevogels, zoals meeuwen en albatrossen.",
+        "en": "A large number of seabirds, such as gulls and albatrosses, circle the ship."
+      },
+      {
+        "nl": "Boven in de mast wappert een zwarte vlag met twee gekruisde zwaarden.",
+        "en": "A black flag with two crossed swords flies from the top of the mast."
+      },
+      {
+        "nl": "Het schip is bedekt met groene algen en mosselen, alsof het al jaren niet gereinigd is.",
+        "en": "The ship is covered in green algae and barnacles, as if it has not been cleaned in years."
+      },
+      {
+        "nl": "De romp is beschilderd met felle kleuren en vreemde symbolen.",
+        "en": "The hull is painted with vivid colors and strange symbols."
+      },
+      {
+        "nl": "Het schip heeft een boegspriet waaraan schedels hangen als waarschuwing.",
+        "en": "The ship has a bowsprit from which skulls hang as a warning."
+      },
+      {
+        "nl": "Het dek is versierd met gesneden houtwerk van zeemonsters en golven.",
+        "en": "The deck is adorned with carved woodwork of sea monsters and waves."
+      },
+      {
+        "nl": "De zeilen zijn gelapt met verschillende soorten stof in alle kleuren.",
+        "en": "The sails are patched with various types of cloth in many colors."
+      },
+      {
+        "nl": "Het schip heeft een vergulde achtersteven die glinster in het zonlicht.",
+        "en": "The ship has a gilded stern that glitters in the sunlight."
+      },
+      {
+        "nl": "Langs de waterlijn is het schip geschilderd om er kleiner uit te zien dan het is.",
+        "en": "Along the waterline the ship is painted to look smaller than it actually is."
+      },
+      {
+        "nl": "Het schip heeft geen zichtbare naam, alle opschriften zijn zorgvuldig verwijderd.",
+        "en": "The ship has no visible name; all markings have been carefully removed."
+      },
+      {
+        "nl": "De masten zijn bezaaid met tientallen vlaggen van verschillende naties.",
+        "en": "The masts are covered in dozens of flags from different nations."
+      },
+      {
+        "nl": "Het voorschip heeft een fraai gesneden houten figuur als boegbeeld.",
+        "en": "The prow features a finely carved wooden figure as a figurehead."
+      },
+      {
+        "nl": "Het schip heeft een ongewone driehoekige romp die extra stabiliteit geeft.",
+        "en": "The ship has an unusual triangular hull that provides extra stability."
+      },
+      {
+        "nl": "Over het dek zijn gespannen touwen waaraan wasgoed en vissen te drogen hangen.",
+        "en": "Ropes are strung across the deck from which laundry and fish hang to dry."
+      },
+      {
+        "nl": "Het schip is zwaar bepantserd met dikke houten planken en ijzeren platen.",
+        "en": "The ship is heavily armored with thick wooden planks and iron plates."
+      },
+      {
+        "nl": "De romp is volledig zwart geteerd, waardoor het schip nauwelijks zichtbaar is in het donker.",
+        "en": "The hull is completely tarred black, making the ship nearly invisible in the dark."
+      },
+      {
+        "nl": "Op de boeg staat een groot magisch kompas dat altijd naar het noorden wijst.",
+        "en": "A large magical compass stands on the bow, always pointing north."
+      },
+      {
+        "nl": "Het schip heeft uitschuifbare roeiriemen aan de zijkanten voor kalme wateren.",
+        "en": "The ship has extendable oars on the sides for calm waters."
+      },
+      {
+        "nl": "Er hangen lantaarns in alle kleuren aan de reling die 's nachts een spookachtig licht geven.",
+        "en": "Lanterns of all colors hang from the railing, casting an eerie glow at night."
+      },
+      {
+        "nl": "De zeilen zijn versierd met een groot oog dat bewakers op afstand moet afschrikken.",
+        "en": "The sails are decorated with a large eye meant to ward off observers from a distance."
+      },
+      {
+        "nl": "Op de mast zit een uitkijkpost omgeven door een kooi van ijzeren staven.",
+        "en": "The mast has a crow's nest surrounded by a cage of iron bars."
+      },
+      {
+        "nl": "De reling is versierd met bronzen zeegodenfiguren die de bemanning moeten beschermen.",
+        "en": "The railing is decorated with bronze sea deity figures meant to protect the crew."
+      },
+      {
+        "nl": "Het schip heeft een brede, lage romp die het uiterst geschikt maakt voor ondiepe wateren.",
+        "en": "The ship has a wide, shallow hull making it ideal for shallow waters."
+      },
+      {
+        "nl": "Halverwege het dek staat een klein altaar voor zeegoden met brandende kaarsen.",
+        "en": "Halfway across the deck stands a small altar to sea gods with burning candles."
+      },
+      {
+        "nl": "Het achterschip is voorzien van een overdekte galerij met grote ramen.",
+        "en": "The stern is fitted with a covered gallery with large windows."
+      },
+      {
+        "nl": "Er is duidelijk sprake van elfenbouw: de lijnen zijn sierlijk en het hout is van ongewone kleur.",
+        "en": "The ship is clearly of elven make: the lines are elegant and the wood is an unusual color."
+      },
+      {
+        "nl": "De masten zijn versterkt met magische runen die in de nacht zachtjes oplichten.",
+        "en": "The masts are reinforced with magical runes that glow softly in the night."
+      },
+      {
+        "nl": "Het schip heeft een gehavende achterplecht waar duidelijk iets ingeslagen is.",
+        "en": "The ship has a damaged stern where something has clearly struck it."
+      },
+      {
+        "nl": "Op het achterdek staat een grote kooi met een onbekend wezen erin.",
+        "en": "On the quarterdeck stands a large cage containing an unknown creature."
+      },
+      {
+        "nl": "Het schip is volgeladen met extra ankers en kettingen die aan de zijkant hangen.",
+        "en": "The ship is loaded with extra anchors and chains hanging from its sides."
+      },
+      {
+        "nl": "Er hangen netten vol vis en zeewier langs de flanken van het schip.",
+        "en": "Nets full of fish and seaweed hang along the flanks of the ship."
+      },
+      {
+        "nl": "De boeg heeft een ram van versterkt ijzer voor aanvalstactieken.",
+        "en": "The bow has a ram of reinforced iron for attack tactics."
+      },
+      {
+        "nl": "Langs de reling hangen schilden als extra bescherming bij gevechten.",
+        "en": "Shields hang along the railing as extra protection during combat."
+      },
+      {
+        "nl": "Het schip heeft een uniek dubbeldeks systeem waarbij het onderste dek uitschuifbaar is.",
+        "en": "The ship has a unique double-deck system where the lower deck can be extended."
+      },
+      {
+        "nl": "De boeg is versierd met vergulde sierlijsten die het schip een statige uitstraling geven.",
+        "en": "The bow is adorned with gilded ornamental borders giving the ship a stately appearance."
+      },
+      {
+        "nl": "Het schip heeft aan bakboord een zwaar beschadigde mast die provisorisch is gerepareerd.",
+        "en": "The ship has a heavily damaged mast on the port side that has been provisionally repaired."
+      },
+      {
+        "nl": "Op het dek staan grote watervaten vastgezet met touwen, duidelijk voor een lange reis.",
+        "en": "Large water barrels are secured with ropes on deck, clearly prepared for a long voyage."
+      }
+    ],
+    "crew": [
+      {
+        "nl": "De bemanning bestaat uit voornamelijk premiejagers die altijd op zoek zijn naar een nieuwe prooi.",
+        "en": "The crew consists mainly of bounty hunters always on the lookout for new prey."
+      },
+      {
+        "nl": "Het schip is een marineschip uitgerust om handelsschepen te beschermen.",
+        "en": "The ship is a naval vessel equipped to protect merchant ships."
+      },
+      {
+        "nl": "Het is een handelsschip, zelfs het dek is overladen met lading vastgezet met netten.",
+        "en": "It is a merchant ship; even the deck is loaded with cargo secured with nets."
+      },
+      {
+        "nl": "Het is een slavenschip uit de Oude wereld, het onderste dek is gevuld met slaven.",
+        "en": "It is a slave ship from the Old World; the lower deck is filled with slaves."
+      },
+      {
+        "nl": "In het want zit een capucijneraapje, duidelijk de scheepsmascotte.",
+        "en": "A capuchin monkey sits in the rigging, clearly the ship's mascot."
+      },
+      {
+        "nl": "Boven het dek vliegt een papegaai, af en toe gaat hij op de schouder van de kapitein zitten.",
+        "en": "A parrot flies above the deck, occasionally landing on the captain's shoulder."
+      },
+      {
+        "nl": "De vlag van het schip laat een bebloed zwaard zien.",
+        "en": "The ship's flag displays a blood-stained sword."
+      },
+      {
+        "nl": "Het schip heeft geen kanonnen en je ziet ook geen luiken waarachter kanonnen kunnen zitten.",
+        "en": "The ship has no cannons and no gun ports are visible."
+      },
+      {
+        "nl": "Het dek van het schip is gevuld met soldaten die klaar lijken te zijn voor de strijd.",
+        "en": "The ship's deck is filled with soldiers who appear ready for battle."
+      },
+      {
+        "nl": "Op het dek van het schip staat een vreemd uitziend apparaat (duikersklok).",
+        "en": "On the ship's deck stands a strange-looking device (diving bell)."
+      },
+      {
+        "nl": "Op het dek worden vissen en zout in vaten gestopt om ze te pekelen.",
+        "en": "Fish and salt are being packed into barrels on deck for pickling."
+      },
+      {
+        "nl": "De bemanning zingt luidruchtig zeemanssliederen terwijl ze werken.",
+        "en": "The crew sings loud sea shanties while they work."
+      },
+      {
+        "nl": "Er zijn nauwelijks bemanningsleden zichtbaar; het schip lijkt bijna verlaten.",
+        "en": "Barely any crew members are visible; the ship seems almost abandoned."
+      },
+      {
+        "nl": "De bemanning bestaat volledig uit vrouwen, wat ongewoon is voor een schip van dit formaat.",
+        "en": "The crew consists entirely of women, which is unusual for a ship of this size."
+      },
+      {
+        "nl": "Op het achterdek staat een groep monniken in gewaad te bidden.",
+        "en": "A group of robed monks stands on the quarterdeck praying."
+      },
+      {
+        "nl": "De bemanning draagt uniforme kleding met het embleem van een onbekende gilde.",
+        "en": "The crew wears uniform clothing bearing the emblem of an unknown guild."
+      },
+      {
+        "nl": "Er lopen gevangen personen met ketens op het dek, duidelijk gevangenen.",
+        "en": "Chained individuals walk on deck, clearly prisoners."
+      },
+      {
+        "nl": "De bemanning bestaat grotendeels uit orcs en half-orcs die zwijgend hun werk doen.",
+        "en": "The crew consists largely of orcs and half-orcs who work in silence."
+      },
+      {
+        "nl": "Een groep wetenschappers en kartografen is druk bezig met metingen en notities.",
+        "en": "A group of scientists and cartographers are busy taking measurements and notes."
+      },
+      {
+        "nl": "De bemanning lijkt onderling ruzie te maken; er heerst duidelijke spanning op het dek.",
+        "en": "The crew appears to be arguing among themselves; there is clear tension on deck."
+      },
+      {
+        "nl": "Aan het roer staat een golem die het schip bestuurt zonder menselijke tussenkomst.",
+        "en": "A golem stands at the helm steering the ship without human intervention."
+      },
+      {
+        "nl": "De bemanning draagt ceremonieel wapenrusting alsof ze voor een inspectie zijn.",
+        "en": "The crew wears ceremonial armor as if prepared for an inspection."
+      },
+      {
+        "nl": "Op het dek lopen tieflings met gloeiende ogen die rituelen uitvoeren.",
+        "en": "Tieflings with glowing eyes walk the deck performing rituals."
+      },
+      {
+        "nl": "Er is een arts druk bezig met het verbinden van gewonde bemanningsleden.",
+        "en": "A doctor is busy bandaging wounded crew members."
+      },
+      {
+        "nl": "De bemanning bestaat uit elven die bijna geruisloos over het dek bewegen.",
+        "en": "The crew consists of elves who move across the deck almost silently."
+      },
+      {
+        "nl": "Op het dek staat een groep halflingen die luidruchtig kaartspelen.",
+        "en": "A group of halflings loudly plays cards on deck."
+      },
+      {
+        "nl": "De bemanningsleden zijn duidelijk verzwakt door ziekte of honger.",
+        "en": "The crew members are clearly weakened by illness or hunger."
+      },
+      {
+        "nl": "De bemanning heeft allemaal tatoages van hetzelfde ontwerp, een teken van hun broederschap.",
+        "en": "All crew members share the same tattoo design, a sign of their brotherhood."
+      },
+      {
+        "nl": "Op het voorschip staat een magiër die spreuken uitvoert om het schip sneller te laten varen.",
+        "en": "A mage stands at the bow casting spells to propel the ship faster."
+      },
+      {
+        "nl": "De bemanning bestaat uit voormalige soldaten die duidelijk militaire discipline tonen.",
+        "en": "The crew consists of former soldiers who clearly display military discipline."
+      },
+      {
+        "nl": "Er lopen kinderen over het dek, waarschijnlijk scheepsjongens in opleiding.",
+        "en": "Children run across the deck, likely cabin boys in training."
+      },
+      {
+        "nl": "De bemanning heeft geen kapitein; ze worden bestuurd door een raad van drie oudsten.",
+        "en": "The crew has no captain; they are governed by a council of three elders."
+      },
+      {
+        "nl": "Op het dek loopt een beer aan een ketting, de mascotte van de bemanning.",
+        "en": "A bear on a chain walks the deck, the crew's mascot."
+      },
+      {
+        "nl": "De bemanning werkt zwijgend en efficiënt, alsof ze een geheim bewaren.",
+        "en": "The crew works silently and efficiently, as if guarding a secret."
+      },
+      {
+        "nl": "Er staat een bard op het achterdek die de bemanning moed inspeelt met zijn muziek.",
+        "en": "A bard stands on the quarterdeck playing music to inspire the crew."
+      },
+      {
+        "nl": "De bemanning wisselt constant de wacht, ze lijken bang voor iets onzichtbaars.",
+        "en": "The crew constantly changes watch, as if afraid of something unseen."
+      },
+      {
+        "nl": "Op het dek worden gevechtsmanoeuvres geoefend door gewapende bemanningsleden.",
+        "en": "Armed crew members practice combat maneuvers on deck."
+      },
+      {
+        "nl": "De bemanning bestaat uit diverse rassen: mensen, elven, dwergen en orks zij aan zij.",
+        "en": "The crew consists of diverse races: humans, elves, dwarves and orcs side by side."
+      },
+      {
+        "nl": "Er hangen wapenschilden van gevallen vijanden als trofeeën aan de reling.",
+        "en": "Shields from fallen enemies hang as trophies from the railing."
+      },
+      {
+        "nl": "De bemanning draagt maskers en weigert hun gezicht te tonen aan buitenstaanders.",
+        "en": "The crew wears masks and refuses to show their faces to outsiders."
+      },
+      {
+        "nl": "Op het dek liggen gewonde bemanningsleden die verzorging nodig hebben.",
+        "en": "Wounded crew members lie on deck in need of care."
+      },
+      {
+        "nl": "Er is een alchemist bezig met gevaarlijke experimenten aan de rand van het dek.",
+        "en": "An alchemist conducts dangerous experiments at the edge of the deck."
+      },
+      {
+        "nl": "De bemanning bestaat uit misdadigers met boeien om hun polsen, gedwongen te dienen.",
+        "en": "The crew consists of criminals with shackles on their wrists, forced into service."
+      },
+      {
+        "nl": "De bemanning spreekt een taal die niemand buiten het schip lijkt te kennen.",
+        "en": "The crew speaks a language that no one outside the ship seems to know."
+      },
+      {
+        "nl": "Op het dek staat een enorme ballista klaar voor gebruik, bemand door twee reuzen.",
+        "en": "An enormous ballista stands ready for use on deck, manned by two giants."
+      },
+      {
+        "nl": "De bemanning bestaat uit geesten die pas bij maanlicht volledig zichtbaar worden.",
+        "en": "The crew consists of ghosts who only become fully visible in moonlight."
+      },
+      {
+        "nl": "Er lopen bewakers met getrokken wapens op het dek, alsof ze iets kostbaars bewaken.",
+        "en": "Guards with drawn weapons patrol the deck, as if protecting something precious."
+      },
+      {
+        "nl": "De bemanning lijkt onder invloed van een betovering die hen kalm en gehoorzaam houdt.",
+        "en": "The crew appears to be under the influence of an enchantment keeping them calm and obedient."
+      },
+      {
+        "nl": "Een groep mijnwerkers met gereedschap is aan dek; dit schip heeft duidelijk andere doelen dan varen.",
+        "en": "A group of miners with tools is on deck; this ship clearly serves purposes beyond sailing."
+      },
+      {
+        "nl": "Op het dek staat een gevangenenkooi waarin een imposante figuur zit te wachten.",
+        "en": "A prisoner cage on deck holds an imposing figure who watches and waits."
+      }
+    ]
+  },
+  "cargo": [
+    {
+      "nl": "Aardappels",
+      "en": "Potatoes"
+    },
+    {
+      "nl": "Ananas",
+      "en": "Pineapples"
+    },
+    {
+      "nl": "Bananen",
+      "en": "Bananas"
+    },
+    {
+      "nl": "Brood",
+      "en": "Bread"
+    },
+    {
+      "nl": "Citrusfruit",
+      "en": "Citrus fruit"
+    },
+    {
+      "nl": "Graan",
+      "en": "Grain"
+    },
+    {
+      "nl": "Koffiebonen",
+      "en": "Coffee beans"
+    },
+    {
+      "nl": "Groenten",
+      "en": "Vegetables"
+    },
+    {
+      "nl": "Kokosnoten",
+      "en": "Coconuts"
+    },
+    {
+      "nl": "Maïs",
+      "en": "Corn"
+    },
+    {
+      "nl": "Pepers",
+      "en": "Peppers"
+    },
+    {
+      "nl": "Suikerriet",
+      "en": "Sugar cane"
+    },
+    {
+      "nl": "Tabaksbladeren",
+      "en": "Tobacco leaves"
+    },
+    {
+      "nl": "Vee / Vlees",
+      "en": "Livestock / Meat"
+    },
+    {
+      "nl": "Verfstoffen",
+      "en": "Dyes"
+    },
+    {
+      "nl": "Cacao",
+      "en": "Cacao"
+    },
+    {
+      "nl": "Bier",
+      "en": "Beer"
+    },
+    {
+      "nl": "Chocolade",
+      "en": "Chocolate"
+    },
+    {
+      "nl": "Hennep",
+      "en": "Hemp"
+    },
+    {
+      "nl": "Hout",
+      "en": "Timber"
+    },
+    {
+      "nl": "Katoen",
+      "en": "Cotton"
+    },
+    {
+      "nl": "Klei",
+      "en": "Clay"
+    },
+    {
+      "nl": "Koffie",
+      "en": "Coffee"
+    },
+    {
+      "nl": "Kolen",
+      "en": "Coal"
+    },
+    {
+      "nl": "Rum",
+      "en": "Rum"
+    },
+    {
+      "nl": "Specerijen",
+      "en": "Spices"
+    },
+    {
+      "nl": "Zout",
+      "en": "Salt"
+    },
+    {
+      "nl": "Adamantiumerts",
+      "en": "Adamantine ore"
+    },
+    {
+      "nl": "Edelstenen",
+      "en": "Gemstones"
+    },
+    {
+      "nl": "Gouderts",
+      "en": "Gold ore"
+    },
+    {
+      "nl": "IJzererts",
+      "en": "Iron ore"
+    },
+    {
+      "nl": "Kopererts",
+      "en": "Copper ore"
+    },
+    {
+      "nl": "Mithrilerts",
+      "en": "Mithril ore"
+    },
+    {
+      "nl": "Zilvererts",
+      "en": "Silver ore"
+    },
+    {
+      "nl": "Goud",
+      "en": "Gold"
+    },
+    {
+      "nl": "Adamantium",
+      "en": "Adamantine"
+    },
+    {
+      "nl": "IJzer",
+      "en": "Iron"
+    },
+    {
+      "nl": "Staal",
+      "en": "Steel"
+    },
+    {
+      "nl": "Koper",
+      "en": "Copper"
+    },
+    {
+      "nl": "Mithril",
+      "en": "Mithril"
+    },
+    {
+      "nl": "Zilver",
+      "en": "Silver"
+    },
+    {
+      "nl": "Bakstenen",
+      "en": "Bricks"
+    },
+    {
+      "nl": "Keramiek",
+      "en": "Ceramics"
+    },
+    {
+      "nl": "Kleding",
+      "en": "Clothing"
+    },
+    {
+      "nl": "Leer / Huiden",
+      "en": "Leather / Hides"
+    },
+    {
+      "nl": "Linnen",
+      "en": "Linen"
+    },
+    {
+      "nl": "Meubels",
+      "en": "Furniture"
+    },
+    {
+      "nl": "Scheepsmaterialen",
+      "en": "Ship supplies"
+    },
+    {
+      "nl": "Sierraden",
+      "en": "Jewelry"
+    },
+    {
+      "nl": "Sigaren",
+      "en": "Cigars"
+    },
+    {
+      "nl": "Slaven",
+      "en": "Slaves"
+    },
+    {
+      "nl": "Suiker",
+      "en": "Sugar"
+    },
+    {
+      "nl": "Touw",
+      "en": "Rope"
+    },
+    {
+      "nl": "Verf",
+      "en": "Paint"
+    },
+    {
+      "nl": "Zwavel",
+      "en": "Sulphur"
+    }
+  ]
+}

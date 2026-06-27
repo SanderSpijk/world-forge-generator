@@ -1,0 +1,125 @@
+{
+  "_comment": "WorldForge ship-functions.json — 21 scheepsfuncties. Vervangt de NPC Ship Function rollable table.",
+  "shipFunctions": [
+    {
+      "nl": "Kapitein",
+      "en": "Captain"
+    },
+    {
+      "nl": "Eerste Stuurman",
+      "en": "First Mate"
+    },
+    {
+      "nl": "Bootsman",
+      "en": "Boatswain"
+    },
+    {
+      "nl": "Bosun",
+      "en": "Bosun"
+    },
+    {
+      "nl": "Zeilmeester",
+      "en": "Sailing Master"
+    },
+    {
+      "nl": "Kwartiermeester",
+      "en": "Quartermaster"
+    },
+    {
+      "nl": "Scheepstimmerman",
+      "en": "Ship's Carpenter"
+    },
+    {
+      "nl": "Wapenmeester",
+      "en": "Weapons Master"
+    },
+    {
+      "nl": "Meester Schutter",
+      "en": "Master Gunner"
+    },
+    {
+      "nl": "Zeilreparateur",
+      "en": "Sail Repair"
+    },
+    {
+      "nl": "Scheepsmagiër",
+      "en": "Ship's Mage"
+    },
+    {
+      "nl": "Scheepsbard",
+      "en": "Ship's Bard"
+    },
+    {
+      "nl": "Scheepspriester",
+      "en": "Ship's Priest"
+    },
+    {
+      "nl": "Scheepschirurgijn",
+      "en": "Ship's Surgeon"
+    },
+    {
+      "nl": "Scheepskok",
+      "en": "Ship's Cook"
+    },
+    {
+      "nl": "Koksmaatje",
+      "en": "Cook's Mate"
+    },
+    {
+      "nl": "Master of Whispers",
+      "en": "Master of Whispers"
+    },
+    {
+      "nl": "Cartograaf",
+      "en": "Cartographer"
+    },
+    {
+      "nl": "Matroos",
+      "en": "Sailor"
+    },
+    {
+      "nl": "Deksman",
+      "en": "Deckhand"
+    },
+    {
+      "nl": "Lichtmatroos",
+      "en": "Ordinary Seaman"
+    },
+    {
+      "nl": "Handelaar",
+      "en": "Merchant"
+    },
+    {
+      "nl": "Scheepsarts",
+      "en": "Ship's Doctor"
+    },
+    {
+      "nl": "Bewaker",
+      "en": "Guard"
+    },
+    {
+      "nl": "Loods",
+      "en": "Pilot"
+    },
+    {
+      "nl": "Scheepsnaturalist",
+      "en": "Ship's Naturalist"
+    },
+    {
+      "nl": "Tolk",
+      "en": "Interpreter"
+    },
+    {
+      "nl": "Bewapende Escorte",
+      "en": "Armed Escort"
+    },
+    {
+      "nl": "Roeier",
+      "en": "Oarsman"
+    },
+    {
+      "nl": "Vuurtorenwachter",
+      "en": "Lookout"
+    }
+  ]
+}

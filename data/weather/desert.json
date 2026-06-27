@@ -1,0 +1,274 @@
+{
+  "weather_types": [
+    {
+      "name": "Clear",
+      "score": 0,
+      "description": {
+        "nl": "De zon brandt meedogenloos neer op het zand. De lucht is kristalhelder en het zicht is eindeloos.",
+        "en": "The sun beats down mercilessly on the sand. The air is crystal clear and visibility is endless."
+      },
+      "min_temp": 28,
+      "max_temp": 40,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 5
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Heatwave",
+          "weight": 4
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Partly Cloudy",
+      "score": 1,
+      "description": {
+        "nl": "Zeldzame wolken bieden korte verkoeling terwijl ze over de hemel drijven.",
+        "en": "Rare clouds offer brief relief as they drift across the sky."
+      },
+      "min_temp": 26,
+      "max_temp": 36,
+      "min_wind": 1,
+      "max_wind": 3,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 4
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Overcast",
+          "weight": 2
+        },
+        {
+          "name": "Heatwave",
+          "weight": 2
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Fog",
+      "score": 1,
+      "description": {
+        "nl": "Een zeldzame oasenmist hangt 's ochtends vroeg laag boven het zand voor de hitte alles verdampt.",
+        "en": "A rare oasis mist hangs low over the sand in the early morning before the heat evaporates it."
+      },
+      "min_temp": 18,
+      "max_temp": 26,
+      "min_wind": 0,
+      "max_wind": 1,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 5
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 3
+        },
+        {
+          "name": "Heatwave",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Overcast",
+      "score": 2,
+      "description": {
+        "nl": "Dikke stofwolken en hoge cirrusbewolking dempen de directe zonnestraling enigszins.",
+        "en": "Thick dust clouds and high cirrus cover reduce direct sunlight slightly."
+      },
+      "min_temp": 24,
+      "max_temp": 34,
+      "min_wind": 2,
+      "max_wind": 5,
+      "next": [
+        {
+          "name": "Partly Cloudy",
+          "weight": 2
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Light Rain",
+          "weight": 2
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "name": "Light Rain",
+      "score": 3,
+      "description": {
+        "nl": "Een zeldzame regenbui daalt neer op het dorstige zand. Het water verdampt bijna voor het de grond raakt.",
+        "en": "A rare shower falls on the thirsty sand. The water almost evaporates before hitting the ground."
+      },
+      "min_temp": 22,
+      "max_temp": 32,
+      "min_wind": 2,
+      "max_wind": 5,
+      "next": [
+        {
+          "name": "Clear",
+          "weight": 3
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Light Rain",
+          "weight": 2
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 1
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Heavy Rain",
+      "score": 4,
+      "description": {
+        "nl": "Een ongewone stortbui overspoelt de wadis en maakt laaggelegen paden tijdelijk onbegaanbaar.",
+        "en": "An unusual downpour floods the wadis and makes low-lying paths temporarily impassable."
+      },
+      "min_temp": 20,
+      "max_temp": 28,
+      "min_wind": 3,
+      "max_wind": 6,
+      "next": [
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Light Rain",
+          "weight": 4
+        },
+        {
+          "name": "Heavy Rain",
+          "weight": 2
+        },
+        {
+          "name": "Clear",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Heatwave",
+      "score": 0,
+      "description": {
+        "nl": "Verzengende hitte hangt boven het land. De lucht trilt en mensen zoeken beschutting.",
+        "en": "Scorching heat hangs over the land. The air shimmers and people seek shelter."
+      },
+      "min_temp": 38,
+      "max_temp": 50,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        {
+          "name": "Heatwave",
+          "weight": 5
+        },
+        {
+          "name": "Clear",
+          "weight": 3
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 3
+        },
+        {
+          "name": "Partly Cloudy",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Sandstorm",
+      "score": 5,
+      "description": {
+        "nl": "Een muur van zand en stof rolt over het land. Ademen is moeilijk en zien vrijwel onmogelijk.",
+        "en": "A wall of sand and dust rolls across the land. Breathing is difficult and seeing nearly impossible."
+      },
+      "min_temp": 30,
+      "max_temp": 42,
+      "min_wind": 6,
+      "max_wind": 10,
+      "next": [
+        {
+          "name": "Sandstorm",
+          "weight": 4
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        },
+        {
+          "name": "Heatwave",
+          "weight": 3
+        },
+        {
+          "name": "Clear",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "name": "Storm",
+      "score": 5,
+      "description": {
+        "nl": "Een zeldzame woestijnstorm met donder en bliksem treft het gebied. Regen en zand tegelijk.",
+        "en": "A rare desert storm with thunder and lightning strikes the area. Rain and sand at once."
+      },
+      "min_temp": 22,
+      "max_temp": 32,
+      "min_wind": 6,
+      "max_wind": 9,
+      "next": [
+        {
+          "name": "Heavy Rain",
+          "weight": 3
+        },
+        {
+          "name": "Sandstorm",
+          "weight": 4
+        },
+        {
+          "name": "Overcast",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

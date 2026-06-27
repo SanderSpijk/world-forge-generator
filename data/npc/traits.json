@@ -1,0 +1,2982 @@
+﻿{
+    "traits":  [
+                   {
+                       "nl":  "Een lange, glorieuze baard. Elke vlecht staat voor iemand die hem heeft gevraagd wat de vlechten betekenen.",
+                       "en":  "A long, glorious beard. Each braid represents another person that has asked him what the braids mean.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een inkeping in zijn neus.",
+                       "en":  "The npc has a cleft cut into their nose.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een extra hand uit zijn rechterarm. De hand is zo klein als die van een kind, zwartgeblakerd en lijkt nergens goed voor.",
+                       "en":  "The npc has an extra hand coming out of their right arm the hand is as small as a childâ€™s and is blackened and seems to be of no use.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Een van de armen van de NPC heeft een andere huidskleur, lengte en handvorm dan de andere.",
+                       "en":  "One of the NPCâ€™s arms is a different tone, length, and has a different shape of hand than the other.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is vervloekt en heeft een lichaamsdeel (arm, been, hand, misschien zelfs een staart...) van een ander ras.",
+                       "en":  "The NPC has been cursed to have a part of their body, (arm, leg, hand, maybe even a tailâ€¦) that is of a different race. (ex. A human with the hand of a tabaxiâ€¦)",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is vervloekt en heeft een lichaamsdeel (arm, been, hand, misschien zelfs een staart...) van een ander ras. (bijv. een mens met de hand van een tabaxi...)",
+                       "en":  "The NPC has been cursed to have a part of their body, (arm, leg, hand, maybe even a tailâ€¦) that is of a different race. (ex. A human with the hand of a tabaxiâ€¦)",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft vele littekens en eeltknobbels op zijn onderarmen, waarschijnlijk ontstaan door jaren van bruut vechttraining.",
+                       "en":  "The NPC has many scars and callouses along their forearms, perhaps being formed over many brutal sparring sessions.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft lange, slanke vingers, misschien van een luxe leven in de hogere klasse, of juist van een leven als straatarme zwerver.",
+                       "en":  "The NPC has long, slender fingers, perhaps from living an easy life in the high class or perhaps from living a life scrounging in the streets.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft goed getrainde beenspieren. Het is duidelijk dat hij gewend is aan rennen.",
+                       "en":  "The NPC has well-toned leg muscles. Clearly, they are used to running.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft wallen onder zijn ogen en lijkt nooit een volledige nacht te slapen.",
+                       "en":  "The NPC has bags under their eyes, perpetually unable to sleep a full night.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC draagt opzichtige sieraden, leunt op een stok met een slecht geslepen robijn. Zijn oren zijn bedekt met filigraan oorbellen die de aandacht afleiden van zijn scheve, gele tanden.",
+                       "en":  "The NPC wears an array of gaudy and flamboyant jewellery, supporting itself on a cane embedded with a poorly cut ruby too big to be real. Itâ€™s ears sport a multitude of filigree ear rings, as if to distract from it crooked and yellow teeth.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De ogen van de NPC veranderen van kleur naargelang zijn stemming.",
+                       "en":  "The npcâ€™s eyes change color with their mood.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is abnormaal lang of klein voor zijn ras.",
+                       "en":  "The npc is abnormally tall/short for their race.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De linkerhand van de NPC heeft stalen klauwen die kunstmatig aangebracht lijken.",
+                       "en":  "The NPCâ€™s left hand has steel claws that appear to be artificially attached.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een vage tatoeage op zijn voorhoofd (DC 15 Investigation). De tatoeage cast Suggestie op wie hem onderzoekt: \u0027Stop met naar mijn voorhoofd kijken.\u0027",
+                       "en":  "The NPC has a very faint tattoo on their forehead that requires a DC 15 Investigation check to make out clearly. The tattoo is enchanted to cast suggestion on someone who successfully investigates the tattoo. The suggestion is â€œStop looking at my forehead.â€",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Als het een man betreft, heeft de NPC een verrassend groot achterwerk en brede heupen.",
+                       "en":  "If a man, the NPC has a surprisingly large butt/hips.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geen haar.",
+                       "en":  "NPC has no hair.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een mohawk.",
+                       "en":  "NPC has a mohawk.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een baard met kralen erin.",
+                       "en":  "NPC has a beard with beads in it.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft de helft van zijn haar blond, en heeft een blond oog aan dezelfde kant.",
+                       "en":  "NPC has half of their hair blonde, and has one blonde eye on the same side.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geen wenkbrauwen maar getatoeÃ«erde wenkbrauwen die te hoog zitten, waardoor hij er permanent verbaasd uitziet.",
+                       "en":  "NPC doesnâ€™t have eyebrows, but instead has tattooed eyebrows slightly too high, which gives a look of permanent surprise.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is bedekt met tatoeages van de steden die hij bezocht heeft. Elke tatoeage vertegenwoordigt die stad zo goed mogelijk.",
+                       "en":  "PC is covered in tattoos of the cities they have been to. Each one best representing that city.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een mond op zijn rug die gemene dingen over hem zegt. Dat zou mensen normaal verdrietig maken, maar het motiveert deze NPC juist om zijn doelen te bereiken.",
+                       "en":  "NPC has a mouth on their back that says mean stuff about them. This would usually sadden people but this just pushes them to complete their goals more.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een hoorn op zijn voorhoofd waar hij erg onzeker over is. Hij scheert hem constant af als hij tijd heeft.",
+                       "en":  "NPC has a horn coming out of their forehead that they are very self conscious about. They constantly shave it off if they have time.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft schubben op zijn benen. (Als het een soort is die normaal schubben heeft, zijn zijn benen juist menselijk.)",
+                       "en":  "NPC has scales on his legs. (If they are a species that usually has scales then their legs are human.)",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geen eigen tanden meer. Zijn kaken zitten vol willekeurige tanden die chirurgisch zijn ingebracht. Niet bepaald fraai, maar wel angstaanjagend!",
+                       "en":  "NPC has no natural teeth left. Luckily for him his enemies had some of theres. His jaw is full of random teeth that are surgically placed in. They may not be fabulous but they sure is scary!",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een magische tatoeage die raadsels kan beantwoorden.",
+                       "en":  "NPC has a magical tattoo that can answer riddles.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC mist zijn linkeroog. Hij vergeet constant welk oog er daadwerkelijk ontbreekt.",
+                       "en":  "NPC is missing his left eye. He constantly forgets which eye is actually gone.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft zuurverbrandingslittekens op beide handen.",
+                       "en":  "NPC has acid burn scars on both of his hands.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is zo gefascineerd door sieraden dat hij er zoveel draagt dat het hem omlaag trekt.",
+                       "en":  "NPC is fascinated by jewelry so much so that they are wearing so much jewelry that it weighs them down.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een litteken rond zijn nek.",
+                       "en":  "NPC has a scar around their neck.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft oranje ogen die oplichten in de buurt van heldhaftige mensen.",
+                       "en":  "NPC has orange eyes that glow when near heroic people.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft witte ogen die oplichten in de buurt van heilige symbolen van neutraal goed tot wettig goed.",
+                       "en":  "NPC has white eyes that glow when near neutral good to lawful good holy symbols.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft rode ogen die oplichten in de buurt van bloed.",
+                       "en":  "NPC has red eyes that glow when near blood.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft groene ogen die oplichten in de buurt van gif.",
+                       "en":  "NPC has green eyes that glow when near poison.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is extreem gespierd maar lui in zijn bewegingen.",
+                       "en":  "NPC is extremely muscular but lazy in actions.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft helder geel haar dat gloeit in het donker.",
+                       "en":  "NPC has bright yellow hair that glows in the dark.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft de staart van een rat.",
+                       "en":  "NPC has the tail of a rat.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is blind in daglicht maar kan perfect zien in het donker.",
+                       "en":  "NPC is blinded in daylight but can see perfectly in the dark.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC werd als kind vervloekt door een heks en heeft nu een vinger op zijn rechterarm die wijst naar de dichtstbijzijnde persoon die hem wil vermoorden.",
+                       "en":  "NPC was given a curse by a witch when he was a child and now has a finger on his right arm that points in the direction of the closest person that wants to kill him.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een tatoeage van een kaart die naar een X leidt. Hij herinnert zich niet wanneer of waarom die er is gekomen.",
+                       "en":  "NPC has a tattoo of a map leading to an X. Doesnâ€™t remember when it got there or why itâ€™s there.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een mechanisch ledemaat dat hij niet volledig kan beheersen. Het voert bewegingen uit voor wat hij denkt, zelfs als dat sociaal ongepast is.",
+                       "en":  "NPC has a mechanical limb that they cannot fully control. It does the motion for whatever he is thinking even if itâ€™s socially wrong.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC mist zijn linkerarm en lijkt er nog niet aan gewend te zijn zonder te functioneren.",
+                       "en":  "The NPC is missing his/her left arm, and doesnâ€™t seem quite used to functioning without it.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een juweel op de plek van een verloren oog.",
+                       "en":  "The NPC has a jewel implanted in the place of a lost eye.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een opvallend moedervlekje.",
+                       "en":  "The NPC has a distracting mole.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft Ã©Ã©n lange vingernagel, waarschijnlijk niet gevijld om een instrument te bespelen.",
+                       "en":  "The NPC has one long fingernail, presumably left unfiled for strumming an instrument.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een paarse blauwe plek op zijn jukbeen.",
+                       "en":  "The NPC has a violet bruise on the bone of their cheek.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft acnelittekens verspreid over zijn gezicht.",
+                       "en":  "The NPC has acne scars pockmarked across their face.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een uitstekende tand die lang genoeg is om als slagtand te dienen.",
+                       "en":  "The NPC has a snaggletooth long enough to be a fang.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC draagt een paar dikke brillenglazen die niet goed passen.",
+                       "en":  "The NPC has a pair of thick spectacles that donâ€™t fit.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft dikke, vette dreadlocks van jaren slecht wassen.",
+                       "en":  "The NPC has thick, greasy dreadlocks from years of improper washing.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De mond van de NPC staat permanent scheef, waardoor hij zelfs in ernstige momenten arrogant lijkt te grijnzen.",
+                       "en":  "The NPCâ€™s mouth is permanently crooked, giving them a cocky smirk even in serious moments.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft zijn haar niet geknipt of verzorgd sinds hij acht jaar geleden werd verslagen door zijn rivaal.",
+                       "en":  "The NPC has not cut or groomed his/her hair since he/she was defeated by his/her rival 8 years ago.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Littekens... overal.",
+                       "en":  "Scarsâ€¦ Everywhere.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een duidelijk neppe baard.",
+                       "en":  "The NPC has a beard that is visibly fake.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een oog in de palm van zijn rechterhand dat hij probeert te verbergen met een vingerloze handschoen.",
+                       "en":  "The NPC has an eye on the palm of his/her right hand that he/she tries to hide with a fingerless glove.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Het gezicht van de NPC heeft vlekken met de kleur van rode wijn.",
+                       "en":  "NPCâ€™s face has splotches the color of red wine.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een ijle baard, als okselhaartjes.",
+                       "en":  "NPC has a sparse beard, like underarm hair.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft borstelige wenkbrauwen die bewegen als hij praat.",
+                       "en":  "NPC has bushy eyebrows that waggle when they talk.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geen neus. Op de plek waar de neus hoort te zitten, is slechts Ã©Ã©n groot gat.",
+                       "en":  "The NPC has no nose. He has one big hole where the nose was supposed to be.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC loopt met een duidelijke hinkgang en heeft een stok nodig om te lopen.",
+                       "en":  "NPC walks with a significant limp requiring a cane to help them walk.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een zeer gespierd bovenlichaam, maar zijn benen zien er sterk onderontwikkeld uit.",
+                       "en":  "NPC has a very muscular upper body, but their legs look very underdeveloped.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De mannelijke NPC praat met een duidelijk lispelend accent en is flamboyant met armgebaren.",
+                       "en":  "Male NPC talks with a define lisp and tends be be flamboyant with arm gestures.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft 6 vingers.",
+                       "en":  "NPC has 6 fingers.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is androgyn. Het geslacht is zeer moeilijk te bepalen.",
+                       "en":  "NPC is androgynous. Very difficult to glean gender.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een bochel en een misvormd gezicht met extra uitwassen.",
+                       "en":  "NPC has a Hunchback and disfigured face with extra growths.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft nog wat over van een hand. Het ziet eruit alsof die geplet is en nooit is geamputeerd.",
+                       "en":  "NPC has whats left of a hand still attached. It looks like it was crushed and was never amputated.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft abnormaal grote onderarmen en/of kuiten.",
+                       "en":  "NPC has abnormally large forearms and/or calves.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC draagt een overduidelijke pruik.",
+                       "en":  "The NPC is wearing an obvious wig.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Het linkeroog van de NPC heeft drie pupillen.",
+                       "en":  "The NPCs left eye has three pupils.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een lange, spitse neus die krult en beweegt afhankelijk van zijn emoties.",
+                       "en":  "The NPC has a long pointy nose that curls and wiggles according the NPCâ€™s emotions.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Een heilig symbool is gebrandmerkt op de rechterhand van de NPC.",
+                       "en":  "A holy symbol is branded onto the NPCâ€™s right hand.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De tanden van de NPC zijn gemaakt van verschillende zeldzame metalen.",
+                       "en":  "The NPCâ€™s teeth are made out of various rare metals.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Exotische runen zijn in de onderarm van de NPC gegraveerd.",
+                       "en":  "Exotic runes are carved on the NPCâ€™s forearm.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De handen van de NPC zijn gevlekt in meerdere kleuren.",
+                       "en":  "NPCâ€™s hands are stained multiple colors.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een gespleten tong.",
+                       "en":  "NPC has a forked tongue",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft piercings over zijn hele lichaam. Staven en ringen bedekken hem.",
+                       "en":  "NPC has piercings all over their body. Bars and rings cover them.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is blind of doof.",
+                       "en":  "NPC is blind/deaf.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft asgrijze huid en geen haar.",
+                       "en":  "NPC has ashen skin and no hair.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geslepen tanden en lacht graag.",
+                       "en":  "NPC has sharpened teeth and loves to smile.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC is ongewoon behaard, met dik haar op bijna alle zichtbare huid behalve rond de ogen en handpalmen.",
+                       "en":  "NPC is unusually hairy, having thick hair on almost all visible skin apart from around eyes and palms.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC trilt constant. Hij kan niet stilblijven.",
+                       "en":  "NPC constantly twitches. They canâ€™t stay still.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De huid op de linker onderarm van de NPC is transparant.",
+                       "en":  "The skin on the NPCâ€™s left forearm is transparent.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "Er groeien kleine paddenstoelen op de achterkant van de nek van de NPC.",
+                       "en":  "There are small mushrooms on the back of the NPCâ€™s neck.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft kleine bosdiertjes in zijn haar.",
+                       "en":  "The NPC has small woodland critters in their hair.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC gebruikt overdreven bewegingen voor alles.",
+                       "en":  "The NPC uses overly-exagerated movements for everything.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft ongelooflijk mooie gelaatstrekken. Een van de mooiste mensen die je ooit hebt gezien!",
+                       "en":  "The NPC has incredibly beautiful features. One of the most beautiful people youâ€™ve ever seen!",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft Ã©Ã©n oog aanzienlijk groter dan het andere, alsof het ooit is opgezwollen en nooit meer is teruggekeerd naar de oorspronkelijke grootte.",
+                       "en":  "The NPC has one eye noticeably larger than the other, as if it once swelled up and never returned to its original size.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft vingertoppen die zwart zijn alsof ze zijn aangebrand, maar hij lijkt er geen last van te hebben.",
+                       "en":  "The NPC has fingertips that are blackened as if burned, yet they seem unbothered by it.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een brede, vlakke neus die overduidelijk meerdere keren gebroken is geweest.",
+                       "en":  "The NPC has a broad, flat nose that has clearly been broken multiple times.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De huid van de NPC is bedekt met kleine, zilverkleurige stippen die in het licht glinsteren, als sterrenstof.",
+                       "en":  "The NPC\u0027s skin is covered in tiny silver flecks that shimmer in the light, like stardust.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een perfect symmetrisch gezicht â€” zo perfect dat het onnatuurlijk en ongemakkelijk aanvoelt om naar te kijken.",
+                       "en":  "The NPC has a perfectly symmetrical face â€” so perfect it feels unnatural and unsettling to look at.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft twee verschillende oren: Ã©Ã©n puntig en elfachtig, het andere rond en menselijk.",
+                       "en":  "The NPC has two mismatched ears: one pointed and elfin, the other round and human.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een litteken in de vorm van een handafdruk op zijn hals, alsof iemand hem ooit heeft vastgegrepen met gloeiend hete handen.",
+                       "en":  "The NPC has a scar in the shape of a handprint on their neck, as if someone once grabbed them with scorching hot hands.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft opvallend lange nek, bijna ooievaarachtig. Hij lijkt er zelf niet bij stil te staan.",
+                       "en":  "The NPC has a strikingly long neck, almost stork-like. They seem entirely unaware of it.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De nagels van de NPC zijn diepzwart en lijken van steen, niet van hoorn.",
+                       "en":  "The NPC\u0027s nails are jet black and appear to be made of stone rather than keratin.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een klein, rudimentair derde oog in het midden van zijn voorhoofd dat permanent gesloten is â€” maar soms beweegt het.",
+                       "en":  "The NPC has a small, rudimentary third eye in the center of their forehead that remains permanently shut â€” but sometimes it moves.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De lippen van de NPC zijn donkerblauw, alsof hij constant iets kouds heeft gedronken, maar zijn huid is warm.",
+                       "en":  "The NPC\u0027s lips are dark blue, as if they\u0027ve been drinking something ice cold, yet their skin is warm to the touch.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft een dunne, zilveren draad die zichtbaar onder de huid van zijn onderarm loopt, van pols tot elleboog.",
+                       "en":  "The NPC has a thin silver thread visibly running beneath the skin of their forearm, from wrist to elbow.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "nl":  "De NPC heeft geen schaduwen. Ongeacht de lichtval, hij werpt er nooit een.",
+                       "en":  "The NPC casts no shadow. No matter the light source, there is simply nothing there.",
+                       "type":  "physical_trait"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geest van een kind",
+                                     "en":  "Child at heart"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft de geest van een kind.",
+                                           "en":  "This NPC has the mind of a child."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ruikt naar poep",
+                                     "en":  "Smells like poop"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC wast zich niet vaak of heeft gewoon wat ongelukkige feromonen die ervoor zorgen dat zijn huid een geur uitscheidt die onmiskenbaar lijkt op de geur van poep.",
+                                           "en":  "This NPC doesn\u0027t wash often, or simply has some unfortunate pheromones causing their skin to emit a scent unmistakably similar to feces."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Nagelbijter",
+                                     "en":  "Nail biter"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC bijt bijna de hele tijd op zijn nagels. Zijn/haar nagels zijn hierdoor erg kort en zijn/haar vingers bloeden zo nu en dan.",
+                                           "en":  "This NPC bites their nails almost constantly. Their nails are very short and their fingers bleed occasionally."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "rillende ogen",
+                                     "en":  "Twitchy eyes"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een nerveuze oogtrekking. Rol een d6/2 om te bepalen of het de 1: Linkeroog 2: Rechteroog of 3: Beide is.",
+                                           "en":  "This NPC has a nervous eye twitch. Roll a d6/2 to determine if it\u0027s 1: Left eye 2: Right eye or 3: Both."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Pruik drager",
+                                     "en":  "Wig wearer"
+                                 },
+                       "description":  {
+                                           "nl":  "Het haar van deze NPC is nep. Gooi een muntje op om te bepalen of de pruik van goede kwaliteit is of niet. Koppen betekent dat het duidelijk een neppruik is, staarten betekent dat het er eigenlijk heel natuurlijk uitziet.",
+                                           "en":  "This NPC\u0027s hair is fake. Flip a coin to determine if the wig is of good quality. Heads means it\u0027s clearly fake, tails means it actually looks quite natural."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ring draaier",
+                                     "en":  "Ring twirler"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC draait zijn ring veel om zijn vinger.",
+                                           "en":  "This NPC constantly twirls their ring around their finger."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Luide denker",
+                                     "en":  "Loud thinker"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC denkt het grootste deel van de tijd hardop. Intieme gedachten zwijgen meestal nog, maar zo nu en dan kan er een privÃ©gedachte doorheen sluipen.",
+                                           "en":  "This NPC thinks out loud most of the time. Intimate thoughts usually stay quiet, but occasionally a private thought slips through."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Meerdere namen",
+                                     "en":  "Multiple names"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC lijkt elke keer een andere naam te geven als hem dat wordt gevraagd. Misschien kent hij/zij niet eens zijn/haar eigen ware naam.",
+                                           "en":  "This NPC seems to give a different name every time they\u0027re asked. They may not even know their own true name."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Papegaai vriend",
+                                     "en":  "Parrot friend"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een papegaai op zijn schouder. De papegaai herhaalt veel van de zinnen van de NPC\u0027s, zoals elke goede papegaai zou doen.",
+                                           "en":  "This NPC has a parrot on their shoulder. The parrot repeats many of the NPC\u0027s sentences, as any good parrot would."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Stom",
+                                     "en":  "Mute"
+                                 },
+                       "description":  {
+                                           "nl":  "Spreekt voor zich. Communiceert met notities, een krijtbord of gebarentaal.",
+                                           "en":  "Speaks for itself. Communicates with notes, a chalkboard, or sign language."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Iemands getuige",
+                                     "en":  "Someone\u0027s witness"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC probeert altijd anderen te overtuigen van de grootsheid van zijn/haar God tijdens stille momenten in een normaal gesprek. Rol op een God-tafel of kies er zelf een.",
+                                           "en":  "This NPC always tries to convince others of the greatness of their God during quiet moments in normal conversation. Roll on a God table or choose one yourself."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vinger tapper",
+                                     "en":  "Finger tapper"
+                                 },
+                       "description":  {
+                                           "nl":  "Tikt altijd ritmisch met zijn/haar vingers op de aanrechttafel of iets anders waar hij/zij zijn/haar tapdanshanden op kan leggen.",
+                                           "en":  "Always rhythmically taps their fingers on the countertop or anything else they can put their tapping hands on."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Jeukend en kriebelig",
+                                     "en":  "Itchy and scratchy"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC jeukt over zijn/haar hele lichaam en kan zich nauwelijks beheersen om de hele tijd te krabben.",
+                                           "en":  "This NPC itches all over their body and can barely control themselves from scratching constantly."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Brandewijn verslaafd",
+                                     "en":  "Brandy addict"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is altijd op zoek naar een fles van zijn/haar favoriete zeldzame brandewijn, maar neemt ook genoegen met de goedkope soort.",
+                                           "en":  "This NPC is always looking for a bottle of their favorite rare brandy, but will settle for the cheap stuff."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vuilbewoner",
+                                     "en":  "Dirt dweller"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is meestal bedekt met een dun laagje vuil. Zelfs als hij/zij zijn/haar dagen binnenshuis doorbrengt, vindt vuil deze persoon altijd.",
+                                           "en":  "This NPC is usually covered in a thin layer of dirt. Even if they spend their days indoors, dirt always finds this person."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Leugenaar",
+                                     "en":  "Liar"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC  liegt de hele tijd, ook al is het vrij duidelijk dat het leugens zijn en zelfs als de pc\u0027s erop wijzen dat de NPC leugens vertelt, blijft hij/zij gewoon liegen.",
+                                           "en":  "This NPC lies all the time, even when it\u0027s fairly obvious, and even when the PCs point it out, they just keep lying."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kinky verleden",
+                                     "en":  "Kinky past"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een bijtwond op zijn/haar wang die verdacht veel lijkt op de beet van een mens.",
+                                           "en":  "This NPC has a bite mark on their cheek that looks suspiciously like a human bite."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Lisper",
+                                     "en":  "Lisper"
+                                 },
+                       "description":  {
+                                           "nl":  "Fif NPV talkf wif een zeer obviouf lifp.",
+                                           "en":  "Thif NPC talkf wif a very obviuf lithp."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tandeloos",
+                                     "en":  "Toothless"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft helemaal geen tanden, ongeacht de leeftijd die hij/zij heeft.",
+                                           "en":  "This NPC has no teeth at all, regardless of their age."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Milkstache",
+                                     "en":  "Milkstache"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een duidelijke voorliefde voor melk, wat te zien is aan de bijna permanente milkstache op zijn/haar bovenlip.",
+                                           "en":  "This NPC has a clear fondness for milk, evidenced by an almost permanent milkstache on their upper lip."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Spuug sluipschutter",
+                                     "en":  "Spitting sharpshooter"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC spuugt graag. Heel veel. Hij/zij vindt of maakt doelen om hem/haar heen en spuugt er de hele dag op.",
+                                           "en":  "This NPC loves to spit. A lot. They find or create targets around them and spit on them all day."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Zwanger of doen alsof",
+                                     "en":  "Pregnant or pretending"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is zwanger. Als het een mannetje is, doet het alsof het zwanger is, hoe gek het er ook uitziet of klinkt.",
+                                           "en":  "This NPC is pregnant. If male, they\u0027re pretending to be pregnant, as strange as it looks or sounds."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Pockmarks",
+                                     "en":  "Pockmarks"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft zijn/haar gezicht bedekt met de permanente indruk die de pokken hebben achtergelaten.",
+                                           "en":  "This NPC has their face covered with the permanent marks left by pox."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Giechelaar",
+                                     "en":  "Giggler"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC blijft ongecontroleerd giechelen. Of het nu het resultaat is van een magisch experiment of gewoon door hormonen, dat is aan jou.",
+                                           "en":  "This NPC keeps giggling uncontrollably. Whether it\u0027s the result of a magical experiment or just hormones, that\u0027s up to you."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Scarface",
+                                     "en":  "Scarface"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een gigantisch litteken aan de linkerkant van zijn/haar gezicht. Als gevolg hiervan is hij/zij blind aan Ã©Ã©n oog.",
+                                           "en":  "This NPC has a huge scar on the left side of their face. As a result, they are blind in one eye."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Doof",
+                                     "en":  "Deaf"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is doof. Moet ik nog meer zeggen? Gooi een muntje op om te beslissen of de NPC kan liplezen of niet.",
+                                           "en":  "This NPC is deaf. Need I say more? Flip a coin to decide if the NPC can lip-read or not."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Groot oor",
+                                     "en":  "Big ear"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft echt grote oren.",
+                                           "en":  "This NPC has really big ears."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Onhandig",
+                                     "en":  "Clumsy"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is bijzonder onhandig. Hij/zij laat de hele tijd dingen vallen en struikelt veel.",
+                                           "en":  "This NPC is particularly clumsy. They drop things all the time and trip a lot."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vinger snuffelaar",
+                                     "en":  "Finger sniffer"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC snuffelt veel aan zijn/haar eigen vingers. Zonder aanwijsbare reden.",
+                                           "en":  "This NPC sniffs their own fingers a lot. For no apparent reason."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ballscratcher",
+                                     "en":  "Ballscratcher"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC krabt aan zijn ballen. Als het een vrouwtje is, krabt ze aan haar vrouwelijke delen.",
+                                           "en":  "This NPC scratches their privates. If female, she scratches her feminine parts."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Neurotische Do-over",
+                                     "en":  "Neurotic do-over"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC doet alles twee keer. Dit omvat praten, deuren openen, voorwerpen overhandigen, enz.",
+                                           "en":  "This NPC does everything twice. This includes talking, opening doors, handing over objects, etc."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Fantasy heeft ook acne! Deze NPC heeft acne",
+                                     "en":  "Fantasy has acne too! This NPC has acne"
+                                 },
+                       "description":  {
+                                           "nl":  "Ja, acne. Het is niet alleen ons probleem, fantasiewerelden hebben ook Clearasil-drankjes!",
+                                           "en":  "Yes, acne. It\u0027s not just our problem, fantasy worlds have Clearasil potions too!"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ik kan niet stoppen met praten! Deze NPC kan uren achter elkaar praten",
+                                     "en":  "Can\u0027t stop talking! This NPC can talk for hours on end"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC vertelt meestal keer op keer hetzelfde en heeft moeite om te zien of hun luisteraars Ã¼berhaupt geÃ¯nteresseerd zijn of niet.",
+                                           "en":  "They usually repeat the same things over and over and have trouble seeing whether their listeners are interested at all."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Neus eraf",
+                                     "en":  "No nose"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is zijn neus kwijt. Misschien in een gevecht, misschien vanwege een spreuk die fout is gegaan, misschien vanwege bevriezing, of misschien vanwege iets totaal anders.",
+                                           "en":  "This NPC has lost their nose. Maybe in a fight, maybe due to a spell gone wrong, maybe from frostbite, or maybe something else entirely."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Broek naar beneden",
+                                     "en":  "Pants down"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een afgezakte broek. Hij/zij draagt geen riem en trekt steeds zijn/haar broek op.",
+                                           "en":  "This NPC has saggy pants. They wear no belt and keep pulling their pants up."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Okseleter",
+                                     "en":  "Armpit eater"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC snuift vaak aan zijn oksels, pakt er dan iets uit en eet het op.",
+                                           "en":  "This NPC often sniffs their armpits, then picks something out and eats it."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Teenknabbelaar",
+                                     "en":  "Toe nibbler"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC knabbelt aan zijn/haar tenen wanneer de gelegenheid zich voordoet.",
+                                           "en":  "This NPC nibbles on their toes when the opportunity arises."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Zware roker",
+                                     "en":  "Heavy smoker"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC praat met een zeer zere en raspende keel.",
+                                           "en":  "This NPC speaks with a very sore and raspy throat."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Breekt alles",
+                                     "en":  "Breaks everything"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC breekt alles wat hij/zij aanraakt.",
+                                           "en":  "This NPC breaks everything they touch."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Schoenen verwisseld",
+                                     "en":  "Shoes switched"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC zet zijn/haar schoenen altijd op het verkeerde been.",
+                                           "en":  "This NPC always puts their shoes on the wrong feet."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Woord kotst",
+                                     "en":  "Word vomit"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC kotst altijd als hij/zij een bepaald woord zegt, zoals koe of huis. Dit is het resultaat van een vloek. Probeer een woord te kiezen dat uw partij daadwerkelijk gebruikt.",
+                                           "en":  "This NPC always vomits when they say a certain word, like \u0027cow\u0027 or \u0027house\u0027. This is the result of a curse. Try to choose a word your party actually uses."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ziet eruit als een Orc",
+                                     "en":  "Looks like an Orc"
+                                 },
+                       "description":  {
+                                           "nl":  "Tenzij deze NPC daadwerkelijk een Orc is, dan ziet hij eruit als een dwerg.",
+                                           "en":  "Unless this NPC actually is an Orc, in which case they look like a dwarf."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Dronken als f*ck",
+                                     "en":  "Drunk as f*ck"
+                                 },
+                       "description":  {
+                                           "nl":  "Ik denk dat deze eigenaardigheid geen verdere uitleg behoeft.",
+                                           "en":  "I think this quirk needs no further explanation."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Nep baard",
+                                     "en":  "Fake beard"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC draagt een nepbaard. Bonuspunten als het een dwerg is die zelf geen baard kan laten groeien.",
+                                           "en":  "This NPC wears a fake beard. Bonus points if it\u0027s a dwarf who can\u0027t grow a real one."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vloeker",
+                                     "en":  "Swearer"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC vloekt de hele tijd.",
+                                           "en":  "This NPC swears all the time."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Amnesiac",
+                                     "en":  "Amnesiac"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een verschrikkelijk kortetermijngeheugen. Hij/zij vergeet steeds alles wat hij/zij heeft gehoord, gezegd, gezien of... wachten... waar had ik het ook alweer over?",
+                                           "en":  "This NPC has a terrible short-term memory. They keep forgetting everything they\u0027ve heard, said, seen, or... wait... what was I talking about?"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Flirter",
+                                     "en":  "Flirt"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC flirt vrij openlijk en openlijk met iedereen van het geslacht waartoe ze zich aangetrokken voelen.",
+                                           "en":  "This NPC flirts quite openly with everyone of the gender they\u0027re attracted to."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Klein ongelukje",
+                                     "en":  "Little accident"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC mist een vinger aan zijn/haar goede hand.",
+                                           "en":  "This NPC is missing a finger on their good hand."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Mooi",
+                                     "en":  "Beautiful"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC  is ongelooflijk mooi, en de partij zal een DC 10 charisma save moeten doen om niet volledig in de war te raken door de schoonheid van deze NPC.",
+                                           "en":  "This NPC is incredibly beautiful, and the party must make a DC 10 charisma save or be completely flustered by this NPC\u0027s beauty."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Lelijk",
+                                     "en":  "Ugly"
+                                 },
+                       "description":  {
+                                           "nl":  "Het tegenovergestelde van nummer 49. De partij moet een grondwetbesparende worp van DC 10 doen, anders zullen ze kotsen.",
+                                           "en":  "The opposite of number 49. The party must make a DC 10 constitution save or they will vomit."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Magisch getekend",
+                                     "en":  "Magically rearranged"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een vreemd gezicht. Het ene oog is een stuk groter dan het andere, en zijn/haar mond bevindt zich boven zijn/haar neus. Dit lijkt het gevolg te zijn van een magisch toeval.",
+                                           "en":  "This NPC has a strange face. One eye is much bigger than the other, and their mouth is above their nose. This appears to be the result of a magical mishap."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Wortel gek",
+                                     "en":  "Carrot crazy"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC houdt echt heel erg van wortels. Hij/zij knaagt constant aan een wortel en draagt er een hele zak van met zich mee.",
+                                           "en":  "This NPC really, really loves carrots. They constantly gnaw on a carrot and carry a whole bag of them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Scheel",
+                                     "en":  "Cross-eyed"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC kijkt scheel naar elkaar. Lijkt me vrij vanzelfsprekend.",
+                                           "en":  "This NPC is cross-eyed. Seems fairly self-explanatory."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Peg-poot",
+                                     "en":  "Peg leg"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft Ã©Ã©n houten poot, net zoals de klassieke piratenkapiteins vroeger hadden.",
+                                           "en":  "This NPC has one wooden leg, just like the classic pirate captains of old."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ontbrekende wenkbrauwen",
+                                     "en":  "Missing eyebrows"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft geen wenkbrauwen. Het is echt moeilijk om te zien wat voor soort uitdrukking hij of zij maakt, daarom hebben spelers een nadeel bij het controleren van wijsheid (inzicht) met betrekking tot deze NPC.",
+                                           "en":  "This NPC has no eyebrows. It\u0027s really hard to tell what kind of expression they\u0027re making, so players have disadvantage on Wisdom (Insight) checks regarding this NPC."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Muzikale waanzin",
+                                     "en":  "Musical madness"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC zingt zich graag een weg door het leven. Iedereen heeft er een beetje een hekel aan, maar de hoge noten blijven als vliegen hangen als deze NPC zingt (wat hij/zij doet in plaats van te praten).",
+                                           "en":  "This NPC loves to sing their way through life. Everyone finds it a bit annoying, but the high notes stick like flies when this NPC sings (which they do instead of talking)."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bang voor kleine mensen",
+                                     "en":  "Afraid of small people"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is op de een of andere manier extreem bang voor halflingen, kabouters en dwergen. Hij/zij zou zelf heel goed een van die rassen kunnen zijn, maar ze zullen alleen met grotere mensen rondhangen. Waarom deze NPC er zo over denkt, weet ik niet zeker. Misschien weet je dat?",
+                                           "en":  "This NPC is somehow extremely afraid of halflings, gnomes, and dwarves. They could very well be one of those races themselves, but they\u0027ll only hang around taller people."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Grappenmaker van de stad",
+                                     "en":  "Town jokester"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC denkt dat hij/zij de grappigste van de stad is. Hij/Zij maakt altijd de meest vreselijke grappen en eindigt ze altijd met: \"Haha, ik maak een grapje natuurlijk.\"",
+                                           "en":  "This NPC thinks they\u0027re the funniest person in town. They always tell the most terrible jokes and end them with \u0027Haha, just kidding of course.\u0027"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ik wilde ballerina worden",
+                                     "en":  "Wanted to be a ballerina"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een hekel aan de bezigheid die hij nu heeft. Hij/zij wilde altijd al danser worden, maar kreeg nooit de kans. Hij/zij is eigenlijk best goed in het dansen tijdens gesprekken met de partij als dat mogelijk is.",
+                                           "en":  "This NPC hates their current occupation. They always wanted to be a dancer but never got the chance. They\u0027re actually quite good at dancing during conversations if possible."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ni! Deze NPC kan het woord \u0027het\u0027 niet uitstaan",
+                                     "en":  "Ni! This NPC can\u0027t stand the word \u0027the\u0027"
+                                 },
+                       "description":  {
+                                           "nl":  "Telkens wanneer hij of zij het hoort, bedekt hij/zij zijn oren en schreeuwt \"Ni!\"",
+                                           "en":  "Whenever they hear it, they cover their ears and shout \u0027Ni!\u0027"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Schijnbaar gestoord",
+                                     "en":  "Seemingly unstable"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC ziet er erg gestoord uit. Hij/Zij schudt de hele tijd, kijkt constant naar zijn/haar omgeving en springt van schrik in de lucht bij elk geluidje.",
+                                           "en":  "This NPC looks very unhinged. They tremble constantly, keep looking around and jump at every little sound."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Apocalyps nu",
+                                     "en":  "Apocalypse now"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft het constant over het einde van de wereld, dat volgens hem/haar om de hoek ligt. Verberg je vrouw, verberg je kinderen!",
+                                           "en":  "This NPC constantly talks about the end of the world, which according to them is just around the corner. Hide your wife, hide your kids!"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Langzame luidspreker",
+                                     "en":  "Slow speaker"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC spreekt minstens twee keer zo langzaam als normale mensen. Al die tijd schijnbaar onbewust van de ergernis die het bij anderen oproept.",
+                                           "en":  "This NPC speaks at least twice as slowly as normal people. All the while seemingly unaware of the irritation it causes others."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geboren handelaar",
+                                     "en":  "Born salesperson"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC probeert je alles te verkopen wat hij kan. \"Zie je deze stoel? Het is van jou voor slechts twee goudstukken! Zie je deze bloem? De jouwe voor een stuk zilver, het is echt zeldzaam! Zie je mijn vrouw/man? Het is van jou voor...\"",
+                                           "en":  "This NPC tries to sell you everything they can. \u0027See this chair? It\u0027s yours for just two gold pieces! See this flower? Yours for a silver, it\u0027s really rare!\u0027"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geen zorg in de wereld",
+                                     "en":  "Not a care in the world"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is ongelooflijk gelukkig. Ze zien alleen het goede in het leven en zijn uiterst positief.",
+                                           "en":  "This NPC is incredibly happy. They only see the good in life and are extremely positive."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Hoger dan gij",
+                                     "en":  "Higher than thou"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC voelt zich de fucking koning/koningin van het land. Ze praten tegen bijna iedereen naar beneden en gebruiken een (wat zij denken dat is) een koninklijke manier van spreken.",
+                                           "en":  "This NPC thinks they\u0027re the f***ing king/queen of the land. They talk down to almost everyone and use a (what they think is) royal manner of speaking."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Net getrouwd",
+                                     "en":  "Newlywed"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is net getrouwd en kan niet stoppen met praten over hun vrouw/man.",
+                                           "en":  "This NPC just got married and can\u0027t stop talking about their spouse."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Plassen",
+                                     "en":  "P-hater"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een hekel aan woorden die beginnen met de letter P. Elke keer dat deze NPC een woord hoort dat inderdaad met een P begint, krimpt hij/zij ineen van walging.",
+                                           "en":  "This NPC hates words that begin with the letter P. Every time they hear a word that begins with P, they cringe in disgust."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Waar is dit voor? Deze NPC gebruikt zijn linkerarm niet",
+                                     "en":  "What\u0027s this for? This NPC doesn\u0027t use their left arm"
+                                 },
+                       "description":  {
+                                           "nl":  "Hij/zij laat het gewoon hangen, doet niets. Er is niets mis met de arm, de NPC gebruikt hem gewoon helemaal niet. Voor niets.",
+                                           "en":  "They just let it hang, doing nothing. There\u0027s nothing wrong with it, the NPC just doesn\u0027t use it at all. For anything."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Klassieke Tammy",
+                                     "en":  "Classic Tammy"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft ondergoed zichtbaar boven zijn of haar broek. Het is niet zo dat zijn/haar broek heel laag is, maar zijn/haar ondergoed is gewoon heel hoog. Rol een d4 om de staat van het ondergoed te bepalen, 1: Schoon, niets bijzonders, 2: Vies en gescheurd, 3: Duidelijk veel te strak, 4: Heel sexy.",
+                                           "en":  "This NPC has underwear visibly above their pants. It\u0027s not that their pants are very low, their underwear is just very high. Roll a d4: 1: Clean, nothing special, 2: Dirty and torn, 3: Clearly way too tight, 4: Very sexy."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ten eerste: onzin",
+                                     "en":  "First things first: nonsense"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC begint elke nieuwe zin met een van de volgende d6 willekeurige woorden (of een die je zelf bedenkt natuurlijk); 1: Gevarenzone, 2: BeÃ«lzebub, 3: Remklauwen, 4: Bezeten, 5: Verlangen, 6: Synergie.",
+                                           "en":  "This NPC begins every new sentence with one of the following d6 random words: 1: Danger zone, 2: Beelzebub, 3: Brake caliper, 4: Obsessed, 5: Longing, 6: Synergy."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geslachtsverwisseling",
+                                     "en":  "Gender swap"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC houdt ervan om zich te verkleden. Elke keer dat het gezelschap vertrekt en deze NPC weer ziet, hebben ze kleding en make-up overgeschakeld naar het andere geslacht.",
+                                           "en":  "This NPC loves to cross-dress. Every time the party leaves and sees this NPC again, they\u0027ve switched clothing and makeup to the other gender."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vreemdste schapenkarbonades ooit",
+                                     "en":  "Weirdest mutton chops ever"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC, of het nu een hij of een zij is, maakt niet uit, heeft de raarste schapenkarbonades die iemand ooit heeft gezien. Ze hebben een andere kleur dan de rest van zijn/haar haar en ze zijn op de een of andere manier ingewikkeld gevlochten.",
+                                           "en":  "This NPC, whether male or female, has the strangest mutton chops anyone has ever seen. They\u0027re a different color from the rest of their hair and are somehow intricately braided."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Laatste aftelling",
+                                     "en":  "Final countdown"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC telt af na elk gesprek. De NPC heeft een gesprek met de partij, en wanneer zij of de NPC vertrekken, spreekt de NPC: 73. Als de partij dan vraagt: \"Wat was dat?\" De NPC zal beweren niet te weten waar ze het over hebben, en gaat dan weer weg met de woorden: 72. Veel succes met het spelen van deze rollenspel.",
+                                           "en":  "This NPC counts down after every conversation. The NPC has a conversation with the party, and when they or the NPC leave, the NPC says: 73. If the party then asks what that was, the NPC claims not to know what they\u0027re talking about, then leaves again with: 72."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Chagrijnig gezicht",
+                                     "en":  "Resting grump face"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een gezicht dat zegt: \"Ik haat alles. Ik haat het om alles te haten.\" Kortom, zijn of haar gezicht ziet er de hele tijd ongelooflijk pissig uit, ook al is hij of zij misschien heel blij.",
+                                           "en":  "This NPC has a face that says \u0027I hate everything. I hate having to hate everything.\u0027 In short, their face looks incredibly pissed off all the time, even if they\u0027re actually quite happy."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Pokergezicht",
+                                     "en":  "Poker face"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een pokerface. Het is bijna onmogelijk om emoties te onderscheiden, alle inzichtcontroles op deze NPC moeten met nadeel worden uitgevoerd.",
+                                           "en":  "This NPC has a poker face. It\u0027s nearly impossible to discern emotions; all Insight checks on this NPC must be made with disadvantage."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Te zijn of niet te zijn",
+                                     "en":  "To be or not to be"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC probeert wanhopig acteur/actrice te worden. Hij/zij is er echter niet zo goed in. In normale gesprekken klinkt deze NPC alsof hij of zij op het podium praat, het klinkt erg nep en extreem gearticuleerd.",
+                                           "en":  "This NPC desperately wants to become an actor. However, they\u0027re not very good at it. In normal conversations, this NPC sounds like they\u0027re performing on stage - very fake and extremely articulate."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Lip Licker",
+                                     "en":  "Lip licker"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC likt zijn lippen, veel. Ik bedoel echt, deze NPC likt constant zijn of haar lippen. Het is buitengewoon verontrustend.",
+                                           "en":  "This NPC licks their lips. A lot. I mean really, this NPC constantly licks their lips. It\u0027s extraordinarily unsettling."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Scheren is",
+                                     "en":  "Bad shaver"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is erg slecht in scheren. Als het een man is, heeft hij veel kleine snijwonden in zijn gezicht. Met een succesvolle DC8 perceptie- of inzichtscheck is het vrij duidelijk dat ze het resultaat zijn van vreselijk scheren. Als de NPC een vrouw is, is het bijna hetzelfde, maar in plaats daarvan bevinden de snijwonden zich op haar benen (Ja, zelfs in D\u0026D scheren sommige vrouwen hun benen. Geloof me!).",
+                                           "en":  "This NPC is terrible at shaving. If male, they have many small cuts on their face. With a successful DC8 Perception or Insight check, it\u0027s fairly clear they\u0027re the result of terrible shaving. If female, same thing but the cuts are on her legs."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Hoor ik dit goed? Deze NPC verstoort bijna alles",
+                                     "en":  "Hard of hearing"
+                                 },
+                       "description":  {
+                                           "nl":  "Hij/zij denkt dat hij/zij alles goed heeft gehoord, en zet het gesprek voort over het onderwerp dat hij/zij denkt te hebben gehoord. Bijvoorbeeld: \"Kunt u ons vertellen waar de herberg is?\" De NPC hoort: \"Kun je ons vertellen waar Theon is?\" En reageert met: \"Ik heb geen idee wie dat is, het spijt me!\" Als je nog steeds wilt dat de NPC behulpzaam is, zorg er dan voor dat hij/zij elke zin correct begrijpt als hij/zij ze een tweede keer hoort.",
+                                           "en":  "This NPC mishears almost everything. They think they\u0027ve heard everything correctly and continue the conversation about the topic they think they heard."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Wilde aanklager",
+                                     "en":  "Wild accuser"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC beschuldigt iedereen met wie hij praat van kleine misdaden, zoals zwerfvuil of te veel lawaai maken.",
+                                           "en":  "This NPC accuses everyone they talk to of minor crimes, like littering or making too much noise."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Marionet vriend",
+                                     "en":  "Puppet friend"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft altijd een houten pop bij zich. Wat zijn relatie met deze pop ook is, is aan jou als DM. Veel succes!",
+                                           "en":  "This NPC always carries a wooden puppet. What their relationship with this puppet is, is up to you as DM."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Niezen! Deze NPC is permanent verkouden",
+                                     "en":  "Sneezer! This NPC has a permanent cold"
+                                 },
+                       "description":  {
+                                           "nl":  "Altijd een loopneus en de hele tijd niezen.",
+                                           "en":  "Always a runny nose and sneezing all the time."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Uitgesplitst",
+                                     "en":  "Broken"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een gebroken ledemaat. Rol een d4 om te beslissen welke: 1: Hun goede arm, 2: Hun andere arm, 3: Een been, 4: Beide benen en hun goede arm.",
+                                           "en":  "This NPC has a broken limb. Roll a d4: 1: Their good arm, 2: Their other arm, 3: A leg, 4: Both legs and their good arm."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Permanente inkt",
+                                     "en":  "Permanent ink"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een grote tatoeage van de kop van een dier in hun nek. Als je zelf geen dier kunt bedenken dan is het een kippenkop.",
+                                           "en":  "This NPC has a large tattoo of an animal head on their neck. If you can\u0027t think of an animal yourself, it\u0027s a chicken head."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bezig met laden, even geduld a.u.b. Deze NPC heeft wat tijd nodig om gesprekken te verwerken. Wanneer je met hem/haar praat, duurt het 1d6 + 5 volle seconden om te reageren. Ook al is het een korte en simpele vraag.",
+                                     "en":  "Loading, please wait"
+                                 },
+                       "description":  {
+                                           "nl":  "",
+                                           "en":  "This NPC needs some time to process conversations. When you talk to them, it takes 1d6 + 5 full seconds to respond, even for a short and simple question."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Fluisterende gids",
+                                     "en":  "Whispering guide"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een klein wezen verborgen in hun haar dat advies en inzicht in hun oor fluistert. Het wezen is een Sprite, die het vermogen heeft om onzichtbaar te worden en te voelen of iemand liegt door ze aan te raken.",
+                                           "en":  "This NPC has a tiny creature hidden in their hair that whispers advice and insight into their ear. The creature is a Sprite, which has the ability to turn invisible and sense whether someone is lying by touching them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Mijn broeder, daar zijt gij! Deze NPC is ervan overtuigd dat een van de partijleden hun lang verloren gewaande broer of zus is",
+                                     "en":  "My brother, there you are! This NPC is convinced that one of the party members is their long-lost brother or sister"
+                                 },
+                       "description":  {
+                                           "nl":  "Hij of zij zal niet snel van het tegendeel overtuigd zijn.",
+                                           "en":  "They will not be easily convinced otherwise."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Shapeshifter",
+                                     "en":  "Shapeshifter"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is eigenlijk een doppler. De spelers kunnen bij elk volgend bezoek subtiele veranderingen in de fysieke eigenschappen van de NPC opmerken, zoals een kleinere neus, een andere oogkleur of een extra voet hoogte.",
+                                           "en":  "This NPC is actually a doppelganger. Players may notice subtle changes in the NPC\u0027s physical traits on each subsequent visit, such as a smaller nose, different eye color, or an extra foot in height."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Lila en kruisbessen",
+                                     "en":  "Lilac and gooseberries"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC ruikt naar sering en kruisbessen, een bijzondere geur die sommige spelers misschien bekend voorkomen.",
+                                           "en":  "This NPC smells of lilac and gooseberries, a distinctive scent that some players may find familiar."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Mondvol",
+                                     "en":  "Mouthful"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft altijd wel iets in zijn/haar mond. Het kan eten zijn... maar ze slikken nooit. En het is te groot om kauwgom te zijn. Het maakt deze NPC erg moeilijk te begrijpen.",
+                                           "en":  "This NPC always has something in their mouth. It could be food... but they never swallow. And it\u0027s too big to be gum. It makes this NPC very hard to understand."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "De verteller",
+                                     "en":  "The narrator"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC spreekt altijd over zichzelf in de derde persoon en hij of zij vertelt alles wat er in hun omgeving gebeurt.",
+                                           "en":  "This NPC always speaks about themselves in the third person and narrates everything happening around them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Narcist",
+                                     "en":  "Narcissist"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC houdt altijd een spiegel vast, kijkt naar zichzelf terwijl hij kusjes blaast en knipoogt. Het kijkt af en toe weg om naar het feest te kijken, maar hij of zij kijkt vooral naar zichzelf.",
+                                           "en":  "This NPC always holds a mirror, looking at themselves while blowing kisses and winking. They occasionally look away to glance at the party, but mostly look at themselves."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Onnodig slinks",
+                                     "en":  "Unnecessarily shifty"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC komt erg wisselvallig over. Hij of zij lacht stiekem na het beantwoorden van vragen of het sluiten van deals, alsof hij of zij iets verbergt. Maar dat zijn ze niet, het is gewoon een raar maniertje waarmee ze zijn geboren.",
+                                           "en":  "This NPC comes across as very suspicious. They snicker after answering questions or closing deals, as if hiding something. But they\u0027re not, it\u0027s just a weird habit they were born with."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Schimmelinfectie",
+                                     "en":  "Fungal infection"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft een kleine groei van blauwgroene schimmel op een van hun wangen. Bij nader inzien lijkt de schimmel bijna bij elke hartslag te pulseren.",
+                                           "en":  "This NPC has a small growth of blue-green mold on one of their cheeks. On closer inspection, the mold seems to pulse with almost every heartbeat."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Squinter",
+                                     "en":  "Squinter"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC knijpt zijn ogen dicht bij het feest. Het lijkt erop dat hij/zij een bril nodig heeft.",
+                                           "en":  "This NPC squints at the party. It looks like they need glasses."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gekke hoedenmaker",
+                                     "en":  "Mad hatter"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC draagt een hele lange, heel gekke puntmuts. Het is meer dan 3 voet (1 meter) lang, gemaakt van verschillende soorten materialen en kleuren. Mogelijke verklaring waarom de NPC het draagt: 1. Hun kind heeft het voor hen gemaakt en nu zijn ze vrijwel verplicht om het te dragen. 2. Ze hebben het zelf gemaakt omdat ze geloven dat het hen een echt krachtige tovenaar zal maken. 3. Het is een vervloekte hoed die niet kan worden verwijderd en iemand heeft hem op zijn hoofd gezet terwijl hij sliep.",
+                                           "en":  "This NPC wears a very tall, very crazy pointy hat. It\u0027s more than 3 feet tall, made of various materials and colors. Optional reason: 1. Their child made it and now they\u0027re practically obligated to wear it. 2. They made it themselves believing it will make them a truly powerful wizard. 3. It\u0027s a cursed hat that can\u0027t be removed and someone put it on their head while they slept."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tekenaar",
+                                     "en":  "Doodler"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC krabbelt op een stuk papier terwijl hij of zij met de partij praat. Na een tijdje laten ze trots de schets zien die ze van een van de partijleden hebben gemaakt. Rol 1d6/2 om te zien hoe goed deze NPC is. 1: Heel, heel slecht. 2: Extreem gemiddeld. 3: Heel, heel goed.",
+                                           "en":  "This NPC scribbles on a piece of paper while talking to the party. After a while they proudly show the sketch they made of one of the party members. Roll 1d6/2 to see how good: 1: Very, very bad. 2: Extremely average. 3: Very, very good."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Wil je een koekje? Deze NPC bakt zijn eigen koekjes en biedt iedereen aan om het te proberen",
+                                     "en":  "Want a cookie? This NPC bakes their own cookies and offers everyone a try"
+                                 },
+                       "description":  {
+                                           "nl":  "Rol 1d6/2 om de kwaliteit te bepalen. 1: Verschrikkelijk, bitter en is dat een haar? 2: Gemiddelde, OK cookies. 3: Deze zijn geweldig, knapperig, zoet en iets waar je je vinger niet helemaal op kunt leggen, maar het is geweldig.",
+                                           "en":  "Roll 1d6/2 for quality: 1: Terrible, bitter, and is that a hair? 2: Average, OK cookies. 3: These are amazing, crispy, sweet and something you can\u0027t quite put your finger on, but it\u0027s great."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Jongleur",
+                                     "en":  "Juggler"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC is een uitstekende jongleur en zal elke keer jongleren als hij of zij twee of meer items in zijn of haar handen heeft. Hun limiet is 1d6 + 3 items tegelijk.",
+                                           "en":  "This NPC is an excellent juggler and will juggle whenever they have two or more items in their hands. Their limit is 1d6 + 3 items at once."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Verminkt",
+                                     "en":  "Maimed"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage mist een ledemaat of aanhangsel. Naar eigen goeddunken of rol een d4: 1 = arm 2 = been 3 = oor 4 = oog",
+                                           "en":  "This character is missing a limb or appendage. DM\u0027s choice or roll a d4: 1 = arm 2 = leg 3 = ear 4 = eye"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Joker-spraakvink",
+                                     "en":  "Joker chatterbox"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage beÃ«indigt alles wat ze zeggen met een lach of lach.",
+                                           "en":  "This character ends everything they say with a laugh or chuckle."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Agressieve flirt",
+                                     "en":  "Aggressive flirt"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage zal insinuaties maken tegen iedereen die meerderjarig is.",
+                                           "en":  "This character will make insinuations toward anyone of legal age."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Slaperig",
+                                     "en":  "Sleepy"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage gaapt veel en is niet geÃ¯nteresseerd in de wakkere wereld.",
+                                           "en":  "This character yawns a lot and has no interest in the waking world."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "OCD",
+                                     "en":  "OCD"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage vereist dat alles in orde en netjes is, heeft een sterke voorkeur voor ronde getallen en neemt elke tweede stap, elke keer.",
+                                           "en":  "This character requires everything to be in order and neat, has a strong preference for round numbers, and takes every other step, every time."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Doodsbang",
+                                     "en":  "Deathly afraid"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage springt bij elke klop, klik en plotselinge beweging. Als ze magie hebben, kunnen ze het per ongeluk in een verbaasde paniek werpen.",
+                                           "en":  "This character jumps at every knock, click, and sudden movement. If they have magic, they might accidentally cast it in a startled panic."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kettingroker",
+                                     "en":  "Chain smoker"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is nooit zonder sigaar of pijp. Als ze een kind zijn, hebben ze altijd een lange grasspriet of tarwe in hun mond.",
+                                           "en":  "This character is never without a cigar or pipe. If they\u0027re a child, they always have a long blade of grass or wheat in their mouth."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Alcholisch",
+                                     "en":  "Alcoholic"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage bezit en neemt regelmatig slokken uit een exotische fles sterke drank.",
+                                           "en":  "This character owns and regularly takes sips from an exotic flask of spirits."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Liefde op het eerste gezicht",
+                                     "en":  "Love at first sight"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is diep, onvoorwaardelijk, onherstelbaar verliefd geworden op de eerste pc die ze zagen. Ze zullen alles voor hen doen, maar zullen geen rivalen tolereren.",
+                                           "en":  "This character has fallen deeply, unconditionally, irrecoverably in love with the first PC they saw. They will do anything for them but will not tolerate rivals."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tatoeages",
+                                     "en":  "Tattoos"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is van top tot teen bedekt met tatoeages. Inclusief gezicht, hals, vingers en ja zelfs \u0027daar\u0027. Ze zijn naar eigen goeddunken cultureel belangrijk of betekenisloos.",
+                                           "en":  "This character is covered from head to toe in tattoos. Including face, neck, fingers, and yes even \u0027there\u0027. They are culturally significant or meaningless, DM\u0027s discretion."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Offensief",
+                                     "en":  "Offensive"
+                                 },
+                       "description":  {
+                                           "nl":  "Voor iedereen van gelijke of lagere rang zal dit personage beschuldigingen, beledigingen en gebrek aan respect injecteren in alles wat ze zeggen. Ze zijn volkomen beminnelijk voor degenen met een hogere rang.",
+                                           "en":  "Toward anyone of equal or lower rank, this character will inject accusations, insults, and disrespect into everything they say. They are perfectly amiable to those of higher rank."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Inktvlek",
+                                     "en":  "Ink stain"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft inktvlekken in zijn kleren.",
+                                           "en":  "This NPC has ink stains on their clothes."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ziekelijk",
+                                     "en":  "Sickly"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage hoest, hackt en/of niest voor altijd en krijgt regelmatig bloedneuzen. Desgevraagd zweren ze dat het goed met ze gaat.",
+                                           "en":  "This character coughs, hacks and/or sneezes perpetually and gets nosebleeds regularly. If asked, they swear they\u0027re fine."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Complottheoreticus",
+                                     "en":  "Conspiracy theorist"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is er volledig van overtuigd dat een geheime organisatie of buitenaardse wezens (naar keuze) de wereld besturen en verantwoordelijk zijn voor al het kwaad.",
+                                           "en":  "This character is fully convinced that a secret organization or alien beings (of choice) run the world and are responsible for all evil."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vaag",
+                                     "en":  "Vague"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage kwalificeert alles wat ze zeggen met \u0027misschien\u0027, \u0027misschien\u0027, \u0027mogelijk\u0027, en vermijdt het doen van bepaalde of exacte uitspraken zoveel als ze kunnen wegkomen.",
+                                           "en":  "This character qualifies everything they say with \u0027maybe\u0027, \u0027perhaps\u0027, \u0027possibly\u0027, avoiding making certain or exact statements as much as they can get away with."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Boekenwurm",
+                                     "en":  "Bookworm"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze NPC heeft altijd meerdere boeken bij zich en grijpt elk verloren moment aan om een boek te lezen.",
+                                           "en":  "This NPC always carries several books and seizes every idle moment to read."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Arbeidsongeschiktheid",
+                                     "en":  "Disability"
+                                 },
+                       "description":  {
+                                           "nl":  "Uw keuze of rol een d6: 1= Doof, 2= Stom, 3= Blind, 4= Kan geen pijn voelen, 5= Geen smaakzin, 6= Geen reukvermogen",
+                                           "en":  "Your choice or roll a d6: 1= Deaf, 2= Mute, 3= Blind, 4= Can\u0027t feel pain, 5= No sense of taste, 6= No sense of smell"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tandenfee",
+                                     "en":  "Tooth fairy"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit karakter heeft Ã©Ã©n, twee of geen tanden.",
+                                           "en":  "This character has one, two, or no teeth."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Racistisch",
+                                     "en":  "Racist"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een irrationele afkeer van alle mensen met zelfs maar gedeeltelijk bloed van een ras (zelfs als het hun eigen bloed is). Gooi een d8: 1= Mensen 2= Elfen 3= Dwergen 4= Orks 5= Kabouters 6= Halflingen 7=Tieflings 8= Ras van de eerste PC die met hen praat",
+                                           "en":  "This character has an irrational dislike of anyone with even partial blood from a race (even their own). Roll a d8: 1= Humans 2= Elves 3= Dwarves 4= Orcs 5= Gnomes 6= Halflings 7= Tieflings 8= Race of the first PC who speaks to them"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Beschermend huisdier",
+                                     "en":  "Protective pet"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een huisdier of vertrouwd, al naar gelang het geval, dat hen nooit verlaat en die een hekel lijkt te hebben aan de pc\u0027s. Rol een d8: 1= vogel (kies papegaai of parkiet) 2= Kat 3= kleine hond 4= grote hond 5= hagedis 6= muis 7= slang 8= rat",
+                                           "en":  "This character has a pet or familiar, as the case may be, that never leaves them and seems to dislike the PCs. Roll a d8: 1= bird (choose parrot or parakeet) 2= Cat 3= small dog 4= large dog 5= lizard 6= mouse 7= snake 8= rat"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Enorme fan",
+                                     "en":  "Huge fan"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is dol op de pc\u0027s en weet op de een of andere manier alles over hen en hun avonturen. Kies twee willekeurige PC\u0027s, ze verzenden ze.",
+                                           "en":  "This character loves the PCs and somehow knows everything about them and their adventures. Pick two random PCs, they ship them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Immens litteken",
+                                     "en":  "Massive scar"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een duidelijk en groot litteken op hun gezicht. Gevechtsletsel of ongeval in de kindertijd, indien van toepassing.",
+                                           "en":  "This character has a clear and large scar on their face. Combat injury or childhood accident, if applicable."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Haarloos",
+                                     "en":  "Hairless"
+                                 },
+                       "description":  {
+                                           "nl":  "Er is geen enkel haar op het lichaam van deze persoon.",
+                                           "en":  "There is not a single hair on this person\u0027s body."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ongewoon kort",
+                                     "en":  "Unusually short"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is aanzienlijk korter dan je zou verwachten. Als ze menselijk zijn, zijn ze nu een halfling die absoluut gelooft dat ze mens zijn.",
+                                           "en":  "This character is considerably shorter than you\u0027d expect. If human, they\u0027re now a halfling who absolutely believes they\u0027re human."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ongewoon lang",
+                                     "en":  "Unusually tall"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is aanzienlijk groter dan je zou verwachten. Als ze halfling zijn, zijn ze nu een mens die absoluut gelooft dat ze halfling zijn.",
+                                           "en":  "This character is considerably taller than you\u0027d expect. If a halfling, they\u0027re now a human who absolutely believes they\u0027re a halfling."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bzzt",
+                                     "en":  "Bzzt"
+                                 },
+                       "description":  {
+                                           "nl":  "Vertelt mensen dat ze stil moeten zijn met een irritant \u0027BZZZZZT\u0027-geluid.",
+                                           "en":  "Tells people to be quiet with an irritating \u0027BZZZZZT\u0027 sound."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Oedipus",
+                                     "en":  "Oedipus"
+                                 },
+                       "description":  {
+                                           "nl":  "Heeft in elke kamer een portret van hun moeder. Aanbidt en verdraagt hun moeder als ze aanwezig is. Zal geen gebrek aan respect voor haar tolereren, wat er ook gebeurt.",
+                                           "en":  "Has a portrait of their mother in every room. Worships and tolerates their mother when present. Will not tolerate any disrespect toward her, no matter what."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Allergie",
+                                     "en":  "Allergy"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage zal ongecontroleerd niezen en last krijgen van huiduitslag/zwelling wanneer hij in contact komt met bloemen.",
+                                           "en":  "This character will sneeze uncontrollably and develop a rash/swelling when coming into contact with flowers."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bevriezing",
+                                     "en":  "Freezing"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is altijd in veel meer kleding dan het weer vereist, en lijkt veel te rillen/klappertanden.",
+                                           "en":  "This character is always wearing far more clothing than the weather requires and seems to shiver/chatter their teeth a lot."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Welke kou? Dit personage draagt altijd heel weinig, en als het hem wordt gevraagd, zal hij zeggen dat het te warm is en zich afvragen hoe de pc\u0027s het kunnen verdragen, ze zweten veel.",
+                                     "en":  "What cold? This character always wears very little, and if asked, will say it\u0027s too warm and wonder how the PCs stand it, sweating a lot."
+                                 },
+                       "description":  {
+                                           "nl":  "",
+                                           "en":  ""
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Verontschuldigend",
+                                     "en":  "Apologetic"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage verontschuldigt zich voor alles, alles, aan iedereen, de hele tijd.",
+                                           "en":  "This character apologizes for everything, everything, to everyone, all the time."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Patriot",
+                                     "en":  "Patriot"
+                                 },
+                       "description":  {
+                                           "nl":  "De nationaliteit van dit personage is ongelooflijk belangrijk voor hen. Ze zullen handelen in wat zij zien als de belangen van het land, wat er ook voor nodig is.",
+                                           "en":  "This character\u0027s nationality is incredibly important to them. They will act in what they see as the interests of the country, whatever it takes."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vroom",
+                                     "en":  "Devout"
+                                 },
+                       "description":  {
+                                           "nl":  "Kies een godheid. Dit personage is een fervent aanbidder en heeft enkele van de persoonlijkheidskenmerken van die god/godin en hun domein overgenomen. Facultatief d4: 1= wettige god 2= chaotische god 3= goede god 4= neutrale god",
+                                           "en":  "Choose a deity. This character is a fervent worshiper and has adopted some of the personality traits of that god/goddess and their domain. Optional d4: 1= lawful god 2= chaotic god 3= good god 4= neutral god"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Verboden liefde",
+                                     "en":  "Forbidden love"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een geheim en een relatie met iemand. Het moet ook iemand zijn in een dramatisch andere positie (bijvoorbeeld als ze van adel zijn, is het een pauper). Het zou een schandaal in de gemeenschap veroorzaken als het naar buiten zou komen.",
+                                           "en":  "This character has a secret relationship with someone in a dramatically different position (e.g. if noble, it\u0027s a pauper). It would cause a scandal in the community if it came out."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Incompetent, onhandig en totaal onbewust",
+                                     "en":  "Incompetent, clumsy, and totally unaware"
+                                 },
+                       "description":  {
+                                           "nl":  "Welk beroep of welke hobby\u0027s dit personage ook heeft, ze zijn er slecht in. Wat ze ook moeten rollen en in welke context dan ook, -5 ervan. Ze geloven niet dat ze slecht zijn.",
+                                           "en":  "Whatever profession or hobbies this character has, they\u0027re bad at it. Whatever they need to roll and in whatever context, -5 from it. They don\u0027t believe they\u0027re bad."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geleerde",
+                                     "en":  "Savant"
+                                 },
+                       "description":  {
+                                           "nl":  "Als dit hoger is, zet je de intelligentie en wijsheid van dit teken op 8. Kies een geschikte vaardigheid of hobby. Ze zijn er onverklaarbaar briljant in en waar mogelijk zouden ze +10 moeten krijgen voor alle worpen erover.",
+                                           "en":  "If this rolls high, set this character\u0027s Intelligence and Wisdom to 8. Choose a suitable skill or hobby. They are inexplicably brilliant at it and wherever possible should get +10 for all rolls on it."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bezeten",
+                                     "en":  "Possessed"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit karakter is bezeten door een geest. Ze zijn zich bewust van elkaar en wisselen willekeurig met een kuch. Gooi een d4: 1= Geest is slecht 2= Geest is goed 3= Geest is de tweeling van de personages die dood is bij de geboorte 4= gespleten persoonlijkheid.",
+                                           "en":  "This character is possessed by a spirit. They are aware of each other and switch randomly with a cough. Roll a d4: 1= Spirit is evil 2= Spirit is good 3= Spirit is the character\u0027s twin who died at birth 4= Split personality."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Dwangmatige leugenaar en opschepper",
+                                     "en":  "Compulsive liar and braggart"
+                                 },
+                       "description":  {
+                                           "nl":  "Karakter liegt, schept op en schept op over alles. De leugens zijn brutaal en belachelijk, en kunnen zelfs eerdere leugens tegenspreken, maar het personage zal er met absolute overtuiging achter staan",
+                                           "en":  "Character lies, boasts, and brags about everything. The lies are brazen and ridiculous, can even contradict earlier lies, but the character will stand behind them with absolute conviction."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Anti-theÃ¯st",
+                                     "en":  "Anti-theist"
+                                 },
+                       "description":  {
+                                           "nl":  "Het personage haat de goden, engelen, fey, demonen en duivels. Ze hebben een hekel aan en verachten degenen die aan hen ondergeschikt zijn.",
+                                           "en":  "The character hates gods, angels, fey, demons, and devils. They despise and distrust those subservient to them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tranendal",
+                                     "en":  "Crybaby"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage huilt veel. Goede emoties, slechte emoties, alle emoties trekken tranen.",
+                                           "en":  "This character cries a lot. Good emotions, bad emotions, all emotions draw tears."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Lycanthroop",
+                                     "en":  "Lycanthrope"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is eigenlijk een lycantroop. Gooi optioneel een d6: 1= Weerrat, 2= Weerzwijn 3= Weerdas 4= Weerwolf 5= Weerslang 6= Weervleermuis",
+                                           "en":  "This character is actually a lycanthrope. Optional d6: 1= Wererat 2= Wereboar 3= Werebadger 4= Werewolf 5= Wereserpent 6= Werebat"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Latente tovenarij",
+                                     "en":  "Latent sorcery"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een schijnbaar onverklaarbaar vermogen om naar believen een willekeurige cantrip te casten. Gooi eventueel een d12: 1= kleine illusie 2= licht 3= windvlaag 4= magiÃ«rhand 5= voorspelling 6= venijnige spot 7= vrienden 8= vorm water 9= weerstand 10= bericht 11= schimmel aarde 12= vlam beheersen",
+                                           "en":  "This character has a seemingly inexplicable ability to cast a random cantrip at will. Optional d12: 1= Minor illusion 2= Light 3= Gust 4= Mage hand 5= Prestidigitation 6= Vicious mockery 7= Friends 8= Shape water 9= Resistance 10= Message 11= Mold earth 12= Control flames"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kunst \u0026 Ambachten",
+                                     "en":  "Arts \u0026 Crafts"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is volledig toegewijd aan zijn hobby en besteedt er zoveel mogelijk tijd aan. Optioneel d8: 1= breien 2= houtbewerking 3= juwelen 4= origami 5= poppenspel 6= muntenverzameling 7= schilderen 8= koken",
+                                           "en":  "This character is fully dedicated to their hobby and spends as much time as possible on it. Optional d8: 1= knitting 2= woodworking 3= jewelry 4= origami 5= puppetry 6= coin collecting 7= painting 8= cooking"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Muzikant",
+                                     "en":  "Musician"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is een getalenteerde en toegewijde muzikant. Optioneel d8: 1= gitaar 2= fluit 3= mondharmonica 4= harp 5= luit 6= viool 7= drums 8= zang",
+                                           "en":  "This character is a talented and dedicated musician. Optional d8: 1= guitar 2= flute 3= harmonica 4= harp 5= lute 6= violin 7= drums 8= vocals"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Grijns",
+                                     "en":  "Grinning"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage lacht altijd.",
+                                           "en":  "This character is always smiling."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Fashionista",
+                                     "en":  "Fashionista"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is altijd getooid met exotische kleuren en uitbundige kleding. Als ze arm zijn, dragen ze nog steeds kleding die merkbaar beter is dan die van hun leeftijdsgenoten.",
+                                           "en":  "This character is always adorned with exotic colors and extravagant clothing. If poor, they still wear clothing noticeably better than their peers."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Drow-geboren ontsnapte",
+                                     "en":  "Drow-born escapee"
+                                 },
+                       "description":  {
+                                           "nl":  "Wat ze nu ook zijn, dit personage bracht hun vormende jaren door als slaaf van de drow. Ze stellen zich instinctief uit voor vrouwen en zien mannen als minder.",
+                                           "en":  "Whatever they are now, this character spent their formative years as a slave of the drow. They instinctively defer to women and see men as lesser."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Seksistisch",
+                                     "en":  "Sexist"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage vertrouwt de competentie van vrouwen niet (zelfs als ze er een zijn) en gaat ervan uit dat mannen de leiders zijn in een bepaalde situatie",
+                                           "en":  "This character doesn\u0027t trust the competence of women (even if they are one) and assumes men are the leaders in any given situation."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Veganist / Dierenrechtenactivist",
+                                     "en":  "Vegan / Animal rights activist"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage houdt van dieren en vindt dat ze hetzelfde recht op leven verdienen dat we allemaal hebben. Beslis contextueel of ze de keuze van anderen om vlees te eten respecteren of er activistisch over zijn.",
+                                           "en":  "This character loves animals and believes they deserve the same right to life we all have. Contextually decide if they respect others\u0027 choice to eat meat or are activist about it."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Zout veelvraat",
+                                     "en":  "Salt glutton"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze persoon doet enorme hoeveelheden zout op alles wat hij eet. Zoals, belachelijke hoeveelheden.",
+                                           "en":  "This person puts enormous amounts of salt on everything they eat. Like, ridiculous amounts."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Suiker verslaafd",
+                                     "en":  "Sugar addict"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze persoon stopt enorme hoeveelheden suiker in alles wat hij eet en drinkt. Alles.",
+                                           "en":  "This person puts enormous amounts of sugar in everything they eat and drink. Everything."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Denkbeeldige vriend",
+                                     "en":  "Imaginary friend"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze persoon heeft een denkbeeldige vriend met wie hij praat. Als ze een kind zijn, zullen ze het in het bijzijn van anderen doen.",
+                                           "en":  "This person has an imaginary friend they talk to. If they\u0027re a child, they\u0027ll do so in the presence of others."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Snuif",
+                                     "en":  "Sniffle"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage snuift voor en tijdens het spreken.",
+                                           "en":  "This character sniffles before and while speaking."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ongebruikelijk accent",
+                                     "en":  "Unusual accent"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage zweert dat ze lokaal zijn, maar ze spreken met een buitenlands accent.",
+                                           "en":  "This character swears they\u0027re local, but speaks with a foreign accent."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Overspelige",
+                                     "en":  "Adulterer"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft twee geliefden, maar slechts Ã©Ã©n is publiekelijk bekend.",
+                                           "en":  "This character has two lovers, but only one is publicly known."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Aspirant-avonturier",
+                                     "en":  "Aspiring adventurer"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage staat op het punt om hun eigen avonturier van niveau 1 te worden. Ze zijn vooral geÃ¯nteresseerd in de talenten en expertise van anderen terwijl ze proberen hun klasse te bepalen.",
+                                           "en":  "This character is about to become their own level 1 adventurer. They\u0027re especially interested in the talents and expertise of others as they try to determine their class."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Ellende lef",
+                                     "en":  "Misery guts"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is cynisch over zichzelf, anderen en al het andere. Ze zien alleen de slechtste resultaten en ze brengen de stemming overal naar beneden.",
+                                           "en":  "This character is cynical about themselves, others, and everything else. They only see the worst outcomes and bring the mood down everywhere."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gelukkig ga je geluk",
+                                     "en":  "Happy go lucky"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is optimistisch over zichzelf, anderen en al het andere. Ze zien het beste in iedereen en proberen altijd de stemming te verlichten, de geest op te vrolijken.",
+                                           "en":  "This character is optimistic about themselves, others, and everything else. They see the best in everyone and always try to lift the mood and cheer up spirits."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Koninklijke/Nobele",
+                                     "en":  "Royal/Noble"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is het onwettige kind van iemand met grote macht en statuur in hun gemeenschap of koninkrijk.",
+                                           "en":  "This character is the illegitimate child of someone of great power and stature in their community or kingdom."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Onbeantwoorde liefde",
+                                     "en":  "Unrequited love"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is hopeloos verliefd op iemand anders in hun gemeenschap die geen interesse in hen heeft.",
+                                           "en":  "This character is hopelessly in love with someone else in their community who has no interest in them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vogelliefhebber",
+                                     "en":  "Bird lover"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is enorm enthousiast over vliegende wezens. Ze documenteren ze, zien ze, houden van ze. Optioneel d4: 1= Alle vogels 2= Zeldzame vogels 3= Grote vogels 4= Geen vogels, maar draken",
+                                           "en":  "This character is enormously enthusiastic about flying creatures. They document them, watch them, love them. Optional d4: 1= All birds 2= Rare birds 3= Large birds 4= Not birds, but dragons"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gruwelijke veteraan",
+                                     "en":  "Grizzled veteran"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft oorlog gezien en meegemaakt en het heeft hen beÃ¯nvloed. Als ze te jong zijn om oorlog te hebben gezien, zijn ze in plaats daarvan jeugdig, optimistisch en vastbesloten om zo snel mogelijk in het leger te gaan.",
+                                           "en":  "This character has seen and experienced war and it has affected them. If too young to have seen war, they are instead youthful, optimistic, and determined to join the military as soon as possible."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Spion",
+                                     "en":  "Spy"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is loyaal aan en verzamelt informatie voor een organisatie. Facultatief d4: 1= vreemde natie 2= georganiseerde misdaad 3= sekte 4= een rivaliserende edelman van de heersende factie",
+                                           "en":  "This character is loyal to and gathers information for an organization. Optional d4: 1= foreign nation 2= organized crime 3= cult 4= a rival noble of the ruling faction"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Tovenaar",
+                                     "en":  "Warlock"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft zijn ziel verkocht aan een buitenaardse beschermheer in ruil voor macht, en ze zijn gebonden aan hun motieven.",
+                                           "en":  "This character has sold their soul to an otherworldly patron in exchange for power and is bound to their motives."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gebonden duivel",
+                                     "en":  "Bound devil"
+                                 },
+                       "description":  {
+                                           "nl":  "Op een plaats die normaal gesproken alleen toegankelijk is voor dit personage, bevindt zich een ritueel en veilig gebonden duivel die hen dient.",
+                                           "en":  "In a place normally only accessible to this character, there is a ritually and safely bound devil who serves them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gezegend door een god",
+                                     "en":  "Blessed by a god"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit karakter is door een goede godheid voor een bepaald doel gekozen en heeft een aura van heiligheid voor hen.",
+                                           "en":  "This character has been chosen by a benevolent deity for a specific purpose and has an aura of holiness about them."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Skint/Hard up voor geld",
+                                     "en":  "Skint/Hard up for cash"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft altijd geen geld meer. Ze nemen vreselijke financiÃ«le beslissingen. Ze lenen altijd en betalen nooit terug.",
+                                           "en":  "This character is always out of money. They make terrible financial decisions. They\u0027re always borrowing and never paying back."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Handelaar",
+                                     "en":  "Dealer"
+                                 },
+                       "description":  {
+                                           "nl":  "Als het wordt gevraagd in dievencant of als iemand de codezin kent, kan dit personage een reeks medicijnen en alchemistische middelen leveren voor een eerlijke prijs. Codezin is jouw keuze, anders is het \u0027Ik moet de uilen voeren\u0027.",
+                                           "en":  "If asked in thieves\u0027 cant or if someone knows the code phrase, this character can supply a range of narcotics and alchemical substances at a fair price. Code phrase is your choice, otherwise it\u0027s \u0027I need to feed the owls\u0027."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bijenhouder, Hondenbezitter, Kattendame",
+                                     "en":  "Beekeeper, Dog owner, Cat lady"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage onderhoudt momenteel bijenkorven, of ze streven ernaar als ze geen eigendom bezitten. Als alternatief hebben ze veel honden of veel katten. Optionele rol d3: 1= Bijen, 2= Honden, 3= Katten.",
+                                           "en":  "This character currently maintains beehives, or aspires to if they don\u0027t own property. Alternatively they have many dogs or many cats. Optional roll d3: 1= Bees, 2= Dogs, 3= Cats."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bijnaam",
+                                     "en":  "Nickname"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage verzint bijnamen voor iedereen die ze kennen en vergeet schijnbaar hun echte naam. De bijnamen kunnen positief of negatief zijn.",
+                                           "en":  "This character makes up nicknames for everyone they know and seemingly forgets their real name. The nicknames can be positive or negative."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geen grenzen",
+                                     "en":  "No boundaries"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is zich niet bewust van persoonlijke ruimte. Ze komen te dichtbij, raken vreemden vriendelijk aan, gaan naast je zitten op een grote lege bank. Al de ergste dingen.",
+                                           "en":  "This character is unaware of personal space. They get too close, touch strangers in a friendly way, sit next to you on a large empty bench. All the worst things."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Geen filter",
+                                     "en":  "No filter"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage filtert geen persoonlijke details over hun leven of het leven van iemand anders. Ze zullen praten over naar het toilet gaan, je vragen wanneer je voor het laatst seks hebt gehad en nooit beseffen wanneer ze dingen ongemakkelijk maken.",
+                                           "en":  "This character filters no personal details about their life or anyone else\u0027s. They\u0027ll talk about going to the bathroom, ask when you last had sex, and never realize when they\u0027re making things uncomfortable."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Zwijgzaam",
+                                     "en":  "Taciturn"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage spreekt in Ã©Ã©n woord antwoorden. Ze rijgen zelden hele zinnen aan elkaar.",
+                                           "en":  "This character speaks in one-word answers. They rarely string whole sentences together."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Knippert nooit",
+                                     "en":  "Never blinks"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage knippert zelden met zijn ogen en onderwerpt mensen aan lange blikken.",
+                                           "en":  "This character rarely blinks and subjects people to long stares."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Zachte tonen",
+                                     "en":  "Soft tones"
+                                 },
+                       "description":  {
+                                           "nl":  "De stem van dit personage is ongelooflijk aangenaam voor de oren. Ze trekken gemakkelijker de aandacht en mensen konden urenlang naar hen luisteren zonder te klagen.",
+                                           "en":  "This character\u0027s voice is incredibly pleasant to the ears. They attract attention more easily and people could listen to them for hours without complaint."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Vraagsteller? Dit personage beÃ«indigt elke zin alsof het een vraag is? Wat de verklaring ook is?",
+                                     "en":  "Uptalker? This character ends every sentence as if it\u0027s a question? Whatever the statement?"
+                                 },
+                       "description":  {
+                                           "nl":  "",
+                                           "en":  ""
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Aangekoekt in make-up Dit personage zit altijd in duidelijke lagen dikke make-up",
+                                     "en":  "Caked in makeup"
+                                 },
+                       "description":  {
+                                           "nl":  "Vakkundig of onhandig toegepast naar goeddunken van DM.",
+                                           "en":  "This character is always in clearly visible layers of thick makeup. Skillfully or clumsily applied at the DM\u0027s discretion."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Fitness junkie",
+                                     "en":  "Fitness junkie"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit karakter is aanzienlijk meer opgevijzeld dan anderen van vergelijkbare leeftijd en soort. Ze hebben een zwaar trainingsregime en nemen hun fysieke verschijning zeer serieus.",
+                                           "en":  "This character is considerably more jacked than others of comparable age and species. They have a heavy training regimen and take their physical appearance very seriously."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kwaadaardig gekakel",
+                                     "en":  "Evil cackle"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage lacht als een superschurk.",
+                                           "en":  "This character laughs like a supervillain."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "De geest van de natuur",
+                                     "en":  "Spirit of nature"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage bevindt zich het liefst tussen de bomen en dieren in het wild. Als ze in de beschaafde wereld zijn, deprimeert het hen. Ze voelen zich aangetrokken tot geestverwanten.",
+                                           "en":  "This character feels most at home among the trees and wildlife. Being in the civilized world depresses them. They\u0027re drawn to kindred spirits."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Fobie voor magie",
+                                     "en":  "Magic phobia"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is bang voor magie, magische gebruikers en alles wat daarmee te maken heeft.",
+                                           "en":  "This character is afraid of magic, magical users, and everything related to it."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "ParanoÃ¯de van diefstal",
+                                     "en":  "Paranoid about theft"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft vallen en sloten op alles wat ze bezitten, en als ze de middelen hebben, golem bewakers ook.",
+                                           "en":  "This character has traps and locks on everything they own, and if they have the means, golem guards too."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Bedrieger! Dit personage doodde en verving de persoon die ze beweerden te zijn",
+                                     "en":  "Impostor! This character killed and replaced the person they claimed to be"
+                                 },
+                       "description":  {
+                                           "nl":  "Hun verhaal klopt niet helemaal en ze sporen hun vrienden en familie aan tot zelfsabotage.",
+                                           "en":  "Their story doesn\u0027t quite add up and they nudge their friends and family toward self-sabotage."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Klepto",
+                                     "en":  "Klepto"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage zal proberen van mensen te stelen wanneer ze maar kunnen. Geef ze vaardigheid in goochelarij.",
+                                           "en":  "This character will try to steal from people whenever they can. Give them proficiency in Sleight of Hand."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Slopende sociale angst",
+                                     "en":  "Crushing social anxiety"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage komt extreem verlegen over - vermijdt sociale interactie en is erg gesloten voor mensen die ze niet kennen.",
+                                           "en":  "This character comes across as extremely shy - avoids social interaction and is very closed off to people they don\u0027t know."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kleinschalig anarchistisch",
+                                     "en":  "Petty anarchist"
+                                 },
+                       "description":  {
+                                           "nl":  "Als niemand kijkt, zal dit personage dingen verplaatsen, verknoeien, breken, vernietigen, ontgrendelen, vergrendelen, verplaatsen en beschadigen, vooral openbare eigendommen.",
+                                           "en":  "When no one is looking, this character will move, mess up, break, destroy, unlock, lock, relocate, and damage things, especially public property."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Kleine groene sidekick",
+                                     "en":  "Little green sidekick"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een intelligente (fora) goblin-metgezel die hun beste vriend is. De goblin kan gewone en alle moedertalen van het personage spreken. De naam van de goblins is aan jou, anders is het \u0027Pickles\u0027.",
+                                           "en":  "This character has an intelligent (for a) goblin companion who is their best friend. The goblin can speak Common and all native languages of the character. The goblin\u0027s name is up to you, otherwise it\u0027s \u0027Pickles\u0027."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Voogd",
+                                     "en":  "Guardian"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een jonge wees geadopteerd die ze zeer beschermend zijn. Optioneel d6 voor weesras: 1= draakgeboren, 2= half-ork, 3= mens, 4= kabouter, 5= dwerg, 6= tiefling",
+                                           "en":  "This character has adopted a young orphan they are very protective of. Optional d6 for orphan race: 1= Dragonborn, 2= Half-orc, 3= Human, 4= Gnome, 5= Dwarf, 6= Tiefling"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Poppenspeler",
+                                     "en":  "Puppeteer"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage verloor een dierbaar familielid en herschiep ze als een marionet met wie ze overal naartoe gaan. Optioneel d4: 1= Marionet is een dode echtgenoot, 2= dood kind, 3= dode broer of zus, 4= dode ouder",
+                                           "en":  "This character lost a beloved family member and recreated them as a marionette they take everywhere. Optional d4: 1= Marionette is a dead spouse, 2= dead child, 3= dead sibling, 4= dead parent"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Worstelaar",
+                                     "en":  "Wrestler"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit heeft een worstelpersona waar ze in het weekend mee optreden. De lokale gemeenschap heeft een worstelring met minstens 4 andere worstelaars.",
+                                           "en":  "This character has a wrestling persona they perform as on weekends. The local community has a wrestling ring with at least 4 other wrestlers."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Gezocht / verbannen",
+                                     "en":  "Wanted / Exiled"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage wordt ofwel gezocht, ofwel verbannen uit een vreemde natie wegens verraad. Ze hebben een valse naam en zullen er alles aan doen om te voorkomen dat ze ontdekt worden.",
+                                           "en":  "This character is either wanted or exiled from a foreign nation for treason. They have a false name and will do anything to avoid being discovered."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Mystiek",
+                                     "en":  "Mystic"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is een waarzeggerij. Het maakt niet uit wie ze zijn of wat hun levenswandel is, ze dragen nu ook een kaartspel en kunnen worden overgehaald om lezingen van fortuin aan te bieden.",
+                                           "en":  "This character is a diviner. No matter who they are or what their walk of life, they now also carry a deck of cards and can be persuaded to offer fortune readings."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "InitiÃ«ren",
+                                     "en":  "Initiate"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is toegelaten tot een van de tovenaarsscholen. Optioneel d8: 1= Abju 2= Conju 3= Divi 4= Ench 5= Evoc 6= illu 7= transmu 8= necro of war (dm\u0027s keuze)",
+                                           "en":  "This character has been accepted into one of the schools of wizardry. Optional d8: 1= Abju 2= Conju 3= Divi 4= Ench 5= Evoc 6= Illu 7= Transmu 8= Necro or War (DM\u0027s choice)"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Stiekem kwaadaardig",
+                                     "en":  "Secretly evil"
+                                 },
+                       "description":  {
+                                           "nl":  "Deze uitlijning van personages is slecht, maar ze doen hun best om het voor anderen te verbergen door hun eigenbelang en sadisme te framen als iets gezonds of als gemotiveerd voor het grotere goed.",
+                                           "en":  "This character\u0027s alignment is evil, but they do their best to hide it from others by framing their self-interest and sadism as something healthy or motivated by the greater good."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Eed gebonden",
+                                     "en":  "Oath bound"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een eed afgelegd die een bindend, goddelijk aspect heeft. Ze hoeven geen paladijn te zijn. Optioneel d4: 1= Eed van wraak, 2= Eed van verlossing, 3= Ze zijn een eedbreker, 4= Eed van toewijding",
+                                           "en":  "This character has sworn an oath that has a binding, divine aspect. They don\u0027t have to be a paladin. Optional d4: 1= Oath of Vengeance, 2= Oath of Redemption, 3= They are an oathbreaker, 4= Oath of Devotion"
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Hamsteraar",
+                                     "en":  "Hoarder"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage verzamelt alles en heeft er een hekel aan om afstand te doen van iets van zichzelf. Waar ze ook wonen, het is rommelig met waardeloze meubels en snuisterijen, maar waardevolle kennis en boeken kunnen erin vergeten zijn.",
+                                           "en":  "This character collects everything and hates to part with anything of their own. Wherever they live, it\u0027s cluttered with worthless furniture and trinkets, but valuable knowledge and books may be forgotten inside."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Revolutionaire geest",
+                                     "en":  "Revolutionary spirit"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage heeft een hekel aan adel en gevestigde macht. Hoe hoger de sociale rang van een persoon, hoe meer walgelijk en wantrouwend ze zijn. Hoe armer en machtelozer, hoe meer dit personage meeleeft.",
+                                           "en":  "This character hates nobility and established power. The higher the social rank of a person, the more disgusting and distrustful they are. The poorer and more powerless, the more this character sympathizes."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "title":  {
+                                     "nl":  "Avatar van de Godheid",
+                                     "en":  "Avatar of the Deity"
+                                 },
+                       "description":  {
+                                           "nl":  "Dit personage is een sterfelijke avatar van een godheid die iemand in het gezelschap aanbidt. De partij kan dit in geen geval ontdekken. Als het gezelschap geen god aanbidt, zijn ze Tymora, godin van het geluk.",
+                                           "en":  "This character is a mortal avatar of a deity worshipped by someone in the party. The party cannot discover this under any circumstances. If the party worships no god, they are Tymora, goddess of luck."
+                                       },
+                       "type":  "quirk"
+                   },
+                   {
+                       "nl":  "gemiddelde",
+                       "en":  "average",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gespierde",
+                       "en":  "muscular",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "licht volle",
+                       "en":  "slightly plump",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "zeer dikke",
+                       "en":  "very fat",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "atletische",
+                       "en":  "athletic",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "magere",
+                       "en":  "skinny",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "iele",
+                       "en":  "frail",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "uitgemergelde",
+                       "en":  "emaciated",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "fors gebouwde",
+                       "en":  "heavily built",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "bierbuikige",
+                       "en":  "beer-bellied",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "zwaargebouwde",
+                       "en":  "heavyset",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "opgeblazen",
+                       "en":  "bloated",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "brede",
+                       "en":  "broad",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "mollige",
+                       "en":  "chubby",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "bolle",
+                       "en":  "plump",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gedrongen",
+                       "en":  "stocky",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "vlezige",
+                       "en":  "fleshy",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "volslanke",
+                       "en":  "full-figured",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "stevig gebouwde",
+                       "en":  "solidly built",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gezette",
+                       "en":  "stout",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "bolbuikige",
+                       "en":  "pot-bellied",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "hoekige",
+                       "en":  "angular",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "benige",
+                       "en":  "bony",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "fragiele",
+                       "en":  "fragile",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "fijngebouwde",
+                       "en":  "fine-boned",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "slungelige",
+                       "en":  "lanky",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "slanke",
+                       "en":  "slim",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "lenige",
+                       "en":  "lithe",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "smalle",
+                       "en":  "narrow",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "sierlijke",
+                       "en":  "graceful",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "tengere",
+                       "en":  "slight",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "spichtige",
+                       "en":  "wiry",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "elegante",
+                       "en":  "elegant",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "dunne",
+                       "en":  "thin",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "kwetsbare",
+                       "en":  "delicate",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "actieve",
+                       "en":  "active",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "krachtig gespierde",
+                       "en":  "powerfully muscled",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "afgetrainde",
+                       "en":  "toned",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "fitte",
+                       "en":  "fit",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gezonde",
+                       "en":  "healthy",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "enorme",
+                       "en":  "enormous",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "behendige",
+                       "en":  "agile",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "krachtige",
+                       "en":  "powerful",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "robuuste",
+                       "en":  "robust",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "ruwe",
+                       "en":  "rugged",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "pezig gespierde",
+                       "en":  "sinewy muscular",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "sterke",
+                       "en":  "strong",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "stevige",
+                       "en":  "sturdy",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "strak gespierde",
+                       "en":  "lean muscular",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "getrainde",
+                       "en":  "trained",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "taaie",
+                       "en":  "tough",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "verschrompelde",
+                       "en":  "shriveled",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gehavende",
+                       "en":  "battered",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "breekbare",
+                       "en":  "brittle",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "kromme",
+                       "en":  "crooked",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "verweerde",
+                       "en":  "weathered",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "ondervoede",
+                       "en":  "undernourished",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "breedgeschouderde",
+                       "en":  "broad-shouldered",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "peervormige",
+                       "en":  "pear-shaped",
+                       "type":  "posture"
+                   },
+                   {
+                       "nl":  "gebogen",
+                       "en":  "hunched",
+                       "type":  "posture"
+                   }
+               ]
+}

@@ -1,0 +1,840 @@
+{
+  "prefixes": [
+    "The Hungry",
+    "The Drunken",
+    "The Grateful",
+    "The Greedy",
+    "The Flatulent",
+    "The Laughing",
+    "The Drinking",
+    "The Quiet",
+    "The Half-forgotten",
+    "The Golden",
+    "The Tipped",
+    "The Perfumed",
+    "The Sour",
+    "The Dancing",
+    "The Green",
+    "The Red",
+    "The Blue",
+    "The Yellow",
+    "The Crooked",
+    "The Foggy",
+    "The Singing",
+    "The Angry",
+    "The Smoking",
+    "The Flaming",
+    "The Screaming",
+    "The Clouded",
+    "The Biting",
+    "The Jade",
+    "The Gilded",
+    "The Painted",
+    "The Fallen",
+    "The Broken",
+    "The Chromatic",
+    "The Sinister",
+    "The Slaughtered",
+    "The Weeping",
+    "The Screaming",
+    "The Howling",
+    "The Blackened",
+    "The Smiling"
+  ],
+  "suffixes": [
+    "Sailor",
+    "Traveler",
+    "Jester",
+    "Herbalist",
+    "Boatswain",
+    "Captain",
+    "Quartermaster",
+    "Warrior",
+    "Lady",
+    "Goblin",
+    "Troll",
+    "Pillar",
+    "Lantern",
+    "Tankard",
+    "Hen",
+    "Candle",
+    "Lion",
+    "Leopard",
+    "Goat",
+    "Stag",
+    "Flagon",
+    "Mug",
+    "Orc",
+    "Griffin",
+    "Ape",
+    "Alligator",
+    "Cat",
+    "Skull",
+    "Mage",
+    "Druid",
+    "Priest",
+    "Halfling",
+    "Dwarf",
+    "Hart",
+    "Minotaur",
+    "Boar",
+    "Elf",
+    "Kobold",
+    "Moon",
+    "Knight",
+    "Head",
+    "Giant",
+    "Bat",
+    "Owl",
+    "Shack",
+    "Rabbit",
+    "Mermaid",
+    "Crab",
+    "Tree",
+    "Dragon",
+    "Bear",
+    "Dog",
+    "Ghost",
+    "Rat",
+    "Camel",
+    "Griffon",
+    "Fairy"
+  ],
+  "roddels": [
+    {
+      "nl": "Er wordt gefluisterd dat de burgemeester meer schulden heeft dan hij wil toegeven.",
+      "en": "It is whispered that the mayor has more debts than he cares to admit."
+    },
+    {
+      "nl": "Een reizende koopman beweert dat er een draak is gesignaleerd in de bergen ten noorden van de stad.",
+      "en": "A traveling merchant claims a dragon has been spotted in the mountains north of town."
+    },
+    {
+      "nl": "De smid zou een geheime overeenkomst hebben met de plaatselijke dievengildes.",
+      "en": "The blacksmith is said to have a secret arrangement with the local thieves' guild."
+    },
+    {
+      "nl": "Er is een genezer in de stad die mensen kan genezen van elke ziekte, maar zijn prijs is hoog.",
+      "en": "There is a healer in town who can cure any ailment, but his price is steep."
+    },
+    {
+      "nl": "Een kind beweert dat het licht heeft gezien in de verlaten toren buiten de stadsmuren.",
+      "en": "A child claims to have seen lights in the abandoned tower outside the city walls."
+    },
+    {
+      "nl": "De herbergier zou vroeger een huurmoordenaar zijn geweest voor een machtige gilde.",
+      "en": "The innkeeper is rumored to have once been a hired killer for a powerful guild."
+    },
+    {
+      "nl": "Er wordt gezegd dat de oude put op het marktplein verbonden is met de graven onder de stad.",
+      "en": "The old well in the market square is said to connect to the tombs beneath the city."
+    },
+    {
+      "nl": "Een tovenaar in de buurt zoekt een leerling, maar zijn laatste drie leerlingen zijn spoorloos verdwenen.",
+      "en": "A nearby wizard is looking for an apprentice, but his last three apprentices vanished without a trace."
+    },
+    {
+      "nl": "De kathedraal bewaart iets gevaarlijks in de gewelven, beweerd door een dronken monnik.",
+      "en": "The cathedral is keeping something dangerous in its vaults, according to a drunk monk."
+    },
+    {
+      "nl": "Er loopt al weken een vreemdeling door de stad die niemand herkent maar toch overal welkom lijkt.",
+      "en": "A stranger has been wandering the town for weeks whom no one recognizes, yet everyone seems to welcome."
+    },
+    {
+      "nl": "Een boer zweert dat zijn vee 's nachts wordt verplaatst door onzichtbare handen.",
+      "en": "A farmer swears his livestock is being moved at night by invisible hands."
+    },
+    {
+      "nl": "Er wordt gezegd dat de belasting dit jaar opnieuw stijgt vanwege de oorlogsvoorbereidingen van de adel.",
+      "en": "Taxes are said to be rising again this year due to the nobility's war preparations."
+    },
+    {
+      "nl": "Een pelgrim beweert dat hij een heilig relikwie heeft gezien dat wonderen verricht.",
+      "en": "A pilgrim claims to have witnessed a holy relic performing miracles."
+    },
+    {
+      "nl": "De plaatselijke priester zou 's nachts bezoek ontvangen van iemand die niemand kent.",
+      "en": "The local priest is said to receive nightly visits from someone no one recognizes."
+    },
+    {
+      "nl": "Er wordt gefluisterd dat de nieuwe weg door het bos werd gebouwd over een oud begraafplaats.",
+      "en": "It is whispered that the new road through the forest was built over an ancient burial ground."
+    },
+    {
+      "nl": "Een kruidenier beweert dat hij een kruid heeft gevonden dat gedachten kan lezen.",
+      "en": "An herbalist claims to have discovered a herb that allows one to read minds."
+    },
+    {
+      "nl": "Er zou een tunnel zijn onder de markt die toegang geeft tot het kasteel van de graaf.",
+      "en": "There is said to be a tunnel beneath the market that gives access to the count's castle."
+    },
+    {
+      "nl": "Een soldaat beweert dat hij het geest van een gevallen ridder heeft gezien bij de oude brug.",
+      "en": "A soldier claims to have seen the ghost of a fallen knight near the old bridge."
+    },
+    {
+      "nl": "De bakker zou zijn brood vermengen met een vreemd kruid dat mensen terug laat komen.",
+      "en": "The baker is rumored to mix a strange herb into his bread that makes people keep coming back."
+    },
+    {
+      "nl": "Er wordt gezegd dat de koninklijke bode die vorige week langskwam eigenlijk een spion was.",
+      "en": "The royal messenger who passed through last week is said to have actually been a spy."
+    },
+    {
+      "nl": "Een houthakker beweert dat er diep in het woud een verloren dorp is dat niet op kaarten staat.",
+      "en": "A woodcutter claims there is a lost village deep in the forest that appears on no map."
+    },
+    {
+      "nl": "Er is een vrouw in de straat die nooit slaapt — althans, haar raam brandt altijd.",
+      "en": "There is a woman on the street who never sleeps — at least, her window is always lit."
+    },
+    {
+      "nl": "Een edelman heeft drie knechten ontslagen in één week; niemand weet waarom.",
+      "en": "A nobleman dismissed three servants in one week; no one knows why."
+    },
+    {
+      "nl": "De gevangeniscel onder het stadhuis is al jaren leeg, maar 's nachts zijn er stemmen te horen.",
+      "en": "The prison cell beneath the town hall has been empty for years, but voices can be heard at night."
+    },
+    {
+      "nl": "Er wordt gefluisterd dat de nieuwe kapitein van de stadswacht niet is wie hij zegt te zijn.",
+      "en": "It is whispered that the new captain of the city guard is not who he claims to be."
+    },
+    {
+      "nl": "Een alchemist in de steeg achter de markt verkoopt potions die nergens anders te vinden zijn.",
+      "en": "An alchemist in the alley behind the market sells potions that cannot be found anywhere else."
+    },
+    {
+      "nl": "Er wordt gezegd dat iemand de gildeboeken heeft gestolen en daarin belastende informatie staat.",
+      "en": "Someone is said to have stolen the guild ledgers, which contain damaging information."
+    },
+    {
+      "nl": "Een kind vindt elke dag een munt op dezelfde steen in de tuin — niemand weet hoe die daar komt.",
+      "en": "A child finds a coin on the same stone in the garden every day — no one knows where it comes from."
+    },
+    {
+      "nl": "De herberg aan de rand van de stad heeft kamers die niemand wil huren omdat er rare geluiden vandaan komen.",
+      "en": "The inn at the edge of town has rooms no one wants to rent because of the strange sounds that come from them."
+    },
+    {
+      "nl": "Een magiër heeft de stad verlaten zonder enige verklaring, maar zijn huis staat nog open.",
+      "en": "A mage left town without explanation, but his house is still unlocked."
+    }
+  ],
+  "ontbijt": [
+    {
+      "nl": "Eieren",
+      "en": "Eggs"
+    },
+    {
+      "nl": "Notenbrood",
+      "en": "Nut bread"
+    },
+    {
+      "nl": "Zwarte Bessen",
+      "en": "Blackcurrants"
+    },
+    {
+      "nl": "Gerookte worstjes",
+      "en": "Smoked sausages"
+    },
+    {
+      "nl": "Zachte Kaas",
+      "en": "Soft cheese"
+    },
+    {
+      "nl": "Ganzeneieren",
+      "en": "Goose eggs"
+    },
+    {
+      "nl": "Appels",
+      "en": "Apples"
+    },
+    {
+      "nl": "Eendeneieren",
+      "en": "Duck eggs"
+    },
+    {
+      "nl": "Witte bonen",
+      "en": "White beans"
+    },
+    {
+      "nl": "Dadels",
+      "en": "Dates"
+    },
+    {
+      "nl": "Ham",
+      "en": "Ham"
+    },
+    {
+      "nl": "Zonnebloembrood",
+      "en": "Sunflower bread"
+    },
+    {
+      "nl": "Speltbrood",
+      "en": "Spelt bread"
+    },
+    {
+      "nl": "Griesmeelpap",
+      "en": "Semolina porridge"
+    },
+    {
+      "nl": "Rijstepap",
+      "en": "Rice porridge"
+    },
+    {
+      "nl": "Roggebrood",
+      "en": "Rye bread"
+    },
+    {
+      "nl": "Worstjes",
+      "en": "Sausages"
+    },
+    {
+      "nl": "Oude Kaas",
+      "en": "Aged cheese"
+    },
+    {
+      "nl": "Bruin brood",
+      "en": "Brown bread"
+    },
+    {
+      "nl": "Zuurdesembrood",
+      "en": "Sourdough bread"
+    },
+    {
+      "nl": "Kaas Omelet",
+      "en": "Cheese omelette"
+    },
+    {
+      "nl": "Blauwe Bessen",
+      "en": "Blueberries"
+    },
+    {
+      "nl": "Frambozen",
+      "en": "Raspberries"
+    },
+    {
+      "nl": "Ham en Kaas op brood",
+      "en": "Ham and cheese on bread"
+    },
+    {
+      "nl": "Spek en Ei Sandwich",
+      "en": "Bacon and egg sandwich"
+    },
+    {
+      "nl": "Gevuld brood met ham",
+      "en": "Stuffed bread with ham"
+    },
+    {
+      "nl": "Truffel omelet",
+      "en": "Truffle omelette"
+    }
+  ],
+  "dranken": {
+    "bier": [
+      "Acoustic Ale",
+      "Ork's Blood Brew",
+      "Squid Ink Stout",
+      "Mountain Amber",
+      "Redcap Bloody Stout",
+      "Blackberry Lager",
+      "Promise Pale Ale",
+      "Devils Brew",
+      "Elven Leafy Lager",
+      "Pomegranate Mead",
+      "Spicy Salamander Cider",
+      "Mossy Ale",
+      "Raspberry Mead",
+      "Pineberry Cider",
+      "Yellow Banana Ale",
+      "Brawling Bruiser Ale",
+      "Golden Papaya Lager",
+      "Star Fruit Ale",
+      "Purple Passion Pilsner",
+      "Laughing Gargoyle Lager",
+      "Blue Sapphire Stout",
+      "Silver Dragon Cider",
+      "Thundersteel Mead",
+      "Bounty Brew",
+      "Seaspawn Cider",
+      "Cloudy Bay Brew",
+      "Dragon's Kiss",
+      "Smash Stout",
+      "Dark Duergar Ale",
+      "Bard's Tale Brew",
+      "Seven Dwarf Stout",
+      "Salty Lager",
+      "Backstab Brew",
+      "Sun Beam Brew"
+    ],
+    "spirits": [
+      "Fairy Fart",
+      "Bilgewater",
+      "Dragonfire Brandy",
+      "Hangman's Noose",
+      "Goblin Green Gin",
+      "Troll Tears Whiskey",
+      "Wizard's Reserve",
+      "Shadow Rum",
+      "Ironwood Whiskey",
+      "Cursed Captain's Rum",
+      "Elven Moonshine",
+      "Dwarven Firewater",
+      "Nightshade Schnapps",
+      "Graveyard Shift",
+      "Ember Spirit",
+      "Stormcaller's Reserve",
+      "Black Powder Rum",
+      "Warlock's Wrath",
+      "Frostbite Gin",
+      "Ashen Brandy"
+    ],
+    "wijn": [
+      "Red Red Wine",
+      "Wyvern Wine",
+      "Twelve Crypts Wine",
+      "Pirate's Rusty Red",
+      "Blacksmith's Fuel",
+      "Ambrosia",
+      "Medusa's Embrace",
+      "Red Seasweed Juice",
+      "Sunny Sprite White",
+      "Coldsteel Wine",
+      "Silverleaf Wine",
+      "River Rush Red",
+      "Cantaloupe White",
+      "Blue Water Wine",
+      "Vampire's Kiss",
+      "Black Forest White",
+      "Silver Star Red",
+      "Pixiedust",
+      "Earthy Guava White",
+      "Sewer Water White",
+      "Siren's Song",
+      "Wavy Waves White",
+      "Queen's Favor"
+    ]
+  },
+  "maaltijden": {
+    "volledig": [
+      {
+        "nl": "Dragonturtle soep",
+        "en": "Dragon turtle soup"
+      },
+      {
+        "nl": "Vissoep",
+        "en": "Fish soup"
+      },
+      {
+        "nl": "Stoofpot van Alpacavlees",
+        "en": "Alpaca meat stew"
+      },
+      {
+        "nl": "Adventurers Steak met Groente",
+        "en": "Adventurer's steak with vegetables"
+      },
+      {
+        "nl": "Frutti di Mare schotel",
+        "en": "Frutti di mare platter"
+      },
+      {
+        "nl": "Vis stoofpot",
+        "en": "Fish stew"
+      },
+      {
+        "nl": "Rack of Lamb met truffelsaus",
+        "en": "Rack of lamb with truffle sauce"
+      },
+      {
+        "nl": "Roc vlees tartaar",
+        "en": "Roc meat tartare"
+      },
+      {
+        "nl": "Stampot van Wortelen en Uien",
+        "en": "Carrot and onion mash"
+      },
+      {
+        "nl": "Groentesmoor",
+        "en": "Braised vegetables"
+      },
+      {
+        "nl": "Gehakttaart van Lamsgehakt",
+        "en": "Minced lamb pie"
+      },
+      {
+        "nl": "Stoof van Hert met Appeltjes",
+        "en": "Venison stew with apples"
+      },
+      {
+        "nl": "Basilisk Burger met Ui en Tomaat",
+        "en": "Basilisk burger with onion and tomato"
+      },
+      {
+        "nl": "Bear Burger met Augurk en Ei",
+        "en": "Bear burger with pickle and egg"
+      },
+      {
+        "nl": "Paddestoelen op Toast",
+        "en": "Mushrooms on toast"
+      },
+      {
+        "nl": "Groene Chili Stoof",
+        "en": "Green chili stew"
+      },
+      {
+        "nl": "Kaastaartje met Uiensoep",
+        "en": "Cheese tart with onion soup"
+      },
+      {
+        "nl": "Erwtensoep met Mint",
+        "en": "Pea soup with mint"
+      },
+      {
+        "nl": "Konijnenstoof met Crackers",
+        "en": "Rabbit stew with crackers"
+      },
+      {
+        "nl": "In Honing gegaarde Boar ribs",
+        "en": "Honey-glazed boar ribs"
+      },
+      {
+        "nl": "Mosselen in knoflook",
+        "en": "Mussels in garlic"
+      },
+      {
+        "nl": "Oesterschotel",
+        "en": "Oyster platter"
+      },
+      {
+        "nl": "Met krab gevulde kreeftstaart",
+        "en": "Lobster tail stuffed with crab"
+      }
+    ],
+    "vlees": [
+      {
+        "nl": "Condor",
+        "en": "Condor"
+      },
+      {
+        "nl": "Alligator",
+        "en": "Alligator"
+      },
+      {
+        "nl": "Owlbear",
+        "en": "Owlbear"
+      },
+      {
+        "nl": "Boar ham",
+        "en": "Boar ham"
+      },
+      {
+        "nl": "Octopusringen",
+        "en": "Octopus rings"
+      },
+      {
+        "nl": "Zwaardvis",
+        "en": "Swordfish"
+      },
+      {
+        "nl": "Vinvis",
+        "en": "Finwhale"
+      },
+      {
+        "nl": "Sprinkhanen",
+        "en": "Locusts"
+      },
+      {
+        "nl": "Lam",
+        "en": "Lamb"
+      },
+      {
+        "nl": "Buffel Ribeye",
+        "en": "Buffalo ribeye"
+      },
+      {
+        "nl": "Zalm",
+        "en": "Salmon"
+      },
+      {
+        "nl": "Dolfijn",
+        "en": "Dolphin"
+      },
+      {
+        "nl": "Schildpad",
+        "en": "Turtle"
+      },
+      {
+        "nl": "Boa constrictor",
+        "en": "Boa constrictor"
+      },
+      {
+        "nl": "Duizendpoot",
+        "en": "Centipede"
+      },
+      {
+        "nl": "Varkenslever",
+        "en": "Pork liver"
+      },
+      {
+        "nl": "Konijn",
+        "en": "Rabbit"
+      },
+      {
+        "nl": "Hazenbout",
+        "en": "Hare leg"
+      },
+      {
+        "nl": "Basiliskstaart",
+        "en": "Basilisk tail"
+      },
+      {
+        "nl": "Lamskoteletten",
+        "en": "Lamb chops"
+      },
+      {
+        "nl": "Meerval",
+        "en": "Catfish"
+      },
+      {
+        "nl": "Kalfstong",
+        "en": "Veal tongue"
+      },
+      {
+        "nl": "Wolfsteak",
+        "en": "Wolf steak"
+      },
+      {
+        "nl": "Champignons",
+        "en": "Mushrooms"
+      },
+      {
+        "nl": "Kastanjechampignons",
+        "en": "Chestnut mushrooms"
+      },
+      {
+        "nl": "Bearsteak",
+        "en": "Bear steak"
+      },
+      {
+        "nl": "Slakken",
+        "en": "Snails"
+      },
+      {
+        "nl": "Orca",
+        "en": "Orca"
+      },
+      {
+        "nl": "Kreeft",
+        "en": "Lobster"
+      },
+      {
+        "nl": "Kip",
+        "en": "Chicken"
+      },
+      {
+        "nl": "Apenstaart",
+        "en": "Monkey tail"
+      },
+      {
+        "nl": "Krab",
+        "en": "Crab"
+      },
+      {
+        "nl": "Fazant",
+        "en": "Pheasant"
+      },
+      {
+        "nl": "Panter",
+        "en": "Panther"
+      },
+      {
+        "nl": "Pelikaan",
+        "en": "Pelican"
+      },
+      {
+        "nl": "Garnalen",
+        "en": "Shrimp"
+      },
+      {
+        "nl": "Kaas",
+        "en": "Cheese"
+      },
+      {
+        "nl": "Zeebaars",
+        "en": "Sea bass"
+      },
+      {
+        "nl": "Makreel",
+        "en": "Mackerel"
+      },
+      {
+        "nl": "Spek",
+        "en": "Bacon"
+      },
+      {
+        "nl": "Hagedis",
+        "en": "Lizard"
+      },
+      {
+        "nl": "Oesters",
+        "en": "Oysters"
+      },
+      {
+        "nl": "Speenvarken",
+        "en": "Suckling pig"
+      }
+    ],
+    "prefix": [
+      {
+        "nl": "Gegrilde",
+        "en": "Grilled"
+      },
+      {
+        "nl": "Blackened",
+        "en": "Blackened"
+      },
+      {
+        "nl": "Geroosterde",
+        "en": "Roasted"
+      },
+      {
+        "nl": "Gebakken",
+        "en": "Pan-fried"
+      },
+      {
+        "nl": "Gekookte",
+        "en": "Boiled"
+      },
+      {
+        "nl": "Gepocheerde",
+        "en": "Poached"
+      },
+      {
+        "nl": "Gefrituurde",
+        "en": "Deep-fried"
+      },
+      {
+        "nl": "Gepekelde",
+        "en": "Pickled"
+      },
+      {
+        "nl": "Gestoofde",
+        "en": "Braised"
+      },
+      {
+        "nl": "Gerookte",
+        "en": "Smoked"
+      },
+      {
+        "nl": "Gekarameliseerde",
+        "en": "Caramelized"
+      },
+      {
+        "nl": "Geglazuurde",
+        "en": "Glazed"
+      },
+      {
+        "nl": "Gehakte",
+        "en": "Minced"
+      }
+    ],
+    "starch": [
+      {
+        "nl": "Rijst",
+        "en": "Rice"
+      },
+      {
+        "nl": "Roggebrood",
+        "en": "Rye bread"
+      },
+      {
+        "nl": "Gebakken aardappelen",
+        "en": "Fried potatoes"
+      },
+      {
+        "nl": "Gekookte aardappelen",
+        "en": "Boiled potatoes"
+      },
+      {
+        "nl": "Gefrituurde aardappelen",
+        "en": "Deep-fried potatoes"
+      },
+      {
+        "nl": "Brood",
+        "en": "Bread"
+      },
+      {
+        "nl": "Aardappelschijfjes",
+        "en": "Potato slices"
+      },
+      {
+        "nl": "Geroosterde aardappelen",
+        "en": "Roasted potatoes"
+      },
+      {
+        "nl": "Gegratineerde aardappelen",
+        "en": "Gratin potatoes"
+      },
+      {
+        "nl": "Aardappelpuree",
+        "en": "Mashed potatoes"
+      }
+    ],
+    "groenten": [
+      {
+        "nl": "Paprika",
+        "en": "Bell pepper"
+      },
+      {
+        "nl": "Maïs",
+        "en": "Corn"
+      },
+      {
+        "nl": "Wortelen",
+        "en": "Carrots"
+      },
+      {
+        "nl": "Erwten",
+        "en": "Peas"
+      },
+      {
+        "nl": "Bruine bonen",
+        "en": "Brown beans"
+      },
+      {
+        "nl": "Zwarte bonen",
+        "en": "Black beans"
+      },
+      {
+        "nl": "Pepers",
+        "en": "Peppers"
+      },
+      {
+        "nl": "Broccoli",
+        "en": "Broccoli"
+      },
+      {
+        "nl": "Rode Kool",
+        "en": "Red cabbage"
+      },
+      {
+        "nl": "Witte Kool",
+        "en": "White cabbage"
+      },
+      {
+        "nl": "Gestoofde Uien",
+        "en": "Braised onions"
+      },
+      {
+        "nl": "Salade",
+        "en": "Salad"
+      },
+      {
+        "nl": "Knolselderij",
+        "en": "Celeriac"
+      }
+    ]
+  }
+}

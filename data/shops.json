@@ -1,0 +1,1118 @@
+{
+  "prefixes": [
+    "The Golden",
+    "The Quiet",
+    "The Painted",
+    "The Broken",
+    "The Gilded",
+    "The Green",
+    "The Red",
+    "The Blue",
+    "The Crooked",
+    "The Singing",
+    "The Hungry",
+    "The Laughing",
+    "The Grateful",
+    "The Dancing",
+    "The Foggy",
+    "The Weeping",
+    "The Howling",
+    "The Jade",
+    "The Fallen",
+    "The Chromatic",
+    "The Smiling",
+    "The Whispering",
+    "The Wandering",
+    "The Hidden",
+    "The Shaded",
+    "The Radiant",
+    "The Silver",
+    "The Amber",
+    "The Iron",
+    "The Velvet",
+    "The Lonely",
+    "The Lucky",
+    "The Noble",
+    "The Sturdy",
+    "The Rusted",
+    "The Burning",
+    "The Shimmering",
+    "The Gleaming",
+    "The Hollow",
+    "The Starlit"
+  ],
+  "types": [
+    {
+      "name": "Magic Items Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Potion Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Alchemy Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Enchanters Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Occult Store",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Herbalist",
+      "nameCategory": "Nature"
+    },
+    {
+      "name": "Scroll Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Relic Dealer",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Magical Ingredients Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Fortune Teller",
+      "nameCategory": "Mystic"
+    },
+    {
+      "name": "Blacksmith",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Armor and Weapons Shop",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Weaponsmith",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Armorer",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Tinkerer",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Tin Worker",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Glass Blower",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Leatherworker",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Tanner",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Woodworkers Shop",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Weavers Shop",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Tailor",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Clothing Store",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Cobbler",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Hatter",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Jeweler",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Costume Shop",
+      "nameCategory": "Luxury"
+    },
+    {
+      "name": "Barber",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Bakery",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Butcher",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Grocer",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "General Goods Store",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Spice Shop",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Fish Market",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Liquor Store",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Winery",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Brewery",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Distillery",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Flower Shop",
+      "nameCategory": "Nature"
+    },
+    {
+      "name": "Toy Shop",
+      "nameCategory": "Whimsy"
+    },
+    {
+      "name": "Music Shop",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Crafts Store",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Bookstore",
+      "nameCategory": "Scholarly"
+    },
+    {
+      "name": "Scribe",
+      "nameCategory": "Scholarly"
+    },
+    {
+      "name": "Scribal Workshop",
+      "nameCategory": "Scholarly"
+    },
+    {
+      "name": "Cartographer",
+      "nameCategory": "Scholarly"
+    },
+    {
+      "name": "Antique Shop",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Curiosity Shop",
+      "nameCategory": "Mystic"
+    },
+    {
+      "name": "Exotic Goods Shop",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Moneylender",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Pawn Shop",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Stables",
+      "nameCategory": "Animal"
+    },
+    {
+      "name": "Animal Supplies Shop",
+      "nameCategory": "Animal"
+    },
+    {
+      "name": "Pet Store",
+      "nameCategory": "Animal"
+    },
+    {
+      "name": "Healers Shop",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Vehicle Maker",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Mill",
+      "nameCategory": "Craft"
+    },
+    {
+      "name": "Smokehouse",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Witch’s Shop",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Soul Broker",
+      "nameCategory": "Mystic"
+    },
+    {
+      "name": "Theatre",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Opera House",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Casino",
+      "nameCategory": "Whimsy"
+    },
+    {
+      "name": "Betting House",
+      "nameCategory": "Whimsy"
+    },
+    {
+      "name": "Gallery",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Painter's Workshop",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Sculptor",
+      "nameCategory": "Art"
+    },
+    {
+      "name": "Restaurant",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Tavern",
+      "nameCategory": "Food"
+    },
+    {
+      "name": "Inn",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Tattoo Parlour",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Mortician",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Undertaker",
+      "nameCategory": "Service"
+    },
+    {
+      "name": "Moneychanger",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Auction House",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Notary",
+      "nameCategory": "Scholarly"
+    },
+    {
+      "name": "Guild House",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Trading Post",
+      "nameCategory": "Trade"
+    },
+    {
+      "name": "Wizards Tower",
+      "nameCategory": "Magic"
+    },
+    {
+      "name": "Magic Item Shop",
+      "nameCategory": "Magic"
+    }
+  ],
+  "nameSuffixes": {
+    "Animal": [
+      "Stable",
+      "Kennel",
+      "Roost",
+      "Menagerie",
+      "Paddock",
+      "Tack",
+      "Saddle",
+      "Harness",
+      "Perch",
+      "Pasture",
+      "Hoof",
+      "Feather",
+      "Claw",
+      "Den",
+      "Burrow",
+      "Nest",
+      "Bridle",
+      "Mane",
+      "Tail",
+      "Whistle"
+    ],
+    "Art": [
+      "Gallery",
+      "Melody",
+      "Brush",
+      "Canvas",
+      "Lyre",
+      "Stage",
+      "Studio",
+      "Song",
+      "Muse",
+      "Chorus",
+      "Palette",
+      "Quill",
+      "Sonata",
+      "Harmony",
+      "Carving",
+      "Portrait",
+      "Ballad",
+      "Curtain",
+      "Masque",
+      "Minstrel"
+    ],
+    "Craft": [
+      "Anvil",
+      "Hammer",
+      "Forge",
+      "Workshop",
+      "Works",
+      "Bellows",
+      "Kiln",
+      "Wheel",
+      "Frame",
+      "Bench",
+      "Tools",
+      "Chisel",
+      "Tongs",
+      "Needle",
+      "Loom",
+      "Stitch",
+      "Leather",
+      "Timber",
+      "Wheelwright",
+      "Smithy"
+    ],
+    "Food": [
+      "Oven",
+      "Barrel",
+      "Mug",
+      "Table",
+      "Feast",
+      "Loaf",
+      "Kettle",
+      "Cask",
+      "Cup",
+      "Cellar",
+      "Plate",
+      "Ladle",
+      "Spice Rack",
+      "Roast",
+      "Brew",
+      "Bottle",
+      "Tap",
+      "Harvest",
+      "Pantry",
+      "Smokehouse"
+    ],
+    "Luxury": [
+      "Atelier",
+      "Boutique",
+      "Collection",
+      "Fashions",
+      "Silks",
+      "Velvets",
+      "Couture",
+      "Gems",
+      "Finery",
+      "Elegance",
+      "Glamour",
+      "Treasures",
+      "Adornments",
+      "Wardrobe",
+      "Gallery",
+      "Salon",
+      "Jewels",
+      "Lace",
+      "Pearls",
+      "Embroideries"
+    ],
+    "Magic": [
+      "Cauldron",
+      "Orb",
+      "Sigil",
+      "Crystal",
+      "Grimoire",
+      "Charm",
+      "Rune",
+      "Spellbook",
+      "Wand",
+      "Lantern",
+      "Sanctum",
+      "Focus",
+      "Tome",
+      "Pentacle",
+      "Incantation",
+      "Vial",
+      "Mirror",
+      "Circle",
+      "Spark",
+      "Prism"
+    ],
+    "Mystic": [
+      "Veil",
+      "Whisper",
+      "Eye",
+      "Moon",
+      "Dream",
+      "Shadow",
+      "Star",
+      "Fate",
+      "Prophecy",
+      "Silence",
+      "Omen",
+      "Echo",
+      "Raven",
+      "Mist",
+      "Thread",
+      "Mask",
+      "Secret",
+      "Hush",
+      "Ghost",
+      "Gaze"
+    ],
+    "Nature": [
+      "Garden",
+      "Grove",
+      "Bloom",
+      "Root",
+      "Leaf",
+      "Vine",
+      "Petal",
+      "Thorn",
+      "Seed",
+      "Herb",
+      "Blossom",
+      "Moss",
+      "Fern",
+      "Branch",
+      "Willow",
+      "Rose",
+      "Clover",
+      "Oak",
+      "Sapling",
+      "Meadow"
+    ],
+    "Scholarly": [
+      "Library",
+      "Archive",
+      "Ledger",
+      "Atlas",
+      "Chronicle",
+      "Scriptorium",
+      "Quill",
+      "Map",
+      "Index",
+      "Codex",
+      "Treatise",
+      "Register",
+      "Catalog",
+      "Annotations",
+      "Footnote",
+      "Shelf",
+      "Study",
+      "Scrollcase",
+      "Gazette",
+      "Records"
+    ],
+    "Service": [
+      "Office",
+      "House",
+      "Hall",
+      "Agency",
+      "Company",
+      "Exchange",
+      "Parlor",
+      "Rooms",
+      "Registry",
+      "Desk",
+      "Practice",
+      "Services",
+      "Bank",
+      "Counting House",
+      "Posting House",
+      "Baths",
+      "Chambers",
+      "Manor",
+      "Court",
+      "Studio"
+    ],
+    "Trade": [
+      "Emporium",
+      "Goods",
+      "Supplies",
+      "Market",
+      "Wares",
+      "Stock",
+      "Exchange",
+      "Ledger",
+      "Counter",
+      "Storehouse",
+      "Traders",
+      "Imports",
+      "Exports",
+      "Bazaar",
+      "Outfitter",
+      "Provisioner",
+      "Depot",
+      "Crate",
+      "Cargo",
+      "Sundries"
+    ],
+    "Whimsy": [
+      "Toybox",
+      "Jester",
+      "Carousel",
+      "Wonder",
+      "Giggle",
+      "Bauble",
+      "Trinket",
+      "Whimsy",
+      "Marble",
+      "Puzzle",
+      "Jack-in-the-Box",
+      "Firecracker",
+      "Kite",
+      "Ribbon",
+      "Top",
+      "Puppet",
+      "Clockwork",
+      "Confetti",
+      "Bubble",
+      "Dreamcart"
+    ]
+  },
+  "quirks": {
+    "flavor": [
+      {
+        "nl": "De winkel ruikt sterk naar kruiden en olie.",
+        "en": "The shop smells strongly of herbs and oil."
+      },
+      {
+        "nl": "Een kat ligt permanent op de toonbank.",
+        "en": "A cat lies permanently on the counter."
+      },
+      {
+        "nl": "Alles is perfect gesorteerd op kleur.",
+        "en": "Everything is sorted perfectly by color."
+      },
+      {
+        "nl": "De verlichting is warm maar erg zwak.",
+        "en": "The lighting is warm but very dim."
+      },
+      {
+        "nl": "De winkel staat vol met kleine, onduidelijke labels.",
+        "en": "The shop is filled with small, illegible labels."
+      },
+      {
+        "nl": "Op de achtergrond klinkt constant zacht gezang.",
+        "en": "Soft singing is heard constantly in the background."
+      },
+      {
+        "nl": "De deur kraakt luid bij elke beweging.",
+        "en": "The door creaks loudly with every movement."
+      },
+      {
+        "nl": "Er hangt een lichte mist in de winkel.",
+        "en": "A light mist hangs inside the shop."
+      },
+      {
+        "nl": "Er staan overal halflege kopjes thee.",
+        "en": "Half-empty cups of tea are scattered everywhere."
+      },
+      {
+        "nl": "Een papegaai herhaalt stukjes gesprekken.",
+        "en": "A parrot repeats fragments of conversations."
+      },
+      {
+        "nl": "De vloer kraakt bij elke stap.",
+        "en": "The floor creaks with every step."
+      },
+      {
+        "nl": "De winkel voelt groter van binnen dan van buiten.",
+        "en": "The shop feels larger on the inside than the outside."
+      },
+      {
+        "nl": "Een oud tapijt dempt alle geluid.",
+        "en": "An old rug muffles all sound."
+      },
+      {
+        "nl": "Er hangen vreemde symbolen boven de deur.",
+        "en": "Strange symbols hang above the door."
+      },
+      {
+        "nl": "De eigenaar praat tegen zichzelf.",
+        "en": "The owner talks to themselves."
+      },
+      {
+        "nl": "De lucht is opvallend koud.",
+        "en": "The air is noticeably cold."
+      },
+      {
+        "nl": "Er hangt een constante geur van rook.",
+        "en": "A constant smell of smoke lingers."
+      },
+      {
+        "nl": "Er staat een klein altaar in een hoek.",
+        "en": "A small altar stands in a corner."
+      },
+      {
+        "nl": "Alles is bedekt met een dun laagje stof.",
+        "en": "Everything is covered in a thin layer of dust."
+      },
+      {
+        "nl": "De ramen zijn dichtgetimmerd.",
+        "en": "The windows are boarded up."
+      },
+      {
+        "nl": "Er klinkt constant getik van een klok.",
+        "en": "The constant ticking of a clock fills the room."
+      },
+      {
+        "nl": "De eigenaar draagt opvallend veel sieraden.",
+        "en": "The owner wears a conspicuous amount of jewelry."
+      },
+      {
+        "nl": "De winkel is verrassend schoon.",
+        "en": "The shop is surprisingly clean."
+      },
+      {
+        "nl": "Alles lijkt net iets scheef te staan.",
+        "en": "Everything seems to be slightly crooked."
+      },
+      {
+        "nl": "Er hangen gedroogde planten aan het plafond.",
+        "en": "Dried plants hang from the ceiling."
+      },
+      {
+        "nl": "De toonbank is beschadigd en vol krassen.",
+        "en": "The counter is damaged and covered in scratches."
+      },
+      {
+        "nl": "De eigenaar glimlacht constant.",
+        "en": "The owner smiles constantly."
+      },
+      {
+        "nl": "Er staat een grote lege kooi.",
+        "en": "A large empty cage stands in the room."
+      },
+      {
+        "nl": "Er klinkt zachte muziek van onbekende oorsprong.",
+        "en": "Soft music plays from an unknown source."
+      },
+      {
+        "nl": "De winkel ruikt naar zout en zee.",
+        "en": "The shop smells of salt and sea."
+      },
+      {
+        "nl": "Er hangen oude kaarten aan de muur.",
+        "en": "Old maps hang on the walls."
+      },
+      {
+        "nl": "Alles lijkt recent verplaatst.",
+        "en": "Everything appears to have been recently moved."
+      },
+      {
+        "nl": "De eigenaar maakt veel oogcontact.",
+        "en": "The owner makes a lot of eye contact."
+      },
+      {
+        "nl": "De winkel is onverwacht stil.",
+        "en": "The shop is unexpectedly quiet."
+      },
+      {
+        "nl": "Er staat een half afgewerkte maaltijd.",
+        "en": "A half-finished meal sits on a table."
+      },
+      {
+        "nl": "Er hangen vreemde maskers aan de muur.",
+        "en": "Strange masks hang on the wall."
+      },
+      {
+        "nl": "De eigenaar spreekt erg langzaam.",
+        "en": "The owner speaks very slowly."
+      },
+      {
+        "nl": "De winkel ruikt naar metaal en olie.",
+        "en": "The shop smells of metal and oil."
+      },
+      {
+        "nl": "Er liggen overal kleine papiertjes.",
+        "en": "Small pieces of paper are scattered everywhere."
+      },
+      {
+        "nl": "De eigenaar draagt handschoenen.",
+        "en": "The owner wears gloves."
+      },
+      {
+        "nl": "Er hangt een licht zoemende spanning in de lucht.",
+        "en": "A faint humming tension hangs in the air."
+      },
+      {
+        "nl": "De vloer is ongelijk en versleten.",
+        "en": "The floor is uneven and worn."
+      },
+      {
+        "nl": "De eigenaar noteert alles wat gezegd wordt.",
+        "en": "The owner writes down everything that is said."
+      },
+      {
+        "nl": "De winkel is overvol met spullen.",
+        "en": "The shop is crammed with goods."
+      },
+      {
+        "nl": "Er hangt een zware geur van parfum.",
+        "en": "A heavy scent of perfume fills the air."
+      },
+      {
+        "nl": "Er staat een kapotte spiegel.",
+        "en": "A broken mirror stands in the room."
+      },
+      {
+        "nl": "De eigenaar praat met een onbekend accent.",
+        "en": "The owner speaks with an unidentifiable accent."
+      },
+      {
+        "nl": "De winkel voelt benauwd aan.",
+        "en": "The shop feels cramped and stuffy."
+      },
+      {
+        "nl": "Er liggen vreemde botten op een plank.",
+        "en": "Strange bones lie on a shelf."
+      },
+      {
+        "nl": "De eigenaar lijkt constant moe.",
+        "en": "The owner always seems tired."
+      },
+      {
+        "nl": "Er branden altijd kaarsen, zelfs overdag.",
+        "en": "Candles are always burning, even during the day."
+      },
+      {
+        "nl": "De winkel is opvallend netjes.",
+        "en": "The shop is remarkably tidy."
+      },
+      {
+        "nl": "Er hangt een vaag fluisterend geluid.",
+        "en": "A faint whispering sound can be heard."
+      },
+      {
+        "nl": "De eigenaar kijkt vaak naar de deur.",
+        "en": "The owner frequently glances toward the door."
+      },
+      {
+        "nl": "De muren zijn volgekrast.",
+        "en": "The walls are covered in scratches."
+      },
+      {
+        "nl": "Er hangt een vreemde spanning in de lucht.",
+        "en": "A strange tension hangs in the air."
+      },
+      {
+        "nl": "Er staat een lege stoel tegenover de toonbank.",
+        "en": "An empty chair sits across from the counter."
+      },
+      {
+        "nl": "De eigenaar glimlacht nooit.",
+        "en": "The owner never smiles."
+      },
+      {
+        "nl": "Er hangt een licht trillende energie.",
+        "en": "A faintly vibrating energy fills the room."
+      },
+      {
+        "nl": "De winkel voelt alsof hij bekeken wordt.",
+        "en": "The shop feels as though it is being watched."
+      }
+    ],
+    "gameplay": [
+      {
+        "nl": "Prijzen zijn 10% hoger tenzij je afdingt.",
+        "en": "Prices are 10% higher unless you haggle."
+      },
+      {
+        "nl": "Bij succesvol afdingen krijg je 20% korting.",
+        "en": "Successfully haggling earns you a 20% discount."
+      },
+      {
+        "nl": "De eigenaar weigert verkoop zonder kleine praat eerst.",
+        "en": "The owner refuses to sell without some small talk first."
+      },
+      {
+        "nl": "Betalen met exact geld geeft 5% korting.",
+        "en": "Paying with exact change gives a 5% discount."
+      },
+      {
+        "nl": "Elke aankoop geeft kans op een gratis klein item (1 op 6).",
+        "en": "Every purchase gives a chance at a free minor item (1 in 6)."
+      },
+      {
+        "nl": "De eigenaar accepteert geen zilverstukken.",
+        "en": "The owner does not accept silver pieces."
+      },
+      {
+        "nl": "Bij elke aankoop stelt de eigenaar een persoonlijke vraag.",
+        "en": "The owner asks a personal question with every purchase."
+      },
+      {
+        "nl": "Een item per dag is sterk afgeprijsd.",
+        "en": "One item per day is heavily discounted."
+      },
+      {
+        "nl": "De eigenaar onthoudt klanten en past prijzen aan.",
+        "en": "The owner remembers customers and adjusts prices accordingly."
+      },
+      {
+        "nl": "Ruilhandel is mogelijk in plaats van geld.",
+        "en": "Bartering is possible instead of paying with coin."
+      },
+      {
+        "nl": "Bij aankoop boven een bepaald bedrag krijg je korting.",
+        "en": "Purchases above a certain amount receive a discount."
+      },
+      {
+        "nl": "De eigenaar verkoopt alleen aan bekende gezichten.",
+        "en": "The owner only sells to familiar faces."
+      },
+      {
+        "nl": "Bij falen van een check stijgen prijzen tijdelijk.",
+        "en": "Failing a check causes prices to rise temporarily."
+      },
+      {
+        "nl": "De winkel biedt een uniek item per dag.",
+        "en": "The shop offers one unique item per day."
+      },
+      {
+        "nl": "De eigenaar geeft korting aan avonturiers.",
+        "en": "The owner offers a discount to adventurers."
+      },
+      {
+        "nl": "Er geldt een wachttijd voor grote aankopen.",
+        "en": "Large purchases require a waiting period."
+      },
+      {
+        "nl": "De eigenaar biedt diensten naast verkoop.",
+        "en": "The owner offers services in addition to goods."
+      },
+      {
+        "nl": "Sommige items zijn alleen op bestelling.",
+        "en": "Some items are available by order only."
+      },
+      {
+        "nl": "De eigenaar vraagt een kleine service terug.",
+        "en": "The owner asks for a small favor in return."
+      },
+      {
+        "nl": "Er is een verborgen voorraad achter de toonbank.",
+        "en": "There is a hidden stock behind the counter."
+      },
+      {
+        "nl": "De eigenaar test klanten voordat hij verkoopt.",
+        "en": "The owner tests customers before agreeing to sell."
+      },
+      {
+        "nl": "Er is kans op een vervloekt item (1 op 20).",
+        "en": "There is a chance of a cursed item (1 in 20)."
+      },
+      {
+        "nl": "De eigenaar verkoopt informatie naast goederen.",
+        "en": "The owner sells information alongside goods."
+      },
+      {
+        "nl": "Er is korting bij bulk aankopen.",
+        "en": "Bulk purchases receive a discount."
+      },
+      {
+        "nl": "De eigenaar biedt lening aan tegen rente.",
+        "en": "The owner offers loans at interest."
+      },
+      {
+        "nl": "Betalen met verhalen levert korting op.",
+        "en": "Paying with a good story earns a discount."
+      },
+      {
+        "nl": "De eigenaar geeft korting bij hoge reputatie.",
+        "en": "The owner gives a discount to those with a high reputation."
+      },
+      {
+        "nl": "De winkel verkoopt soms gestolen goederen.",
+        "en": "The shop sometimes sells stolen goods."
+      },
+      {
+        "nl": "Er geldt een maximum aantal items per klant.",
+        "en": "There is a maximum number of items per customer."
+      },
+      {
+        "nl": "De eigenaar geeft korting bij goede indruk.",
+        "en": "The owner gives a discount when a good impression is made."
+      },
+      {
+        "nl": "De winkel heeft wisselende prijzen per dag.",
+        "en": "The shop has fluctuating prices each day."
+      },
+      {
+        "nl": "Er is een geheime code voor speciale items.",
+        "en": "There is a secret code word for special items."
+      },
+      {
+        "nl": "De eigenaar verkoopt alleen overdag.",
+        "en": "The owner only sells during the day."
+      },
+      {
+        "nl": "Er is korting voor bepaalde rassen of groepen.",
+        "en": "Discounts are available for certain races or groups."
+      },
+      {
+        "nl": "De eigenaar verwacht fooi bovenop betaling.",
+        "en": "The owner expects a tip on top of the price."
+      },
+      {
+        "nl": "Er wordt belasting gerekend bovenop prijzen.",
+        "en": "A tax is added on top of all prices."
+      },
+      {
+        "nl": "De eigenaar accepteert alleen bepaalde valuta.",
+        "en": "The owner only accepts specific currencies."
+      },
+      {
+        "nl": "De winkel biedt garantie op bepaalde items.",
+        "en": "The shop offers a guarantee on certain items."
+      },
+      {
+        "nl": "De eigenaar verkoopt alleen één item per bezoek.",
+        "en": "The owner sells only one item per visit."
+      },
+      {
+        "nl": "Er is kans op bonus bij kritieke successen.",
+        "en": "There is a chance of a bonus on critical successes."
+      },
+      {
+        "nl": "De eigenaar biedt korting bij groepsaankopen.",
+        "en": "The owner offers a discount for group purchases."
+      },
+      {
+        "nl": "De winkel heeft een loyaliteitssysteem.",
+        "en": "The shop has a loyalty system."
+      },
+      {
+        "nl": "Er is een wachtlijst voor zeldzame items.",
+        "en": "There is a waiting list for rare items."
+      },
+      {
+        "nl": "De eigenaar ruilt informatie voor korting.",
+        "en": "The owner trades information for discounts."
+      },
+      {
+        "nl": "Er wordt korting gegeven bij snelle beslissingen.",
+        "en": "A discount is given for quick decisions."
+      },
+      {
+        "nl": "De eigenaar biedt proefversies van items.",
+        "en": "The owner offers trial versions of items."
+      },
+      {
+        "nl": "Er is kans op nep-items (1 op 10).",
+        "en": "There is a chance of counterfeit items (1 in 10)."
+      },
+      {
+        "nl": "De eigenaar weigert verkoop bij slechte houding.",
+        "en": "The owner refuses to sell to customers with a bad attitude."
+      },
+      {
+        "nl": "De winkel accepteert alleen voorafbetaling.",
+        "en": "The shop accepts prepayment only."
+      },
+      {
+        "nl": "Er is korting bij terugkerende klanten.",
+        "en": "Returning customers receive a discount."
+      },
+      {
+        "nl": "De eigenaar verkoopt alleen via onderhandelen.",
+        "en": "The owner only sells through negotiation."
+      },
+      {
+        "nl": "Er is kans op verborgen bonus bij aankoop.",
+        "en": "There is a chance of a hidden bonus with a purchase."
+      },
+      {
+        "nl": "De winkel sluit onverwacht vroeg.",
+        "en": "The shop closes unexpectedly early."
+      },
+      {
+        "nl": "De eigenaar vraagt om aanbevelingen voor korting.",
+        "en": "The owner asks for referrals in exchange for a discount."
+      },
+      {
+        "nl": "Er is een dagdeal met grote korting.",
+        "en": "There is a daily deal with a large discount."
+      },
+      {
+        "nl": "De eigenaar verkoopt alleen aan één persoon tegelijk.",
+        "en": "The owner serves only one customer at a time."
+      },
+      {
+        "nl": "Er is korting bij betaling in goud.",
+        "en": "There is a discount for paying in gold."
+      },
+      {
+        "nl": "De eigenaar biedt geheimen als betaalmiddel.",
+        "en": "The owner accepts secrets as a form of payment."
+      },
+      {
+        "nl": "De winkel heeft wisselende openingstijden.",
+        "en": "The shop has unpredictable opening hours."
+      },
+      {
+        "nl": "Er is een verborgen ruimte met speciale voorraad.",
+        "en": "There is a hidden room with special stock."
+      }
+    ]
+  }
+}

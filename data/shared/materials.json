@@ -1,0 +1,60 @@
+{
+  "_comment": "Gedeelde bouwmaterialen — gebruikt door POI, Inn, Shop, Ship en City generators.",
+
+  "wall": [
+    { "nl": "verweerde zandsteen",          "en": "weathered sandstone" },
+    { "nl": "ruwe kalksteen",               "en": "rough limestone" },
+    { "nl": "donker graniet",               "en": "dark granite" },
+    { "nl": "houten vakwerk met leem",      "en": "timber frame with daub" },
+    { "nl": "gebakken baksteen",            "en": "fired brick" },
+    { "nl": "gehouwen arduin",              "en": "hewn slate" },
+    { "nl": "gestapelde veldsteen",         "en": "stacked fieldstone" },
+    { "nl": "gepleisterde steen",           "en": "plastered stone" },
+    { "nl": "oud eikenhout",                "en": "old oak timber" },
+    { "nl": "donker basalt",                "en": "dark basalt" },
+    { "nl": "gerecyclede stenen",           "en": "reclaimed stone" },
+    { "nl": "zwart gebrand hout",           "en": "charred black timber" },
+    { "nl": "marmer met grijze adertjes",   "en": "marble with grey veins" },
+    { "nl": "gevlochten riet over houten frames", "en": "woven reed over wooden frames" },
+    { "nl": "dikke leem muren",             "en": "thick adobe walls" }
+  ],
+
+  "roof": [
+    { "nl": "riet, zorgvuldig bijgehouden",          "en": "thatch, carefully maintained" },
+    { "nl": "donkere leisteen",                       "en": "dark slate tiles" },
+    { "nl": "rode terracotta dakpannen",              "en": "red terracotta roof tiles" },
+    { "nl": "houten dakspanen, verweerd door regen",  "en": "wooden shingles weathered by rain" },
+    { "nl": "lood, groen uitgeslagen",                "en": "lead sheeting, green with age" },
+    { "nl": "koperen platen, paarsig geoxideerd",     "en": "copper plates, purple with oxidation" },
+    { "nl": "plat dak met groeiende mossen",          "en": "flat roof with growing mosses" },
+    { "nl": "gebogen dakpannen in keramiek",          "en": "curved ceramic tiles" },
+    { "nl": "ijzeren golfplaten, roestig",            "en": "corrugated iron, rusted" },
+    { "nl": "gesinterde steentjes op teer",           "en": "gravel and tar flat roof" }
+  ],
+
+  "floor": [
+    { "nl": "aangestampte aarde",           "en": "packed earth" },
+    { "nl": "ruwe houten planken",          "en": "rough wooden planks" },
+    { "nl": "gepolijste flagstones",        "en": "polished flagstones" },
+    { "nl": "keien in zand",                "en": "cobblestones in sand" },
+    { "nl": "terracotta tegels",            "en": "terracotta tiles" },
+    { "nl": "brede eiken planken",          "en": "wide oak floorboards" },
+    { "nl": "marmeren vloertegels",         "en": "marble floor tiles" },
+    { "nl": "bakstenen in visgraatpatroon", "en": "herringbone brick" },
+    { "nl": "zaagsel over aarde",           "en": "sawdust over earth" },
+    { "nl": "ruw gehakte keisteen",         "en": "roughly cut cobblestone" }
+  ],
+
+  "generic": [
+    { "nl": "hout",       "en": "wood",      "adj": { "nl": "houten",       "en": "wooden"    } },
+    { "nl": "steen",      "en": "stone",     "adj": { "nl": "stenen",       "en": "stone"     } },
+    { "nl": "baksteen",   "en": "brick",     "adj": { "nl": "bakstenen",    "en": "brick"     } },
+    { "nl": "zandsteen",  "en": "sandstone", "adj": { "nl": "zandstenen",   "en": "sandstone" } },
+    { "nl": "graniet",    "en": "granite",   "adj": { "nl": "granieten",    "en": "granite"   } },
+    { "nl": "kalksteen",  "en": "limestone", "adj": { "nl": "kalkstenen",   "en": "limestone" } },
+    { "nl": "leisteen",   "en": "slate",     "adj": { "nl": "leistenen",    "en": "slate"     } },
+    { "nl": "basalt",     "en": "basalt",    "adj": { "nl": "basalten",     "en": "basalt"    } },
+    { "nl": "marmer",     "en": "marble",    "adj": { "nl": "marmeren",     "en": "marble"    } },
+    { "nl": "leem",       "en": "adobe",     "adj": { "nl": "leemen",       "en": "adobe"     } }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "weather_types": [
+    {
+      "name": "Clear",
+      "score": 0,
+      "description": "De lucht is helder en open. Wolken zijn nauwelijks te zien en het zicht is uitstekend.",
+      "min_temp": 15,
+      "max_temp": 25,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        "Clear",
+        "Partly Cloudy",
+        "Cloudy",
+        "Fog",
+        "Heatwave"
+      ]
+    },
+    {
+      "name": "Partly Cloudy",
+      "score": 1,
+      "description": "Er trekken verspreide wolken over de hemel. Zon en schaduw wisselen elkaar af.",
+      "min_temp": 12,
+      "max_temp": 20,
+      "min_wind": 1,
+      "max_wind": 3,
+      "next": [
+        "Clear",
+        "Partly Cloudy",
+        "Cloudy",
+        "Fog",
+        "Light Rain"
+      ]
+    },
+    {
+      "name": "Cloudy",
+      "score": 2,
+      "description": "De lucht is zwaar bewolkt, maar nog zonder gesloten wolkendek.",
+      "min_temp": 10,
+      "max_temp": 16,
+      "min_wind": 2,
+      "max_wind": 4,
+      "next": [
+        "Partly Cloudy",
+        "Cloudy",
+        "Overcast",
+        "Light Rain"
+      ]
+    },
+    {
+      "name": "Fog",
+      "score": 1,
+      "description": "Een dichte mist hangt laag over het land en slokt geluid en zicht op.",
+      "min_temp": 4,
+      "max_temp": 8,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        "Clear",
+        "Partly Cloudy",
+        "Cloudy",
+        "Fog",
+        "Light Rain"
+      ]
+    },
+    {
+      "name": "Overcast",
+      "score": 2,
+      "description": "De hemel is volledig bedekt met een zwaar, grijs wolkendek.",
+      "min_temp": 8,
+      "max_temp": 12,
+      "min_wind": 2,
+      "max_wind": 4,
+      "next": [
+        "Cloudy",
+        "Overcast",
+        "Light Rain",
+        "Heavy Rain"
+      ]
+    },
+    {
+      "name": "Light Rain",
+      "score": 3,
+      "description": "Een fijne regen daalt neer en maakt de wereld donkerder en stiller.",
+      "min_temp": 7,
+      "max_temp": 11,
+      "min_wind": 2,
+      "max_wind": 5,
+      "next": [
+        "Cloudy",
+        "Overcast",
+        "Light Rain",
+        "Heavy Rain",
+        "Thunderstorm",
+        "Snow"
+      ]
+    },
+    {
+      "name": "Snow",
+      "score": 3,
+      "description": "Sneeuwvlokken dwarrelen uit de lucht en bedekken de grond in wit.",
+      "min_temp": -2,
+      "max_temp": 2,
+      "min_wind": 1,
+      "max_wind": 4,
+      "next": [
+        "Overcast",
+        "Light Rain",
+        "Snow",
+        "Blizzard"
+      ]
+    },
+    {
+      "name": "Heavy Rain",
+      "score": 4,
+      "description": "Dikke regenstralen geselen de omgeving en maken reizen zwaar en nat.",
+      "min_temp": 6,
+      "max_temp": 10,
+      "min_wind": 3,
+      "max_wind": 6,
+      "next": [
+        "Overcast",
+        "Light Rain",
+        "Heavy Rain",
+        "Thunderstorm",
+        "Storm",
+        "Tornado"
+      ]
+    },
+    {
+      "name": "Thunderstorm",
+      "score": 5,
+      "description": "Bliksem en donder vullen de lucht terwijl hevige regen en wind losbarsten.",
+      "min_temp": 8,
+      "max_temp": 16,
+      "min_wind": 5,
+      "max_wind": 8,
+      "next": [
+        "Heavy Rain",
+        "Thunderstorm",
+        "Storm",
+        "Tornado"
+      ]
+    },
+    {
+      "name": "Storm",
+      "score": 5,
+      "description": "Donder rommelt en de wind trekt gevaarlijk aan.",
+      "min_temp": 5,
+      "max_temp": 9,
+      "min_wind": 6,
+      "max_wind": 9,
+      "next": [
+        "Heavy Rain",
+        "Thunderstorm",
+        "Storm",
+        "Tornado"
+      ]
+    },
+    {
+      "name": "Blizzard",
+      "score": 5,
+      "description": "Sneeuw en snijdende wind maken zicht vrijwel onmogelijk.",
+      "min_temp": -6,
+      "max_temp": -1,
+      "min_wind": 6,
+      "max_wind": 10,
+      "next": [
+        "Snow",
+        "Blizzard",
+        "Storm"
+      ]
+    },
+    {
+      "name": "Sandstorm",
+      "score": 5,
+      "description": "Opjagend zand vult de lucht en maakt ademen moeilijk.",
+      "min_temp": 25,
+      "max_temp": 35,
+      "min_wind": 5,
+      "max_wind": 9,
+      "next": [
+        "Heatwave",
+        "Cloudy",
+        "Sandstorm",
+        "Storm"
+      ]
+    },
+    {
+      "name": "Heatwave",
+      "score": 0,
+      "description": "Droge hitte hangt zwaar in de lucht.",
+      "min_temp": 28,
+      "max_temp": 40,
+      "min_wind": 0,
+      "max_wind": 2,
+      "next": [
+        "Clear",
+        "Partly Cloudy",
+        "Heatwave",
+        "Sandstorm",
+        "Cloudy"
+      ]
+    },
+    {
+      "name": "Tornado",
+      "score": 6,
+      "description": "Een vernietigende wervelstorm raast door het gebied.",
+      "min_temp": 18,
+      "max_temp": 30,
+      "min_wind": 9,
+      "max_wind": 12,
+      "next": [
+        "Heavy Rain",
+        "Thunderstorm",
+        "Storm",
+        "Tornado"
+      ]
+    }
+  ]
+}

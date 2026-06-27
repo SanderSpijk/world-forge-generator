@@ -1,0 +1,2744 @@
+{
+  "townSizes": [
+    {
+      "id": "settlement",
+      "nl": "Buurtschap",
+      "en": "Settlement",
+      "weight": 1,
+      "districts": 0,
+      "minPop": 10,
+      "maxPop": 20
+    },
+    {
+      "id": "thorp",
+      "nl": "Gehucht",
+      "en": "Thorp",
+      "weight": 2,
+      "districts": 0,
+      "minPop": 20,
+      "maxPop": 60
+    },
+    {
+      "id": "hamlet",
+      "nl": "Gehucht",
+      "en": "Hamlet",
+      "weight": 3,
+      "districts": 0,
+      "minPop": 60,
+      "maxPop": 120
+    },
+    {
+      "id": "village",
+      "nl": "Dorp",
+      "en": "Village",
+      "weight": 4,
+      "districts": 1,
+      "minPop": 120,
+      "maxPop": 500
+    },
+    {
+      "id": "small_town",
+      "nl": "Klein Stadje",
+      "en": "Small Town",
+      "weight": 4,
+      "districts": 2,
+      "minPop": 500,
+      "maxPop": 2000
+    },
+    {
+      "id": "large_town",
+      "nl": "Groot Stadje",
+      "en": "Large Town",
+      "weight": 4,
+      "districts": 3,
+      "minPop": 2000,
+      "maxPop": 5000
+    },
+    {
+      "id": "small_city",
+      "nl": "Kleine Stad",
+      "en": "Small City",
+      "weight": 3,
+      "districts": 4,
+      "minPop": 5000,
+      "maxPop": 10000
+    },
+    {
+      "id": "large_city",
+      "nl": "Grote Stad",
+      "en": "Large City",
+      "weight": 2,
+      "districts": 5,
+      "minPop": 10000,
+      "maxPop": 25000
+    },
+    {
+      "id": "metropolis",
+      "nl": "Metropool",
+      "en": "Metropolis",
+      "weight": 1,
+      "districts": 6,
+      "minPop": 25000,
+      "maxPop": 100000
+    }
+  ],
+  "nameGeneral": {
+    "prefixes": [
+      "Saint",
+      "Grim",
+      "Blade",
+      "Black",
+      "West",
+      "East",
+      "North",
+      "South",
+      "Wild",
+      "Ebon",
+      "Fey",
+      "Summer",
+      "Amber",
+      "Gold",
+      "Silver",
+      "Curse",
+      "Knight",
+      "Small",
+      "Big",
+      "Swift",
+      "Mid",
+      "Deep",
+      "Trade",
+      "Swamp",
+      "New",
+      "Old",
+      "Lake",
+      "Crow",
+      "Crown",
+      "Ash",
+      "Iron",
+      "Red",
+      "White",
+      "Grey",
+      "Frost",
+      "Moon",
+      "Sun",
+      "Star",
+      "Bright",
+      "High",
+      "Low",
+      "Dark",
+      "Green",
+      "Misty",
+      "Mist",
+      "Stone",
+      "River",
+      "Winter",
+      "Oak",
+      "Pine",
+      "Spring",
+      "Crystal",
+      "Skull",
+      "Dragon",
+      "Thorn",
+      "Blood",
+      "Fire",
+      "Ice",
+      "Shadow",
+      "Steel",
+      "Copper",
+      "Bronze"
+    ],
+    "suffixes": [
+      "Bay",
+      "Rock",
+      "Acre",
+      "Harbour",
+      "Water",
+      "Grove",
+      "Wyck",
+      "Shore",
+      "View",
+      "Fall",
+      "Hollow",
+      "Ford",
+      "Wynd",
+      "Dal",
+      "Dale",
+      "Thal",
+      "Wright",
+      "Croft",
+      "Wyn",
+      "Bridge",
+      "Helm",
+      "Haven",
+      "Hall",
+      "Moor",
+      "Marsh",
+      "Vale",
+      "Wood",
+      "Woods",
+      "Rune",
+      "Mer",
+      "Mere",
+      "Field",
+      "Strom",
+      "Storm",
+      "Wick",
+      "Brook",
+      "Hold",
+      "Wind",
+      "Mire",
+      "Shade",
+      "Thorn",
+      "Rest",
+      "March",
+      "Cliff",
+      "Shadow",
+      "Crest",
+      "Reach",
+      "Ward",
+      "Gate",
+      "Keep",
+      "Port",
+      "Watch",
+      "Point",
+      "Crossing",
+      "Peak",
+      "Spire",
+      "Crown",
+      "Pass",
+      "Ridge"
+    ]
+  },
+  "cityTypes": [
+    {
+      "id": "harbour",
+      "nl": "Havenstad",
+      "en": "Harbour",
+      "weight": 3,
+      "themes": [],
+      "prefixes": [
+        "Port",
+        "Bay",
+        "Harbour",
+        "Shore",
+        "Haven",
+        "Coral",
+        "Sail",
+        "Salt",
+        "Tide",
+        "Trade",
+        "Drift"
+      ],
+      "suffixes": [
+        "Bay",
+        "Harbour",
+        "Haven",
+        "Shore",
+        "Port",
+        "Wharf",
+        "Reach",
+        "Tide",
+        "Quay",
+        "Cove",
+        "Dock",
+        "Flow"
+      ],
+      "adjectives": {
+        "nl": [
+          "drukke",
+          "bruisende",
+          "zoute",
+          "bedrijvige",
+          "ruige"
+        ],
+        "en": [
+          "bustling",
+          "salt-worn",
+          "busy",
+          "lively",
+          "rugged"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "sierlijke scheepsboegen en ankers boven de deuren",
+          "netten en touwen als decoratief element langs de gevels",
+          "beschilderde houten uithangborden met maritieme motieven",
+          "reddingsboeien en lantaarns langs de kademuren"
+        ],
+        "en": [
+          "ornate ship prows and anchors above the doorways",
+          "nets and ropes as decorative elements along the facades",
+          "painted wooden signs with maritime motifs",
+          "life rings and lanterns along the quay walls"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.0,
+        "elf": 1.0,
+        "half-elf": 1.5,
+        "dwarf": 0.8,
+        "halfling": 1.2,
+        "orc": 0.8,
+        "half-orc": 1.0,
+        "gnome": 0.8,
+        "tiefling": 1.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.5,
+        "tabaxi": 1.5,
+        "goliath": 0.5
+      }
+    },
+    {
+      "id": "mountain",
+      "nl": "Bergstad",
+      "en": "Mountain",
+      "weight": 3,
+      "themes": [],
+      "prefixes": [
+        "Peak",
+        "Spire",
+        "Cliff",
+        "Hold",
+        "Crest",
+        "Stone",
+        "Granite",
+        "Frost",
+        "High",
+        "Deep",
+        "Ember",
+        "Hammer",
+        "Coal",
+        "Bronze"
+      ],
+      "suffixes": [
+        "Hold",
+        "Peak",
+        "Mine",
+        "Crest",
+        "Cliff",
+        "Forge",
+        "Delve",
+        "Crag",
+        "Keep"
+      ],
+      "adjectives": {
+        "nl": [
+          "robuuste",
+          "verstilde",
+          "hoge",
+          "stugge",
+          "koude"
+        ],
+        "en": [
+          "sturdy",
+          "remote",
+          "high",
+          "cold",
+          "rugged"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "runen en geometrische patronen uitgehouwen in de stenen gevels",
+          "dierenkoppen van graniet op de dakranden",
+          "smeedijzeren lantaarns op zware stenen pilaren",
+          "reliëfs van bergen en roofvogels boven de ingangen"
+        ],
+        "en": [
+          "runes and geometric patterns carved into the stone facades",
+          "animal heads of granite on the roof edges",
+          "wrought iron lanterns on heavy stone pillars",
+          "reliefs of mountains and birds of prey above the entrances"
+        ]
+      },
+      "raceWeights": {
+        "human": 1.0,
+        "elf": 0.3,
+        "half-elf": 0.5,
+        "dwarf": 4.0,
+        "halfling": 0.5,
+        "orc": 1.5,
+        "half-orc": 1.5,
+        "gnome": 2.0,
+        "tiefling": 0.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.3,
+        "tabaxi": 0.0,
+        "goliath": 2.0
+      }
+    },
+    {
+      "id": "trade",
+      "nl": "Handelsstad",
+      "en": "Trade",
+      "weight": 4,
+      "themes": [],
+      "prefixes": [
+        "Port",
+        "Bay",
+        "Harbour",
+        "Gold",
+        "Silver",
+        "Amber",
+        "Crown",
+        "Mid",
+        "Trade",
+        "Swift",
+        "Copper"
+      ],
+      "suffixes": [
+        "Bay",
+        "Harbour",
+        "Haven",
+        "Port",
+        "Wharf",
+        "Reach",
+        "Cross",
+        "Gate",
+        "Bridge",
+        "Market",
+        "Hold"
+      ],
+      "adjectives": {
+        "nl": [
+          "welvarende",
+          "levendige",
+          "bedrijvige",
+          "kosmopolitische",
+          "rijke"
+        ],
+        "en": [
+          "prosperous",
+          "lively",
+          "busy",
+          "cosmopolitan",
+          "wealthy"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "vergulde uithangborden met gildesymbolen",
+          "kleurrijke markiezen en wimpels van ver weg",
+          "bronzen weegschalen en munten als geveldecoratie",
+          "rijkversierde luifels met patronen uit alle windstreken"
+        ],
+        "en": [
+          "gilded signs bearing guild symbols",
+          "colourful awnings and pennants from distant lands",
+          "bronze scales and coins as facade decoration",
+          "richly decorated canopies with patterns from all corners of the world"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.5,
+        "elf": 1.0,
+        "half-elf": 2.0,
+        "dwarf": 1.5,
+        "halfling": 2.0,
+        "orc": 0.5,
+        "half-orc": 0.8,
+        "gnome": 1.5,
+        "tiefling": 1.0,
+        "dragonborn": 1.0,
+        "aasimar": 0.5,
+        "tabaxi": 1.5,
+        "goliath": 0.3
+      }
+    },
+    {
+      "id": "mining",
+      "nl": "Mijnstad",
+      "en": "Mining",
+      "weight": 3,
+      "themes": [],
+      "prefixes": [
+        "Iron",
+        "Stone",
+        "Granite",
+        "Frost",
+        "High",
+        "Deep",
+        "Ember",
+        "Hammer",
+        "Coal",
+        "Bronze"
+      ],
+      "suffixes": [
+        "Hold",
+        "Peak",
+        "Spire",
+        "Crest",
+        "Cliff",
+        "Forge",
+        "Delve",
+        "Mine",
+        "Crag",
+        "Keep"
+      ],
+      "adjectives": {
+        "nl": [
+          "robuuste",
+          "stoftige",
+          "harde",
+          "ijzige",
+          "industrieuze"
+        ],
+        "en": [
+          "robust",
+          "dusty",
+          "hardened",
+          "gritty",
+          "industrial"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gekruiste houwelen en pikhaken boven de deuren",
+          "ruwe edelstenen gemetseld in de gevels",
+          "lantaarns van oud mijnmateriaal omgebouwd",
+          "reliëfs van dwergse patronen in het ruwe steen"
+        ],
+        "en": [
+          "crossed pickaxes and mattocks above the doorways",
+          "rough gemstones set into the facades",
+          "lanterns repurposed from old mining equipment",
+          "reliefs of dwarven patterns in the rough stone"
+        ]
+      },
+      "raceWeights": {
+        "human": 1.0,
+        "elf": 0.2,
+        "half-elf": 0.4,
+        "dwarf": 5.0,
+        "halfling": 0.5,
+        "orc": 2.0,
+        "half-orc": 2.0,
+        "gnome": 3.0,
+        "tiefling": 0.5,
+        "dragonborn": 0.8,
+        "aasimar": 0.2,
+        "tabaxi": 0.0,
+        "goliath": 2.5
+      }
+    },
+    {
+      "id": "farming",
+      "nl": "Landbouwdorp",
+      "en": "Farming",
+      "weight": 4,
+      "themes": [],
+      "prefixes": [
+        "Green",
+        "Oak",
+        "River",
+        "Apple",
+        "Wheat",
+        "Honey",
+        "Willow",
+        "Fair",
+        "Mill",
+        "Sunny"
+      ],
+      "suffixes": [
+        "Field",
+        "Acre",
+        "Brook",
+        "Ford",
+        "Dale",
+        "Croft",
+        "Meadow",
+        "Farm",
+        "Hollow",
+        "Vale"
+      ],
+      "adjectives": {
+        "nl": [
+          "vredige",
+          "landelijke",
+          "groene",
+          "rustige",
+          "eenvoudige"
+        ],
+        "en": [
+          "peaceful",
+          "rural",
+          "green",
+          "quiet",
+          "simple"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gevlochten tarwekransen boven de deuren",
+          "geschilderde bloemen en oogstmotieven op de luiken",
+          "houten uithangborden met dieren en gewassen",
+          "kleurrijke bloembakken op elk vensterbank"
+        ],
+        "en": [
+          "woven wheat wreaths above the doorways",
+          "painted flowers and harvest motifs on the shutters",
+          "wooden signs carved with animals and crops",
+          "colourful flower boxes on every windowsill"
+        ]
+      },
+      "raceWeights": {
+        "human": 4.0,
+        "elf": 0.5,
+        "half-elf": 1.0,
+        "dwarf": 0.5,
+        "halfling": 3.0,
+        "orc": 0.5,
+        "half-orc": 0.8,
+        "gnome": 1.0,
+        "tiefling": 0.3,
+        "dragonborn": 0.3,
+        "aasimar": 0.5,
+        "tabaxi": 0.2,
+        "goliath": 0.3
+      }
+    },
+    {
+      "id": "military",
+      "nl": "Vestingstad",
+      "en": "Military",
+      "weight": 3,
+      "themes": [],
+      "prefixes": [
+        "Fort",
+        "Iron",
+        "Steel",
+        "Crown",
+        "Knight",
+        "Banner",
+        "Shield",
+        "Guard",
+        "War",
+        "Storm"
+      ],
+      "suffixes": [
+        "Keep",
+        "Watch",
+        "Gate",
+        "Hold",
+        "Bastion",
+        "Wall",
+        "March",
+        "Crossing",
+        "Reach",
+        "Point",
+        "Fort"
+      ],
+      "adjectives": {
+        "nl": [
+          "strenge",
+          "versterkte",
+          "imposante",
+          "ordelijke",
+          "waakzame"
+        ],
+        "en": [
+          "stern",
+          "fortified",
+          "imposing",
+          "orderly",
+          "vigilant"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "vaandels en wapenschilden langs de hoofdstraten",
+          "gekruiste zwaarden en schilden boven de poorten",
+          "stenen reliëfs van veldslagen op de vestingmuren",
+          "rijen fakkels op ijzeren houders langs de muren"
+        ],
+        "en": [
+          "banners and coats of arms along the main streets",
+          "crossed swords and shields above the gates",
+          "stone reliefs of battles on the fortress walls",
+          "rows of torches in iron brackets along the walls"
+        ]
+      },
+      "raceWeights": {
+        "human": 3.0,
+        "elf": 1.0,
+        "half-elf": 1.0,
+        "dwarf": 2.0,
+        "halfling": 0.3,
+        "orc": 2.5,
+        "half-orc": 2.5,
+        "gnome": 0.5,
+        "tiefling": 0.5,
+        "dragonborn": 2.0,
+        "aasimar": 1.0,
+        "tabaxi": 0.5,
+        "goliath": 3.0
+      }
+    },
+    {
+      "id": "magic",
+      "nl": "Magiersstad",
+      "en": "Magic",
+      "weight": 2,
+      "themes": [],
+      "prefixes": [
+        "Rune",
+        "Crystal",
+        "Arc",
+        "Ether",
+        "Mystic",
+        "Spell",
+        "Star",
+        "Void",
+        "Astral",
+        "Sigil"
+      ],
+      "suffixes": [
+        "Rune",
+        "Spire",
+        "Crest",
+        "Sanctum",
+        "Hollow",
+        "Reach",
+        "Hall",
+        "Crown",
+        "Watch",
+        "Vale"
+      ],
+      "adjectives": {
+        "nl": [
+          "mysterieuze",
+          "betoverende",
+          "vreemde",
+          "glinsterende",
+          "raadselachtige"
+        ],
+        "en": [
+          "mysterious",
+          "enchanting",
+          "strange",
+          "glittering",
+          "enigmatic"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gloeiende runen ingelegd in de gevels",
+          "kristallen bollen en astronomische instrumenten als uithangborden",
+          "kleurrijke magische vlammen in lantaarns die nooit doven",
+          "ingewikkelde geometrische patronen in goud en zilver uitgelegd"
+        ],
+        "en": [
+          "glowing runes inlaid into the facades",
+          "crystal orbs and astronomical instruments as signs",
+          "colourful magical flames in lanterns that never go out",
+          "intricate geometric patterns laid out in gold and silver"
+        ]
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 3.0,
+        "half-elf": 2.0,
+        "dwarf": 0.5,
+        "halfling": 0.8,
+        "orc": 0.3,
+        "half-orc": 0.5,
+        "gnome": 3.0,
+        "tiefling": 2.5,
+        "dragonborn": 1.5,
+        "aasimar": 2.0,
+        "tabaxi": 1.0,
+        "goliath": 0.3
+      }
+    },
+    {
+      "id": "holy",
+      "nl": "Heilige Stad",
+      "en": "Holy",
+      "weight": 2,
+      "themes": [],
+      "prefixes": [
+        "Saint",
+        "Holy",
+        "Light",
+        "Dawn",
+        "Sun",
+        "Blessed",
+        "Silver",
+        "Gold",
+        "High",
+        "Pure",
+        "Faith"
+      ],
+      "suffixes": [
+        "Hall",
+        "Rest",
+        "Crown",
+        "Sanctum",
+        "Abbey",
+        "Haven",
+        "Reach",
+        "Vale",
+        "Gate",
+        "Spire"
+      ],
+      "adjectives": {
+        "nl": [
+          "vrome",
+          "plechtige",
+          "stille",
+          "gezegende",
+          "heilige"
+        ],
+        "en": [
+          "devout",
+          "solemn",
+          "quiet",
+          "blessed",
+          "sacred"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "heiligenbeelden en reliëfs in elke nis",
+          "gouden symbolen van de godheid op de gevels",
+          "wierookhouders en offerschalen langs de hoofdstraat",
+          "gebrandschilderde ramen die gekleurde lichtpatronen op de straat werpen"
+        ],
+        "en": [
+          "saint statues and reliefs in every niche",
+          "golden symbols of the deity on the facades",
+          "incense holders and offering bowls along the main street",
+          "stained glass windows casting coloured light patterns on the street"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.0,
+        "elf": 1.5,
+        "half-elf": 1.5,
+        "dwarf": 1.0,
+        "halfling": 1.0,
+        "orc": 0.3,
+        "half-orc": 0.5,
+        "gnome": 0.8,
+        "tiefling": 0.3,
+        "dragonborn": 1.5,
+        "aasimar": 3.0,
+        "tabaxi": 0.5,
+        "goliath": 0.8
+      }
+    },
+    {
+      "id": "cursed",
+      "nl": "Vervloekte Stad",
+      "en": "Cursed",
+      "weight": 1,
+      "themes": [],
+      "prefixes": [
+        "Black",
+        "Grim",
+        "Curse",
+        "Ebon",
+        "Dread",
+        "Blood",
+        "Hollow",
+        "Night",
+        "Rot",
+        "Ash"
+      ],
+      "suffixes": [
+        "Mire",
+        "Hollow",
+        "Shadow",
+        "Marsh",
+        "Rest",
+        "Grave",
+        "Thorn",
+        "Crypt",
+        "March",
+        "Shade"
+      ],
+      "adjectives": {
+        "nl": [
+          "sinistere",
+          "verlaten",
+          "duistere",
+          "vervallen",
+          "onheilspellende"
+        ],
+        "en": [
+          "sinister",
+          "forsaken",
+          "dark",
+          "decrepit",
+          "ominous"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "verweerde gargoyles die neerstarend op de straten",
+          "verroeste kettingen en vervallen uithangborden die in de wind kraken",
+          "donkere vlekken en krassen waarvan niemand de oorsprong weet",
+          "half-uitgewiste beschermingssymbolen op de drempels"
+        ],
+        "en": [
+          "weathered gargoyles leering down at the streets",
+          "rusted chains and decrepit signs creaking in the wind",
+          "dark stains and scratches whose origin no one knows",
+          "half-erased protection symbols on the doorsteps"
+        ]
+      },
+      "raceWeights": {
+        "human": 1.0,
+        "elf": 0.5,
+        "half-elf": 0.8,
+        "dwarf": 0.5,
+        "halfling": 0.5,
+        "orc": 1.5,
+        "half-orc": 1.5,
+        "gnome": 0.5,
+        "tiefling": 3.0,
+        "dragonborn": 1.0,
+        "aasimar": 0.3,
+        "tabaxi": 0.8,
+        "goliath": 0.5
+      }
+    },
+    {
+      "id": "fey",
+      "nl": "Feëenstad",
+      "en": "Fey",
+      "weight": 1,
+      "themes": [],
+      "prefixes": [
+        "Fey",
+        "Silver",
+        "Moon",
+        "Star",
+        "Whisper",
+        "Green",
+        "Sun",
+        "Autumn",
+        "Crystal",
+        "Willow"
+      ],
+      "suffixes": [
+        "Grove",
+        "Glade",
+        "Mere",
+        "Wood",
+        "Vale",
+        "Bloom",
+        "Shade",
+        "Wyn",
+        "Hollow",
+        "Thal"
+      ],
+      "adjectives": {
+        "nl": [
+          "betoverende",
+          "dromerige",
+          "grillige",
+          "schemerende",
+          "magische"
+        ],
+        "en": [
+          "enchanting",
+          "dreamy",
+          "whimsical",
+          "shimmering",
+          "magical"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "levende bloemen en rankplanten die de gevels in patronen bedekken",
+          "gloeiende edelstenen en kristallen in elk kozijn",
+          "beweeglijke sculpturen van hout en licht die zichzelf vormen",
+          "vlinders en vuurvliegjes die permanent rond de ingangen zwermen"
+        ],
+        "en": [
+          "living flowers and vines covering the facades in patterns",
+          "glowing gemstones and crystals in every window frame",
+          "moving sculptures of wood and light that shape themselves",
+          "butterflies and fireflies permanently swarming around the entrances"
+        ]
+      },
+      "raceWeights": {
+        "human": 0.5,
+        "elf": 4.0,
+        "half-elf": 3.0,
+        "dwarf": 0.2,
+        "halfling": 1.5,
+        "orc": 0.2,
+        "half-orc": 0.3,
+        "gnome": 2.0,
+        "tiefling": 1.0,
+        "dragonborn": 0.5,
+        "aasimar": 2.0,
+        "tabaxi": 1.5,
+        "goliath": 0.2
+      }
+    },
+    {
+      "id": "island",
+      "nl": "Eilandstad",
+      "en": "Island",
+      "weight": 2,
+      "themes": [],
+      "prefixes": [
+        "Coral",
+        "Tide",
+        "Wave",
+        "Salt",
+        "Pearl",
+        "Drift",
+        "Azure",
+        "Palm",
+        "Storm",
+        "Sea",
+        "Blue",
+        "Shark",
+        "Turtle",
+        "Mist",
+        "Sun",
+        "Coconut",
+        "Lagoon",
+        "Shell",
+        "Reef",
+        "Marrow"
+      ],
+      "suffixes": [
+        "Bay",
+        "Cove",
+        "Haven",
+        "Shore",
+        "Port",
+        "Isle",
+        "Cay",
+        "Atoll",
+        "Reach",
+        "Wharf",
+        "Lagoon",
+        "Harbor",
+        "Reef",
+        "Strand",
+        "Watch",
+        "Anchorage",
+        "Tide",
+        "Point",
+        "Keys",
+        "Marina"
+      ],
+      "adjectives": {
+        "nl": [
+          "afgelegen",
+          "zoute",
+          "winderige",
+          "kleine",
+          "geïsoleerde"
+        ],
+        "en": [
+          "remote",
+          "salt-swept",
+          "windswept",
+          "small",
+          "isolated"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gevlochten palmbladeren en schelpen langs de gevels",
+          "kleurrijke houten uithangborden met tropische motieven",
+          "drijfhout sculpturen en zeeschelpen als decoratie",
+          "lichte linnen doeken in felle kleuren als zonneblinden"
+        ],
+        "en": [
+          "woven palm leaves and shells along the facades",
+          "colourful wooden signs with tropical motifs",
+          "driftwood sculptures and sea shells as decoration",
+          "light linen cloths in bright colours as sun shades"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.0,
+        "elf": 1.0,
+        "half-elf": 1.5,
+        "dwarf": 0.3,
+        "halfling": 1.0,
+        "orc": 1.0,
+        "half-orc": 1.0,
+        "gnome": 0.5,
+        "tiefling": 1.0,
+        "dragonborn": 2.0,
+        "aasimar": 0.5,
+        "tabaxi": 2.5,
+        "goliath": 1.0
+      }
+    },
+    {
+      "id": "desert",
+      "nl": "Woestijnstad",
+      "en": "Desert",
+      "weight": 3,
+      "themes": [
+        "desert"
+      ],
+      "prefixes": [
+        "Sun",
+        "Sand",
+        "Amber",
+        "Red",
+        "Dust",
+        "Scorch",
+        "Golden",
+        "Mirage",
+        "Brass",
+        "Dune"
+      ],
+      "suffixes": [
+        "Oasis",
+        "Reach",
+        "Rest",
+        "Spire",
+        "Mirage",
+        "Crossing",
+        "Sands",
+        "Hollow",
+        "Crown",
+        "Gate"
+      ],
+      "adjectives": {
+        "nl": [
+          "stikvete",
+          "stoftige",
+          "dorre",
+          "uitgedroogde",
+          "hete"
+        ],
+        "en": [
+          "sweltering",
+          "dusty",
+          "arid",
+          "parched",
+          "sun-baked"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "fijn mozaïekwerk van gekleurd glas en aardewerk in geometrische patronen",
+          "sierlijke kalkstenen reliëfs met arabesken",
+          "kleurrijke tapijten en doeken als schaduwdoeken voor de deuren",
+          "fonteinbekkens met azuurblauwe tegels bij de ingangen"
+        ],
+        "en": [
+          "fine mosaic work of coloured glass and earthenware in geometric patterns",
+          "elegant limestone reliefs with arabesques",
+          "colourful carpets and cloths as shade screens before the doors",
+          "fountain basins with azure tiles at the entrances"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.5,
+        "elf": 0.8,
+        "half-elf": 1.0,
+        "dwarf": 0.3,
+        "halfling": 0.5,
+        "orc": 1.5,
+        "half-orc": 1.5,
+        "gnome": 0.5,
+        "tiefling": 1.5,
+        "dragonborn": 2.0,
+        "aasimar": 1.0,
+        "tabaxi": 2.0,
+        "goliath": 1.5
+      }
+    },
+    {
+      "id": "jungle",
+      "nl": "Junglestad",
+      "en": "Jungle",
+      "weight": 3,
+      "themes": [
+        "caribbean"
+      ],
+      "prefixes": [
+        "Swamp",
+        "Moss",
+        "Vine",
+        "Croak",
+        "Wild",
+        "Reed",
+        "Murk",
+        "Green",
+        "Bog",
+        "Snake"
+      ],
+      "suffixes": [
+        "Mire",
+        "Marsh",
+        "Grove",
+        "Hollow",
+        "Fen",
+        "Root",
+        "Bog",
+        "Shade",
+        "Mere",
+        "Creek"
+      ],
+      "adjectives": {
+        "nl": [
+          "vochtige",
+          "weelderige",
+          "verborgen",
+          "tropische",
+          "groene"
+        ],
+        "en": [
+          "humid",
+          "lush",
+          "hidden",
+          "tropical",
+          "verdant"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gesneden houten maskers en stamtotem-stijl reliëfs",
+          "levende orchideeën en varens in nissen langs de gevels",
+          "gevlochten riet- en bamboepatronen op deuren en luiken",
+          "beschilderde dierenpatronen in felle kleuren op de muren"
+        ],
+        "en": [
+          "carved wooden masks and totem-style reliefs",
+          "living orchids and ferns in niches along the facades",
+          "woven reed and bamboo patterns on doors and shutters",
+          "painted animal patterns in vivid colours on the walls"
+        ]
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 3.0,
+        "half-elf": 2.0,
+        "dwarf": 0.2,
+        "halfling": 1.0,
+        "orc": 1.5,
+        "half-orc": 1.5,
+        "gnome": 0.5,
+        "tiefling": 1.0,
+        "dragonborn": 2.5,
+        "aasimar": 0.8,
+        "tabaxi": 3.0,
+        "goliath": 1.5
+      }
+    },
+    {
+      "id": "viking",
+      "nl": "Vikingdorp",
+      "en": "Viking",
+      "weight": 4,
+      "themes": [
+        "nordic"
+      ],
+      "prefixes": [
+        "Wolf",
+        "Bear",
+        "Raven",
+        "Storm",
+        "North",
+        "Winter",
+        "Skull",
+        "Thorn"
+      ],
+      "suffixes": [
+        "Fjord",
+        "Holm",
+        "Wick",
+        "Wyck",
+        "Hold",
+        "Reach",
+        "Haven",
+        "Crest",
+        "Bay",
+        "Strand"
+      ],
+      "adjectives": {
+        "nl": [
+          "ruige",
+          "stugge",
+          "koude",
+          "harde",
+          "stoere"
+        ],
+        "en": [
+          "rugged",
+          "stoic",
+          "cold",
+          "hardened",
+          "fierce"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "gesneden drakenkoppen op de dakranden en deurposten",
+          "ingewikkelde vlechtwerkpatronen uitgehouwen in het hout",
+          "runenstenen opgesteld langs de hoofdstraat",
+          "geschilderde schilden langs de gevels als eretekens"
+        ],
+        "en": [
+          "carved dragon heads on roof edges and door posts",
+          "intricate knotwork patterns carved into the timber",
+          "runestones set along the main street",
+          "painted shields along the facades as marks of honour"
+        ]
+      },
+      "raceWeights": {
+        "human": 3.0,
+        "elf": 0.5,
+        "half-elf": 0.8,
+        "dwarf": 1.5,
+        "halfling": 0.3,
+        "orc": 2.5,
+        "half-orc": 2.5,
+        "gnome": 0.3,
+        "tiefling": 0.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.3,
+        "tabaxi": 0.0,
+        "goliath": 3.0
+      }
+    },
+    {
+      "id": "pirate",
+      "nl": "Piratenhaven",
+      "en": "Pirate",
+      "weight": 4,
+      "themes": [
+        "caribbean"
+      ],
+      "prefixes": [
+        "San",
+        "Sint",
+        "Black",
+        "Skull",
+        "Cutlass",
+        "Rum",
+        "Rogue",
+        "Deadman",
+        "Crimson",
+        "Iron",
+        "Shark",
+        "Savage"
+      ],
+      "suffixes": [
+        "Juan",
+        "Christoffel",
+        "Antonio",
+        "Cove",
+        "Port",
+        "Haven",
+        "Cay",
+        "Reef",
+        "Anchorage",
+        "Bay",
+        "Reach",
+        "Hook",
+        "Rest"
+      ],
+      "adjectives": {
+        "nl": [
+          "lawloze",
+          "ruige",
+          "bruisende",
+          "gevaarlijke",
+          "avontuurlijke"
+        ],
+        "en": [
+          "lawless",
+          "rough",
+          "raucous",
+          "dangerous",
+          "adventurous"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "doodskoppen en gekruiste botten op uithangborden en gevels",
+          "scheepsbellen en kompassen als decoratief element",
+          "gevangen vlaggen van verslagen schepen langs de dakranden",
+          "grove tatoeage-achtige motieven geschilderd op de muren"
+        ],
+        "en": [
+          "skulls and crossbones on signs and facades",
+          "ship bells and compasses as decorative elements",
+          "captured flags of defeated ships along the roof edges",
+          "crude tattoo-like motifs painted on the walls"
+        ]
+      },
+      "raceWeights": {
+        "human": 2.5,
+        "elf": 0.8,
+        "half-elf": 1.5,
+        "dwarf": 0.5,
+        "halfling": 1.0,
+        "orc": 2.0,
+        "half-orc": 2.0,
+        "gnome": 0.8,
+        "tiefling": 2.0,
+        "dragonborn": 1.5,
+        "aasimar": 0.3,
+        "tabaxi": 2.0,
+        "goliath": 1.0
+      }
+    },
+    {
+      "id": "greek",
+      "nl": "Griekse Stad",
+      "en": "Greek",
+      "weight": 4,
+      "themes": [
+        "greek"
+      ],
+      "prefixes": [
+        "Neo",
+        "Aegis",
+        "Thera",
+        "Myr",
+        "Helio",
+        "Kyro",
+        "Nax",
+        "Del",
+        "Corinth",
+        "Aster",
+        "Mino",
+        "Eos",
+        "Solon",
+        "Pyth",
+        "Parn",
+        "Olym",
+        "Thyra"
+      ],
+      "suffixes": [
+        "os",
+        "ia",
+        "eis",
+        "on",
+        "polis",
+        "nysos",
+        "limen",
+        "thira",
+        "agora",
+        "portos",
+        "theon",
+        "thon",
+        "doros",
+        "akros",
+        "dor",
+        "mora",
+        "eion",
+        "Akron"
+      ],
+      "adjectives": {
+        "nl": [
+          "klassieke",
+          "marmeren",
+          "trotse",
+          "oude",
+          "statige"
+        ],
+        "en": [
+          "classical",
+          "marble-white",
+          "proud",
+          "ancient",
+          "stately"
+        ]
+      },
+      "decorationStyle": {
+        "nl": [
+          "witte marmeren zuilen met Dorische of Ionische kapitelen",
+          "friezen met mythologische taferelen boven de ingangen",
+          "bronzen beelden van goden en helden op voetstukken",
+          "meander- en palmblad-patronen ingelegd in de gevels"
+        ],
+        "en": [
+          "white marble columns with Doric or Ionic capitals",
+          "friezes with mythological scenes above the entrances",
+          "bronze statues of gods and heroes on pedestals",
+          "meander and palmette patterns inlaid into the facades"
+        ]
+      },
+      "raceWeights": {
+        "human": 4.0,
+        "elf": 1.0,
+        "half-elf": 1.5,
+        "dwarf": 0.5,
+        "halfling": 0.8,
+        "orc": 0.5,
+        "half-orc": 0.8,
+        "gnome": 0.5,
+        "tiefling": 0.5,
+        "dragonborn": 1.0,
+        "aasimar": 1.5,
+        "tabaxi": 0.3,
+        "goliath": 1.5
+      }
+    }
+  ],
+  "districts": [
+    {
+      "id": "seat_of_power",
+      "nl": "Zetel van Macht",
+      "en": "Seat of Power",
+      "category": "Civic & Administration",
+      "minSize": 1,
+      "buildings": [
+        {
+          "name": "Fort",
+          "poiId": "fortress"
+        },
+        {
+          "name": "Castle",
+          "poiId": "castle"
+        },
+        {
+          "name": "Courthouse",
+          "poiId": "courthouse"
+        },
+        {
+          "name": "Citywatch"
+        },
+        {
+          "name": "Embassy",
+          "poiId": "embassy"
+        },
+        {
+          "name": "City planner"
+        },
+        {
+          "name": "Architect office"
+        },
+        {
+          "name": "Prison",
+          "poiId": "prison"
+        },
+        {
+          "name": "Interrogation room"
+        },
+        {
+          "name": "Bank",
+          "poiId": "bank"
+        },
+        {
+          "name": "Council Building",
+          "poiId": "council_building"
+        },
+        {
+          "name": "Town Hall",
+          "poiId": "town_hall"
+        },
+        {
+          "name": "Magistrate Office",
+          "poiId": "magistrate_office"
+        },
+        {
+          "name": "Tax Collector",
+          "poiId": "tax_collector_house"
+        },
+        {
+          "name": "Guard Headquarters",
+          "poiId": "guard_headquarters"
+        }
+      ],
+      "govBonus": [
+        "Monarchy",
+        "Aristocracy",
+        "Dictatorship",
+        "Authoritarian"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "religious",
+      "nl": "Religieus District",
+      "en": "Religious District",
+      "category": "Civic & Administration",
+      "minSize": 1,
+      "buildings": [
+        {
+          "name": "Temple",
+          "poiId": "temple"
+        },
+        {
+          "name": "Church",
+          "poiId": "church"
+        },
+        {
+          "name": "Cathedral",
+          "poiId": "cathedral"
+        },
+        {
+          "name": "Shrine",
+          "poiId": "shrine"
+        },
+        {
+          "name": "Holy Garden",
+          "poiId": "holy_garden"
+        },
+        {
+          "name": "Catacombs",
+          "poiId": "catacombs"
+        },
+        {
+          "name": "Mausoleum",
+          "poiId": "mausoleum"
+        },
+        {
+          "name": "Cemetery",
+          "poiId": "graveyard"
+        },
+        {
+          "name": "Crypt",
+          "poiId": "crypt"
+        },
+        {
+          "name": "Undertaker",
+          "shopType": "Undertaker"
+        },
+        {
+          "name": "Mortician",
+          "shopType": "Mortician"
+        },
+        {
+          "name": "Chapel",
+          "poiId": "chapel"
+        },
+        {
+          "name": "Monastery",
+          "poiId": "monastery"
+        },
+        {
+          "name": "Sacred Grove",
+          "poiId": "sacred_grove"
+        },
+        {
+          "name": "Ancient Shrine",
+          "poiId": "ancient_shrine"
+        },
+        {
+          "name": "Ceremonial Mound",
+          "poiId": "ceremonial_mound"
+        },
+        {
+          "name": "Ancient Cemetery",
+          "poiId": "ancient_cemetery"
+        }
+      ],
+      "govBonus": [
+        "Theocracy"
+      ],
+      "bonusWeight": 5
+    },
+    {
+      "id": "academic",
+      "nl": "Academisch District",
+      "en": "Academic District",
+      "category": "Civic & Administration",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "School",
+          "poiId": "school"
+        },
+        {
+          "name": "Academy",
+          "poiId": "academy"
+        },
+        {
+          "name": "University",
+          "poiId": "university"
+        },
+        {
+          "name": "Graveyard",
+          "poiId": "graveyard"
+        },
+        {
+          "name": "Library",
+          "poiId": "library"
+        },
+        {
+          "name": "Museum",
+          "poiId": "museum"
+        },
+        {
+          "name": "Observatory",
+          "poiId": "observatory"
+        },
+        {
+          "name": "Scribal Workshop",
+          "poiId": "scribal_workshop"
+        },
+        {
+          "name": "Natural Philosophy Hall",
+          "poiId": "natural_philosophy_hall"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Utopian"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "arcane",
+      "nl": "Arcaan District",
+      "en": "Arcane District",
+      "category": "Civic & Administration",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Wizards Tower",
+          "shopType": "Wizards Tower"
+        },
+        {
+          "name": "Alchemy Shop",
+          "shopType": "Alchemy Shop"
+        },
+        {
+          "name": "Magic Items Shop",
+          "shopType": "Magic Items Shop"
+        },
+        {
+          "name": "Mage College",
+          "poiId": "mage_college"
+        },
+        {
+          "name": "Alchemist Laboratory",
+          "poiId": "alchemist_laboratory"
+        },
+        {
+          "name": "Enchanter Workshop",
+          "poiId": "enchanter_workshop"
+        },
+        {
+          "name": "Divination House",
+          "poiId": "divination_house"
+        },
+        {
+          "name": "Magical Archive",
+          "poiId": "magical_archive"
+        },
+        {
+          "name": "Summoning Chamber",
+          "poiId": "summoning_chamber"
+        },
+        {
+          "name": "Wizard's Tower",
+          "poiId": "wizards_tower"
+        }
+      ],
+      "govBonus": [
+        "Utopian",
+        "Oligarchy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "market",
+      "nl": "Markt",
+      "en": "Market",
+      "category": "Trade & Commerce",
+      "minSize": 2,
+      "buildings": [
+        {
+          "name": "Stalls",
+          "stallCategory": "random"
+        },
+        {
+          "name": "Food stalls",
+          "stallCategory": "Food"
+        },
+        {
+          "name": "Vendor"
+        },
+        {
+          "name": "Stables",
+          "shopType": "Stables"
+        },
+        {
+          "name": "Wheelwright"
+        },
+        {
+          "name": "Market Square",
+          "poiId": "market_square"
+        },
+        {
+          "name": "Bazaar",
+          "poiId": "bazaar"
+        },
+        {
+          "name": "City Archives",
+          "poiId": "city_archives"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Oligarchy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "bazaar",
+      "nl": "Bazaar",
+      "en": "Bazaar",
+      "category": "Trade & Commerce",
+      "minSize": 2,
+      "buildings": [
+        {
+          "name": "Stalls",
+          "stallCategory": "random"
+        },
+        {
+          "name": "Food stalls",
+          "stallCategory": "Food"
+        },
+        {
+          "name": "Vendor"
+        },
+        {
+          "name": "Market Square",
+          "poiId": "market_square"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Oligarchy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "docks",
+      "nl": "Haven & Dokken",
+      "en": "Docks/Harbour",
+      "category": "Trade & Commerce",
+      "minSize": 2,
+      "buildings": [
+        {
+          "name": "Warehouse",
+          "poiId": "warehouse"
+        },
+        {
+          "name": "Tavern",
+          "shopType": "Tavern"
+        },
+        {
+          "name": "Harbourmasters office"
+        },
+        {
+          "name": "Fish Market",
+          "shopType": "Fish Market"
+        },
+        {
+          "name": "Trading Post",
+          "shopType": "Trading Post"
+        },
+        {
+          "name": "Shipyard",
+          "poiId": "shipyard"
+        },
+        {
+          "name": "Drydock"
+        },
+        {
+          "name": "Rope walk"
+        },
+        {
+          "name": "Sail loft"
+        },
+        {
+          "name": "Timber yard"
+        },
+        {
+          "name": "Harbour",
+          "poiId": "harbour"
+        },
+        {
+          "name": "Smuggler's Cove",
+          "poiId": "smuggler_cove"
+        }
+      ],
+      "govBonus": [
+        "Oligarchy",
+        "Authoritarian"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "trade_district",
+      "nl": "Handelsdistrict",
+      "en": "Trade District",
+      "category": "Trade & Commerce",
+      "minSize": 3,
+      "buildings": [
+        {
+          "name": "Warehouse",
+          "poiId": "warehouse"
+        },
+        {
+          "name": "Guild House",
+          "shopType": "Guild House"
+        },
+        {
+          "name": "Moneylender",
+          "shopType": "Moneylender"
+        },
+        {
+          "name": "Stables",
+          "shopType": "Stables"
+        },
+        {
+          "name": "Animal handler"
+        },
+        {
+          "name": "Auction House",
+          "shopType": "Auction House"
+        },
+        {
+          "name": "Trading House",
+          "poiId": "trading_house"
+        },
+        {
+          "name": "Guild School",
+          "poiId": "guild_school"
+        }
+      ],
+      "govBonus": [
+        "Oligarchy",
+        "Democracy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "banking",
+      "nl": "Bankdistrict",
+      "en": "Banking District",
+      "category": "Trade & Commerce",
+      "minSize": 5,
+      "buildings": [
+        {
+          "name": "Bank",
+          "poiId": "bank"
+        },
+        {
+          "name": "Moneychanger",
+          "shopType": "Moneychanger"
+        },
+        {
+          "name": "Vault"
+        },
+        {
+          "name": "Notary",
+          "shopType": "Notary"
+        }
+      ],
+      "govBonus": [
+        "Oligarchy"
+      ],
+      "bonusWeight": 5
+    },
+    {
+      "id": "crafting_high",
+      "nl": "Ambachten (Hoogwaardig)",
+      "en": "Crafting (High-end)",
+      "category": "Industry & Crafting",
+      "minSize": 3,
+      "buildings": [
+        {
+          "name": "Tailor",
+          "shopType": "Tailor"
+        },
+        {
+          "name": "Jeweler",
+          "shopType": "Jeweler"
+        },
+        {
+          "name": "Cobbler",
+          "shopType": "Cobbler"
+        },
+        {
+          "name": "Weaponsmith",
+          "shopType": "Weaponsmith"
+        },
+        {
+          "name": "Pottery Studio",
+          "poiId": "pottery_studio"
+        },
+        {
+          "name": "Glassblower",
+          "poiId": "glassblower"
+        }
+      ],
+      "govBonus": [
+        "Aristocracy",
+        "Oligarchy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "crafting_low",
+      "nl": "Ambachten (Laagwaardig)",
+      "en": "Crafting (Low-end)",
+      "category": "Industry & Crafting",
+      "minSize": 2,
+      "buildings": [
+        {
+          "name": "Tanner",
+          "shopType": "Tanner"
+        },
+        {
+          "name": "Brewery",
+          "shopType": "Brewery"
+        },
+        {
+          "name": "Blacksmith",
+          "shopType": "Blacksmith"
+        },
+        {
+          "name": "Woodworkers Shop",
+          "shopType": "Woodworkers Shop"
+        },
+        {
+          "name": "Mill",
+          "shopType": "Mill"
+        },
+        {
+          "name": "Bakery",
+          "shopType": "Bakery"
+        },
+        {
+          "name": "Brewery",
+          "poiId": "brewery"
+        },
+        {
+          "name": "Tannery",
+          "poiId": "tannery"
+        },
+        {
+          "name": "Sawmill",
+          "poiId": "sawmill"
+        },
+        {
+          "name": "Blacksmith",
+          "poiId": "blacksmith"
+        },
+        {
+          "name": "Windmill",
+          "poiId": "windmill"
+        }
+      ],
+      "govBonus": [
+        "Communalism",
+        "Democracy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "guild_district",
+      "nl": "Gildendistrict",
+      "en": "Guild District",
+      "category": "Industry & Crafting",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Guild House",
+          "shopType": "Guild House"
+        },
+        {
+          "name": "Trading house",
+          "poiId": "trading_house"
+        },
+        {
+          "name": "Auction House",
+          "shopType": "Auction House"
+        },
+        {
+          "name": "Guild House",
+          "poiId": "guild_house"
+        },
+        {
+          "name": "Guild Hall",
+          "poiId": "guildhall"
+        }
+      ],
+      "govBonus": [
+        "Oligarchy",
+        "Democracy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "farmland",
+      "nl": "Boerenland",
+      "en": "Farmland",
+      "category": "Industry & Crafting",
+      "minSize": 1,
+      "buildings": [
+        {
+          "name": "Mill",
+          "shopType": "Mill"
+        },
+        {
+          "name": "Barn"
+        },
+        {
+          "name": "Granary",
+          "poiId": "granary"
+        },
+        {
+          "name": "Animal pen"
+        },
+        {
+          "name": "Herbalist Garden",
+          "poiId": "herbalist_garden"
+        }
+      ],
+      "govBonus": [
+        "Communalism",
+        "Tribalism"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "noble",
+      "nl": "Adellijk Kwartier",
+      "en": "Noble / Elite",
+      "category": "Residential",
+      "minSize": 3,
+      "buildings": [
+        {
+          "name": "Palace",
+          "poiId": "palace"
+        },
+        {
+          "name": "Gardens"
+        },
+        {
+          "name": "Villa"
+        },
+        {
+          "name": "Coach house"
+        },
+        {
+          "name": "Governor's Villa",
+          "poiId": "governors_villa"
+        },
+        {
+          "name": "Royal Garden",
+          "poiId": "royal_garden"
+        }
+      ],
+      "govBonus": [
+        "Monarchy",
+        "Aristocracy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "middle_class",
+      "nl": "Middenklasse Wijk",
+      "en": "Middle Class",
+      "category": "Residential",
+      "minSize": 1,
+      "buildings": [
+        {
+          "name": "House"
+        },
+        {
+          "name": "Tavern",
+          "shopType": "Tavern"
+        },
+        {
+          "name": "Restaurant",
+          "shopType": "Restaurant"
+        },
+        {
+          "name": "Large House"
+        },
+        {
+          "name": "Shrine",
+          "poiId": "shrine"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Communalism"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "lower_class",
+      "nl": "Arbeidersbuurt",
+      "en": "Lower Class",
+      "category": "Residential",
+      "minSize": 1,
+      "buildings": [
+        {
+          "name": "Small House"
+        },
+        {
+          "name": "Tavern",
+          "shopType": "Tavern"
+        },
+        {
+          "name": "Tavern",
+          "poiId": "underground_tavern"
+        }
+      ],
+      "govBonus": [
+        "Dictatorship",
+        "Authoritarian"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "slums",
+      "nl": "Sloppenwijken",
+      "en": "Slums",
+      "category": "Residential",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Shack"
+        },
+        {
+          "name": "Tent"
+        },
+        {
+          "name": "Fish Market",
+          "shopType": "Fish Market"
+        },
+        {
+          "name": "Community kitchen"
+        },
+        {
+          "name": "Underground Tunnel Network",
+          "poiId": "underground_tunnel_network"
+        },
+        {
+          "name": "Cave Entrance",
+          "poiId": "cave_entrance"
+        }
+      ],
+      "govBonus": [
+        "Dictatorship",
+        "Authoritarian"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "park",
+      "nl": "Park",
+      "en": "Park",
+      "category": "Residential",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Public park"
+        },
+        {
+          "name": "Fountain square"
+        },
+        {
+          "name": "Pleasure garden"
+        },
+        {
+          "name": "Gazebo"
+        },
+        {
+          "name": "City Park",
+          "poiId": "city_park"
+        },
+        {
+          "name": "Garden",
+          "poiId": "garden"
+        },
+        {
+          "name": "Large Fountain",
+          "poiId": "large_fountain"
+        },
+        {
+          "name": "Enormous Tree",
+          "poiId": "enormous_tree"
+        },
+        {
+          "name": "Aqueduct",
+          "poiId": "aqueduct"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Monarchy",
+        "Aristocracy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "art_district",
+      "nl": "Kunstenaarswijk",
+      "en": "Art District",
+      "category": "Leisure & Underbelly",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Gallery",
+          "shopType": "Gallery"
+        },
+        {
+          "name": "Jeweler",
+          "shopType": "Jeweler"
+        },
+        {
+          "name": "Painter's Workshop",
+          "shopType": "Painter's Workshop"
+        },
+        {
+          "name": "Sculptor",
+          "shopType": "Sculptor"
+        },
+        {
+          "name": "Statue",
+          "poiId": "statue"
+        },
+        {
+          "name": "Triumphal Arch",
+          "poiId": "triumphal_arch"
+        },
+        {
+          "name": "Archway",
+          "poiId": "archway"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Utopian"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "entertainment",
+      "nl": "Uitgaansdistrict",
+      "en": "Entertainment District",
+      "category": "Leisure & Underbelly",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Theatre",
+          "shopType": "Theatre"
+        },
+        {
+          "name": "Opera House",
+          "shopType": "Opera House"
+        },
+        {
+          "name": "Casino",
+          "shopType": "Casino"
+        },
+        {
+          "name": "Betting House",
+          "shopType": "Betting House"
+        },
+        {
+          "name": "Amphitheater",
+          "poiId": "amphitheater"
+        },
+        {
+          "name": "Arena",
+          "poiId": "arena"
+        },
+        {
+          "name": "Bathhouse",
+          "poiId": "bathhouse"
+        },
+        {
+          "name": "Hot Springs",
+          "poiId": "hot_springs"
+        },
+        {
+          "name": "Menagerie",
+          "poiId": "menagerie"
+        },
+        {
+          "name": "Zoo",
+          "poiId": "zoo"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Oligarchy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "red_light",
+      "nl": "Rosse Buurt",
+      "en": "Red Light District",
+      "category": "Leisure & Underbelly",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Brothel",
+          "poiId": "notorious_brothel"
+        },
+        {
+          "name": "Tavern",
+          "shopType": "Tavern"
+        },
+        {
+          "name": "Tattoo Parlour",
+          "shopType": "Tattoo Parlour"
+        },
+        {
+          "name": "Gambling Den",
+          "poiId": "gambling_den"
+        },
+        {
+          "name": "Underground Tavern",
+          "poiId": "underground_tavern"
+        }
+      ],
+      "govBonus": [
+        "Authoritarian",
+        "Dictatorship",
+        "Oligarchy"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "tavern_row",
+      "nl": "Herbergenrij",
+      "en": "Tavern Row/Square",
+      "category": "Leisure & Underbelly",
+      "minSize": 3,
+      "buildings": [
+        {
+          "name": "Inn",
+          "shopType": "Inn"
+        },
+        {
+          "name": "Tavern",
+          "shopType": "Tavern"
+        },
+        {
+          "name": "Restaurant",
+          "shopType": "Restaurant"
+        },
+        {
+          "name": "Casino",
+          "shopType": "Casino"
+        },
+        {
+          "name": "Underground Tavern",
+          "poiId": "underground_tavern"
+        }
+      ],
+      "govBonus": [
+        "Democracy",
+        "Communalism"
+      ],
+      "bonusWeight": 3
+    },
+    {
+      "id": "sewers",
+      "nl": "Riolen",
+      "en": "Sewers",
+      "category": "Leisure & Underbelly",
+      "minSize": 4,
+      "buildings": [
+        {
+          "name": "Thieves' guild",
+          "poiId": "thieves_den"
+        },
+        {
+          "name": "Black market",
+          "poiId": "black_market"
+        },
+        {
+          "name": "Auction House",
+          "shopType": "Auction House"
+        },
+        {
+          "name": "Fencing House",
+          "poiId": "fencing_house"
+        },
+        {
+          "name": "Secret Society Hall",
+          "poiId": "secret_society_hall"
+        }
+      ],
+      "govBonus": [
+        "Authoritarian",
+        "Dictatorship"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "undercity",
+      "nl": "Onderstad",
+      "en": "Undercity",
+      "category": "Leisure & Underbelly",
+      "minSize": 5,
+      "buildings": [
+        {
+          "name": "Thieves' guild",
+          "poiId": "thieves_den"
+        },
+        {
+          "name": "Black Market",
+          "poiId": "black_market"
+        },
+        {
+          "name": "Deep Cave Entrance",
+          "poiId": "deep_cave_entrance"
+        },
+        {
+          "name": "Ancient Ruins",
+          "poiId": "ancient_ruins"
+        },
+        {
+          "name": "Pyramid",
+          "poiId": "pyramid"
+        },
+        {
+          "name": "Ziggurat",
+          "poiId": "ziggurat"
+        }
+      ],
+      "govBonus": [
+        "Authoritarian",
+        "Dictatorship"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "racial_enclave",
+      "nl": "Raciale Enclave",
+      "en": "Racial Enclave",
+      "category": "Other",
+      "minSize": 5,
+      "buildings": [
+        {
+          "name": "Dwarven quarter"
+        },
+        {
+          "name": "Elven quarter"
+        },
+        {
+          "name": "Orc quarter"
+        },
+        {
+          "name": "Gnome quarter"
+        },
+        {
+          "name": "Halfling quarter"
+        },
+        {
+          "name": "Sacred Grove",
+          "poiId": "sacred_grove"
+        }
+      ],
+      "govBonus": [
+        "Communalism",
+        "Tribalism",
+        "Utopian"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "floating_air",
+      "nl": "Zwevend District (Lucht)",
+      "en": "Floating District (Air)",
+      "category": "Other",
+      "minSize": 6,
+      "buildings": [
+        {
+          "name": "Elevator"
+        },
+        {
+          "name": "Airship dock"
+        },
+        {
+          "name": "Griffin Handler"
+        },
+        {
+          "name": "Lighthouse",
+          "poiId": "lighthouse"
+        },
+        {
+          "name": "Bell Tower",
+          "poiId": "belltower"
+        },
+        {
+          "name": "Clock Tower",
+          "poiId": "clocktower"
+        }
+      ],
+      "govBonus": [
+        "Utopian",
+        "Oligarchy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "floating_water",
+      "nl": "Zwevend District (Water)",
+      "en": "Floating District (Water)",
+      "category": "Other",
+      "minSize": 6,
+      "buildings": [
+        {
+          "name": "Dock"
+        },
+        {
+          "name": "Ferry"
+        },
+        {
+          "name": "Customs office"
+        },
+        {
+          "name": "Bridge",
+          "poiId": "bridge"
+        }
+      ],
+      "govBonus": [
+        "Utopian",
+        "Oligarchy"
+      ],
+      "bonusWeight": 4
+    },
+    {
+      "id": "clockwork",
+      "nl": "Clockwork District",
+      "en": "Clockwork District",
+      "category": "Other",
+      "minSize": 6,
+      "buildings": [
+        {
+          "name": "Tinkerer",
+          "shopType": "Tinkerer"
+        },
+        {
+          "name": "Blacksmith",
+          "shopType": "Blacksmith"
+        },
+        {
+          "name": "Tinkerer",
+          "shopType": "Tinkerer"
+        },
+        {
+          "name": "Alchemy Shop",
+          "shopType": "Alchemy Shop"
+        },
+        {
+          "name": "Clock Tower",
+          "poiId": "clocktower"
+        }
+      ],
+      "govBonus": [
+        "Utopian"
+      ],
+      "bonusWeight": 5
+    },
+    {
+      "id": "military_district",
+      "nl": "Militair District",
+      "en": "Military District",
+      "category": "Other",
+      "minSize": 3,
+      "buildings": [
+        {
+          "name": "Barracks",
+          "poiId": "barracks"
+        },
+        {
+          "name": "Mess hall"
+        },
+        {
+          "name": "Officers club"
+        },
+        {
+          "name": "Archery school"
+        },
+        {
+          "name": "Sword academy"
+        },
+        {
+          "name": "Command centre"
+        },
+        {
+          "name": "Prison",
+          "poiId": "prison"
+        },
+        {
+          "name": "Jail",
+          "poiId": "jail"
+        },
+        {
+          "name": "Interrogation room"
+        },
+        {
+          "name": "Garrison",
+          "poiId": "garrison"
+        },
+        {
+          "name": "Keep",
+          "poiId": "keep"
+        },
+        {
+          "name": "Old City Gate",
+          "poiId": "old_city_gate"
+        }
+      ],
+      "govBonus": [
+        "Authoritarian",
+        "Dictatorship",
+        "Monarchy"
+      ],
+      "bonusWeight": 5
+    },
+    {
+      "id": "garrison",
+      "nl": "Garnizoen",
+      "en": "Garrison",
+      "category": "Other",
+      "minSize": 2,
+      "buildings": [
+        {
+          "name": "Barracks",
+          "poiId": "barracks"
+        },
+        {
+          "name": "Mess hall"
+        },
+        {
+          "name": "Training ground",
+          "poiId": "training_ground"
+        },
+        {
+          "name": "Watchtower",
+          "poiId": "watchtower"
+        },
+        {
+          "name": "Keep",
+          "poiId": "keep"
+        }
+      ],
+      "govBonus": [
+        "Authoritarian",
+        "Dictatorship",
+        "Monarchy",
+        "Aristocracy"
+      ],
+      "bonusWeight": 4
+    }
+  ]
+}

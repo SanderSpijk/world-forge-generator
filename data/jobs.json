@@ -1,0 +1,3416 @@
+{
+  "_comment": "WorldForge jobs.json — 210 beroepen, alle gelijk gewogen. Vervangt de NPC Jobs rollable table.",
+  "jobs": [
+    {
+      "nl": "Knutselaar",
+      "en": "Tinkerer",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "tinkerer apron",
+        "pockets full of gadgets"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "workshop"
+      ]
+    },
+    {
+      "nl": "Uilenbeerfokker",
+      "en": "Owlbear Breeder",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "beast handler leather clothing",
+        "scratch marks on arms"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "wilderness",
+        "exotic market"
+      ]
+    },
+    {
+      "nl": "Sjamaan",
+      "en": "Shaman",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Religion",
+        "Medicine"
+      ],
+      "clothingTags": [
+        "tribal spirit robes",
+        "bone and feather decorations"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "tribe",
+        "wilderness",
+        "village"
+      ]
+    },
+    {
+      "nl": "Flessenmaker",
+      "en": "Bottle Maker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "glassworker apron",
+        "burn-scarred hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Stalknecht",
+      "en": "Stable hand",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "stable worker clothes",
+        "hay-covered boots"
+      ],
+      "weaponHint": "pitchfork",
+      "locations": [
+        "inn",
+        "stable",
+        "town"
+      ]
+    },
+    {
+      "nl": "Herbergier",
+      "en": "Innkeeper",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "innkeeper apron",
+        "simple comfortable clothes"
+      ],
+      "weaponHint": "club",
+      "locations": [
+        "inn",
+        "tavern"
+      ]
+    },
+    {
+      "nl": "Smid",
+      "en": "Blacksmith",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "blacksmith apron",
+        "sooty work clothes"
+      ],
+      "weaponHint": "hammer",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Wasvrouw",
+      "en": "Washerwoman",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "simple work dress",
+        "damp clothing",
+        "red hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "village",
+        "river"
+      ]
+    },
+    {
+      "nl": "Stadsomroeper",
+      "en": "Town cryer",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Performance"
+      ],
+      "clothingTags": [
+        "town crier uniform",
+        "bell in hand"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Kleermaker",
+      "en": "Tailor",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "well-fitted clothing",
+        "measuring tape around neck"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Portretschilder",
+      "en": "Portrait painter",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "paint-stained smock",
+        "easel over shoulder"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "court",
+        "town"
+      ]
+    },
+    {
+      "nl": "Schoenlapper",
+      "en": "Cobbler",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "leather apron",
+        "wax-stained fingers"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Lantaarnopsteker",
+      "en": "Lamplighter",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Acrobatics"
+      ],
+      "clothingTags": [
+        "simple work clothes",
+        "long lighting pole over shoulder"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Vallensteller",
+      "en": "Trapper",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "woodsman clothing",
+        "various traps hanging from belt"
+      ],
+      "weaponHint": "shortbow",
+      "locations": [
+        "wilderness",
+        "village",
+        "forest"
+      ]
+    },
+    {
+      "nl": "Pijlenmaker",
+      "en": "Fletcher",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "fletcher apron",
+        "wood shavings in hair"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Leerlooier",
+      "en": "Tanner",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "tanner apron",
+        "pungent-smelling work clothes"
+      ],
+      "weaponHint": "knife",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Kruidenkenner",
+      "en": "Herbalist",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Medicine"
+      ],
+      "clothingTags": [
+        "herbalist robes",
+        "pouches of herbs"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "village",
+        "wilderness"
+      ]
+    },
+    {
+      "nl": "Boer",
+      "en": "Farmer",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Animal Handling"
+      ],
+      "clothingTags": [
+        "simple work clothes",
+        "mud-stained boots"
+      ],
+      "weaponHint": "pitchfork",
+      "locations": [
+        "village",
+        "farmland"
+      ]
+    },
+    {
+      "nl": "Timmerman",
+      "en": "Carpenter",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "carpenter apron",
+        "work clothes with sawdust"
+      ],
+      "weaponHint": "handaxe",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Steenhouwer",
+      "en": "Stonemason",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "stone-dusted work clothes",
+        "leather gloves"
+      ],
+      "weaponHint": "chisel",
+      "locations": [
+        "city",
+        "town",
+        "quarry"
+      ]
+    },
+    {
+      "nl": "Mijnwerker",
+      "en": "Miner",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "dusty mining clothes",
+        "helmet with lantern"
+      ],
+      "weaponHint": "pickaxe",
+      "locations": [
+        "mine",
+        "village",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Waarzegger",
+      "en": "Fortune teller",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Deception"
+      ],
+      "clothingTags": [
+        "colorful layered robes",
+        "crystal ball",
+        "many rings"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Bakker",
+      "en": "Baker",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "flour-dusted apron",
+        "simple work clothes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Stadswacht",
+      "en": "Town guard",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "guard uniform",
+        "city watch tabard"
+      ],
+      "weaponHint": "spear",
+      "locations": [
+        "town",
+        "city",
+        "gate"
+      ]
+    },
+    {
+      "nl": "Rattenvanger",
+      "en": "Rat catcher",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Stealth",
+        "Survival"
+      ],
+      "clothingTags": [
+        "patched work clothes",
+        "bag of rat traps"
+      ],
+      "weaponHint": "club",
+      "locations": [
+        "city",
+        "sewers",
+        "town"
+      ]
+    },
+    {
+      "nl": "Dokter",
+      "en": "Doctor",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "physician robes",
+        "medical bag"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "infirmary"
+      ]
+    },
+    {
+      "nl": "Boodschapper",
+      "en": "Messenger",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Stealth"
+      ],
+      "clothingTags": [
+        "practical travel clothes",
+        "sealed satchel"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "road",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Advocaat",
+      "en": "Lawyer",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "History"
+      ],
+      "clothingTags": [
+        "formal legal robes",
+        "scrolls under arm"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "court",
+        "town"
+      ]
+    },
+    {
+      "nl": "Bankier",
+      "en": "Banker",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "History"
+      ],
+      "clothingTags": [
+        "fine merchant clothing",
+        "ledger book"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Dierentemmer",
+      "en": "Animal tamer",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "beast tamer clothing",
+        "whip at belt"
+      ],
+      "weaponHint": "whip",
+      "locations": [
+        "circus",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Gids",
+      "en": "Guide",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "practical travel clothes",
+        "detailed maps"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "wilderness",
+        "town",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Kaartenmaker",
+      "en": "Cartographer",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "History"
+      ],
+      "clothingTags": [
+        "ink-stained scholar clothing",
+        "map rolls under arm"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "academy"
+      ]
+    },
+    {
+      "nl": "Schout",
+      "en": "Sheriff",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "sheriff badge",
+        "official clothing"
+      ],
+      "weaponHint": "longsword",
+      "locations": [
+        "town",
+        "city",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Melkmeid",
+      "en": "Dairy maid",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Perception"
+      ],
+      "clothingTags": [
+        "simple work dress",
+        "dairy apron"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "village",
+        "farmland"
+      ]
+    },
+    {
+      "nl": "Boekhouder",
+      "en": "Bookkeeper",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "History"
+      ],
+      "clothingTags": [
+        "practical scholar clothing",
+        "ink on fingers"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "merchant guild"
+      ]
+    },
+    {
+      "nl": "Academicus",
+      "en": "Academic",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "academic robes",
+        "spectacles",
+        "stack of books"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "academy",
+        "city",
+        "library"
+      ]
+    },
+    {
+      "nl": "Accountant",
+      "en": "Accountant",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "formal clothing",
+        "ledger always in hand"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Acteur",
+      "en": "Actor",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "Deception"
+      ],
+      "clothingTags": [
+        "theatrical costume",
+        "dramatic makeup"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "theater"
+      ]
+    },
+    {
+      "nl": "Leerling",
+      "en": "Apprentice",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "apprentice robes",
+        "ink-stained fingers"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "workshop",
+        "academy",
+        "city"
+      ]
+    },
+    {
+      "nl": "Ambachtsman",
+      "en": "Artisan",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "craftsman apron",
+        "work clothes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Moordenaar",
+      "en": "Assassin",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Stealth",
+        "Deception"
+      ],
+      "clothingTags": [
+        "dark clothing",
+        "concealed weapons"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "shadows"
+      ]
+    },
+    {
+      "nl": "Bandiet",
+      "en": "Bandit",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Intimidation",
+        "Stealth"
+      ],
+      "clothingTags": [
+        "worn road clothes",
+        "rough cloak"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "road",
+        "wilderness",
+        "hideout"
+      ]
+    },
+    {
+      "nl": "Bard",
+      "en": "Barde",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "colorful performer clothing",
+        "instrument",
+        "flamboyant hat"
+      ],
+      "weaponHint": "rapier",
+      "locations": [
+        "inn",
+        "tavern",
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Bedelaar",
+      "en": "Beggar",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "ragged torn clothing",
+        "begging bowl"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "market"
+      ]
+    },
+    {
+      "nl": "Premiejager",
+      "en": "Bounty hunter",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "bounty hunter armor",
+        "wanted posters"
+      ],
+      "weaponHint": "crossbow",
+      "locations": [
+        "town",
+        "city",
+        "wilderness"
+      ]
+    },
+    {
+      "nl": "Brouwer",
+      "en": "Brewer",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "brewer apron",
+        "hops-stained clothes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Oplichter",
+      "en": "Con artist",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Deception",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "charming well-dressed clothing",
+        "fake jewelry"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "market",
+        "inn"
+      ]
+    },
+    {
+      "nl": "Kok",
+      "en": "Cook",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Perception"
+      ],
+      "clothingTags": [
+        "chef apron",
+        "food-stained clothing"
+      ],
+      "weaponHint": "cleaver",
+      "locations": [
+        "inn",
+        "tavern",
+        "city",
+        "ship"
+      ]
+    },
+    {
+      "nl": "Druïde",
+      "en": "Druid",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Animal Handling"
+      ],
+      "clothingTags": [
+        "natural fiber robes",
+        "bark and leaf decorations"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "wilderness",
+        "grove",
+        "village"
+      ]
+    },
+    {
+      "nl": "Visser",
+      "en": "Fisher",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "weathered fishing clothes",
+        "waterproof coat"
+      ],
+      "weaponHint": "spear",
+      "locations": [
+        "harbor",
+        "village",
+        "coast"
+      ]
+    },
+    {
+      "nl": "Gokker",
+      "en": "Gambler",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Deception",
+        "Insight"
+      ],
+      "clothingTags": [
+        "once-fine worn clothing",
+        "playing cards",
+        "shifty eyes"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "inn",
+        "tavern",
+        "city"
+      ]
+    },
+    {
+      "nl": "Grafdelver",
+      "en": "Gravedigger",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Stealth"
+      ],
+      "clothingTags": [
+        "dark simple clothing",
+        "shovel over shoulder"
+      ],
+      "weaponHint": "shovel",
+      "locations": [
+        "cemetery",
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Jager",
+      "en": "Hunter",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "hunter leather clothing",
+        "camouflage cloak"
+      ],
+      "weaponHint": "longbow",
+      "locations": [
+        "village",
+        "wilderness",
+        "town"
+      ]
+    },
+    {
+      "nl": "Nar",
+      "en": "Jester",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "Acrobatics"
+      ],
+      "clothingTags": [
+        "colorful jester costume",
+        "bells on hat"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "court",
+        "city",
+        "castle"
+      ]
+    },
+    {
+      "nl": "Ridder",
+      "en": "Knight",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "polished knight armor",
+        "heraldic surcoat"
+      ],
+      "weaponHint": "longsword",
+      "locations": [
+        "castle",
+        "city",
+        "tournament"
+      ]
+    },
+    {
+      "nl": "Arbeider",
+      "en": "Laborer",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "simple rough work clothes",
+        "callused hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "construction"
+      ]
+    },
+    {
+      "nl": "Wetsdienaar",
+      "en": "Lawman",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "lawman badge",
+        "official clothing"
+      ],
+      "weaponHint": "longsword",
+      "locations": [
+        "town",
+        "city",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Houthakker",
+      "en": "Lumberjack",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "woodsman clothing",
+        "sawdust in hair"
+      ],
+      "weaponHint": "greataxe",
+      "locations": [
+        "forest",
+        "village",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Huurling",
+      "en": "Mercenary",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "worn mercenary armor",
+        "travel-stained clothing"
+      ],
+      "weaponHint": "longsword",
+      "locations": [
+        "town",
+        "city",
+        "inn",
+        "wilderness"
+      ]
+    },
+    {
+      "nl": "Edele",
+      "en": "Noble",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "History"
+      ],
+      "clothingTags": [
+        "noble clothing",
+        "family crest",
+        "expensive jewelry"
+      ],
+      "weaponHint": "rapier",
+      "locations": [
+        "city",
+        "court",
+        "manor"
+      ]
+    },
+    {
+      "nl": "Priester",
+      "en": "Priest",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Religion"
+      ],
+      "clothingTags": [
+        "simple priest robes",
+        "holy symbol"
+      ],
+      "weaponHint": "mace",
+      "locations": [
+        "temple",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Woudloper",
+      "en": "Ranger",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "ranger leathers",
+        "forest camouflage cloak"
+      ],
+      "weaponHint": "longbow",
+      "locations": [
+        "wilderness",
+        "border",
+        "village"
+      ]
+    },
+    {
+      "nl": "Zeeman",
+      "en": "Sailor",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "sailor clothing",
+        "rope-worn hands"
+      ],
+      "weaponHint": "belaying pin",
+      "locations": [
+        "harbor",
+        "ship",
+        "coastal town"
+      ]
+    },
+    {
+      "nl": "Schrijver",
+      "en": "Scribe",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "ink-stained robes",
+        "quill pen"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "temple"
+      ]
+    },
+    {
+      "nl": "Dienaar",
+      "en": "Servant",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Perception"
+      ],
+      "clothingTags": [
+        "servant livery",
+        "quiet unassuming clothing"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "manor",
+        "city",
+        "inn"
+      ]
+    },
+    {
+      "nl": "Herder",
+      "en": "Shepperd",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Perception"
+      ],
+      "clothingTags": [
+        "weathered simple clothes",
+        "woolen cloak"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "village",
+        "farmland",
+        "wilderness"
+      ]
+    },
+    {
+      "nl": "Slaaf",
+      "en": "Slave",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "simple rough slave clothing",
+        "iron shackle marks"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "plantation",
+        "mine"
+      ]
+    },
+    {
+      "nl": "Soldaat",
+      "en": "Soldier",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "military uniform",
+        "battered armor"
+      ],
+      "weaponHint": "longsword",
+      "locations": [
+        "military",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Dief",
+      "en": "Thief",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Stealth",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "dark nondescript clothing",
+        "many hidden pockets"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "town",
+        "shadows"
+      ]
+    },
+    {
+      "nl": "Schurk",
+      "en": "Thug",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Intimidation",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "rough street clothing",
+        "brass knuckles"
+      ],
+      "weaponHint": "club",
+      "locations": [
+        "city",
+        "slums",
+        "inn"
+      ]
+    },
+    {
+      "nl": "Handelaar",
+      "en": "Trader",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "merchant coat",
+        "coin purse"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "market",
+        "city",
+        "road"
+      ]
+    },
+    {
+      "nl": "Schatzoeker",
+      "en": "Treasure Hunter",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "Survival"
+      ],
+      "clothingTags": [
+        "adventurer travel gear",
+        "rolled-up maps"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "ruins",
+        "wilderness",
+        "inn"
+      ]
+    },
+    {
+      "nl": "Zwerver",
+      "en": "Wanderer",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "patched travel clothes",
+        "everything on their back"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "road",
+        "wilderness",
+        "town"
+      ]
+    },
+    {
+      "nl": "Tovenaar",
+      "en": "Wizard",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Arcana",
+        "History"
+      ],
+      "clothingTags": [
+        "wizard robes",
+        "arcane focus",
+        "spell components"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "city",
+        "tower",
+        "academy"
+      ]
+    },
+    {
+      "nl": "Worsteler",
+      "en": "Wrestler",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "minimal fighting clothing",
+        "oiled muscular body"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "arena",
+        "city",
+        "tavern"
+      ]
+    },
+    {
+      "nl": "Vuurtorenwachter",
+      "en": "Lighthouse Keeper",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Survival"
+      ],
+      "clothingTags": [
+        "weathered coastal clothing",
+        "oilskin coat"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "coast",
+        "lighthouse"
+      ]
+    },
+    {
+      "nl": "Huisbaas",
+      "en": "Landlord",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "respectable middle-class clothing",
+        "key ring"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Auteur",
+      "en": "Author",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "ink-stained writer clothing",
+        "always with quill"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "inn",
+        "library"
+      ]
+    },
+    {
+      "nl": "Uitkijk",
+      "en": "Lookout",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Stealth"
+      ],
+      "clothingTags": [
+        "dark practical clothing",
+        "spyglass"
+      ],
+      "weaponHint": "shortbow",
+      "locations": [
+        "ship",
+        "harbor",
+        "city",
+        "tower"
+      ]
+    },
+    {
+      "nl": "Klokkenmaker",
+      "en": "Clocksmith",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "clocksmith apron",
+        "magnifying loupe",
+        "tiny tools"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Exorcist",
+      "en": "Exorcist",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Religion",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "religious battle robes",
+        "holy symbols and wards"
+      ],
+      "weaponHint": "mace",
+      "locations": [
+        "temple",
+        "city",
+        "haunted places"
+      ]
+    },
+    {
+      "nl": "Zeepmaker",
+      "en": "Soapmaker",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Survival"
+      ],
+      "clothingTags": [
+        "soap-stained apron",
+        "strong-smelling clothes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Imker",
+      "en": "Beekeeper",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Animal Handling"
+      ],
+      "clothingTags": [
+        "beekeeper veil and suit",
+        "wax-stained gloves"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "village",
+        "farmland",
+        "wilderness"
+      ]
+    },
+    {
+      "nl": "Botanicus",
+      "en": "Botanist",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "naturalist clothing",
+        "plant samples everywhere"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "academy",
+        "wilderness",
+        "city"
+      ]
+    },
+    {
+      "nl": "Alchemist",
+      "en": "Alchemist",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Arcana",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "stained alchemist robes",
+        "chemical burns on hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "workshop"
+      ]
+    },
+    {
+      "nl": "Drankjesmaker",
+      "en": "Potionmaker",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "potion maker robes",
+        "belt of vials"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "apothecary"
+      ]
+    },
+    {
+      "nl": "Bibliothecaris",
+      "en": "Librarian",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "dusty scholar robes",
+        "spectacles",
+        "ink fingers"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "library",
+        "academy",
+        "city"
+      ]
+    },
+    {
+      "nl": "Barman",
+      "en": "Bartender",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "bartender apron",
+        "simple working clothes"
+      ],
+      "weaponHint": "club",
+      "locations": [
+        "inn",
+        "tavern",
+        "city"
+      ]
+    },
+    {
+      "nl": "Speelgoedmaker",
+      "en": "Toymaker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "colorful apron",
+        "sawdust and paint stains"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Houtsnijder",
+      "en": "Woodcarver",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "woodworker apron",
+        "fine wood shavings"
+      ],
+      "weaponHint": "carving knife",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Schildknaap",
+      "en": "Squire",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "squire tunic",
+        "polished but simple armor"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "castle",
+        "tournament",
+        "city"
+      ]
+    },
+    {
+      "nl": "Dakdekker",
+      "en": "Roofer",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Acrobatics"
+      ],
+      "clothingTags": [
+        "work clothes",
+        "tar-stained gloves"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "village"
+      ]
+    },
+    {
+      "nl": "Beeldhouwer",
+      "en": "Sculptor",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "stone-dust covered apron",
+        "chisel in belt"
+      ],
+      "weaponHint": "chisel",
+      "locations": [
+        "city",
+        "town",
+        "academy"
+      ]
+    },
+    {
+      "nl": "Geleerde",
+      "en": "Scholar",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Arcana"
+      ],
+      "clothingTags": [
+        "scholar robes",
+        "spectacles",
+        "always reading"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "academy",
+        "city",
+        "library"
+      ]
+    },
+    {
+      "nl": "Verpleger",
+      "en": "Nurse",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Insight"
+      ],
+      "clothingTags": [
+        "simple healer robes",
+        "medical pouches"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "infirmary",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Non",
+      "en": "Nun",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Religion",
+        "Medicine"
+      ],
+      "clothingTags": [
+        "nun habit",
+        "prayer beads",
+        "divine symbol"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "convent",
+        "temple",
+        "city"
+      ]
+    },
+    {
+      "nl": "Lijkbezorger",
+      "en": "Mortician",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Insight"
+      ],
+      "clothingTags": [
+        "somber funeral clothing",
+        "mortician coat"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "cemetery"
+      ]
+    },
+    {
+      "nl": "Historicus",
+      "en": "Historian",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "academic robes",
+        "many old scrolls"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "academy",
+        "city",
+        "library"
+      ]
+    },
+    {
+      "nl": "Gladiator",
+      "en": "Gladiator",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Performance"
+      ],
+      "clothingTags": [
+        "gladiatorial armor",
+        "scarred muscular figure"
+      ],
+      "weaponHint": "greataxe",
+      "locations": [
+        "city",
+        "arena"
+      ]
+    },
+    {
+      "nl": "Barbier",
+      "en": "Barber",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "barber apron",
+        "sharp scissors at belt"
+      ],
+      "weaponHint": "razor",
+      "locations": [
+        "town",
+        "city",
+        "barber shop"
+      ]
+    },
+    {
+      "nl": "Slager",
+      "en": "Butcher",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "blood-stained butcher apron",
+        "cleaver"
+      ],
+      "weaponHint": "cleaver",
+      "locations": [
+        "town",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Genezer",
+      "en": "Healer",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Religion"
+      ],
+      "clothingTags": [
+        "healer robes",
+        "herb pouches",
+        "bandages"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "temple",
+        "town",
+        "infirmary"
+      ]
+    },
+    {
+      "nl": "Apotheker",
+      "en": "Apothecarist",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Nature"
+      ],
+      "clothingTags": [
+        "herb-stained robes",
+        "pouches of ingredients"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "apothecary"
+      ]
+    },
+    {
+      "nl": "Masseur",
+      "en": "Masseur",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Insight"
+      ],
+      "clothingTags": [
+        "simple comfortable clothing",
+        "scented oil smell"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "bathhouse",
+        "city",
+        "inn"
+      ]
+    },
+    {
+      "nl": "Vroedvrouw",
+      "en": "Midwive",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Insight"
+      ],
+      "clothingTags": [
+        "practical midwife clothing",
+        "medical bag"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "village",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Tuinman",
+      "en": "Gardner",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Survival"
+      ],
+      "clothingTags": [
+        "soil-stained work clothes",
+        "pruning shears"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "manor",
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Wapenrustingmaker",
+      "en": "Amorer",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "armorer apron",
+        "heavy leather gloves",
+        "metal filings"
+      ],
+      "weaponHint": "hammer",
+      "locations": [
+        "town",
+        "city",
+        "military camp"
+      ]
+    },
+    {
+      "nl": "Banketbakker",
+      "en": "Patissier",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "pastry chef whites",
+        "sugar-dusted apron"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "noble court",
+        "town"
+      ]
+    },
+    {
+      "nl": "Geldschieter",
+      "en": "Moneylender",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "fine merchant clothing",
+        "calculating expression"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Tatoeëerder",
+      "en": "Tattooartist",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "ink-covered arms",
+        "artisan clothing"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "harbor",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Wachter",
+      "en": "Guard",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "guard uniform",
+        "chain mail"
+      ],
+      "weaponHint": "halberd",
+      "locations": [
+        "city",
+        "manor",
+        "dungeon"
+      ]
+    },
+    {
+      "nl": "Boekverkoper",
+      "en": "Bookseller",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "scholar clothing",
+        "ink on fingers"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "market"
+      ]
+    },
+    {
+      "nl": "Pooier",
+      "en": "Pimp",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "flashy expensive clothing",
+        "dangerous smile"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "tavern",
+        "red light district"
+      ]
+    },
+    {
+      "nl": "Courtisane",
+      "en": "Courtesan",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "fine seductive clothing",
+        "expensive perfume"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "court",
+        "noble district"
+      ]
+    },
+    {
+      "nl": "Hoer",
+      "en": "Whore",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Deception"
+      ],
+      "clothingTags": [
+        "revealing clothing",
+        "heavy makeup"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "city",
+        "tavern",
+        "harbor"
+      ]
+    },
+    {
+      "nl": "Heer",
+      "en": "Lord",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "History"
+      ],
+      "clothingTags": [
+        "lord clothing",
+        "elaborate coat",
+        "signet ring"
+      ],
+      "weaponHint": "rapier",
+      "locations": [
+        "manor",
+        "city",
+        "court"
+      ]
+    },
+    {
+      "nl": "Dame",
+      "en": "Lady",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "noble lady dress",
+        "jewelry",
+        "escort"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "manor",
+        "city",
+        "court"
+      ]
+    },
+    {
+      "nl": "Speelman",
+      "en": "Minstrel",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "minstrel clothing",
+        "lute over shoulder"
+      ],
+      "weaponHint": "dagger",
+      "locations": [
+        "inn",
+        "tavern",
+        "court"
+      ]
+    },
+    {
+      "nl": "Dienstmeid",
+      "en": "Maid",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Perception"
+      ],
+      "clothingTags": [
+        "maid uniform",
+        "starched apron"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "manor",
+        "inn",
+        "city"
+      ]
+    },
+    {
+      "nl": "Chef-kok",
+      "en": "Chef",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Medicine",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "chef whites",
+        "tall chef hat",
+        "spice-stained apron"
+      ],
+      "weaponHint": "cleaver",
+      "locations": [
+        "noble court",
+        "inn",
+        "city"
+      ]
+    },
+    {
+      "nl": "Heraut",
+      "en": "Herald",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "History"
+      ],
+      "clothingTags": [
+        "herald uniform",
+        "family crest tabard",
+        "trumpet"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "court",
+        "city",
+        "tournament"
+      ]
+    },
+    {
+      "nl": "Rechter",
+      "en": "Judge",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "judge robes",
+        "scales of justice symbol"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "court",
+        "town"
+      ]
+    },
+    {
+      "nl": "Terreinbeheerder",
+      "en": "Groundskeeper",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Nature"
+      ],
+      "clothingTags": [
+        "groundskeeper clothing",
+        "pruning tools at belt"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "manor",
+        "park",
+        "city"
+      ]
+    },
+    {
+      "nl": "Schoenmaker",
+      "en": "Shoemaker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "cobbler apron",
+        "leather scraps"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Astroloog",
+      "en": "Astrologer",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Arcana",
+        "History"
+      ],
+      "clothingTags": [
+        "star-patterned robes",
+        "celestial charts"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "tower",
+        "academy",
+        "city"
+      ]
+    },
+    {
+      "nl": "Astronoom",
+      "en": "Astronomer",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Investigation",
+        "History"
+      ],
+      "clothingTags": [
+        "astronomer robes",
+        "telescope"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "tower",
+        "academy",
+        "city"
+      ]
+    },
+    {
+      "nl": "Illusionist",
+      "en": "Illusionist",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "Arcana",
+        "Deception"
+      ],
+      "clothingTags": [
+        "flashy illusionist robes",
+        "hidden mirrors"
+      ],
+      "weaponHint": "wand",
+      "locations": [
+        "theater",
+        "city",
+        "academy"
+      ]
+    },
+    {
+      "nl": "Vishandelaar",
+      "en": "Fishmonger",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Survival"
+      ],
+      "clothingTags": [
+        "fish-smelling market clothes",
+        "rubber apron"
+      ],
+      "weaponHint": "fillet knife",
+      "locations": [
+        "harbor",
+        "market",
+        "coastal town"
+      ]
+    },
+    {
+      "nl": "Boekanier",
+      "en": "Buccaneer",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "buccaneer coat",
+        "weathered sea clothes"
+      ],
+      "weaponHint": "cutlass",
+      "locations": [
+        "harbor",
+        "ship",
+        "coastal town"
+      ]
+    },
+    {
+      "nl": "Kapitein",
+      "en": "Captain",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Intimidation",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "grand captain coat",
+        "captain hat",
+        "many rings"
+      ],
+      "weaponHint": "cutlass",
+      "locations": [
+        "harbor",
+        "ship",
+        "coastal town"
+      ]
+    },
+    {
+      "nl": "Veefokker",
+      "en": "Cattlebreeder",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "rancher clothing",
+        "weathered leather vest"
+      ],
+      "weaponHint": "lasso",
+      "locations": [
+        "farmland",
+        "village",
+        "market"
+      ]
+    },
+    {
+      "nl": "Dierenverzorger",
+      "en": "Animal Handler",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Medicine"
+      ],
+      "clothingTags": [
+        "animal handler clothing",
+        "scratch marks on arms"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "stable",
+        "zoo",
+        "circus",
+        "city"
+      ]
+    },
+    {
+      "nl": "Vechter",
+      "en": "Fighter",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Intimidation"
+      ],
+      "clothingTags": [
+        "fighting leathers",
+        "wrapped fists"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "arena",
+        "city",
+        "tavern"
+      ]
+    },
+    {
+      "nl": "Bloemist",
+      "en": "Florist",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Nature",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "flower-petal apron",
+        "always pleasant smell"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "market",
+        "city",
+        "noble district"
+      ]
+    },
+    {
+      "nl": "Glasblazer",
+      "en": "Glassblower",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "glassblower apron",
+        "burn-scarred arms"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "workshop",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Kaarsenmaker",
+      "en": "Candlemaker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Survival"
+      ],
+      "clothingTags": [
+        "wax-stained apron",
+        "candle smoke smell"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Molenaar",
+      "en": "Miller",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "flour-dusted miller clothing",
+        "strong arms"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "mill",
+        "village",
+        "town"
+      ]
+    },
+    {
+      "nl": "Begrafenisondernemer",
+      "en": "Undertaker",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "somber black undertaker clothing",
+        "white gloves"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "cemetery"
+      ]
+    },
+    {
+      "nl": "Wever",
+      "en": "Weaver",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "textile apron",
+        "colorful thread scraps"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Hoedenmaker",
+      "en": "Hatter",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Persuasion"
+      ],
+      "clothingTags": [
+        "hat maker apron",
+        "always wearing a unique hat"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "market"
+      ]
+    },
+    {
+      "nl": "Naaister",
+      "en": "Seamstress",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "seamstress apron",
+        "needle and thread always ready"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "noble district"
+      ]
+    },
+    {
+      "nl": "Boswachter",
+      "en": "Forester",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "forest ranger clothing",
+        "green and brown cloak"
+      ],
+      "weaponHint": "longbow",
+      "locations": [
+        "forest",
+        "wilderness",
+        "village"
+      ]
+    },
+    {
+      "nl": "Bontwerker",
+      "en": "Furrier",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "fur-lined work apron",
+        "various pelts"
+      ],
+      "weaponHint": "skinning knife",
+      "locations": [
+        "town",
+        "market",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Gildemeester",
+      "en": "Guildmaster",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "History"
+      ],
+      "clothingTags": [
+        "guild master robes",
+        "guild sigil"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "guild hall",
+        "town"
+      ]
+    },
+    {
+      "nl": "Juwelier",
+      "en": "Jeweller",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Investigation"
+      ],
+      "clothingTags": [
+        "fine merchant clothing",
+        "magnifying loupe"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "noble district",
+        "market"
+      ]
+    },
+    {
+      "nl": "Smelter",
+      "en": "Smelter",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "heavy leather smelter apron",
+        "heat-scarred face"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "foundry",
+        "mining town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Goudsmid",
+      "en": "Goldsmith",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "goldsmith apron",
+        "magnifying loupe",
+        "fine tools"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "noble district",
+        "town"
+      ]
+    },
+    {
+      "nl": "Zilversmid",
+      "en": "Silversmith",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "silversmith apron",
+        "fine tools",
+        "clean hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "noble district",
+        "town"
+      ]
+    },
+    {
+      "nl": "Voedselzoeker",
+      "en": "Forager",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Nature"
+      ],
+      "clothingTags": [
+        "practical forager clothing",
+        "wicker basket"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "wilderness",
+        "village",
+        "forest"
+      ]
+    },
+    {
+      "nl": "Steenbakker",
+      "en": "Brickmaker",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "clay-stained work clothes",
+        "strong arms"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "brickyard",
+        "village",
+        "town"
+      ]
+    },
+    {
+      "nl": "Bouwvakker",
+      "en": "Constructionworker",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "dusty work clothes",
+        "tool belt"
+      ],
+      "weaponHint": "hammer",
+      "locations": [
+        "construction site",
+        "city",
+        "town"
+      ]
+    },
+    {
+      "nl": "Stukadoor",
+      "en": "Plasterer",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "plaster-dusted work clothes",
+        "trowel at belt"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "town",
+        "construction"
+      ]
+    },
+    {
+      "nl": "Houtskoolbrander",
+      "en": "Charcoalmaker",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "charcoal-blackened work clothes",
+        "sooty face"
+      ],
+      "weaponHint": "axe",
+      "locations": [
+        "forest",
+        "village",
+        "frontier"
+      ]
+    },
+    {
+      "nl": "Kruidenier",
+      "en": "Grocer",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Survival"
+      ],
+      "clothingTags": [
+        "grocer apron",
+        "always surrounded by produce"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "market",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Schilder",
+      "en": "Painter",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "paint-spattered smock",
+        "various brushes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "noble court",
+        "academy"
+      ]
+    },
+    {
+      "nl": "Pottenbakker",
+      "en": "Potter",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Perception"
+      ],
+      "clothingTags": [
+        "clay-stained work clothes",
+        "wheel-worn hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "town",
+        "city",
+        "village"
+      ]
+    },
+    {
+      "nl": "Karavaanreiziger",
+      "en": "Caravanner",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Survival",
+        "Perception"
+      ],
+      "clothingTags": [
+        "road-worn travel clothes",
+        "wagon driver coat"
+      ],
+      "weaponHint": "shortsword",
+      "locations": [
+        "road",
+        "town",
+        "market"
+      ]
+    },
+    {
+      "nl": "Zadelmaker",
+      "en": "Saddlemaker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Sleight of Hand",
+        "Animal Handling"
+      ],
+      "clothingTags": [
+        "leather apron",
+        "awl and thread ready"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "stable",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Paardentrainer",
+      "en": "Horsetrainer",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "rider clothing",
+        "riding boots",
+        "horse hair on coat"
+      ],
+      "weaponHint": "crop",
+      "locations": [
+        "stable",
+        "ranch",
+        "city"
+      ]
+    },
+    {
+      "nl": "Hondenmeester",
+      "en": "Houndmaster",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Animal Handling",
+        "Survival"
+      ],
+      "clothingTags": [
+        "handler clothing",
+        "dog treats in pockets"
+      ],
+      "weaponHint": "whip",
+      "locations": [
+        "manor",
+        "city",
+        "hunt"
+      ]
+    },
+    {
+      "nl": "Wagenmenner",
+      "en": "Wagoner",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Perception",
+        "Animal Handling"
+      ],
+      "clothingTags": [
+        "driver coat",
+        "heavy gloves",
+        "weathered hat"
+      ],
+      "weaponHint": "whip",
+      "locations": [
+        "road",
+        "city",
+        "stable"
+      ]
+    },
+    {
+      "nl": "Barkeeper",
+      "en": "Barmaid",
+      "stat": "cha",
+      "weight": 1,
+      "skills": [
+        "Persuasion",
+        "Insight"
+      ],
+      "clothingTags": [
+        "barmaid apron",
+        "simple working clothes"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "inn",
+        "tavern",
+        "city"
+      ]
+    },
+    {
+      "nl": "Monnik",
+      "en": "Monk",
+      "stat": "wis",
+      "weight": 1,
+      "skills": [
+        "Insight",
+        "Religion"
+      ],
+      "clothingTags": [
+        "simple monk robes",
+        "shaved or tied hair"
+      ],
+      "weaponHint": "staff",
+      "locations": [
+        "temple",
+        "monastery",
+        "city"
+      ]
+    },
+    {
+      "nl": "Danser",
+      "en": "Dancer",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Performance",
+        "Acrobatics"
+      ],
+      "clothingTags": [
+        "elegant dancer costume",
+        "silk clothing"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "theater",
+        "court",
+        "city"
+      ]
+    },
+    {
+      "nl": "Acrobaat",
+      "en": "Acrobat",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Acrobatics",
+        "Performance"
+      ],
+      "clothingTags": [
+        "tight acrobat costume",
+        "colorful clothing"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "circus",
+        "market",
+        "city"
+      ]
+    },
+    {
+      "nl": "Rietdekker",
+      "en": "Thatcher",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Perception"
+      ],
+      "clothingTags": [
+        "simple work clothes",
+        "straw in hair"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "village",
+        "town"
+      ]
+    },
+    {
+      "nl": "Touwslager",
+      "en": "Ropemaker",
+      "stat": "dex",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "rope-fiber covered apron",
+        "calloused hands"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "harbor",
+        "town",
+        "city"
+      ]
+    },
+    {
+      "nl": "Rioolreiniger",
+      "en": "Sewercleaner",
+      "stat": "con",
+      "weight": 1,
+      "skills": [
+        "Athletics",
+        "Survival"
+      ],
+      "clothingTags": [
+        "foul-smelling work clothes",
+        "rubber boots",
+        "lantern"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "city",
+        "sewers"
+      ]
+    },
+    {
+      "nl": "Kopiist",
+      "en": "Copyist",
+      "stat": "int",
+      "weight": 1,
+      "skills": [
+        "History",
+        "Sleight of Hand"
+      ],
+      "clothingTags": [
+        "ink-stained monk robes",
+        "quill pen"
+      ],
+      "weaponHint": "none",
+      "locations": [
+        "monastery",
+        "library",
+        "city"
+      ]
+    },
+    {
+      "nl": "Ingehuurde schurk",
+      "en": "Hired Thug",
+      "stat": "str",
+      "weight": 1,
+      "skills": [
+        "Intimidation",
+        "Athletics"
+      ],
+      "clothingTags": [
+        "rough street clothes",
+        "visible scars"
+      ],
+      "weaponHint": "club",
+      "locations": [
+        "city",
+        "slums",
+        "tavern"
+      ]
+    }
+  ]
+}

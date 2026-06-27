@@ -1,0 +1,7 @@
+{
+  "_comment": "WorldForge sex.json — 50/50 male/female. Vervangt de NPC Sex rollable table.",
+  "sex": [
+    { "nl": "Man", "en": "Male" },
+    { "nl": "Vrouw", "en": "Female" }
+  ]
+}

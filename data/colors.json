@@ -1,0 +1,44 @@
+{
+  "colors": [
+    {
+      "nl": "rode",
+      "en": "red"
+    },
+    {
+      "nl": "blauwe",
+      "en": "blue"
+    },
+    {
+      "nl": "bruine",
+      "en": "brown"
+    },
+    {
+      "nl": "zwarte",
+      "en": "black"
+    },
+    {
+      "nl": "witte",
+      "en": "white"
+    },
+    {
+      "nl": "gele",
+      "en": "yellow"
+    },
+    {
+      "nl": "paarse",
+      "en": "purple"
+    },
+    {
+      "nl": "groene",
+      "en": "green"
+    },
+    {
+      "nl": "oranje",
+      "en": "orange"
+    },
+    {
+      "nl": "grijze",
+      "en": "grey"
+    }
+  ]
+}

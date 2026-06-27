@@ -1,0 +1,730 @@
+{
+  "_comment": "Market stall data voor WorldForge market-stall-generator. Bevat stall categorieën, eigenschappen, canopy kleuren, voorraad en beschrijvingen.",
+  "prefixes": [
+    {
+      "nl": "Oude",
+      "en": "Old"
+    },
+    {
+      "nl": "Versleten",
+      "en": "Worn"
+    },
+    {
+      "nl": "Kleurige",
+      "en": "Colorful"
+    },
+    {
+      "nl": "Verweerde",
+      "en": "Weathered"
+    },
+    {
+      "nl": "Heldere",
+      "en": "Bright"
+    },
+    {
+      "nl": "Drukke",
+      "en": "Crowded"
+    },
+    {
+      "nl": "Rustige",
+      "en": "Quiet"
+    },
+    {
+      "nl": "Drukke",
+      "en": "Bustling"
+    },
+    {
+      "nl": "Verborgen",
+      "en": "Hidden"
+    },
+    {
+      "nl": "Beroemde",
+      "en": "Famous"
+    },
+    {
+      "nl": "Bescheiden",
+      "en": "Humble"
+    },
+    {
+      "nl": "Exotische",
+      "en": "Exotic"
+    },
+    {
+      "nl": "Lokale",
+      "en": "Local"
+    },
+    {
+      "nl": "Rondreizende",
+      "en": "Traveling"
+    },
+    {
+      "nl": "Familie",
+      "en": "Family"
+    },
+    {
+      "nl": "Gelukkige",
+      "en": "Lucky"
+    },
+    {
+      "nl": "Gouden",
+      "en": "Golden"
+    },
+    {
+      "nl": "Zilveren",
+      "en": "Silver"
+    },
+    {
+      "nl": "Koperen",
+      "en": "Copper"
+    },
+    {
+      "nl": "Rustieke",
+      "en": "Rustic"
+    }
+  ],
+  "suffixes": {
+    "Food": [
+      "Market",
+      "Stall",
+      "Stand",
+      "Shop",
+      "Counter",
+      "Vendor",
+      "House"
+    ],
+    "Goods": [
+      "Emporium",
+      "Bazaar",
+      "Market",
+      "Stall",
+      "Shop",
+      "Stand",
+      "Merchant"
+    ],
+    "Luxury": [
+      "Boutique",
+      "Gallery",
+      "Atelier",
+      "House",
+      "Studio",
+      "Salon",
+      "Gallery"
+    ],
+    "Services": [
+      "Shop",
+      "Studio",
+      "Clinic",
+      "Parlor",
+      "House",
+      "Practice",
+      "Service"
+    ],
+    "Specialty": [
+      "Workshop",
+      "Studio",
+      "Bazaar",
+      "Market",
+      "Stand",
+      "Showcase",
+      "Gallery"
+    ]
+  },
+  "canopyColors": [
+    {
+      "nl": "rode",
+      "en": "red"
+    },
+    {
+      "nl": "blauwe",
+      "en": "blue"
+    },
+    {
+      "nl": "groene",
+      "en": "green"
+    },
+    {
+      "nl": "gele",
+      "en": "yellow"
+    },
+    {
+      "nl": "witte",
+      "en": "white"
+    },
+    {
+      "nl": "grijze",
+      "en": "grey"
+    },
+    {
+      "nl": "bruine",
+      "en": "brown"
+    },
+    {
+      "nl": "oranje",
+      "en": "orange"
+    },
+    {
+      "nl": "paarse",
+      "en": "purple"
+    },
+    {
+      "nl": "zwarte",
+      "en": "black"
+    },
+    {
+      "nl": "cremekleurige",
+      "en": "cream"
+    },
+    {
+      "nl": "rood-wit gestreepte",
+      "en": "red and white striped"
+    },
+    {
+      "nl": "blauw-wit gestreepte",
+      "en": "blue and white striped"
+    },
+    {
+      "nl": "geel-wit gestreepte",
+      "en": "yellow and white striped"
+    },
+    {
+      "nl": "versleten grijze",
+      "en": "worn grey"
+    },
+    {
+      "nl": "vlekkerig bruine",
+      "en": "mottled brown"
+    }
+  ],
+  "stallConditions": [
+    {
+      "nl": "goed onderhouden",
+      "en": "well-maintained"
+    },
+    {
+      "nl": "enigszins versleten",
+      "en": "somewhat worn"
+    },
+    {
+      "nl": "behoorlijk beschadigd",
+      "en": "somewhat damaged"
+    },
+    {
+      "nl": "rommelig maar functioneel",
+      "en": "cluttered but functional"
+    },
+    {
+      "nl": "netjes georganiseerd",
+      "en": "neatly organized"
+    },
+    {
+      "nl": "chaotisch gerangschikt",
+      "en": "chaotically arranged"
+    }
+  ],
+  "types": [
+    {
+      "id": "food_general",
+      "nl": "Voedselkraam",
+      "en": "Food Stall",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "vers brood",
+          "en": "fresh bread"
+        },
+        {
+          "nl": "kaas",
+          "en": "cheese"
+        },
+        {
+          "nl": "vlees",
+          "en": "meat"
+        },
+        {
+          "nl": "groenten",
+          "en": "vegetables"
+        },
+        {
+          "nl": "fruit",
+          "en": "fruit"
+        },
+        {
+          "nl": "gedroogde kruiden",
+          "en": "dried herbs"
+        }
+      ],
+      "description": {
+        "nl": "Een voedselkraam met {canopyColor} luifel, volgestapeld met {items}. De lucht hangt vol met verleidelijke geuren. De stand is {condition} en {busyLevel}.",
+        "en": "A food stall with a {canopyColor} canopy, stacked with {items}. The air is filled with enticing aromas. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "butcher",
+      "nl": "Slagerskraam",
+      "en": "Butcher Stall",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "vers vlees",
+          "en": "fresh meat"
+        },
+        {
+          "nl": "gerookt spek",
+          "en": "smoked bacon"
+        },
+        {
+          "nl": "worst",
+          "en": "sausage"
+        },
+        {
+          "nl": "diervellen",
+          "en": "animal hides"
+        },
+        {
+          "nl": "botten",
+          "en": "bones"
+        }
+      ],
+      "description": {
+        "nl": "Een slagerskraam onder een {canopyColor} luifel, met rijen vlees hangen aan haken. De geur van vers vlees en kruid domineert. De stand is {condition} en {busyLevel}.",
+        "en": "A butcher's stall beneath a {canopyColor} canopy, with rows of meat hanging from hooks. The scent of fresh meat and spice dominates. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "fish",
+      "nl": "Vismarkt",
+      "en": "Fish Stall",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "verse vis",
+          "en": "fresh fish"
+        },
+        {
+          "nl": "schaal- en schelpdieren",
+          "en": "shellfish"
+        },
+        {
+          "nl": "gerookte vis",
+          "en": "smoked fish"
+        },
+        {
+          "nl": "zeezieken",
+          "en": "seaweed"
+        }
+      ],
+      "description": {
+        "nl": "Een vismarktkraam onder een {canopyColor} luifel, met manden vol zilverige vis op ijs. De zeelucht hangt er sterker dan gewoonlijk. De stand is {condition} en {busyLevel}.",
+        "en": "A fish market stall beneath a {canopyColor} canopy, with baskets of silvery fish on ice. The sea breeze seems stronger here. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "spices",
+      "nl": "Kruidenkraam",
+      "en": "Spice Stall",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "zwarte peper",
+          "en": "black pepper"
+        },
+        {
+          "nl": "kaneel",
+          "en": "cinnamon"
+        },
+        {
+          "nl": "saffraan",
+          "en": "saffron"
+        },
+        {
+          "nl": "nootmuskaat",
+          "en": "nutmeg"
+        },
+        {
+          "nl": "komijn",
+          "en": "cumin"
+        },
+        {
+          "nl": "gember",
+          "en": "ginger"
+        }
+      ],
+      "description": {
+        "nl": "Een kruidenkraam onder een {canopyColor} luifel, vol kleurige potjes met {items}. De geur is bijna overweldigend. De stand is {condition} en {busyLevel}.",
+        "en": "A spice stall beneath a {canopyColor} canopy, filled with colorful jars of {items}. The aroma is almost overwhelming. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "produce",
+      "nl": "Groentestandaard",
+      "en": "Produce Stand",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "pompoenen",
+          "en": "pumpkins"
+        },
+        {
+          "nl": "appels",
+          "en": "apples"
+        },
+        {
+          "nl": "kool",
+          "en": "cabbage"
+        },
+        {
+          "nl": "wortel",
+          "en": "carrots"
+        },
+        {
+          "nl": "uien",
+          "en": "onions"
+        },
+        {
+          "nl": "aardappels",
+          "en": "potatoes"
+        }
+      ],
+      "description": {
+        "nl": "Een groentestandaard met {canopyColor} luifel, piramides van kleurrijke {items}. Alles ziet er vers uit. De stand is {condition} en {busyLevel}.",
+        "en": "A produce stand with a {canopyColor} canopy, pyramids of colorful {items}. Everything looks fresh. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "beverages",
+      "nl": "Drankenkraam",
+      "en": "Beverage Stall",
+      "category": "Food",
+      "items": [
+        {
+          "nl": "wijn",
+          "en": "wine"
+        },
+        {
+          "nl": "bier",
+          "en": "beer"
+        },
+        {
+          "nl": "mede",
+          "en": "mead"
+        },
+        {
+          "nl": "cider",
+          "en": "cider"
+        },
+        {
+          "nl": "gedistilleerd",
+          "en": "spirits"
+        }
+      ],
+      "description": {
+        "nl": "Een drankenkraam onder een {canopyColor} luifel, met flessen in alle soorten en maten. De houder beweert alles te hebben. De stand is {condition} en {busyLevel}.",
+        "en": "A beverage stall beneath a {canopyColor} canopy, with bottles of every shape and size. The proprietor claims to have everything. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "household",
+      "nl": "Huishoudgoederen",
+      "en": "Household Goods",
+      "category": "Goods",
+      "items": [
+        {
+          "nl": "keramiek",
+          "en": "pottery"
+        },
+        {
+          "nl": "bestek",
+          "en": "cutlery"
+        },
+        {
+          "nl": "handdoeken",
+          "en": "towels"
+        },
+        {
+          "nl": "beddengoed",
+          "en": "bedding"
+        },
+        {
+          "nl": "lampen",
+          "en": "lamps"
+        }
+      ],
+      "description": {
+        "nl": "Een huishoudgoederenkraam met {canopyColor} luifel, vol praktische dagelijkse spullen. Alles wat je nodig hebt voor thuis. De stand is {condition} en {busyLevel}.",
+        "en": "A household goods stall with a {canopyColor} canopy, full of practical everyday items. Everything you need for home. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "adventuring_gear",
+      "nl": "Avonturenspullen",
+      "en": "Adventuring Gear",
+      "category": "Goods",
+      "items": [
+        {
+          "nl": "repen",
+          "en": "rope"
+        },
+        {
+          "nl": "zaklantaarns",
+          "en": "lanterns"
+        },
+        {
+          "nl": "waterflessen",
+          "en": "waterskins"
+        },
+        {
+          "nl": "rugzakken",
+          "en": "backpacks"
+        },
+        {
+          "nl": "kompassen",
+          "en": "compasses"
+        },
+        {
+          "nl": "kaarten",
+          "en": "maps"
+        }
+      ],
+      "description": {
+        "nl": "Een avonturenspullenkraam onder een {canopyColor} luifel, beladen met {items} voor avonturiers. Alles wat je voor de weg nodig hebt. De stand is {condition} en {busyLevel}.",
+        "en": "An adventuring gear stall beneath a {canopyColor} canopy, laden with {items} for adventurers. Everything you need for the road. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "textiles",
+      "nl": "Stoffen- en weefgoedkraam",
+      "en": "Fabric & Textiles",
+      "category": "Goods",
+      "items": [
+        {
+          "nl": "linnen",
+          "en": "linen"
+        },
+        {
+          "nl": "katoen",
+          "en": "cotton"
+        },
+        {
+          "nl": "zijde",
+          "en": "silk"
+        },
+        {
+          "nl": "wol",
+          "en": "wool"
+        },
+        {
+          "nl": "kant",
+          "en": "lace"
+        }
+      ],
+      "description": {
+        "nl": "Een stofkraam met {canopyColor} luifel, opgerold en opgestapeld met {items} in alle kleuren. De stand is {condition} en {busyLevel}.",
+        "en": "A textile stall with a {canopyColor} canopy, bolts and stacks of {items} in every color. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "tools",
+      "nl": "Gereedschapskraam",
+      "en": "Tools & Hardware",
+      "category": "Goods",
+      "items": [
+        {
+          "nl": "hamers",
+          "en": "hammers"
+        },
+        {
+          "nl": "zagen",
+          "en": "saws"
+        },
+        {
+          "nl": "nagels",
+          "en": "nails"
+        },
+        {
+          "nl": "schroeven",
+          "en": "screws"
+        },
+        {
+          "nl": "bouten",
+          "en": "bolts"
+        }
+      ],
+      "description": {
+        "nl": "Een gereedschapskraam onder een {canopyColor} luifel, aan alle kanten hangen werktuigen. Een ambachtsman's droom. De stand is {condition} en {busyLevel}.",
+        "en": "A tool stall beneath a {canopyColor} canopy, tools hanging on every side. A craftsman's dream. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "jewelry",
+      "nl": "Sieradenkraam",
+      "en": "Jewelry Stall",
+      "category": "Luxury",
+      "items": [
+        {
+          "nl": "zilveren sieraden",
+          "en": "silver jewelry"
+        },
+        {
+          "nl": "gouden ringen",
+          "en": "gold rings"
+        },
+        {
+          "nl": "edelsteen hangers",
+          "en": "gemstone pendants"
+        },
+        {
+          "nl": "kralenaccessoires",
+          "en": "bead accessories"
+        }
+      ],
+      "description": {
+        "nl": "Een sieradenkraam onder een {canopyColor} luifel, met glinsterend {items} uitgestald. Alles schittert in het zonlicht. De stand is {condition} en {busyLevel}.",
+        "en": "A jewelry stall beneath a {canopyColor} canopy, with gleaming {items} on display. Everything glimmers in the sunlight. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "clothing",
+      "nl": "Kledingenstandaard",
+      "en": "Clothing & Garments",
+      "category": "Luxury",
+      "items": [
+        {
+          "nl": "hemden",
+          "en": "shirts"
+        },
+        {
+          "nl": "jurken",
+          "en": "dresses"
+        },
+        {
+          "nl": "broeken",
+          "en": "breeches"
+        },
+        {
+          "nl": "mantels",
+          "en": "cloaks"
+        },
+        {
+          "nl": "schoenen",
+          "en": "shoes"
+        }
+      ],
+      "description": {
+        "nl": "Een kledingkraam met {canopyColor} luifel, vol kleurige {items} aan rekken en haken. De stand is {condition} en {busyLevel}.",
+        "en": "A clothing stall with a {canopyColor} canopy, full of colorful {items} on racks and hooks. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "herbs",
+      "nl": "Kruidenheelkundekraam",
+      "en": "Herbs & Remedies",
+      "category": "Services",
+      "items": [
+        {
+          "nl": "gedroogde kruiden",
+          "en": "dried herbs"
+        },
+        {
+          "nl": "tincturen",
+          "en": "tinctures"
+        },
+        {
+          "nl": "zalven",
+          "en": "salves"
+        },
+        {
+          "nl": "theebladen",
+          "en": "tea leaves"
+        }
+      ],
+      "description": {
+        "nl": "Een kruidenheelkundekraam onder een {canopyColor} luifel, met potten en zakjes vol medicijnen. Alles ruikt naar natuur. De stand is {condition} en {busyLevel}.",
+        "en": "An herbalist stall beneath a {canopyColor} canopy, with jars and pouches full of remedies. Everything smells of nature. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "books",
+      "nl": "Boekenstandaard",
+      "en": "Books & Scrolls",
+      "category": "Services",
+      "items": [
+        {
+          "nl": "gebruikte boeken",
+          "en": "used books"
+        },
+        {
+          "nl": "manuscripten",
+          "en": "manuscripts"
+        },
+        {
+          "nl": "kronieken",
+          "en": "chronicles"
+        },
+        {
+          "nl": "kaarten",
+          "en": "maps"
+        }
+      ],
+      "description": {
+        "nl": "Een boekenstandaard met {canopyColor} luifel, gestapeld met {items} van alle soorten. De stand is {condition} en {busyLevel}.",
+        "en": "A book stall with a {canopyColor} canopy, stacked with {items} of every kind. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "flowers",
+      "nl": "Bloemenkraam",
+      "en": "Flowers & Plants",
+      "category": "Services",
+      "items": [
+        {
+          "nl": "verse bloemen",
+          "en": "fresh flowers"
+        },
+        {
+          "nl": "potplanten",
+          "en": "potted plants"
+        },
+        {
+          "nl": "kruiden",
+          "en": "herbs"
+        },
+        {
+          "nl": "guirlandes",
+          "en": "garlands"
+        }
+      ],
+      "description": {
+        "nl": "Een bloemenkraam onder een {canopyColor} luifel, een explosie van kleur en geur. Alles ziet er vers en levendig uit. De stand is {condition} en {busyLevel}.",
+        "en": "A flower stall beneath a {canopyColor} canopy, an explosion of color and fragrance. Everything looks fresh and alive. The stall is {condition} and {busyLevel}."
+      }
+    },
+    {
+      "id": "curiosities",
+      "nl": "Rariteitenkraam",
+      "en": "Curiosities & Oddities",
+      "category": "Services",
+      "items": [
+        {
+          "nl": "antieke spullen",
+          "en": "antique items"
+        },
+        {
+          "nl": "vreemde artefacten",
+          "en": "strange artifacts"
+        },
+        {
+          "nl": "vogelveertjes",
+          "en": "feathers"
+        },
+        {
+          "nl": "kristallen",
+          "en": "crystals"
+        }
+      ],
+      "description": {
+        "nl": "Een rariteitenkraam onder een {canopyColor} luifel, vol vreemde en mysterieuze voorwerpen. Niemand weet precies wat hier vandaan komt. De stand is {condition} en {busyLevel}.",
+        "en": "A curiosity stall beneath a {canopyColor} canopy, full of strange and mysterious objects. No one quite knows where things come from. The stall is {condition} and {busyLevel}."
+      }
+    }
+  ]
+}

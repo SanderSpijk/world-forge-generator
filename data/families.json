@@ -1,0 +1,402 @@
+{
+  "houses": [
+    {
+      "id": "shack",
+      "type": "Shack",
+      "theme": ["medieval", "generic", "gothic", "desert"],
+      "size": "tiny",
+      "wealth": { "poor": 10, "modest": 2 },
+      "districts": ["Lower Class District", "Tenement District", "Black Market Quarter", "Red Light District"],
+      "description": {
+        "nl": "Een gammel houten schuurtje met scheefgezakte dak en gaten in de muren.",
+        "en": "A ramshackle wooden shack with a sagging roof and gaps in the walls."
+      }
+    },
+    {
+      "id": "small_house",
+      "type": "Small House",
+      "theme": ["medieval", "generic", "nordic", "caribbean"],
+      "size": "small",
+      "wealth": { "poor": 5, "modest": 8, "comfortable": 1 },
+      "districts": ["Lower Class District", "Tenement District", "Artisan Quarter", "Trade Post"],
+      "description": {
+        "nl": "Een bescheiden huisje van twee verdiepingen met kleine raampjes en een bescheiden voordeur.",
+        "en": "A modest two-story house with small windows and a humble front door."
+      }
+    },
+    {
+      "id": "cottage",
+      "type": "Cottage",
+      "theme": ["medieval", "generic", "nordic", "caribbean", "greek"],
+      "size": "small",
+      "wealth": { "poor": 2, "modest": 8, "comfortable": 3 },
+      "districts": ["Artisan Quarter", "Outlying Residential", "Trade Post", "Gardens & Parks"],
+      "description": {
+        "nl": "Een charmant plattelandshuisje met een rieten dak en bloementuintje.",
+        "en": "A charming countryside cottage with a thatched roof and a flower garden."
+      }
+    },
+    {
+      "id": "farmhouse",
+      "type": "Farmhouse",
+      "theme": ["medieval", "generic", "nordic"],
+      "size": "medium",
+      "wealth": { "modest": 5, "comfortable": 4, "wealthy": 1 },
+      "districts": ["Outlying Residential", "Industry & Crafting", "Milling District"],
+      "description": {
+        "nl": "Een stevig boerderij met bijgebouwen en uitgestrekte velden eromheen.",
+        "en": "A sturdy farmhouse with outbuildings and sprawling fields around it."
+      }
+    },
+    {
+      "id": "house",
+      "type": "House",
+      "theme": ["medieval", "generic", "gothic", "nordic", "desert", "asian", "greek"],
+      "size": "medium",
+      "wealth": { "modest": 3, "comfortable": 7, "wealthy": 2 },
+      "districts": ["Middle Class District", "Residential", "Government Quarter"],
+      "description": {
+        "nl": "Een goed onderhouden huis van drie of vier verdiepingen met dakramen.",
+        "en": "A well-maintained three or four-story house with dormer windows."
+      }
+    },
+    {
+      "id": "large_house",
+      "type": "Large House",
+      "theme": ["medieval", "generic", "gothic", "asian", "greek"],
+      "size": "medium",
+      "wealth": { "comfortable": 6, "wealthy": 4 },
+      "districts": ["Middle Class District", "Entertainment District", "Banking Quarter", "Warehouse District"],
+      "description": {
+        "nl": "Een groot imposant huis met meerdere verdiepingen en fraai tuinwerk.",
+        "en": "A large imposing house with multiple stories and fine landscaping."
+      }
+    },
+    {
+      "id": "townhouse",
+      "type": "Townhouse",
+      "theme": ["medieval", "generic", "gothic", "asian"],
+      "size": "medium",
+      "wealth": { "comfortable": 5, "wealthy": 6 },
+      "districts": ["Market District", "Government Quarter", "Entertainment District", "University Quarter"],
+      "description": {
+        "nl": "Een stijlvolle stadswoning met vier of vijf verdiepingen en elegante ramen.",
+        "en": "A stylish townhouse with four or five stories and elegant windows."
+      }
+    },
+    {
+      "id": "coach_house",
+      "type": "Coach House",
+      "theme": ["medieval", "generic", "gothic"],
+      "size": "medium",
+      "wealth": { "comfortable": 4, "wealthy": 5 },
+      "districts": ["Government Quarter", "Noble Quarter", "Banking Quarter"],
+      "description": {
+        "nl": "Een dubbel gebouw: stallen beneden en woonruimte boven voor stalknechten.",
+        "en": "A dual-purpose building: stables below and living quarters above for grooms."
+      }
+    },
+    {
+      "id": "villa",
+      "type": "Villa",
+      "theme": ["medieval", "generic", "gothic", "desert", "asian", "greek"],
+      "size": "large",
+      "wealth": { "comfortable": 3, "wealthy": 8 },
+      "districts": ["Noble Quarter", "Banking Quarter", "Gardens & Parks"],
+      "description": {
+        "nl": "Een elegante villa met tuinen, vaak wat verder buiten de stad gelegen.",
+        "en": "An elegant villa with gardens, often situated just outside the city."
+      }
+    },
+    {
+      "id": "merchant_house",
+      "type": "Merchant House",
+      "theme": ["medieval", "generic", "caribbean", "asian", "greek"],
+      "size": "large",
+      "wealth": { "comfortable": 4, "wealthy": 7 },
+      "districts": ["Market District", "Warehouse District", "Trading House", "Harbor District"],
+      "description": {
+        "nl": "Een robuust huis met grote opslaguimten beneden en woonvertrekken boven.",
+        "en": "A robust house with large storage spaces below and living quarters above."
+      }
+    },
+    {
+      "id": "manor",
+      "type": "Manor",
+      "theme": ["medieval", "generic", "gothic", "greek"],
+      "size": "large",
+      "wealth": { "comfortable": 2, "wealthy": 9 },
+      "districts": ["Noble Quarter", "Government Quarter", "Seat of Power"],
+      "description": {
+        "nl": "Een statig landgoed met uitgestrekte gronden en een imposante ingang.",
+        "en": "A stately country estate with sprawling grounds and an imposing entrance."
+      }
+    },
+    {
+      "id": "mansion",
+      "type": "Mansion",
+      "theme": ["medieval", "generic", "gothic", "asian", "greek"],
+      "size": "large",
+      "wealth": { "wealthy": 10 },
+      "districts": ["Noble Quarter", "Seat of Power", "Government Quarter"],
+      "description": {
+        "nl": "Een prachtig herenhuis met vele kamers, balkonnen en fraai ingestelde tuinen.",
+        "en": "A magnificent townhouse with numerous rooms, balconies and beautifully landscaped gardens."
+      }
+    },
+    {
+      "id": "governors_villa",
+      "type": "Governor's Villa",
+      "theme": ["medieval", "generic", "gothic", "desert", "greek"],
+      "size": "large",
+      "wealth": { "wealthy": 10 },
+      "districts": ["Seat of Power", "Government Quarter", "Noble Quarter"],
+      "description": {
+        "nl": "Het residentiële paleis van een gouverneur of belangrijke magistraat.",
+        "en": "The official residence of a governor or high-ranking magistrate."
+      }
+    },
+    {
+      "id": "palace",
+      "type": "Palace",
+      "theme": ["medieval", "generic", "gothic", "desert", "asian", "greek"],
+      "size": "massive",
+      "wealth": { "wealthy": 10 },
+      "districts": ["Seat of Power"],
+      "description": {
+        "nl": "Een indrukwekkend koninklijk paleis met vele torens, tuinen en versierselen.",
+        "en": "An impressive royal palace with numerous towers, gardens and ornaments."
+      }
+    },
+    {
+      "id": "stilt_house",
+      "type": "Stilt House",
+      "theme": ["tropical", "caribbean"],
+      "size": "small",
+      "wealth": { "poor": 1, "modest": 4, "comfortable": 1 },
+      "districts": ["Harbor District", "Port/Harbor"],
+      "description": {
+        "nl": "Een houten huis op palen boven het water, beschermd tegen overstromingen.",
+        "en": "A wooden house on stilts above the water, protected from flooding."
+      }
+    },
+    {
+      "id": "thatched_cottage",
+      "type": "Thatched Cottage",
+      "theme": ["caribbean"],
+      "size": "small",
+      "wealth": { "poor": 1, "modest": 5, "comfortable": 2 },
+      "districts": ["Outlying Residential", "Trade Post"],
+      "description": {
+        "nl": "Een wit gekalkt huisje met rieten dak, tropisch en windbestendig.",
+        "en": "A whitewashed cottage with a thatched roof, tropical and wind-resistant."
+      }
+    },
+    {
+      "id": "longhouse",
+      "type": "Longhouse",
+      "theme": ["nordic"],
+      "size": "large",
+      "wealth": { "modest": 5, "comfortable": 5 },
+      "districts": ["Residential", "Outlying Residential"],
+      "description": {
+        "nl": "Een lang Noors huis met centrale vuurplaats, voor hele klans.",
+        "en": "A long Nordic hall with a central hearth, housing an entire clan."
+      }
+    },
+    {
+      "id": "tent",
+      "type": "Tent/Yurt",
+      "theme": ["desert"],
+      "size": "small",
+      "wealth": { "poor": 4, "modest": 4 },
+      "districts": ["Caravan Park", "Outlying Residential"],
+      "description": {
+        "nl": "Een woestijntent of yurt, draagbaar en bestand tegen zandstormen.",
+        "en": "A desert tent or yurt, portable and resistant to sandstorms."
+      }
+    },
+    {
+      "id": "stone_tower",
+      "type": "Stone Tower House",
+      "theme": ["medieval", "gothic", "nordic"],
+      "size": "medium",
+      "wealth": { "modest": 3, "comfortable": 5, "wealthy": 2 },
+      "districts": ["Government Quarter", "Military", "Fortifications"],
+      "description": {
+        "nl": "Een sterke stenen toren met gesloten kamers, defensief en imposant.",
+        "en": "A sturdy stone tower with enclosed chambers, defensive and imposing."
+      }
+    },
+    {
+      "id": "victorian_house",
+      "type": "Victorian House",
+      "theme": ["gothic"],
+      "size": "large",
+      "wealth": { "comfortable": 4, "wealthy": 8 },
+      "districts": ["Noble Quarter", "Entertainment District"],
+      "description": {
+        "nl": "Een rijkelijk versierde gotische villa met torretjes en spitsboogramen.",
+        "en": "An ornately decorated gothic villa with turrets and pointed arch windows."
+      }
+    },
+    {
+      "id": "pagoda_house",
+      "type": "Pagoda/Tea House",
+      "theme": ["asian"],
+      "size": "medium",
+      "wealth": { "modest": 3, "comfortable": 6, "wealthy": 2 },
+      "districts": ["Noble Quarter", "University Quarter", "Gardens & Parks"],
+      "description": {
+        "nl": "Een Aziatische pagoda-stijl woning met opgestoken dak en houten details.",
+        "en": "An Asian pagoda-style dwelling with an upturned roof and wooden details."
+      }
+    },
+    {
+      "id": "greek_villa",
+      "type": "Greek Villa",
+      "theme": ["greek"],
+      "size": "large",
+      "wealth": { "comfortable": 3, "wealthy": 8 },
+      "districts": ["Noble Quarter", "Government Quarter"],
+      "description": {
+        "nl": "Een klassieke Griekse villa met marmeren zuilen en een atrium.",
+        "en": "A classical Greek villa with marble columns and an atrium."
+      }
+    },
+    {
+      "id": "wooden_tower_house",
+      "type": "Wooden Tower House",
+      "theme": ["asian"],
+      "size": "medium",
+      "wealth": { "modest": 4, "comfortable": 5 },
+      "districts": ["Residential", "Outlying Residential"],
+      "description": {
+        "nl": "Een slanke Aziatische torenwoning van hout, met kleine balkons per verdieping.",
+        "en": "A slender Asian wooden tower house with small balconies on each floor."
+      }
+    }
+  ],
+  "familyBackstories": [
+    {
+      "nl": "Een arbeiderfamilie met generaties vaardigheden. Hun handen kennen elk ambacht.",
+      "en": "A family of laborers with generations of skill. Their hands know every trade."
+    },
+    {
+      "nl": "Handelaren die via afgelegen wegen fortuin hebben opgebouwd.",
+      "en": "Merchants who have built their fortune through remote trade routes."
+    },
+    {
+      "nl": "Een priesterlijke familie gewijd aan een plaatselijke godheid.",
+      "en": "A priestly family devoted to a local deity."
+    },
+    {
+      "nl": "Voormalige vrijgevochten, nu als familie op één plaats neergestreken.",
+      "en": "Former mercenaries, now settled together as a family unit."
+    },
+    {
+      "nl": "Wetenschappers en leraren die kennis doorgeven aan volgende generaties.",
+      "en": "Scholars and teachers passing knowledge to the next generation."
+    },
+    {
+      "nl": "Een kunstenaarsfamilie bekend om hun meesterwerken in de buurt.",
+      "en": "An artist family known for their masterworks throughout the district."
+    },
+    {
+      "nl": "Vroegere slaven die hun vrijheid erkocht hebben met jarenlang werk.",
+      "en": "Freed slaves who have earned their liberty through years of labor."
+    },
+    {
+      "nl": "Veteranen van oude oorlogen, nu rustend in het dagelijks leven.",
+      "en": "Veterans of ancient wars, now resting in domestic life."
+    },
+    {
+      "nl": "Een boekhouder-familie die geheimen van de stadskap kent.",
+      "en": "A family of record-keepers who know the city's financial secrets."
+    },
+    {
+      "nl": "Dierenverzorgers en fokkers met een reputatie voor kwaliteit.",
+      "en": "Animal keepers and breeders with a reputation for quality."
+    },
+    {
+      "nl": "Een familie van zijdemakers met eeuwige tradities uit het Oosten.",
+      "en": "A family of silk makers with ancient traditions from the East."
+    },
+    {
+      "nl": "Tuiniers en kruidentelers die geneesmiddelen en voeding telen.",
+      "en": "Gardeners and herbalists who cultivate medicines and sustenance."
+    },
+    {
+      "nl": "Kandelaarmakers wiens producten alle tempels van de stad verlichten.",
+      "en": "Candlemakers whose products light all the temples of the city."
+    },
+    {
+      "nl": "Een familie van klokkengieters die de stadsklokkentoren hebben gebouwd.",
+      "en": "A family of bell founders who built the city's clock tower."
+    },
+    {
+      "nl": "Havenarbeiders met contacten over de hele wereld.",
+      "en": "Harbor workers with connections around the world."
+    },
+    {
+      "nl": "Drankstokers wiens sterke drank plaatselijk beroemd is.",
+      "en": "Distillers whose strong spirits are locally famous."
+    },
+    {
+      "nl": "Een familie die voor een boek beroemde schilder poste heeft gestaan.",
+      "en": "A family immortalized by a famous painter's book."
+    },
+    {
+      "nl": "Archivisten die oude kennis verzamelen en beschermen.",
+      "en": "Archivists who collect and preserve ancient knowledge."
+    },
+    {
+      "nl": "Een familie van muzikanten die lokale festivals organiseert.",
+      "en": "A family of musicians who organize local festivals."
+    },
+    {
+      "nl": "Vervoerders en koetsiers met snelle paarden en snellere praatjes.",
+      "en": "Haulers and coachmen with fast horses and faster talk."
+    },
+    {
+      "nl": "Steenhouwers wiens werk de monumenten van de stad vormt.",
+      "en": "Stone masons whose work forms the city's monuments."
+    },
+    {
+      "nl": "Een familie van lijkbereiders die met onverschrokken respect werkt.",
+      "en": "A family of undertakers who work with unflinching respect."
+    },
+    {
+      "nl": "Kruidenier-familie wiens voorraden en contacten iedereen nodig heeft.",
+      "en": "A grocer family whose supplies and connections everyone needs."
+    },
+    {
+      "nl": "Gardeniers van een vorstelijk landgoed met veel geheimen.",
+      "en": "Gardeners of a noble estate with many secrets."
+    },
+    {
+      "nl": "Een familie van ververs en textielvererkers met subtiele kunsten.",
+      "en": "A family of dyers and textile workers with subtle arts."
+    },
+    {
+      "nl": "Brouwers wiens bier in elke taverne wordt geschonken.",
+      "en": "Brewers whose beer is served in every tavern."
+    },
+    {
+      "nl": "Een familie van schrijvers en scribes die de geschiedenis vastleggen.",
+      "en": "A family of writers and scribes recording history."
+    },
+    {
+      "nl": "Timmerlieden wiens vakwerk in elk huis te zien is.",
+      "en": "Carpenters whose craftsmanship is visible in every building."
+    },
+    {
+      "nl": "Een familie van leerlooiers met traditionele technieken.",
+      "en": "A family of leatherworkers with traditional techniques."
+    },
+    {
+      "nl": "Huishouders van verschillende beroepen die samenleven.",
+      "en": "Households of various professions living together in harmony."
+    }
+  ]
+}

@@ -1,0 +1,2824 @@
+{
+  "properties": [
+    {
+      "id": "plus1",
+      "name": "+1",
+      "cost": 2,
+      "bonus": 1,
+      "category": "enhancement",
+      "allowedTypes": ["weapon", "armor", "ammunition"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["plus2", "plus3"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Masterwork", "Refined", "Honed", "True"],
+      "suffixes": ["of Quality", "of Precision", "of the Artisan"],
+      "description": {
+        "nl": "Je hebt een +1 bonus op attack and damage rolls (weapon), AC (armor), of attack and damage rolls (ammunition, verliest magie na treffer).",
+        "en": "You gain a +1 bonus to attack and damage rolls (weapon), AC (armor), or attack and damage rolls (ammunition, loses magic after hitting)."
+      },
+      "tags": ["enhancement"]
+    },
+    {
+      "id": "plus2",
+      "name": "+2",
+      "cost": 3,
+      "bonus": 2,
+      "category": "enhancement",
+      "allowedTypes": ["weapon", "armor", "ammunition"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["plus1", "plus3"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Superior", "Tempered", "Polished"],
+      "suffixes": ["of Excellence", "of the Master", "of Perfection"],
+      "description": {
+        "nl": "Je hebt een +2 bonus op attack and damage rolls (weapon), AC (armor), of attack and damage rolls (ammunition, verliest magie na treffer).",
+        "en": "You gain a +2 bonus to attack and damage rolls (weapon), AC (armor), or attack and damage rolls (ammunition, loses magic after hitting)."
+      },
+      "tags": ["enhancement"]
+    },
+    {
+      "id": "plus3",
+      "name": "+3",
+      "cost": 4,
+      "bonus": 3,
+      "category": "enhancement",
+      "allowedTypes": ["weapon", "armor", "ammunition"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["plus1", "plus2"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Legendary", "Ancient", "Godforged", "Peerless"],
+      "suffixes": ["of the Ages", "of Legend", "of the Ancients"],
+      "description": {
+        "nl": "Je hebt een +3 bonus op attack and damage rolls (weapon), AC (armor), of attack and damage rolls (ammunition, verliest magie na treffer).",
+        "en": "You gain a +3 bonus to attack and damage rolls (weapon), AC (armor), or attack and damage rolls (ammunition, loses magic after hitting)."
+      },
+      "tags": ["enhancement"]
+    },
+    {
+      "id": "adamantine",
+      "name": "Adamantine",
+      "cost": 2,
+      "bonus": 0,
+      "category": "material",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Adamantine", "Unbreakable", "Ironclad"],
+      "suffixes": ["of the Adamant", "of Unbreaking", "of Iron Will"],
+      "description": {
+        "nl": "Critical Hits tegen jou worden normale hits.",
+        "en": "Any Critical Hit against you becomes a normal hit."
+      },
+      "tags": ["material", "defensive"]
+    },
+    {
+      "id": "mithral",
+      "name": "Mithral",
+      "cost": 2,
+      "bonus": 0,
+      "category": "material",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Mithral", "Moonweave", "Silverlight"],
+      "suffixes": ["of Mithral", "of the Moon", "of the Silversmith"],
+      "description": {
+        "nl": "Dit armor geeft geen Disadvantage op Stealth checks en heeft geen Strength vereiste.",
+        "en": "This armor doesn't impose Disadvantage on Stealth checks and has no Strength requirement."
+      },
+      "tags": ["material", "stealth", "light"]
+    },
+    {
+      "id": "armor_of_resistance",
+      "name": "Resistance",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["armor_of_vulnerability", "energy_immunity"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Warding", "Resistant", "Shielded"],
+      "suffixes": ["of Resistance", "of Warding", "of the Bulwark"],
+      "description": {
+        "nl": "Je hebt Resistance tegen één type damage (bepaald door de DM of random).",
+        "en": "You have Resistance to one type of damage (chosen or determined randomly by the DM)."
+      },
+      "tags": ["defensive", "resistance"]
+    },
+    {
+      "id": "fortification",
+      "name": "Fortification",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["heavy", "medium", "shield"],
+      "excludeSubtypes": ["light"],
+      "incompatibleWith": ["fortification_improved", "fortification_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Fortified", "Reinforced", "Hardened"],
+      "suffixes": ["of Fortification", "of the Bulwark", "of Iron Defense"],
+      "description": {
+        "nl": "Wanneer je een Critical Hit krijgt, gooi 1d4. Op een 4 wordt het een normale hit.",
+        "en": "When you suffer a Critical Hit, roll 1d4. On a 4, it becomes a normal hit instead."
+      },
+      "tags": ["defensive", "critical"]
+    },
+    {
+      "id": "fortification_improved",
+      "name": "Fortification (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["heavy", "medium", "shield"],
+      "excludeSubtypes": ["light"],
+      "incompatibleWith": ["fortification", "fortification_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Reinforced", "Bolstered", "Armored"],
+      "suffixes": ["of Moderate Fortification", "of the Iron Wall"],
+      "description": {
+        "nl": "Wanneer je een Critical Hit krijgt, gooi 1d4. Op een 3 of 4 wordt het een normale hit.",
+        "en": "When you suffer a Critical Hit, roll 1d4. On a 3 or 4, it becomes a normal hit instead."
+      },
+      "tags": ["defensive", "critical"]
+    },
+    {
+      "id": "fortification_greater",
+      "name": "Fortification (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["heavy", "shield"],
+      "excludeSubtypes": ["light", "medium"],
+      "incompatibleWith": ["fortification", "fortification_improved"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Impenetrable", "Unbreakable", "Ironclad"],
+      "suffixes": ["of Heavy Fortification", "of Total Defense", "of the Aegis"],
+      "description": {
+        "nl": "Critical Hits tegen jou worden altijd normale hits.",
+        "en": "Critical Hits against you always become normal hits."
+      },
+      "tags": ["defensive", "critical"]
+    },
+    {
+      "id": "spell_resistance",
+      "name": "Spell Resistance",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["spell_resistance_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Arcane-Warding", "Spell-Proof", "Null"],
+      "suffixes": ["of Spell Resistance", "of the Mage-Ward", "of Arcane Shielding"],
+      "description": {
+        "nl": "Je hebt Advantage op saving throws tegen spells en andere magische effecten.",
+        "en": "You have Advantage on saving throws against spells and other magical effects."
+      },
+      "tags": ["defensive", "magic", "resistance"]
+    },
+    {
+      "id": "spell_resistance_greater",
+      "name": "Spell Resistance (Greater)",
+      "cost": 5,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["spell_resistance"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Null", "Spell-Immune", "Anti-Magic"],
+      "suffixes": ["of Greater Spell Resistance", "of the Null Field", "of Arcane Immunity"],
+      "description": {
+        "nl": "Je hebt Advantage op saving throws tegen spells, en spell attacks hebben Disadvantage tegen jou.",
+        "en": "You have Advantage on saving throws against spells, and spell attacks have Disadvantage against you."
+      },
+      "tags": ["defensive", "magic", "resistance"]
+    },
+    {
+      "id": "ghost_touch",
+      "name": "Ghost Touch",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Ethereal", "Ghostly", "Spirit-Touched"],
+      "suffixes": ["of Ghost Touch", "of the Ethereal", "of Spirit Ward"],
+      "description": {
+        "nl": "Je AC bonus is ook van toepassing tegen attacks van incorporeal creatures.",
+        "en": "Your AC bonus also applies against attacks made by Incorporeal creatures."
+      },
+      "tags": ["defensive", "undead", "incorporeal"]
+    },
+    {
+      "id": "death_ward",
+      "name": "Death Ward",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Life-Warding", "Death-Proof", "Vital"],
+      "suffixes": ["of Death Ward", "of the Last Stand", "of Vital Warding"],
+      "description": {
+        "nl": "Eenmaal per dag: wanneer je op 0 HP valt, val je in plaats daarvan op 1 HP.",
+        "en": "Once per day: when you drop to 0 Hit Points, you instead drop to 1 Hit Point."
+      },
+      "tags": ["defensive", "death"]
+    },
+    {
+      "id": "magic_eating",
+      "name": "Magic-Eating",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Spell-Devouring", "Arcane-Feeding", "Null"],
+      "suffixes": ["of Spell Eating", "of the Null Maw", "of Magic Feeding"],
+      "description": {
+        "nl": "Wanneer je slaagt voor een saving throw tegen een spell, herstel je 1 HP per level van de spell.",
+        "en": "Whenever you succeed on a saving throw against a spell that targets only you, you regain 1 Hit Point per level of the spell."
+      },
+      "tags": ["defensive", "magic", "healing"]
+    },
+    {
+      "id": "retaliation",
+      "name": "Retaliation",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Retaliating", "Wrathful", "Vengeful"],
+      "suffixes": ["of Retaliation", "of Vengeance", "of the Wrathful Ward"],
+      "description": {
+        "nl": "Wanneer je 10 of meer damage krijgt van een enkele melee attack, neemt de aanvaller 1d6 Force damage.",
+        "en": "When you take 10 or more damage from a single melee attack, the attacker takes 1d6 Force damage."
+      },
+      "tags": ["defensive", "retaliation"]
+    },
+    {
+      "id": "energy_immunity",
+      "name": "Energy Immunity",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["armor_of_resistance"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Immune", "Nullifying", "Element-Proof"],
+      "suffixes": ["of Energy Immunity", "of Elemental Nullity", "of the Unburned"],
+      "description": {
+        "nl": "Eenmaal per dag als Bonus Action: krijg voor 1 minuut Immunity voor één energy damage type naar keuze.",
+        "en": "Once per day, as a Bonus Action, gain Immunity to one energy damage type of your choice for 1 minute."
+      },
+      "tags": ["defensive", "elemental", "resistance"]
+    },
+    {
+      "id": "masking",
+      "name": "Masking",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Masked", "Hidden", "Null-Scried"],
+      "suffixes": ["of Masking", "of Nondetection", "of the Hidden"],
+      "description": {
+        "nl": "Je bent continu beschermd tegen divination magic als door de Nondetection spell.",
+        "en": "You are continuously protected from divination magic as if by the Nondetection spell."
+      },
+      "tags": ["defensive", "divination", "stealth"]
+    },
+    {
+      "id": "healing",
+      "name": "Healing",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["healing_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Mending", "Restorative", "Life-Giving"],
+      "suffixes": ["of Healing", "of Restoration", "of the Life-Giver"],
+      "description": {
+        "nl": "Eenmaal per dag als Bonus Action: herstel 2d8+5 HP. Activeert ook automatisch bij 0 HP.",
+        "en": "Once per day as a Bonus Action: regain 2d8+5 Hit Points. Also activates automatically at 0 HP."
+      },
+      "tags": ["defensive", "healing"]
+    },
+    {
+      "id": "healing_greater",
+      "name": "Healing (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["healing"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Regenerating", "Vitalized", "Life-Blessed"],
+      "suffixes": ["of Greater Healing", "of Vital Restoration", "of the Healer's Grace"],
+      "description": {
+        "nl": "Tweemaal per dag als Bonus Action: herstel 3d8+15 HP. Activeert ook automatisch bij 0 HP.",
+        "en": "Twice per day as a Bonus Action: regain 3d8+15 Hit Points. Also activates automatically at 0 HP."
+      },
+      "tags": ["defensive", "healing"]
+    },
+    {
+      "id": "shadow",
+      "name": "Shadow",
+      "cost": 2,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["shadow_improved", "shadow_greater", "commander"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Shadow", "Dark", "Dim"],
+      "suffixes": ["of Shadow", "of Darkness", "of the Night"],
+      "description": {
+        "nl": "Je hebt Advantage op Dexterity (Stealth) checks.",
+        "en": "You have Advantage on Dexterity (Stealth) checks."
+      },
+      "tags": ["stealth"]
+    },
+    {
+      "id": "shadow_improved",
+      "name": "Shadow (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["shadow", "shadow_greater", "commander"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Deep Shadow", "Twilight", "Nightveil"],
+      "suffixes": ["of Deep Shadow", "of the Twilight", "of Nightveiling"],
+      "description": {
+        "nl": "Advantage op Stealth checks, en je kunt Hide als Bonus Action ook in licht verduisterde gebieden.",
+        "en": "Advantage on Stealth checks, and you can Hide as a Bonus Action even when only lightly obscured."
+      },
+      "tags": ["stealth"]
+    },
+    {
+      "id": "shadow_greater",
+      "name": "Shadow (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["shadow", "shadow_improved", "commander"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Abyssal Shadow", "Void", "Wraithweave"],
+      "suffixes": ["of Greater Shadow", "of the Void", "of Wraithweave"],
+      "description": {
+        "nl": "Advantage op Stealth checks, Hide als Bonus Action in licht verduisterd, en creatures hebben Disadvantage op Perception checks om jou te zien.",
+        "en": "Advantage on Stealth, Hide as Bonus Action when lightly obscured, and creatures have Disadvantage on Perception checks to notice you."
+      },
+      "tags": ["stealth"]
+    },
+    {
+      "id": "silent_moves",
+      "name": "Silent Moves",
+      "cost": 2,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light", "medium"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": ["silent_moves_improved", "silent_moves_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Silent", "Hushed", "Soundless"],
+      "suffixes": ["of Silent Moves", "of Hushed Steps", "of the Quiet"],
+      "description": {
+        "nl": "Je beweging maakt geen geluid. Advantage op Stealth checks die op geluid berusten.",
+        "en": "Your movement makes no sound. Advantage on Stealth checks that rely on sound."
+      },
+      "tags": ["stealth", "sound"]
+    },
+    {
+      "id": "silent_moves_improved",
+      "name": "Silent Moves (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light", "medium"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": ["silent_moves", "silent_moves_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Whisper", "Murmur", "Ghoststep"],
+      "suffixes": ["of Whispered Steps", "of the Murmur", "of Ghoststepping"],
+      "description": {
+        "nl": "Geen geluid bij beweging, Advantage op Stealth, en bondgenoten binnen 10 feet profiteren ook van de stilte.",
+        "en": "No sound from movement, Advantage on Stealth checks, and allies within 10 feet also benefit from the silence aura."
+      },
+      "tags": ["stealth", "sound"]
+    },
+    {
+      "id": "silent_moves_greater",
+      "name": "Silent Moves (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light", "medium"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": ["silent_moves", "silent_moves_improved"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Void-Silent", "Soundless", "Deaf"],
+      "suffixes": ["of Greater Silence", "of Total Silence", "of the Deaf Walk"],
+      "description": {
+        "nl": "Jij en bondgenoten binnen 10 feet maken geen geluid, hebben Advantage op Stealth en kunnen niet gedetecteerd worden door passive Perception op gehoor.",
+        "en": "You and allies within 10 feet make no sound, have Advantage on Stealth, and cannot be detected by passive Perception relying on hearing."
+      },
+      "tags": ["stealth", "sound"]
+    },
+    {
+      "id": "glamered",
+      "name": "Glamered",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Glamered", "Disguised", "Illusory"],
+      "suffixes": ["of Glamour", "of Disguise", "of the Illusionist"],
+      "description": {
+        "nl": "Als Bonus Action kan dit armor eruitzien als gewone kleding of ander armor. Behoudt alle eigenschappen.",
+        "en": "As a Bonus Action, this armor can appear as normal clothing or another suit of armor. Retains all properties."
+      },
+      "tags": ["utility", "illusion", "stealth"]
+    },
+    {
+      "id": "slick",
+      "name": "Slick",
+      "cost": 2,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["slick_improved", "slick_greater"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Slick", "Oiled", "Smooth"],
+      "suffixes": ["of Slipperiness", "of the Eel", "of Slick Movement"],
+      "description": {
+        "nl": "Advantage op checks om te ontsnappen aan een Grapple of de Restrained conditie te weerstaan.",
+        "en": "Advantage on checks to escape a Grapple or resist the Restrained condition."
+      },
+      "tags": ["mobility", "grapple"]
+    },
+    {
+      "id": "slick_improved",
+      "name": "Slick (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["slick", "slick_greater"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Frictionless", "Greased", "Slippery"],
+      "suffixes": ["of Improved Slickness", "of Frictionless Movement"],
+      "description": {
+        "nl": "Advantage op Grapple escape checks, en je kunt eenmaal per beurt als Bonus Action de Grappled conditie automatisch beëindigen.",
+        "en": "Advantage on Grapple escape checks, and you can use a Bonus Action to automatically end the Grappled condition on yourself once per turn."
+      },
+      "tags": ["mobility", "grapple"]
+    },
+    {
+      "id": "slick_greater",
+      "name": "Slick (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["slick", "slick_improved"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Untouchable", "Ungrappleable", "Free"],
+      "suffixes": ["of Greater Slickness", "of Freedom from Bonds", "of the Unbound"],
+      "description": {
+        "nl": "Immunity voor de Grappled en Restrained conditions van niet-magische bronnen.",
+        "en": "You are immune to the Grappled and Restrained conditions from nonmagical sources."
+      },
+      "tags": ["mobility", "grapple"]
+    },
+    {
+      "id": "quickness",
+      "name": "Quickness",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light", "medium"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": ["speed"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Swift", "Quick", "Fleet"],
+      "suffixes": ["of Quickness", "of Swift Movement", "of the Fleet-Footed"],
+      "description": {
+        "nl": "Je movement speed neemt toe met 10 feet.",
+        "en": "Your movement speed increases by 10 feet."
+      },
+      "tags": ["mobility", "speed"]
+    },
+    {
+      "id": "speed",
+      "name": "Speed",
+      "cost": 4,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["light", "medium", "boots", "legguards"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": ["quickness"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Hasted", "Blurring", "Rushing"],
+      "suffixes": ["of Speed", "of Haste", "of the Wind"],
+      "description": {
+        "nl": "Driemaal per dag als Bonus Action: Haste effect voor 1 ronde.",
+        "en": "Three times per day as a Bonus Action: gain the effects of the Haste spell for 1 round."
+      },
+      "tags": ["mobility", "speed", "haste"]
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility",
+      "cost": 2,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light"],
+      "excludeSubtypes": ["medium", "heavy"],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Mobile", "Agile", "Nimble"],
+      "suffixes": ["of Mobility", "of Agility", "of the Dancer"],
+      "description": {
+        "nl": "Opportunity attacks tegen jou hebben Disadvantage, en jouw movement lokt geen opportunity attacks uit van creatures die je deze beurt al aangevallen hebt.",
+        "en": "Opportunity attacks against you have Disadvantage, and your movement doesn't provoke opportunity attacks from creatures you have attacked this turn."
+      },
+      "tags": ["mobility"]
+    },
+    {
+      "id": "freedom",
+      "name": "Freedom",
+      "cost": 4,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["anchoring", "anchoring_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Unbound", "Free", "Liberated"],
+      "suffixes": ["of Freedom", "of Free Movement", "of Liberation"],
+      "description": {
+        "nl": "Je beweegt en handelt normaal ongeacht effecten die movement belemmeren, als bij de Freedom of Movement spell.",
+        "en": "You move and act normally regardless of effects that would impede movement, as if by the Freedom of Movement spell."
+      },
+      "tags": ["mobility", "freedom"]
+    },
+    {
+      "id": "etherealness",
+      "name": "Etherealness",
+      "cost": 5,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["blinking"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Ethereal", "Planar", "Spirit-Woven"],
+      "suffixes": ["of Etherealness", "of the Ether", "of Planar Shift"],
+      "description": {
+        "nl": "Als Action: word Ethereal als door de Etherealness spell.",
+        "en": "As an Action: become Ethereal as if by the Etherealness spell."
+      },
+      "tags": ["mobility", "ethereal", "planar"]
+    },
+    {
+      "id": "blinking",
+      "name": "Blinking",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["etherealness"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Blinking", "Flickering", "Phasing"],
+      "suffixes": ["of Blinking", "of the Flicker", "of Phase Movement"],
+      "description": {
+        "nl": "Eenmaal per dag als Bonus Action: Blink spell effect voor 1 minuut.",
+        "en": "Once per day as a Bonus Action: gain the effects of the Blink spell for 1 minute."
+      },
+      "tags": ["mobility", "ethereal"]
+    },
+    {
+      "id": "aporter",
+      "name": "Aporter",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Translocation", "Blinking", "Stepping"],
+      "suffixes": ["of Teleportation", "of Dimension Stepping", "of the Portal"],
+      "description": {
+        "nl": "Tweemaal per dag als Action: teleporteer naar een onbezette ruimte binnen 500 feet die je kunt zien.",
+        "en": "Twice per day as an Action: teleport to any unoccupied space within 500 feet that you can see."
+      },
+      "tags": ["mobility", "teleportation"]
+    },
+    {
+      "id": "anchoring",
+      "name": "Anchoring",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["anchoring_greater", "freedom"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Anchored", "Rooted", "Steadfast"],
+      "suffixes": ["of Anchoring", "of the Immovable", "of Steadfast Ground"],
+      "description": {
+        "nl": "Advantage op Strength saving throws en ability checks om te voorkomen dat je gedwongen wordt te bewegen.",
+        "en": "Advantage on Strength saving throws and checks to resist being moved against your will."
+      },
+      "tags": ["defensive", "movement"]
+    },
+    {
+      "id": "anchoring_greater",
+      "name": "Anchoring (Greater)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["anchoring", "freedom"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Immovable", "Mountain", "Iron-Rooted"],
+      "suffixes": ["of Greater Anchoring", "of the Mountain", "of Immovability"],
+      "description": {
+        "nl": "Advantage op Strength saves tegen gedwongen beweging, en je kunt niet meer dan 5 feet gedwongen worden te bewegen door niet-magische effecten.",
+        "en": "Advantage on Strength saves against being moved, and you cannot be forcibly moved more than 5 feet by any nonmagical effect."
+      },
+      "tags": ["defensive", "movement"]
+    },
+    {
+      "id": "commander",
+      "name": "Commander",
+      "cost": 2,
+      "bonus": 0,
+      "category": "social",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["shadow", "shadow_improved", "shadow_greater", "vanishing"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Commanding", "Lordly", "Resplendent"],
+      "suffixes": ["of Command", "of the Leader", "of Lordship"],
+      "description": {
+        "nl": "Advantage op Persuasion checks, bondgenoten binnen 30 feet krijgen +1 op Wisdom saving throws. Disadvantage op Stealth.",
+        "en": "Advantage on Persuasion checks, allies within 30 feet gain +1 to Wisdom saving throws. Disadvantage on Stealth."
+      },
+      "tags": ["social", "leadership"]
+    },
+    {
+      "id": "fearsome",
+      "name": "Fearsome",
+      "cost": 3,
+      "bonus": 0,
+      "category": "social",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Fearsome", "Terrifying", "Dread"],
+      "suffixes": ["of Fear", "of Terror", "of the Dreadlord"],
+      "description": {
+        "nl": "Driemaal per dag als Action: creatures binnen 20 feet moeten slagen voor een DC 16 Wisdom saving throw of de Frightened condition krijgen.",
+        "en": "Three times per day as an Action: creatures within 20 feet must succeed DC 16 Wisdom save or become Frightened."
+      },
+      "tags": ["social", "fear"]
+    },
+    {
+      "id": "menacing",
+      "name": "Menacing",
+      "cost": 3,
+      "bonus": 0,
+      "category": "social",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Menacing", "Dread-Visaged", "Demon-Faced"],
+      "suffixes": ["of Menace", "of the Demon Face", "of Dread Visage"],
+      "description": {
+        "nl": "Driemaal per dag als Bonus Action: één creature binnen 30 feet met minder Hit Dice moet slagen voor een Wisdom saving throw of de Frightened condition krijgen voor 1 minuut.",
+        "en": "Three times per day as a Bonus Action: one creature within 30 feet with fewer Hit Dice must succeed Wisdom save or become Frightened for 1 minute."
+      },
+      "tags": ["social", "fear"]
+    },
+    {
+      "id": "agility",
+      "name": "Agility",
+      "cost": 2,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["agility_improved", "agility_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Agile", "Lithe", "Deft"],
+      "suffixes": ["of Agility", "of the Dancer", "of Deft Movement"],
+      "description": {
+        "nl": "+1 bonus op Dexterity saving throws.",
+        "en": "+1 bonus to Dexterity saving throws."
+      },
+      "tags": ["saving", "dexterity"]
+    },
+    {
+      "id": "agility_improved",
+      "name": "Agility (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["agility", "agility_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Nimble", "Quicksilver", "Fluid"],
+      "suffixes": ["of Improved Agility", "of Quicksilver", "of Fluid Motion"],
+      "description": {
+        "nl": "+2 bonus op Dexterity saving throws.",
+        "en": "+2 bonus to Dexterity saving throws."
+      },
+      "tags": ["saving", "dexterity"]
+    },
+    {
+      "id": "agility_greater",
+      "name": "Agility (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["agility", "agility_improved"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Serpentine", "Uncanny", "Phantom"],
+      "suffixes": ["of Greater Agility", "of Serpentine Speed", "of Phantom Movement"],
+      "description": {
+        "nl": "+3 bonus op Dexterity saving throws.",
+        "en": "+3 bonus to Dexterity saving throws."
+      },
+      "tags": ["saving", "dexterity"]
+    },
+    {
+      "id": "stamina",
+      "name": "Stamina",
+      "cost": 2,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["stamina_improved", "stamina_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Enduring", "Stalwart", "Hardy"],
+      "suffixes": ["of Stamina", "of Endurance", "of the Hardy"],
+      "description": {
+        "nl": "+1 bonus op Constitution saving throws.",
+        "en": "+1 bonus to Constitution saving throws."
+      },
+      "tags": ["saving", "constitution"]
+    },
+    {
+      "id": "stamina_improved",
+      "name": "Stamina (Improved)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["stamina", "stamina_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Ironbodied", "Robust", "Resolute"],
+      "suffixes": ["of Improved Stamina", "of Robust Endurance"],
+      "description": {
+        "nl": "+2 bonus op Constitution saving throws.",
+        "en": "+2 bonus to Constitution saving throws."
+      },
+      "tags": ["saving", "constitution"]
+    },
+    {
+      "id": "stamina_greater",
+      "name": "Stamina (Greater)",
+      "cost": 4,
+      "bonus": 0,
+      "category": "saving",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["stamina", "stamina_improved"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Indomitable", "Titan", "Unbroken"],
+      "suffixes": ["of Greater Stamina", "of the Titan", "of Indomitable Will"],
+      "description": {
+        "nl": "+3 bonus op Constitution saving throws.",
+        "en": "+3 bonus to Constitution saving throws."
+      },
+      "tags": ["saving", "constitution"]
+    },
+    {
+      "id": "twilight",
+      "name": "Twilight",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["light", "medium"],
+      "excludeSubtypes": ["heavy"],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Twilight", "Dusk", "Elven"],
+      "suffixes": ["of Twilight", "of Dusk", "of the Elven Arcanist"],
+      "description": {
+        "nl": "Arcane spell failure chance is 0. Als er al geen failure chance is, krijg je Advantage op Concentration checks.",
+        "en": "Arcane spell failure chance is 0. If already 0, you gain Advantage on Concentration checks."
+      },
+      "tags": ["utility", "arcane", "magic"]
+    },
+    {
+      "id": "wild",
+      "name": "Wild",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Wild", "Shifting", "Druidic"],
+      "suffixes": ["of Wild Shape", "of the Druid", "of Shifting Form"],
+      "description": {
+        "nl": "De AC bonus blijft bestaan bij gebruik van Wild Shape of vergelijkbare transformaties.",
+        "en": "The AC bonus persists when you use Wild Shape or a similar transformation ability."
+      },
+      "tags": ["utility", "druid", "transformation"]
+    },
+    {
+      "id": "styptic",
+      "name": "Styptic",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Styptic", "Clotting", "Bleeding-Proof"],
+      "suffixes": ["of Styptic Ward", "of Clotting", "of the Unstoppable"],
+      "description": {
+        "nl": "Je stabiliseert automatisch bij 0 HP. Advantage op Constitution saving throws tegen blood-draining effecten.",
+        "en": "You automatically stabilize at 0 HP. Advantage on Constitution saving throws against blood-draining effects."
+      },
+      "tags": ["utility", "healing", "survival"]
+    },
+    {
+      "id": "deepdweller",
+      "name": "Deepdweller",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["gilled"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Deep-Dwelling", "Abyssal", "Tidal"],
+      "suffixes": ["of the Deep", "of Deepdwelling", "of the Abyss"],
+      "description": {
+        "nl": "Je kunt onder water ademen, bent immune voor drukschade, zwemt zonder penalty, en ziet tweemaal zo ver onder water.",
+        "en": "You can breathe underwater, are immune to depth pressure damage, swim without penalty, and see twice as far underwater."
+      },
+      "tags": ["utility", "water", "underwater"]
+    },
+    {
+      "id": "gilled",
+      "name": "Gilled",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["deepdweller"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Gilled", "Aquatic", "Sea-Blessed"],
+      "suffixes": ["of Gills", "of the Sea", "of Aquatic Breathing"],
+      "description": {
+        "nl": "Je kunt ademen in elke omgeving, water of lucht.",
+        "en": "You can breathe normally in any environment, water or air."
+      },
+      "tags": ["utility", "water", "breathing"]
+    },
+    {
+      "id": "buoyant",
+      "name": "Buoyant",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Buoyant", "Floating", "Wave-Riding"],
+      "suffixes": ["of Buoyancy", "of the Wave-Rider", "of Floating"],
+      "description": {
+        "nl": "Dit armor geeft geen penalty op zwemmen en je kunt niet onopzettelijk zinken.",
+        "en": "This armor imposes no penalty on swim checks and you cannot sink unintentionally."
+      },
+      "tags": ["utility", "water", "swimming"]
+    },
+    {
+      "id": "undead_controlling",
+      "name": "Undead Controlling",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Necrotic", "Death-Commanding", "Bone-Lord"],
+      "suffixes": ["of Undead Command", "of the Death Lord", "of Necrotic Authority"],
+      "description": {
+        "nl": "Eenmaal per dag: beheers tot 5 Undead creatures binnen 60 feet als door de Control Undead spell (DC 15).",
+        "en": "Once per day: command up to 5 Undead creatures within 60 feet as if using the Control Undead spell (save DC 15)."
+      },
+      "tags": ["utility", "undead", "necromancy"]
+    },
+    {
+      "id": "blurring",
+      "name": "Blurring",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["blurring_greater"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Blurring", "Indistinct", "Shifting"],
+      "suffixes": ["of Blurring", "of Indistinction", "of the Blur"],
+      "description": {
+        "nl": "Driemaal per dag als Bonus Action: Blur spell effect voor 1 minuut.",
+        "en": "Three times per day as a Bonus Action: gain the effects of the Blur spell for 1 minute."
+      },
+      "tags": ["defensive", "illusion"]
+    },
+    {
+      "id": "blurring_greater",
+      "name": "Blurring (Greater)",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["blurring"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Phantom", "Ghostly-Blurring", "Mirage"],
+      "suffixes": ["of Greater Blurring", "of the Phantom", "of Mirage Movement"],
+      "description": {
+        "nl": "Herlaadt na een Short of Long Rest: activeer als Bonus Action voor Blur effect gedurende 1 minuut.",
+        "en": "Recharges after a Short or Long Rest: activate as a Bonus Action to gain Blur effect for 1 minute."
+      },
+      "tags": ["defensive", "illusion"]
+    },
+    {
+      "id": "displacement",
+      "name": "Displacement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Displacing", "Phase-Shifted", "Dislocated"],
+      "suffixes": ["of Displacement", "of Phase Shift", "of Disorientation"],
+      "description": {
+        "nl": "Eenmaal per dag: attack rolls hebben Disadvantage ongeacht de zintuigen van de aanvaller. Eindigt bij een treffer.",
+        "en": "Once per day: attack rolls have Disadvantage regardless of the attacker's senses. Ends if you are hit."
+      },
+      "tags": ["defensive", "illusion"]
+    },
+    {
+      "id": "vanishing",
+      "name": "Vanishing",
+      "cost": 3,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["commander"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Vanishing", "Invisible", "Fading"],
+      "suffixes": ["of Vanishing", "of Invisibility", "of the Fade"],
+      "description": {
+        "nl": "Tweemaal per dag als Action: word Invisible en ondetecteerbaar voor niet-magische zintuigen voor 3 minuten of totdat je aanvalt of een spell cast.",
+        "en": "Twice per day as an Action: become invisible and undetectable by nonmagical senses for up to 3 minutes."
+      },
+      "tags": ["stealth", "invisibility"]
+    },
+    {
+      "id": "daylight",
+      "name": "Daylight",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Sunlit", "Blazing", "Solar"],
+      "suffixes": ["of Daylight", "of the Sun", "of Solar Light"],
+      "description": {
+        "nl": "Als Bonus Action: laat dit item gloien als de Daylight spell, tot 1 uur per dag.",
+        "en": "As a Bonus Action: cause this item to glow as the Daylight spell, up to 1 hour per day."
+      },
+      "tags": ["utility", "light", "undead"]
+    },
+    {
+      "id": "animated",
+      "name": "Animated",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Animated", "Living", "Self-Wielding"],
+      "suffixes": ["of Animation", "of the Living Shield", "of Self-Defense"],
+      "description": {
+        "nl": "Als Bonus Action: laat dit shield zweven en beschermen voor 1 minuut. Beide handen zijn vrij.",
+        "en": "As a Bonus Action: cause this shield to hover and protect you for 1 minute. Both your hands are free."
+      },
+      "tags": ["utility", "shield"]
+    },
+    {
+      "id": "arrow_catching",
+      "name": "Arrow Catching",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["arrow_deflection"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Arrow-Catching", "Bolt-Catching", "Projectile-Warding"],
+      "suffixes": ["of Arrow Catching", "of the Arrow Catcher", "of Bolt Ward"],
+      "description": {
+        "nl": "+2 AC tegen ranged attacks. Als Reaction kun je ranged attacks op nabije bondgenoten omleiden naar jezelf.",
+        "en": "+2 AC against ranged attacks. As a Reaction, redirect ranged attacks targeting nearby allies to yourself."
+      },
+      "tags": ["defensive", "ranged", "shield"]
+    },
+    {
+      "id": "arrow_deflection",
+      "name": "Arrow Deflection",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["arrow_catching"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Deflecting", "Arrow-Turning", "Bolt-Turning"],
+      "suffixes": ["of Arrow Deflection", "of the Deflector", "of Turned Arrows"],
+      "description": {
+        "nl": "Eenmaal per ronde als Reaction: DC 15 Dexterity saving throw om een ranged attack volledig te deflecteren.",
+        "en": "Once per round as a Reaction: DC 15 Dexterity save to fully deflect a ranged weapon attack."
+      },
+      "tags": ["defensive", "ranged", "shield"]
+    },
+    {
+      "id": "bashing",
+      "name": "Bashing",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Bashing", "Spiked", "Iron-Spiked"],
+      "suffixes": ["of Bashing", "of the Shield-Bash", "of Iron Spikes"],
+      "description": {
+        "nl": "Attacks met dit shield doen 1d6 of 1d8 Bludgeoning damage. Behandeld als +1 weapon voor deze attacks.",
+        "en": "Attacks with this shield deal 1d6 or 1d8 Bludgeoning damage. Treated as a +1 weapon for these attacks."
+      },
+      "tags": ["utility", "shield", "weapon"]
+    },
+    {
+      "id": "blinding_shield",
+      "name": "Blinding",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Blinding", "Dazzling", "Sun-Flash"],
+      "suffixes": ["of Blinding", "of the Dazzle", "of the Flash"],
+      "description": {
+        "nl": "Tweemaal per dag als Action: alle creatures binnen 20 feet moeten slagen voor een DC 14 Constitution saving throw of de Blinded condition krijgen tot het einde van hun volgende beurt.",
+        "en": "Twice per day as an Action: all creatures within 20 feet must succeed DC 14 Con save or be Blinded until end of their next turn."
+      },
+      "tags": ["utility", "shield", "blind"]
+    },
+    {
+      "id": "reflecting",
+      "name": "Reflecting",
+      "cost": 4,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Reflecting", "Mirror", "Spell-Turning"],
+      "suffixes": ["of Reflection", "of the Mirror", "of Spell Turning"],
+      "description": {
+        "nl": "Eenmaal per dag als Reaction: reflecteer een spell terug naar de caster met een Arcana check.",
+        "en": "Once per day as a Reaction: reflect a spell back at its caster with a contested Arcana check."
+      },
+      "tags": ["defensive", "magic", "shield"]
+    },
+    {
+      "id": "averter",
+      "name": "Averter",
+      "cost": 3,
+      "bonus": 0,
+      "category": "social",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Averting", "Fear-Warding", "Menacing"],
+      "suffixes": ["of Averting", "of Dread", "of the Averter"],
+      "description": {
+        "nl": "Driemaal per dag als Action: vijanden binnen 30 feet moeten slagen voor een DC 14 Wisdom saving throw of zich niet vrijwillig kunnen naderen voor 3 rondes.",
+        "en": "Three times per day as an Action: enemies within 30 feet must succeed DC 14 Wisdom save or be unable to move within 30 feet of you for 3 rounds."
+      },
+      "tags": ["social", "fear", "shield"]
+    },
+    {
+      "id": "time_buttress",
+      "name": "Time Buttress",
+      "cost": 5,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Time-Warding", "Temporal", "Invincible"],
+      "suffixes": ["of Time Buttress", "of Invincibility", "of Temporal Warding"],
+      "description": {
+        "nl": "Eenmaal per dag als Reaction: word onaantastbaar tot het einde van je volgende beurt.",
+        "en": "Once per day as a Reaction: become invulnerable to all damage and effects until the end of your next turn."
+      },
+      "tags": ["defensive", "shield", "legendary_feel"]
+    },
+    {
+      "id": "variable",
+      "name": "Variable",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Variable", "Shifting", "Adjustable"],
+      "suffixes": ["of Variable Form", "of the Shifting Shield", "of Adjustment"],
+      "description": {
+        "nl": "Als Bonus Action: verander de vorm van dit shield tussen Buckler, Light Shield, Heavy Shield of Tower Shield.",
+        "en": "As a Bonus Action: change this shield between Buckler, Light Shield, Heavy Shield, or Tower Shield form."
+      },
+      "tags": ["utility", "shield"]
+    },
+    {
+      "id": "heartening",
+      "name": "Heartening",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor"],
+      "allowedSubtypes": ["shield"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Heartening", "Bolstering", "Inspiring"],
+      "suffixes": ["of Heartening", "of Temporary Vigor", "of the Bulwark"],
+      "description": {
+        "nl": "Tweemaal per dag als Bonus Action: krijg 10 Temporary HP die tot 1 uur duren.",
+        "en": "Twice per day as a Bonus Action: gain 10 Temporary Hit Points lasting up to 1 hour."
+      },
+      "tags": ["defensive", "shield", "healing"]
+    },
+    {
+      "id": "axeblock",
+      "name": "Axeblock",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["hammerblock", "spearblock"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Slashing-Proof", "Blade-Warding", "Axe-Proof"],
+      "suffixes": ["of Axeblocking", "of Blade Ward", "of Slashing Resistance"],
+      "description": {
+        "nl": "Resistance tegen Slashing damage van niet-magische bronnen.",
+        "en": "Resistance to Slashing damage from nonmagical sources."
+      },
+      "tags": ["defensive", "resistance", "slashing"]
+    },
+    {
+      "id": "hammerblock",
+      "name": "Hammerblock",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["axeblock", "spearblock"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Impact-Proof", "Hammer-Warding", "Bludgeon-Proof"],
+      "suffixes": ["of Hammerblocking", "of Hammer Ward", "of Bludgeoning Resistance"],
+      "description": {
+        "nl": "Resistance tegen Bludgeoning damage van niet-magische bronnen.",
+        "en": "Resistance to Bludgeoning damage from nonmagical sources."
+      },
+      "tags": ["defensive", "resistance", "bludgeoning"]
+    },
+    {
+      "id": "spearblock",
+      "name": "Spearblock",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["armor", "wondrous"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["axeblock", "hammerblock"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Piercing-Proof", "Spear-Warding", "Puncture-Proof"],
+      "suffixes": ["of Spearblocking", "of Spear Ward", "of Piercing Resistance"],
+      "description": {
+        "nl": "Resistance tegen Piercing damage van niet-magische bronnen.",
+        "en": "Resistance to Piercing damage from nonmagical sources."
+      },
+      "tags": ["defensive", "resistance", "piercing"]
+    },
+    {
+      "id": "flaming",
+      "name": "Flaming",
+      "cost": 2,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["frost_brand", "shock", "venom"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Burning", "Blazing", "Infernal", "Desert"],
+      "suffixes": ["of Eternal Flame", "of Embers", "of Hellfire", "of Planar Fire"],
+      "description": {
+        "nl": "Dit weapon dealt 1d6 extra Fire damage bij een hit en verlicht 20 feet.",
+        "en": "This weapon deals an extra 1d6 Fire damage on a hit and sheds Bright Light in a 20-foot radius."
+      },
+      "tags": ["elemental", "fire", "damage"]
+    },
+    {
+      "id": "frost_brand",
+      "name": "Frost Brand",
+      "cost": 3,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["flaming", "shock", "venom"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Frost", "Ice", "Polar", "Glacial"],
+      "suffixes": ["of the Icicle", "of Freezing", "of Planar Cold", "of the Glacier"],
+      "description": {
+        "nl": "1d6 extra Cold damage bij hit. Resistance tegen Fire damage. Kan open vlammen blussen binnen 30 feet.",
+        "en": "1d6 extra Cold damage on hit. Resistance to Fire damage. Can extinguish nonmagical flames within 30 feet."
+      },
+      "tags": ["elemental", "cold", "damage"]
+    },
+    {
+      "id": "shock",
+      "name": "Shock",
+      "cost": 2,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["flaming", "frost_brand", "venom"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Shocking", "Crackling", "Storm", "Thunder"],
+      "suffixes": ["of Lightning", "of the Storm", "of Planar Lightning", "of the Thunderhead"],
+      "description": {
+        "nl": "1d6 extra Lightning damage bij hit. Critical Hit: target moet slagen voor DC 13 Constitution saving throw of de Incapacitated condition krijgen.",
+        "en": "1d6 extra Lightning damage on hit. Critical Hit: target must succeed DC 13 Con save or be Incapacitated."
+      },
+      "tags": ["elemental", "lightning", "damage"]
+    },
+    {
+      "id": "venom",
+      "name": "Venom",
+      "cost": 2,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["simple_melee", "martial_melee", "simple_ranged", "martial_ranged"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["flaming", "frost_brand", "shock"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Venomous", "Toxic", "Poisoned", "Serpent"],
+      "suffixes": ["of Venom", "of Poison", "of the Serpent", "of the Spider"],
+      "description": {
+        "nl": "Bij hit: DC 13 Constitution saving throw of 1d6 extra Poison damage en de Poisoned condition voor 1 minuut.",
+        "en": "On hit: DC 13 Con save or take 1d6 extra Poison damage and become Poisoned for 1 minute."
+      },
+      "tags": ["elemental", "poison", "condition"]
+    },
+    {
+      "id": "dancing",
+      "name": "Dancing",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["speed_weapon"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Dancing", "Floating", "Self-Wielding"],
+      "suffixes": ["of Dancing", "of the Living Blade", "of Self-Wielding"],
+      "description": {
+        "nl": "Als Bonus Action: gooi het weapon omhoog om zelfstandig te vechten voor 4 beurten, dan keert het terug.",
+        "en": "As a Bonus Action: toss this weapon to fight on its own for 4 turns, then it returns to your hand."
+      },
+      "tags": ["utility", "legendary_feel"]
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Defending", "Guardian", "Warding"],
+      "suffixes": ["of Defense", "of the Guardian", "of Warding"],
+      "description": {
+        "nl": "+3 bonus op attack and damage rolls. Elke beurt kun je een deel van de bonus overhevelen naar je AC.",
+        "en": "+3 bonus to attack and damage rolls. Each turn you can transfer some or all of the bonus to your Armor Class."
+      },
+      "tags": ["utility", "defensive"]
+    },
+    {
+      "id": "dragon_slayer",
+      "name": "Dragon Slayer",
+      "cost": 3,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["giant_slayer", "bane"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Dragonbane", "Dragon-Slaying", "Wyrm-Felling"],
+      "suffixes": ["of Dragon Slaying", "of the Wyrm-Feller", "of Dragonbane"],
+      "description": {
+        "nl": "+1 op attack and damage rolls. Bij hit op een Dragon: 3d6 extra damage van het weapon type.",
+        "en": "+1 to attack and damage rolls. On a hit against a Dragon: 3d6 extra damage of the weapon's type."
+      },
+      "tags": ["bane", "dragon"]
+    },
+    {
+      "id": "giant_slayer",
+      "name": "Giant Slayer",
+      "cost": 3,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["dragon_slayer", "bane"],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Giantbane", "Giant-Slaying", "Colossus-Felling"],
+      "suffixes": ["of Giant Slaying", "of the Giantbane", "of Colossus Felling"],
+      "description": {
+        "nl": "+1 op attack and damage rolls. Bij hit op een Giant: 2d6 extra damage en DC 15 Strength saving throw of Prone.",
+        "en": "+1 to attack and damage rolls. On a hit against a Giant: 2d6 extra damage and DC 15 Str save or become Prone."
+      },
+      "tags": ["bane", "giant"]
+    },
+    {
+      "id": "bane",
+      "name": "Bane",
+      "cost": 3,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["dragon_slayer", "giant_slayer"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Bane", "Creature-Bane", "Slaying"],
+      "suffixes": ["of Bane", "of Slaying", "of the Hunter"],
+      "description": {
+        "nl": "+2 op attack and damage rolls en 2d6 extra damage tegen één specifiek creature type.",
+        "en": "+2 to attack and damage rolls and 2d6 extra damage against one specific creature type."
+      },
+      "tags": ["bane"]
+    },
+    {
+      "id": "disruption",
+      "name": "Disruption",
+      "cost": 3,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["simple_melee", "martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Disrupting", "Holy", "Undead-Bane"],
+      "suffixes": ["of Disruption", "of Holy Light", "of Undead Bane"],
+      "description": {
+        "nl": "+1 op attack and damage rolls tegen Undead. Bij hit: DC 15 Wisdom saving throw of Frightened. Undead binnen 30 feet kunnen geen HP herstellen.",
+        "en": "+1 to attack and damage rolls against Undead. On hit: DC 15 Wis save or Frightened. Undead within 30 feet cannot regain Hit Points."
+      },
+      "tags": ["bane", "undead", "holy"]
+    },
+    {
+      "id": "holy_avenger",
+      "name": "Holy Avenger",
+      "cost": 5,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Holy", "Divine", "Sacred"],
+      "suffixes": ["of Holy Vengeance", "of the Avenger", "of Divine Wrath"],
+      "description": {
+        "nl": "+3 attack and damage rolls. 2d10 extra Radiant damage tegen Fiends en Undead. 10-feet aura: Advantage op magic saving throws voor jou en bondgenoten.",
+        "en": "+3 attack and damage rolls. 2d10 extra Radiant damage against Fiends and Undead. 10-foot aura: Advantage on magic saves for you and allies."
+      },
+      "tags": ["bane", "holy", "legendary_feel"]
+    },
+    {
+      "id": "flame_tongue",
+      "name": "Flame Tongue",
+      "cost": 3,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["frost_brand", "shock", "venom"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Flame-Tongued", "Fire-Licked", "Igniting"],
+      "suffixes": ["of Flame Tongue", "of Licking Fire", "of the Igniter"],
+      "description": {
+        "nl": "Als Bonus Action: ontsteek voor 2d6 extra Fire damage en Bright Light 40 feet. Doven als Bonus Action.",
+        "en": "As a Bonus Action: ignite for 2d6 extra Fire damage and Bright Light 40 feet. Extinguish as Bonus Action."
+      },
+      "tags": ["elemental", "fire", "damage"]
+    },
+    {
+      "id": "life_stealing",
+      "name": "Life Stealing",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Life-Stealing", "Soul-Draining", "Vampiric"],
+      "suffixes": ["of Life Stealing", "of the Vampire", "of Soul Drain"],
+      "description": {
+        "nl": "Critical Hit (nat 20): target neemt 15 extra Necrotic damage en jij krijgt dat als Temporary HP.",
+        "en": "Critical hit (nat 20): target takes 15 extra Necrotic damage and you gain that amount as Temporary Hit Points."
+      },
+      "tags": ["necrotic", "life_drain"]
+    },
+    {
+      "id": "luck_blade",
+      "name": "Luck Blade",
+      "cost": 5,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Lucky", "Fortune's", "Fate-Touched"],
+      "suffixes": ["of Luck", "of Fortune", "of Fate"],
+      "description": {
+        "nl": "+1 op attack and damage rolls en saving throws. Eenmaal per dag: hergooi een mislukte D20. 1d3 Wish charges.",
+        "en": "+1 to attack and damage rolls and saving throws. Once per day: reroll a failed D20 Test. 1d3 Wish charges."
+      },
+      "tags": ["utility", "luck", "legendary_feel"]
+    },
+    {
+      "id": "nine_lives_stealer",
+      "name": "Nine Lives Stealer",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Life-Stealing", "Soul-Reaping", "Nine-Lives"],
+      "suffixes": ["of Nine Lives", "of Soul Reaping", "of the Ender"],
+      "description": {
+        "nl": "+2 attack and damage rolls. Critical Hit op creature met <100 HP: DC 15 Constitution saving throw of instant death. 1d8+1 charges.",
+        "en": "+2 attack and damage rolls. Critical hit on creature <100 HP: DC 15 Con save or instant death. 1d8+1 charges."
+      },
+      "tags": ["utility", "death", "legendary_feel"]
+    },
+    {
+      "id": "sharpness",
+      "name": "Sharpness",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Razor-Sharp", "Keen-Edged", "Razor"],
+      "suffixes": ["of Sharpness", "of the Razor", "of Keen Edge"],
+      "description": {
+        "nl": "Critical Hit (nat 20): target neemt 14 extra Slashing damage en krijgt 1 Exhaustion level.",
+        "en": "Critical hit (nat 20): target takes 14 extra Slashing damage and gains 1 Exhaustion level."
+      },
+      "tags": ["utility", "slashing", "critical"]
+    },
+    {
+      "id": "vicious",
+      "name": "Vicious",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Vicious", "Savage", "Brutal"],
+      "suffixes": ["of Savagery", "of the Brutal Strike", "of Viciousness"],
+      "description": {
+        "nl": "Dit weapon dealt een extra 2d6 damage van hetzelfde type bij elke hit.",
+        "en": "This magic weapon deals an extra 2d6 damage of the same type as its normal damage on every hit."
+      },
+      "tags": ["utility", "damage"]
+    },
+    {
+      "id": "wounding",
+      "name": "Wounding",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Wounding", "Festering", "Bleeding"],
+      "suffixes": ["of Wounding", "of Festering Wounds", "of Bleeding"],
+      "description": {
+        "nl": "Bij hit: 2d6 extra Necrotic damage en DC 15 Constitution saving throw of het target kan 1 uur geen HP herstellen.",
+        "en": "On hit: 2d6 extra Necrotic damage and DC 15 Con save or the target can't regain Hit Points for 1 hour."
+      },
+      "tags": ["utility", "necrotic", "condition"]
+    },
+    {
+      "id": "keen",
+      "name": "Keen",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["simple_melee", "martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Keen", "Sharp", "Edge-Honed"],
+      "suffixes": ["of Keen Edge", "of the Sharp Blade", "of Critical Striking"],
+      "description": {
+        "nl": "Critical Hit op een roll van 19 of 20.",
+        "en": "You score a Critical Hit on a roll of 19 or 20."
+      },
+      "tags": ["utility", "critical"]
+    },
+    {
+      "id": "vorpal",
+      "name": "Vorpal",
+      "cost": 5,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Vorpal", "Head-Taking", "Decapitating"],
+      "suffixes": ["of Decapitation", "of the Vorpal Edge", "of Head-Taking"],
+      "description": {
+        "nl": "+3 attack and damage rolls. Negeert Slashing Resistance. Nat 20: sloeg hoofd af. Slashing only.",
+        "en": "+3 attack and damage rolls. Ignores Slashing Resistance. Nat 20: severs head. Slashing only."
+      },
+      "tags": ["utility", "slashing", "death", "legendary_feel"]
+    },
+    {
+      "id": "thundering",
+      "name": "Thundering",
+      "cost": 3,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Thundering", "Booming", "Deafening"],
+      "suffixes": ["of Thunder", "of the Thunderclap", "of Deafening Blows"],
+      "description": {
+        "nl": "1d6 extra Thunder damage bij hit. Critical Hit: DC 14 Constitution saving throw of de Deafened condition voor 1 minuut.",
+        "en": "1d6 extra Thunder damage on a hit. Critical Hit: DC 14 Con save or become Deafened for 1 minute."
+      },
+      "tags": ["elemental", "thunder", "condition"]
+    },
+    {
+      "id": "returning",
+      "name": "Returning",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Returning", "Homing", "Boomerang"],
+      "suffixes": ["of Returning", "of the Boomerang", "of Homing"],
+      "description": {
+        "nl": "Na gooien keert het weapon terug naar je hand aan het einde van je beurt.",
+        "en": "After being thrown, this weapon returns to your hand at the end of your turn."
+      },
+      "tags": ["utility", "thrown"]
+    },
+    {
+      "id": "seeking",
+      "name": "Seeking",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["simple_ranged", "martial_ranged"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Seeking", "Homing", "Unerring"],
+      "suffixes": ["of Seeking", "of the Unerring Shot", "of True Aim"],
+      "description": {
+        "nl": "Ranged attacks negeren Half en Three-Quarters Cover. Geen Disadvantage buiten normaal bereik.",
+        "en": "Ranged attacks ignore Half and Three-Quarters Cover. No Disadvantage against targets beyond normal range."
+      },
+      "tags": ["utility", "ranged"]
+    },
+    {
+      "id": "merciful",
+      "name": "Merciful",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Merciful", "Nonlethal", "Subduing"],
+      "suffixes": ["of Mercy", "of Subduing", "of the Pacifist"],
+      "description": {
+        "nl": "Als Bonus Action: schakel over op nonlethal damage. Creatures op 0 HP worden Unconscious in plaats van gedood.",
+        "en": "As a Bonus Action: switch to nonlethal damage. Creatures brought to 0 HP are unconscious instead of dying."
+      },
+      "tags": ["utility", "nonlethal"]
+    },
+    {
+      "id": "warning",
+      "name": "Warning",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["*"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Warning", "Sentinel", "Vigilant"],
+      "suffixes": ["of Warning", "of Vigilance", "of the Sentinel"],
+      "description": {
+        "nl": "Wekt slapende creatures bij gevaar. Jij en bondgenoten binnen 30 feet hebben Advantage op Initiative rolls.",
+        "en": "Wakes sleeping creatures when combat begins. You and allies within 30 feet have Advantage on Initiative."
+      },
+      "tags": ["utility", "initiative"]
+    },
+    {
+      "id": "speed_weapon",
+      "name": "Speed",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["weapon"],
+      "allowedSubtypes": ["martial_melee"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["dancing"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Swift", "Blurring", "Lightning-Fast"],
+      "suffixes": ["of Speed", "of Swift Strikes", "of Lightning Blows"],
+      "description": {
+        "nl": "Eenmaal per beurt kun je één attack met dit weapon als Bonus Action doen.",
+        "en": "Once per turn, you can make one attack with this weapon as a Bonus Action."
+      },
+      "tags": ["utility", "speed"]
+    },
+    {
+      "id": "arrow_of_slaying",
+      "name": "Arrow of Slaying",
+      "cost": 4,
+      "bonus": 0,
+      "category": "bane",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Slaying", "Death-Aimed", "Bane"],
+      "suffixes": ["of Slaying", "of the Executioner", "of Death-Aim"],
+      "description": {
+        "nl": "Eenmalig: treft een specifiek creature type voor DC 17 Constitution saving throw of 6d10 extra Piercing damage.",
+        "en": "Single use: hits a specific creature type for DC 17 Con save or 6d10 extra Piercing damage."
+      },
+      "tags": ["bane", "ammunition"]
+    },
+    {
+      "id": "explosive_arrow",
+      "name": "Explosive Arrow",
+      "cost": 2,
+      "bonus": 0,
+      "category": "elemental",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Explosive", "Bursting", "Detonating"],
+      "suffixes": ["of Explosion", "of Bursting", "of Detonation"],
+      "description": {
+        "nl": "Eenmalig: explodeert bij inslag. Alle creatures binnen 10 feet: DC 13 Dexterity saving throw of 2d6 Fire damage.",
+        "en": "Single use: explodes on impact. All creatures within 10 feet: DC 13 Dex save or 2d6 Fire damage."
+      },
+      "tags": ["elemental", "fire", "ammunition", "aoe"]
+    },
+    {
+      "id": "arrow_of_returning",
+      "name": "Arrow of Returning",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Returning", "Homing", "Boomerang"],
+      "suffixes": ["of Returning", "of the Boomerang", "of Homing"],
+      "description": {
+        "nl": "Keert terug naar je quiver bij het begin van je volgende beurt. Behoudt magie.",
+        "en": "Returns to your quiver at the start of your next turn. Retains its magical properties indefinitely."
+      },
+      "tags": ["utility", "ammunition"]
+    },
+    {
+      "id": "blinding_arrow",
+      "name": "Blinding Arrow",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Blinding", "Flash", "Dazzling"],
+      "suffixes": ["of Blinding", "of the Flash", "of Dazzling Light"],
+      "description": {
+        "nl": "Eenmalig: bij hit verblindende lichtflits. Target en creatures binnen 5 feet: DC 14 Constitution saving throw of Blinded tot einde volgende beurt.",
+        "en": "Single use: on hit, blinding flash. Target and creatures within 5 feet: DC 14 Con save or Blinded."
+      },
+      "tags": ["utility", "ammunition", "blind"]
+    },
+    {
+      "id": "arrow_of_paralysis",
+      "name": "Arrow of Paralysis",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Paralyzing", "Stunning", "Numbing"],
+      "suffixes": ["of Paralysis", "of Stunning", "of the Numbing Shot"],
+      "description": {
+        "nl": "Eenmalig: bij hit DC 15 Constitution saving throw of Paralyzed voor 1 minuut.",
+        "en": "Single use: on hit, DC 15 Con save or become Paralyzed for 1 minute."
+      },
+      "tags": ["utility", "ammunition", "condition"]
+    },
+    {
+      "id": "arrow_of_tracking",
+      "name": "Arrow of Tracking",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["ammunition"],
+      "allowedSubtypes": ["arrow", "bolt"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Tracking", "Marking", "Homing"],
+      "suffixes": ["of Tracking", "of the Hunter's Mark", "of Marking"],
+      "description": {
+        "nl": "Eenmalig: bij hit magisch teken voor 24 uur. Richting en afstand tot 1 mile, Advantage op Survival om te volgen.",
+        "en": "Single use: on hit, magical mark for 24 hours. Direction and distance up to 1 mile, Advantage on Survival to track."
+      },
+      "tags": ["utility", "ammunition", "tracking"]
+    },
+    {
+      "id": "ring_protection",
+      "name": "Protection",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Protecting", "Warding", "Shielding"],
+      "suffixes": ["of Protection", "of Warding", "of the Shield"],
+      "description": {
+        "nl": "+1 bonus op AC en saving throws.",
+        "en": "+1 bonus to Armor Class and saving throws."
+      },
+      "tags": ["defensive", "ring"]
+    },
+    {
+      "id": "ring_free_action",
+      "name": "Free Action",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["freedom"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Free-Moving", "Unbound", "Unrestrained"],
+      "suffixes": ["of Free Action", "of Unbound Movement", "of Freedom"],
+      "description": {
+        "nl": "Difficult terrain kost geen extra movement. Magic kan je speed niet verminderen of je Paralyzed of Restrained maken.",
+        "en": "Difficult terrain doesn't cost extra movement. Magic can't reduce your speed or Paralyze or Restrain you."
+      },
+      "tags": ["mobility", "freedom", "ring"]
+    },
+    {
+      "id": "ring_mind_shielding",
+      "name": "Mind Shielding",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring", "headband", "helm"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["masking"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Mind-Shielded", "Thought-Warded", "Psionic-Proof"],
+      "suffixes": ["of Mind Shielding", "of Thought Warding", "of Psionic Protection"],
+      "description": {
+        "nl": "Immune voor magic die gedachten leest of bepaalt of je liegt. Telepathy alleen als jij dat toestaat.",
+        "en": "Immune to magic that reads thoughts or determines if you are lying. Telepathy only if you allow it."
+      },
+      "tags": ["defensive", "mental", "ring"]
+    },
+    {
+      "id": "ring_spell_storing",
+      "name": "Spell Storing",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Spell-Storing", "Arcane-Holding", "Spell-Laden"],
+      "suffixes": ["of Spell Storing", "of Arcane Storage", "of the Spell Vault"],
+      "description": {
+        "nl": "Slaat tot 5 spell levels op. De uitgeruste drager kan opgeslagen spells casten.",
+        "en": "Stores up to 5 levels of spells cast into it. The attuned wearer can cast any stored spell."
+      },
+      "tags": ["utility", "magic", "ring"]
+    },
+    {
+      "id": "ring_warmth",
+      "name": "Warmth",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Warming", "Heat-Warding", "Frost-Proof"],
+      "suffixes": ["of Warmth", "of Frost Ward", "of the Warming Glow"],
+      "description": {
+        "nl": "Resistance tegen Cold damage. Ongedeerd bij temperaturen tot -50°F.",
+        "en": "Resistance to Cold damage. Unharmed by temperatures as low as -50 degrees Fahrenheit."
+      },
+      "tags": ["defensive", "cold", "ring"]
+    },
+    {
+      "id": "ring_water_walking",
+      "name": "Water Walking",
+      "cost": 2,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring", "boots"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Wave-Walking", "Water-Walking", "Tide-Walking"],
+      "suffixes": ["of Water Walking", "of the Tide Walker", "of Wave Running"],
+      "description": {
+        "nl": "Je kunt over water en andere vloeistoffen lopen alsof het vaste grond is.",
+        "en": "You can stand on and walk across any liquid surface as if it were solid ground."
+      },
+      "tags": ["mobility", "water", "ring"]
+    },
+    {
+      "id": "ring_feather_falling",
+      "name": "Feather Falling",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring", "cloak", "boots"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Feather-Light", "Floating", "Drifting"],
+      "suffixes": ["of Feather Falling", "of Gentle Descent", "of the Feather"],
+      "description": {
+        "nl": "Bij vallen: daal op 60 feet per ronde, geen falling damage.",
+        "en": "When falling: descend at 60 feet per round and take no falling damage."
+      },
+      "tags": ["mobility", "falling", "ring"]
+    },
+    {
+      "id": "ring_invisibility",
+      "name": "Invisibility",
+      "cost": 5,
+      "bonus": 0,
+      "category": "stealth",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring", "cloak"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["vanishing"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Invisible", "Unseen", "Phantasmal"],
+      "suffixes": ["of Invisibility", "of the Unseen", "of Phantom Existence"],
+      "description": {
+        "nl": "Als Action: word Invisible totdat je aanvalt, een spell cast, of het item uittrekt.",
+        "en": "As an Action: become Invisible until you attack, cast a spell, or remove the ring."
+      },
+      "tags": ["stealth", "invisibility", "ring"]
+    },
+    {
+      "id": "ring_resistance",
+      "name": "Resistance",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Resistant", "Warding", "Shielding"],
+      "suffixes": ["of Resistance", "of Elemental Warding", "of the Bulwark"],
+      "description": {
+        "nl": "Resistance tegen één type damage (bepaald bij creatie).",
+        "en": "Resistance to one type of damage (determined at creation)."
+      },
+      "tags": ["defensive", "resistance", "ring"]
+    },
+    {
+      "id": "bracers_of_archery",
+      "name": "Archery",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["bracers"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Archer's", "Bowman's", "Marksman's"],
+      "suffixes": ["of Archery", "of the Bowman", "of True Shot"],
+      "description": {
+        "nl": "Proficiency met Longbow en Shortbow. +2 bonus op damage rolls met die weapons.",
+        "en": "Proficiency with Longbow and Shortbow. +2 bonus to damage rolls with those weapons."
+      },
+      "tags": ["utility", "ranged", "bracers"]
+    },
+    {
+      "id": "bracers_of_defense",
+      "name": "Defense",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["bracers"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Defending", "Guardian", "Warding"],
+      "suffixes": ["of Defense", "of the Guardian", "of Arcane Ward"],
+      "description": {
+        "nl": "+2 bonus op AC als je geen armor draagt en geen shield gebruikt.",
+        "en": "+2 bonus to Armor Class if you are wearing no armor and using no shield."
+      },
+      "tags": ["defensive", "bracers"]
+    },
+    {
+      "id": "bracers_of_iron",
+      "name": "Iron",
+      "cost": 2,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["bracers"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Iron", "Stone", "Titan's"],
+      "suffixes": ["of Iron", "of the Titan", "of Stone Strength"],
+      "description": {
+        "nl": "Je Strength score neemt toe met 2, tot een maximum van 20.",
+        "en": "Your Strength score increases by 2, to a maximum of 20."
+      },
+      "tags": ["ability", "strength", "bracers"]
+    },
+    {
+      "id": "bracers_of_blinding_strike",
+      "name": "Blinding Strike",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["bracers"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Striking", "Blurring", "Lightning-Strike"],
+      "suffixes": ["of Blinding Strike", "of Lightning Fists", "of the Swift Strike"],
+      "description": {
+        "nl": "Eenmaal per beurt bij de Attack action: één extra unarmed strike als deel van dezelfde action.",
+        "en": "Once per turn when you take the Attack action: make one additional unarmed strike as part of the same action."
+      },
+      "tags": ["utility", "unarmed", "bracers"]
+    },
+    {
+      "id": "necklace_of_fireballs",
+      "name": "Fireballs",
+      "cost": 3,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Fireball", "Flame-Bead", "Incendiary"],
+      "suffixes": ["of Fireballs", "of Flame Beads", "of Incendiary"],
+      "description": {
+        "nl": "1d6+3 beads. Als Action: gooi een bead voor een 3rd-level Fireball (DC 15).",
+        "en": "1d6+3 beads. As an Action: throw a bead to detonate as a 3rd-level Fireball (save DC 15)."
+      },
+      "tags": ["utility", "fire", "necklace"]
+    },
+    {
+      "id": "necklace_of_adaptation",
+      "name": "Adaptation",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Adaptive", "Breathing", "Resilient"],
+      "suffixes": ["of Adaptation", "of the Adapted", "of Resilient Breathing"],
+      "description": {
+        "nl": "Je kunt normaal ademen in elke omgeving. Advantage op saving throws tegen schadelijke gassen.",
+        "en": "You can breathe normally in any environment. Advantage on saves against harmful gases and vapors."
+      },
+      "tags": ["utility", "breathing", "necklace"]
+    },
+    {
+      "id": "amulet_of_health",
+      "name": "Health",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Vital", "Healthy", "Vigorous"],
+      "suffixes": ["of Health", "of Vital Force", "of Vigorous Living"],
+      "description": {
+        "nl": "Je Constitution score wordt 19 als het lager is dan 19.",
+        "en": "Your Constitution score is 19 while you wear this amulet (if lower)."
+      },
+      "tags": ["ability", "constitution", "necklace"]
+    },
+    {
+      "id": "amulet_natural_armor",
+      "name": "Natural Armor",
+      "cost": 3,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Natural", "Ironhide", "Scale-Touched"],
+      "suffixes": ["of Natural Armor", "of Ironhide", "of the Scaled"],
+      "description": {
+        "nl": "Je AC kan niet lager zijn dan 16, ongeacht welk armor je draagt.",
+        "en": "Your Armor Class can't be less than 16, regardless of what armor you are wearing."
+      },
+      "tags": ["defensive", "necklace"]
+    },
+    {
+      "id": "amulet_proof_detection",
+      "name": "Proof against Detection",
+      "cost": 2,
+      "bonus": 0,
+      "category": "defensive",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": ["masking", "ring_mind_shielding"],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Undetectable", "Hidden", "Scry-Proof"],
+      "suffixes": ["of Nondetection", "of Proof against Detection", "of the Hidden"],
+      "description": {
+        "nl": "Je bent verborgen voor divination magic. Kan niet getarget worden door scrying.",
+        "en": "You are hidden from Divination magic. You can't be targeted by such magic or scrying sensors."
+      },
+      "tags": ["defensive", "divination", "necklace"]
+    },
+    {
+      "id": "medallion_of_thoughts",
+      "name": "Thoughts",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Thought-Reading", "Mindreading", "Telepathic"],
+      "suffixes": ["of Thoughts", "of Mindreading", "of the Mentalist"],
+      "description": {
+        "nl": "3 charges. Als Action: geef 1 charge uit om Detect Thoughts te casten (DC 13).",
+        "en": "3 charges. As an Action: expend 1 charge to cast Detect Thoughts (save DC 13)."
+      },
+      "tags": ["utility", "telepathy", "necklace"]
+    },
+    {
+      "id": "headband_of_intellect",
+      "name": "Intellect",
+      "cost": 2,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Brilliant", "Intellectual", "Scholar's"],
+      "suffixes": ["of Intellect", "of the Scholar", "of Brilliant Thought"],
+      "description": {
+        "nl": "Je Intelligence score wordt 19 als het lager is dan 19.",
+        "en": "Your Intelligence score is 19 while you wear this headband (if lower)."
+      },
+      "tags": ["ability", "intelligence", "headband"]
+    },
+    {
+      "id": "circlet_of_blasting",
+      "name": "Blasting",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Blasting", "Scorching", "Arcane-Blasting"],
+      "suffixes": ["of Blasting", "of Scorching Rays", "of the Arcane Blast"],
+      "description": {
+        "nl": "Eenmaal per dag als Action: cast Scorching Ray (+5 to hit).",
+        "en": "Once per day as an Action: cast Scorching Ray (+5 to hit)."
+      },
+      "tags": ["utility", "fire", "headband"]
+    },
+    {
+      "id": "helm_of_brilliance",
+      "name": "Brilliance",
+      "cost": 4,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["helm"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Brilliant", "Gem-Encrusted", "Dazzling"],
+      "suffixes": ["of Brilliance", "of Dazzling Gems", "of Prismatic Light"],
+      "description": {
+        "nl": "Bezet met edelstenen die spells opslaan. Undead hebben Disadvantage op attacks tegen jou. Fire Resistance.",
+        "en": "Set with gems storing spells. Undead have Disadvantage on attacks against you. Fire Resistance."
+      },
+      "tags": ["utility", "fire", "helm", "legendary_feel"]
+    },
+    {
+      "id": "crown_of_madness",
+      "name": "Madness",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["helm", "headband"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Maddening", "Chaotic", "Mind-Breaking"],
+      "suffixes": ["of Madness", "of Chaos", "of the Mad Crown"],
+      "description": {
+        "nl": "Als Action: cast Dominate Person (DC 13) op een Humanoid binnen 120 feet.",
+        "en": "As an Action: cast Dominate Person (DC 13) on a Humanoid within 120 feet."
+      },
+      "tags": ["utility", "charm", "headband"]
+    },
+    {
+      "id": "hat_of_disguise",
+      "name": "Disguise",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband", "helm"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Disguising", "Illusory", "Face-Changing"],
+      "suffixes": ["of Disguise", "of Illusion", "of the Shapechanger"],
+      "description": {
+        "nl": "Als Action: cast Disguise Self naar wens. De spell eindigt als het item wordt uitgetrokken.",
+        "en": "As an Action: cast Disguise Self at will. The spell ends if the item is removed."
+      },
+      "tags": ["utility", "illusion", "headband"]
+    },
+    {
+      "id": "boots_spider_climb",
+      "name": "Spider Climb",
+      "cost": 3,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["boots", "gloves"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Spider-Climbing", "Wall-Walking", "Web-Walking"],
+      "suffixes": ["of Spider Climbing", "of the Spider", "of Wall Walking"],
+      "description": {
+        "nl": "Je kunt muren, plafonds en moeilijke oppervlakken beklimmen zonder ability check.",
+        "en": "You can climb difficult surfaces, including upside down on ceilings, without needing an ability check."
+      },
+      "tags": ["mobility", "climbing"]
+    },
+    {
+      "id": "feather_step",
+      "name": "Feather Step",
+      "cost": 1,
+      "bonus": 0,
+      "category": "mobility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["boots"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Feather-Light", "Soft-Stepping", "Cloud-Walking"],
+      "suffixes": ["of Feather Step", "of Cloud Walking", "of Light Feet"],
+      "description": {
+        "nl": "Falling damage gehalveerd, landt altijd op voeten.",
+        "en": "Fall damage is halved and you always land on your feet."
+      },
+      "tags": ["mobility", "falling"]
+    },
+    {
+      "id": "darkvision",
+      "name": "Darkvision",
+      "cost": 1,
+      "bonus": 0,
+      "category": "perception",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["helm", "headband", "eyes", "ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Darksighted", "Night-Seeing", "Shadow-Eyed"],
+      "suffixes": ["of Darkvision", "of Night Sight", "of the Night Eye"],
+      "description": {
+        "nl": "Je kunt in duisternis zien tot 60 feet alsof het dim light is.",
+        "en": "You can see in darkness up to 60 feet as if it were dim light."
+      },
+      "tags": ["perception", "darkvision"]
+    },
+    {
+      "id": "truesight",
+      "name": "Truesight",
+      "cost": 4,
+      "bonus": 0,
+      "category": "perception",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["eyes", "helm"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["True-Seeing", "All-Seeing", "Piercing"],
+      "suffixes": ["of Truesight", "of True Sight", "of All-Seeing"],
+      "description": {
+        "nl": "Truesight tot 30 feet: ziet door magical darkness, Invisibility en illusions.",
+        "en": "Truesight out to 30 feet: sees through magical darkness, invisibility, and illusions."
+      },
+      "tags": ["perception", "truesight"]
+    },
+    {
+      "id": "telepathy",
+      "name": "Telepathy",
+      "cost": 3,
+      "bonus": 0,
+      "category": "perception",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband", "helm", "ring", "necklace"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Telepathic", "Mind-Speaking", "Thought-Sending"],
+      "suffixes": ["of Telepathy", "of Mind Speech", "of Thought Sending"],
+      "description": {
+        "nl": "Telepathisch communiceren met elk creature binnen 120 feet dat een taal spreekt.",
+        "en": "Telepathically communicate with any creature within 120 feet that speaks at least one language."
+      },
+      "tags": ["perception", "telepathy"]
+    },
+    {
+      "id": "tongues",
+      "name": "Tongues",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace", "ring", "headband"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["All-Speaking", "Polyglot", "Tongue-Gifted"],
+      "suffixes": ["of Tongues", "of All Languages", "of the Polyglot"],
+      "description": {
+        "nl": "Je kunt elke taal spreken en begrijpen.",
+        "en": "You can speak and understand any language."
+      },
+      "tags": ["utility", "social", "language"]
+    },
+    {
+      "id": "water_breathing",
+      "name": "Water Breathing",
+      "cost": 2,
+      "bonus": 0,
+      "category": "utility",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace", "ring", "helm"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": false,
+      "stackable": false,
+      "prefixes": ["Gill-Gifted", "Aquatic", "Tide-Breathing"],
+      "suffixes": ["of Water Breathing", "of the Deep Diver", "of the Merfolk"],
+      "description": {
+        "nl": "Je kunt onder water ademen.",
+        "en": "You can breathe underwater."
+      },
+      "tags": ["utility", "water", "breathing"]
+    },
+    {
+      "id": "strength_bonus",
+      "name": "Strength Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["belt", "gloves", "bracers"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Giant's", "Titan's", "Iron"],
+      "suffixes": ["of Giant Strength", "of the Titan", "of Ogre Power"],
+      "description": {
+        "nl": "Je Strength score wordt 21 als het lager is dan 21.",
+        "en": "Your Strength score becomes 21 if it is lower than 21."
+      },
+      "tags": ["ability", "strength"]
+    },
+    {
+      "id": "dexterity_bonus",
+      "name": "Dexterity Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["gloves", "bracers", "boots", "ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Nimble", "Cat's", "Quicksilver"],
+      "suffixes": ["of Dexterity", "of Cat's Grace", "of the Nimble Hand"],
+      "description": {
+        "nl": "Je Dexterity score wordt 19 als het lager is dan 19.",
+        "en": "Your Dexterity score becomes 19 if it is lower than 19."
+      },
+      "tags": ["ability", "dexterity"]
+    },
+    {
+      "id": "constitution_bonus",
+      "name": "Constitution Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["belt", "bracers", "necklace", "ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Hardy", "Bear's", "Ironbodied"],
+      "suffixes": ["of Constitution", "of Bear's Endurance", "of Iron Body"],
+      "description": {
+        "nl": "Je Constitution score wordt 19 als het lager is dan 19.",
+        "en": "Your Constitution score becomes 19 if it is lower than 19."
+      },
+      "tags": ["ability", "constitution"]
+    },
+    {
+      "id": "intelligence_bonus",
+      "name": "Intelligence Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband", "helm", "ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Brilliant", "Fox's", "Sage's"],
+      "suffixes": ["of Intelligence", "of Fox's Cunning", "of the Sage"],
+      "description": {
+        "nl": "Je Intelligence score wordt 19 als het lager is dan 19.",
+        "en": "Your Intelligence score becomes 19 if it is lower than 19."
+      },
+      "tags": ["ability", "intelligence"]
+    },
+    {
+      "id": "wisdom_bonus",
+      "name": "Wisdom Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["headband", "helm", "necklace", "ring"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Owl's", "Sage's", "Serene"],
+      "suffixes": ["of Wisdom", "of Owl's Wisdom", "of the Sage's Mind"],
+      "description": {
+        "nl": "Je Wisdom score wordt 19 als het lager is dan 19.",
+        "en": "Your Wisdom score becomes 19 if it is lower than 19."
+      },
+      "tags": ["ability", "wisdom"]
+    },
+    {
+      "id": "charisma_bonus",
+      "name": "Charisma Enhancement",
+      "cost": 3,
+      "bonus": 0,
+      "category": "ability",
+      "allowedTypes": ["wondrous"],
+      "allowedSubtypes": ["necklace", "ring", "cloak", "headband"],
+      "excludeSubtypes": [],
+      "incompatibleWith": [],
+      "attunement": true,
+      "stackable": false,
+      "prefixes": ["Eagle's", "Silver-Tongued", "Charming"],
+      "suffixes": ["of Charisma", "of Eagle's Splendor", "of the Silver Tongue"],
+      "description": {
+        "nl": "Je Charisma score wordt 19 als het lager is dan 19.",
+        "en": "Your Charisma score becomes 19 if it is lower than 19."
+      },
+      "tags": ["ability", "charisma"]
+    }
+  ]
+}

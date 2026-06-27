@@ -1,0 +1,843 @@
+{
+  "biomes": [
+    {
+      "id": "temperate_forest",
+      "nl": "Gematigd Woud",
+      "en": "Temperate Forest",
+      "weight": 4,
+      "themeWeights": {
+        "medieval": 3.0,
+        "gothic": 2.0,
+        "asian": 1.5,
+        "nordic": 1.0,
+        "caribbean": 0.3,
+        "desert": 0.0,
+        "greek": 0.5,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "farming",
+        "trade",
+        "military",
+        "holy",
+        "magic"
+      ],
+      "comfyTags": "dense forest, oak trees, moss covered stone, timber framing, green canopy",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "vakwerk van eikenhout met zichtbare balken",
+            "ruwe veldsteen met leemspieten",
+            "hout en leem verweven met de bomen"
+          ],
+          "en": [
+            "oak timber framing with exposed beams",
+            "rough fieldstone with daub and wattle",
+            "wood and clay woven into the treeline"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "riet",
+            "houten dakshingles",
+            "leisteen"
+          ],
+          "en": [
+            "thatch",
+            "wooden shingles",
+            "slate"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "Licht filtert door het bladerdak en werpt grillige schaduwen op de straten.",
+            "De geur van hars en vochtige aarde hangt overal.",
+            "Vogelgezang vult de straten van 's ochtends vroeg tot laat in de avond."
+          ],
+          "en": [
+            "Light filters through the canopy, casting shifting shadows on the streets.",
+            "The smell of resin and damp earth lingers everywhere.",
+            "Birdsong fills the streets from early morning until late evening."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 2.0,
+        "elf": 3.0,
+        "half-elf": 2.0,
+        "dwarf": 0.5,
+        "halfling": 2.0,
+        "orc": 0.8,
+        "half-orc": 0.8,
+        "gnome": 1.5,
+        "tiefling": 0.5,
+        "dragonborn": 0.5,
+        "aasimar": 1.0,
+        "tabaxi": 0.5,
+        "goliath": 0.5
+      }
+    },
+    {
+      "id": "coastal",
+      "nl": "Kust",
+      "en": "Coastal",
+      "weight": 3,
+      "themeWeights": {
+        "medieval": 1.5,
+        "gothic": 0.5,
+        "asian": 1.5,
+        "nordic": 2.0,
+        "caribbean": 3.0,
+        "desert": 0.5,
+        "greek": 3.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "harbour",
+        "trade",
+        "pirate",
+        "military"
+      ],
+      "comfyTags": "seaside, salt air, docks, fishing nets, whitewashed walls, sea breeze",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "witgepleisterd metselwerk met gekleurde luiken",
+            "robuust drijfhout en gerecycled scheepshout",
+            "zandsteen met ijzeren verstevigingen"
+          ],
+          "en": [
+            "whitewashed masonry with coloured shutters",
+            "robust driftwood and recycled ship timber",
+            "sandstone with iron reinforcements"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "gebakken kleipannen",
+            "geteerde planken",
+            "leisteen"
+          ],
+          "en": [
+            "fired clay tiles",
+            "tarred planks",
+            "slate"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De geur van zout en vis trekt door elke straat.",
+            "Meeuwen krijsen boven de daken en stelen wat ze kunnen.",
+            "Er staat altijd wind — soms een zacht briesje, soms een snijdende storm."
+          ],
+          "en": [
+            "The smell of salt and fish drifts through every street.",
+            "Seagulls screech above the rooftops and steal what they can.",
+            "There is always wind — sometimes a gentle breeze, sometimes a cutting gale."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 2.5,
+        "elf": 1.0,
+        "half-elf": 1.5,
+        "dwarf": 0.5,
+        "halfling": 1.0,
+        "orc": 1.0,
+        "half-orc": 1.0,
+        "gnome": 0.8,
+        "tiefling": 1.0,
+        "dragonborn": 1.5,
+        "aasimar": 0.5,
+        "tabaxi": 1.5,
+        "goliath": 0.8
+      }
+    },
+    {
+      "id": "mountains",
+      "nl": "Bergen",
+      "en": "Mountains",
+      "weight": 3,
+      "themeWeights": {
+        "medieval": 2.0,
+        "gothic": 1.5,
+        "asian": 2.0,
+        "nordic": 3.0,
+        "caribbean": 0.0,
+        "desert": 0.5,
+        "greek": 1.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "mining",
+        "mountain",
+        "military",
+        "trade"
+      ],
+      "comfyTags": "rocky cliffs, carved stone, mountain pass, snow caps, fortress walls",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "massief graniet uitgehouwen in de rotswand",
+            "stenen blokken met ijzeren verstevigingen",
+            "sparrenhout op een fundament van basalt"
+          ],
+          "en": [
+            "solid granite carved into the rock face",
+            "stone blocks with iron reinforcements",
+            "pine timber on a basalt foundation"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "leisteen",
+            "steil hellend naaldhout",
+            "platte steenplaten"
+          ],
+          "en": [
+            "slate",
+            "steeply pitched pine planks",
+            "flat stone slabs"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De lucht is ijl en de wind trekt scherp door de straten.",
+            "Echo's galmen door de ravijnen en weerkaatsen tegen de stenen muren.",
+            "De geur van smeltwater en koude steen is overal aanwezig."
+          ],
+          "en": [
+            "The air is thin and the wind cuts sharp through the streets.",
+            "Echoes ring through the ravines and bounce off the stone walls.",
+            "The smell of meltwater and cold stone is ever present."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 0.3,
+        "half-elf": 0.5,
+        "dwarf": 5.0,
+        "halfling": 0.5,
+        "orc": 2.0,
+        "half-orc": 2.0,
+        "gnome": 2.0,
+        "tiefling": 0.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.5,
+        "tabaxi": 0.0,
+        "goliath": 3.0
+      }
+    },
+    {
+      "id": "desert",
+      "nl": "Woestijn",
+      "en": "Desert",
+      "weight": 2,
+      "themeWeights": {
+        "medieval": 0.3,
+        "gothic": 0.2,
+        "asian": 0.5,
+        "nordic": 0.0,
+        "caribbean": 0.0,
+        "desert": 4.0,
+        "greek": 1.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "trade",
+        "desert",
+        "holy",
+        "military"
+      ],
+      "comfyTags": "sandstone, adobe, arid heat, sand dunes, oasis, flat roofs, shade",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "zongedroogde leemstenen met organische ronde vormen",
+            "zandsteen met gepleisterde leemdeklagen",
+            "gestapelde terrassen van Adobe met smalle binnenplaatsen"
+          ],
+          "en": [
+            "sun-dried mud brick with organic rounded forms",
+            "sandstone with plastered clay coatings",
+            "stacked adobe terraces with narrow courtyards"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "aangestampte leemdaken",
+            "bogen van gebakken baksteen",
+            "palmhout met een laag leem"
+          ],
+          "en": [
+            "compacted clay roofs",
+            "fired brick domes",
+            "palm timber with a clay layer"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De hitte slaat op je neer zodra je buiten staat.",
+            "Zandkorrels zitten in alles — in je kleren, je eten en je haar.",
+            "Buiten het geluid van de wind is het er opmerkelijk stil."
+          ],
+          "en": [
+            "The heat bears down the moment you step outside.",
+            "Sand grains find their way into everything — clothes, food and hair.",
+            "Beyond the sound of the wind, it is remarkably quiet."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 3.0,
+        "elf": 0.5,
+        "half-elf": 1.0,
+        "dwarf": 0.2,
+        "halfling": 0.5,
+        "orc": 1.5,
+        "half-orc": 1.5,
+        "gnome": 0.3,
+        "tiefling": 2.0,
+        "dragonborn": 2.5,
+        "aasimar": 1.0,
+        "tabaxi": 2.5,
+        "goliath": 2.0
+      }
+    },
+    {
+      "id": "arctic",
+      "nl": "Poolgebied",
+      "en": "Arctic",
+      "weight": 1,
+      "themeWeights": {
+        "medieval": 0.3,
+        "gothic": 0.5,
+        "asian": 0.0,
+        "nordic": 4.0,
+        "caribbean": 0.0,
+        "desert": 0.0,
+        "greek": 0.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "military",
+        "mining",
+        "viking",
+        "trade"
+      ],
+      "comfyTags": "snow covered, ice, frozen tundra, fur, longhouse, frost, aurora",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "massief naaldhout half ingegraven in de bevroren aarde",
+            "ruwe granieten blokken met berkenschors isolatie",
+            "dierenhuid en gestampt ijs voor tijdelijke bouw"
+          ],
+          "en": [
+            "solid coniferous timber half-buried in frozen earth",
+            "rough granite blocks with birch bark insulation",
+            "animal hide and packed ice for temporary structures"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "berkenschors",
+            "grasdaken",
+            "dikke houten planken"
+          ],
+          "en": [
+            "birch bark",
+            "sod roofs",
+            "thick wooden planks"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De kou kruipt in je botten zodra je stilstaat.",
+            "Adem mist in de lucht en bevriest in je baard.",
+            "Het noorderlicht kleurt de daken in golven van groen en paars."
+          ],
+          "en": [
+            "The cold seeps into your bones the moment you stand still.",
+            "Breath mists in the air and freezes in your beard.",
+            "The northern lights paint the rooftops in waves of green and purple."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 2.5,
+        "elf": 0.3,
+        "half-elf": 0.5,
+        "dwarf": 2.0,
+        "halfling": 0.2,
+        "orc": 3.0,
+        "half-orc": 2.5,
+        "gnome": 0.3,
+        "tiefling": 0.3,
+        "dragonborn": 0.8,
+        "aasimar": 0.5,
+        "tabaxi": 0.0,
+        "goliath": 4.0
+      }
+    },
+    {
+      "id": "jungle",
+      "nl": "Jungle / Tropisch",
+      "en": "Jungle / Tropical",
+      "weight": 2,
+      "themeWeights": {
+        "medieval": 0.2,
+        "gothic": 0.3,
+        "asian": 2.0,
+        "nordic": 0.0,
+        "caribbean": 3.0,
+        "desert": 0.0,
+        "greek": 0.3,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "jungle",
+        "harbour",
+        "pirate",
+        "holy",
+        "trade"
+      ],
+      "comfyTags": "dense jungle, tropical plants, bamboo, open walls, thatched roofs, humidity",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "bamboe en hardhout met open wanden voor ventilatie",
+            "gevlochten riet op palen boven het water",
+            "bewerkte steen overwoekerd door rankplanten"
+          ],
+          "en": [
+            "bamboo and hardwood with open walls for ventilation",
+            "woven reed on stilts above the water",
+            "dressed stone overgrown with climbing vines"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "palmbladeren",
+            "gevlochten riet",
+            "houten dakshingles"
+          ],
+          "en": [
+            "palm leaves",
+            "woven reed",
+            "wooden shingles"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De vochtigheid is verstikkend en hangt als een natte deken over de stad.",
+            "Het geluid van insecten en vogels is onophoudelijk, dag en nacht.",
+            "De geur van natte aarde en weelderige bloesem dringt overal naar binnen."
+          ],
+          "en": [
+            "The humidity is suffocating, hanging like a wet blanket over the town.",
+            "The sound of insects and birds is incessant, day and night.",
+            "The scent of wet earth and lush blossom seeps in everywhere."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 4.0,
+        "half-elf": 2.5,
+        "dwarf": 0.2,
+        "halfling": 1.0,
+        "orc": 2.0,
+        "half-orc": 1.5,
+        "gnome": 0.5,
+        "tiefling": 1.0,
+        "dragonborn": 3.0,
+        "aasimar": 0.8,
+        "tabaxi": 4.0,
+        "goliath": 1.5
+      }
+    },
+    {
+      "id": "swamp",
+      "nl": "Moeras",
+      "en": "Swamp",
+      "weight": 2,
+      "themeWeights": {
+        "medieval": 1.0,
+        "gothic": 3.0,
+        "asian": 0.5,
+        "nordic": 0.5,
+        "caribbean": 1.5,
+        "desert": 0.0,
+        "greek": 0.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "cursed",
+        "trade",
+        "harbour",
+        "holy"
+      ],
+      "comfyTags": "murky water, twisted trees, fog, rotting wood, moss, dark atmosphere",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "drijfhout en oud scheepshout op palen boven het moeraswater",
+            "aangestampte leem met riet en biezen",
+            "verouderd hout scheefgetrokken door het vochtige klimaat"
+          ],
+          "en": [
+            "driftwood and old ship timber on stilts above the swamp water",
+            "rammed clay with reed and rushes",
+            "aged timber warped by the damp climate"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "bemosterd riet",
+            "geteerde houten planken",
+            "gevlochten riet"
+          ],
+          "en": [
+            "mossy thatch",
+            "tarred wooden planks",
+            "woven reed"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "Alles is vochtig en klam — niets droogt ooit volledig op.",
+            "Mist hangt permanent tussen de gebouwen en slokt het licht op.",
+            "De geur van verval en stilstaand water is niet te ontlopen."
+          ],
+          "en": [
+            "Everything is wet and clammy — nothing ever fully dries.",
+            "Mist permanently hangs between the buildings and swallows the light.",
+            "The smell of decay and stagnant water is inescapable."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 1.0,
+        "half-elf": 1.0,
+        "dwarf": 0.3,
+        "halfling": 0.8,
+        "orc": 2.0,
+        "half-orc": 2.0,
+        "gnome": 0.8,
+        "tiefling": 2.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.3,
+        "tabaxi": 1.0,
+        "goliath": 0.5
+      }
+    },
+    {
+      "id": "grasslands",
+      "nl": "Grasvlaktes",
+      "en": "Grasslands / Plains",
+      "weight": 3,
+      "themeWeights": {
+        "medieval": 2.5,
+        "gothic": 0.5,
+        "asian": 2.0,
+        "nordic": 1.0,
+        "caribbean": 0.3,
+        "desert": 0.5,
+        "greek": 2.0,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "farming",
+        "trade",
+        "military",
+        "holy"
+      ],
+      "comfyTags": "open plains, rolling hills, windmills, wide streets, brick and mortar",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "gebakken baksteen met leem en stro",
+            "veldstenen met houten balken",
+            "eenvoudig hout op een fundament van rivierkeien"
+          ],
+          "en": [
+            "fired brick with daub and wattle",
+            "fieldstone with timber beams",
+            "simple wood on a foundation of river stones"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "riet",
+            "gebakken dakpannen",
+            "grasdaken"
+          ],
+          "en": [
+            "thatch",
+            "fired roof tiles",
+            "sod roofs"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "De horizon strekt zich in alle richtingen uit zover het oog reikt.",
+            "De wind suist onophoudelijk door het gras en langs de gevels.",
+            "De geur van hooi en vee drijft door de open straten."
+          ],
+          "en": [
+            "The horizon stretches in every direction as far as the eye can see.",
+            "The wind whispers endlessly through the grass and along the walls.",
+            "The smell of hay and livestock drifts through the open streets."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 4.0,
+        "elf": 1.0,
+        "half-elf": 1.5,
+        "dwarf": 0.8,
+        "halfling": 2.5,
+        "orc": 1.0,
+        "half-orc": 1.0,
+        "gnome": 1.0,
+        "tiefling": 0.5,
+        "dragonborn": 0.5,
+        "aasimar": 0.8,
+        "tabaxi": 0.5,
+        "goliath": 1.5
+      }
+    },
+    {
+      "id": "volcanic",
+      "nl": "Vulkanisch",
+      "en": "Volcanic",
+      "weight": 1,
+      "themeWeights": {
+        "medieval": 0.5,
+        "gothic": 1.5,
+        "asian": 1.0,
+        "nordic": 0.5,
+        "caribbean": 1.0,
+        "desert": 1.0,
+        "greek": 1.5,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "mining",
+        "military",
+        "cursed",
+        "magic",
+        "holy"
+      ],
+      "comfyTags": "volcanic rock, obsidian, lava flows, ash, forge fires, sulfur smell",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "zwart vulkanisch basalt met ijzeren verstevigingen",
+            "gegoten puzzolaan cement van as en lava",
+            "obsidiaan en gesmeed staal voor rijkere gebouwen"
+          ],
+          "en": [
+            "black volcanic basalt with iron reinforcements",
+            "cast pozzolanic cement from ash and lava",
+            "obsidian and forged steel for wealthier buildings"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "platte basaltplaten",
+            "gegoten ijzeren dakplaten",
+            "gehard lava-steen"
+          ],
+          "en": [
+            "flat basalt slabs",
+            "cast iron roof sheets",
+            "hardened lava stone"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "Zwaveldamp hangt als een sluier boven de straten.",
+            "Smederijen gloeien oranje en werpen lange schaduwen op de gebouwen.",
+            "De aarde trilt hier en daar zacht — een constante herinnering aan wat er onder ligt."
+          ],
+          "en": [
+            "Sulfur fumes hang like a veil above the streets.",
+            "Forges glow orange and cast long shadows across the buildings.",
+            "The ground trembles softly here and there — a constant reminder of what lies beneath."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 1.5,
+        "elf": 0.2,
+        "half-elf": 0.5,
+        "dwarf": 4.0,
+        "halfling": 0.3,
+        "orc": 2.5,
+        "half-orc": 2.5,
+        "gnome": 2.0,
+        "tiefling": 1.5,
+        "dragonborn": 2.0,
+        "aasimar": 0.3,
+        "tabaxi": 0.0,
+        "goliath": 2.0
+      }
+    },
+    {
+      "id": "feywild",
+      "nl": "Feewoud",
+      "en": "Feywild",
+      "weight": 1,
+      "themeWeights": {
+        "medieval": 0.5,
+        "gothic": 0.3,
+        "asian": 0.5,
+        "nordic": 0.3,
+        "caribbean": 0.0,
+        "desert": 0.0,
+        "greek": 0.5,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "fey",
+        "magic",
+        "holy",
+        "trade"
+      ],
+      "comfyTags": "glowing mushrooms, fairy lights, twisted magical trees, ethereal mist, vibrant colors",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "levend hout dat nog steeds groeit en zijn eigen vorm bepaalt",
+            "kristal en gefixeerd licht verweven met magiërs-zijde",
+            "organische vormen zonder rechte hoeken of vaste maten"
+          ],
+          "en": [
+            "living wood that still grows and shapes itself",
+            "crystal and fixed light woven with wizard-silk",
+            "organic forms without straight angles or fixed dimensions"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "levende bladeren die zichzelf vervangen",
+            "gevlochten bloemen en ranken",
+            "transparant kristal"
+          ],
+          "en": [
+            "living leaves that replace themselves",
+            "woven flowers and vines",
+            "transparent crystal"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "Alles gloeit hier zachtjes, ook als er geen lamp in de buurt is.",
+            "Muziek klinkt uit het niets en stopt even plotseling als het begon.",
+            "Tijd loopt hier anders — een bezoek van een uur kan buiten een week duren."
+          ],
+          "en": [
+            "Everything glows softly here, even with no lamp nearby.",
+            "Music sounds from nowhere and stops as suddenly as it began.",
+            "Time moves differently here — an hour inside can be a week outside."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 0.3,
+        "elf": 5.0,
+        "half-elf": 3.0,
+        "dwarf": 0.2,
+        "halfling": 2.0,
+        "orc": 0.1,
+        "half-orc": 0.2,
+        "gnome": 2.5,
+        "tiefling": 0.8,
+        "dragonborn": 0.5,
+        "aasimar": 2.5,
+        "tabaxi": 1.5,
+        "goliath": 0.1
+      }
+    },
+    {
+      "id": "underground",
+      "nl": "Ondergronds",
+      "en": "Underground",
+      "weight": 1,
+      "themeWeights": {
+        "medieval": 0.5,
+        "gothic": 2.0,
+        "asian": 0.3,
+        "nordic": 1.0,
+        "caribbean": 0.0,
+        "desert": 0.5,
+        "greek": 0.5,
+        "custom": 1.0
+      },
+      "cityTypeAffinities": [
+        "mining",
+        "cursed",
+        "magic",
+        "military"
+      ],
+      "comfyTags": "cavern, stalactites, bioluminescence, carved stone, underdark, darkness",
+      "flavour": {
+        "buildingStyles": {
+          "nl": [
+            "graniet en kalk uitgehouwen in de massieve grotewand",
+            "gepolijste steen met gegoten metalen gewelven",
+            "vrijstaande stenen blokken op pilaren midden in de grot"
+          ],
+          "en": [
+            "granite and limestone carved into the solid cave wall",
+            "polished stone with cast metal vaults",
+            "freestanding stone blocks on pillars in the middle of the cavern"
+          ]
+        },
+        "roofingMaterials": {
+          "nl": [
+            "de grotewand zelf als plafond",
+            "uitgehouwen stenen bogen",
+            "gegoten metalen gewelven"
+          ],
+          "en": [
+            "the cave wall itself as ceiling",
+            "carved stone arches",
+            "cast metal vaults"
+          ]
+        },
+        "atmosphere": {
+          "nl": [
+            "Buiten het lamplicht heerst er absolute, ondoordringbare duisternis.",
+            "Het druppelen van water echoet door de gangen en geeft de stad zijn eigen ritme.",
+            "De geur van steen, schimmel en smeltmetaal is altijd aanwezig."
+          ],
+          "en": [
+            "Beyond the lamplight there is absolute, impenetrable darkness.",
+            "The dripping of water echoes through the tunnels and gives the city its own rhythm.",
+            "The smell of stone, mold and smelted metal is ever present."
+          ]
+        }
+      },
+      "raceWeights": {
+        "human": 1.0,
+        "elf": 0.2,
+        "half-elf": 0.3,
+        "dwarf": 5.0,
+        "halfling": 0.5,
+        "orc": 2.0,
+        "half-orc": 1.5,
+        "gnome": 3.0,
+        "tiefling": 1.5,
+        "dragonborn": 1.0,
+        "aasimar": 0.2,
+        "tabaxi": 0.5,
+        "goliath": 1.5
+      }
+    }
+  ]
+}

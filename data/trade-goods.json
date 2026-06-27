@@ -1,0 +1,2936 @@
+﻿{
+    "categories":  [
+                       {
+                           "id":  "livestock",
+                           "nl":  "Vee \u0026 Dieren",
+                           "en":  "Livestock",
+                           "icon":  "ðŸ„"
+                       },
+                       {
+                           "id":  "metals",
+                           "nl":  "Waardevolle Metalen",
+                           "en":  "Precious Metals",
+                           "icon":  "âš™ï¸"
+                       },
+                       {
+                           "id":  "minerals",
+                           "nl":  "Mineralen \u0026 Ertsen",
+                           "en":  "Minerals \u0026 Ores",
+                           "icon":  "â›ï¸"
+                       },
+                       {
+                           "id":  "gems",
+                           "nl":  "Edelstenen",
+                           "en":  "Gemstones",
+                           "icon":  "ðŸ’Ž"
+                       },
+                       {
+                           "id":  "agriculture",
+                           "nl":  "Landbouwgoederen",
+                           "en":  "Agricultural Goods",
+                           "icon":  "ðŸŒ¾"
+                       },
+                       {
+                           "id":  "food",
+                           "nl":  "Voedsel \u0026 Kruiden",
+                           "en":  "Food \u0026 Spices",
+                           "icon":  "ðŸ§‚"
+                       },
+                       {
+                           "id":  "drinks",
+                           "nl":  "Dranken",
+                           "en":  "Beverages",
+                           "icon":  "ðŸº"
+                       },
+                       {
+                           "id":  "weapons",
+                           "nl":  "Wapens \u0026 Wapenrusting",
+                           "en":  "Weapons \u0026 Armor",
+                           "icon":  "âš”ï¸"
+                       },
+                       {
+                           "id":  "materials",
+                           "nl":  "Bouwmaterialen",
+                           "en":  "Building Materials",
+                           "icon":  "ðŸªµ"
+                       },
+                       {
+                           "id":  "textiles",
+                           "nl":  "Textiel \u0026 Kleding",
+                           "en":  "Textiles \u0026 Clothing",
+                           "icon":  "ðŸ§µ"
+                       },
+                       {
+                           "id":  "timber",
+                           "nl":  "Hout \u0026 Houtproducten",
+                           "en":  "Timber \u0026 Wood Goods",
+                           "icon":  "ðŸŒ²"
+                       },
+                       {
+                           "id":  "fish",
+                           "nl":  "Vis \u0026 Zeevruchten",
+                           "en":  "Fish \u0026 Seafood",
+                           "icon":  "ðŸŸ"
+                       },
+                       {
+                           "id":  "books",
+                           "nl":  "Boeken \u0026 Perkament",
+                           "en":  "Books \u0026 Paperware",
+                           "icon":  "ðŸ“œ"
+                       },
+                       {
+                           "id":  "magic",
+                           "nl":  "Magische Goederen",
+                           "en":  "Magical Goods",
+                           "icon":  "âœ¨"
+                       },
+                       {
+                           "id":  "exotic",
+                           "nl":  "Exotische Goederen",
+                           "en":  "Exotic Goods",
+                           "icon":  "ðŸ¦œ"
+                       },
+                       {
+                           "id":  "services",
+                           "nl":  "Diensten",
+                           "en":  "Services",
+                           "icon":  "ðŸ¤"
+                       },
+                       {
+                           "id":  "slaves",
+                           "nl":  "Gevangenen \u0026 Slaven",
+                           "en":  "Prisoners \u0026 Slaves",
+                           "icon":  "â›“ï¸"
+                       }
+                   ],
+    "items":  [
+                  {
+                      "id":  "cattle",
+                      "nl":  "Runderen",
+                      "en":  "Cattle",
+                      "category":  "livestock",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Kuddes runderen grazen op de weilanden rondom de stad.",
+                                                       "De geur van vee drijft de stad in vanaf de omliggende weiden."
+                                                   ],
+                                            "en":  [
+                                                       "Herds of cattle graze on the meadows surrounding the town.",
+                                                       "The smell of livestock drifts into the city from the surrounding pastures."
+                                                   ]
+                                        },
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "horses",
+                      "nl":  "Paarden",
+                      "en":  "Horses",
+                      "category":  "livestock",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "De stad is omringd door weilanden waar paarden grazen.",
+                                                       "Buiten de stadspoort strekken de paardenweides zich uit zover het oog reikt."
+                                                   ],
+                                            "en":  [
+                                                       "The town is surrounded by meadows where horses graze.",
+                                                       "Beyond the city gate the horse pastures stretch as far as the eye can see."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "sheep",
+                      "nl":  "Schapen",
+                      "en":  "Sheep",
+                      "category":  "livestock",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "mountains",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic",
+                                                                "jungle"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Schapen grazen op de heuvels rondom de stad.",
+                                                       "Witte vlekken schapen bedekken de groene hellingen buiten de stad."
+                                                   ],
+                                            "en":  [
+                                                       "Sheep graze on the hills surrounding the town.",
+                                                       "White dots of sheep cover the green slopes outside the city."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "goats",
+                      "nl":  "Geiten",
+                      "en":  "Goats",
+                      "category":  "livestock",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "grasslands",
+                                              "desert",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "pigs",
+                      "nl":  "Varkens",
+                      "en":  "Pigs",
+                      "category":  "livestock",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "bees",
+                      "nl":  "Bijen \u0026 Honing",
+                      "en":  "Bees \u0026 Honey",
+                      "category":  "livestock",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "llamas",
+                      "nl":  "Lamas",
+                      "en":  "Llamas",
+                      "category":  "livestock",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "grasslands",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "jungle",
+                                                                "swamp",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "magic",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Lamas lopen rustig door de smalle straatjes van de stad.",
+                                                       "Karavanen beladen lamas verlaten de stadspoort in de vroege ochtend."
+                                                   ],
+                                            "en":  [
+                                                       "Llamas wander calmly through the narrow streets of the town.",
+                                                       "Caravans of laden llamas leave the city gate in the early morning."
+                                                   ]
+                                        },
+                      "theme":  "desert"
+                  },
+                  {
+                      "id":  "camels",
+                      "nl":  "Kamelen",
+                      "en":  "Camels",
+                      "category":  "livestock",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "desert",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "underground",
+                                                                "feywild",
+                                                                "swamp"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Karavanen van kamelen arriveren dagelijks bij de stadspoort.",
+                                                       "De markt ruikt naar kruidnagel en kameelhuid."
+                                                   ],
+                                            "en":  [
+                                                       "Caravans of camels arrive daily at the city gate.",
+                                                       "The market smells of cloves and camel hide."
+                                                   ]
+                                        },
+                      "theme":  "desert"
+                  },
+                  {
+                      "id":  "exotic_animals",
+                      "nl":  "Exotische Dieren",
+                      "en":  "Exotic Animals",
+                      "category":  "livestock",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "coastal",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "holy",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "underground",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Achter hoge muren zijn de geluiden van vreemde dieren te horen.",
+                                                       "Een markthandelaar loopt met een geketende exotische vogel door de markt."
+                                                   ],
+                                            "en":  [
+                                                       "Behind high walls the sounds of strange animals can be heard.",
+                                                       "A market trader walks through the market with a chained exotic bird."
+                                                   ]
+                                        },
+                      "theme":  "tropical,desert"
+                  },
+                  {
+                      "id":  "iron",
+                      "nl":  "IJzer",
+                      "en":  "Iron",
+                      "category":  "metals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "volcanic",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "military",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Rookpluimen van smederijen hangen permanent boven de stad.",
+                                                       "Het geluid van hamers op aambeeld is dag en nacht te horen."
+                                                   ],
+                                            "en":  [
+                                                       "Smoke plumes from forges hang permanently above the city.",
+                                                       "The sound of hammers on anvils can be heard day and night."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "copper",
+                      "nl":  "Koper",
+                      "en":  "Copper",
+                      "category":  "metals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "volcanic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "gold",
+                      "nl":  "Goud",
+                      "en":  "Gold",
+                      "category":  "metals",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "desert",
+                                              "volcanic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "swamp",
+                                                                "feywild",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Gewapende bewakers escorteren goudtransporten door de straten.",
+                                                       "De rijkdom van de goudmijnen is zichtbaar in de weelderige gevels van de kooplieden."
+                                                   ],
+                                            "en":  [
+                                                       "Armed guards escort gold shipments through the streets.",
+                                                       "The wealth of the gold mines is visible in the lavish facades of the merchants."
+                                                   ]
+                                        },
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "silver",
+                      "nl":  "Zilver",
+                      "en":  "Silver",
+                      "category":  "metals",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "volcanic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "mithral",
+                      "nl":  "Mithral",
+                      "en":  "Mithral",
+                      "category":  "metals",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "magic",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "grasslands",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "pirate"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "adamantine",
+                      "nl":  "Adamantiet",
+                      "en":  "Adamantine",
+                      "category":  "metals",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "underground",
+                                              "volcanic",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "military",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "grasslands",
+                                                                "feywild",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "coal",
+                      "nl":  "Steenkool",
+                      "en":  "Coal",
+                      "category":  "minerals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "feywild",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Karren beladen met steenkool rijden af en aan door de hoofdstraat.",
+                                                       "Een zwarte stoflaag bedekt alles in de stad door de kolenmijnen."
+                                                   ],
+                                            "en":  [
+                                                       "Carts loaded with coal travel back and forth along the main street.",
+                                                       "A black dust layer covers everything in the city from the coal mines."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "salt",
+                      "nl":  "Zout",
+                      "en":  "Salt",
+                      "category":  "minerals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "desert",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "farming"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Witte zoutvlakten zijn zichtbaar aan de rand van de stad.",
+                                                       "De zoute geur van zoutpannen hangt over de hele stad."
+                                                   ],
+                                            "en":  [
+                                                       "White salt flats are visible at the edge of town.",
+                                                       "The salty smell of salt pans hangs over the entire city."
+                                                   ]
+                                        },
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "stone",
+                      "nl":  "Natuursteen",
+                      "en":  "Natural Stone",
+                      "category":  "minerals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "volcanic",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,gothic"
+                  },
+                  {
+                      "id":  "obsidian",
+                      "nl":  "Obsidiaan",
+                      "en":  "Obsidian",
+                      "category":  "minerals",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "volcanic",
+                                              "underground"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands",
+                                                                "arctic",
+                                                                "desert",
+                                                                "temperate_forest"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "gothic"
+                  },
+                  {
+                      "id":  "clay",
+                      "nl":  "Klei \u0026 Aardewerk",
+                      "en":  "Clay \u0026 Pottery",
+                      "category":  "minerals",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "coastal",
+                                              "swamp",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "sulfur",
+                      "nl":  "Zwavel",
+                      "en":  "Sulfur",
+                      "category":  "minerals",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "volcanic",
+                                              "underground"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "feywild",
+                                                                "grasslands",
+                                                                "arctic",
+                                                                "temperate_forest"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Een scherpe zwavelgeur hangt permanent in de straten.",
+                                                       "Mannen met gele vlekken op hun kleren lossen zwavelvaten bij de apotheker."
+                                                   ],
+                                            "en":  [
+                                                       "A sharp sulfur smell hangs permanently in the streets.",
+                                                       "Men with yellow stains on their clothes unload sulfur barrels at the apothecary."
+                                                   ]
+                                        },
+                      "theme":  "gothic"
+                  },
+                  {
+                      "id":  "azurite",
+                      "nl":  "Azuriet",
+                      "en":  "Azurite",
+                      "category":  "gems",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "desert"
+                  },
+                  {
+                      "id":  "quartz",
+                      "nl":  "Kwarts",
+                      "en":  "Quartz",
+                      "category":  "gems",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "lapis_lazuli",
+                      "nl":  "Lapis Lazuli",
+                      "en":  "Lapis Lazuli",
+                      "category":  "gems",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "desert,asian"
+                  },
+                  {
+                      "id":  "diamonds",
+                      "nl":  "Diamanten",
+                      "en":  "Diamonds",
+                      "category":  "gems",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "underground",
+                                              "mountains",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Zwaar bewapende bewakers escorteren kleine kistjes door de straten.",
+                                                       "Juweliers achter dikke tralies pronken met hun waren in de etalage."
+                                                   ],
+                                            "en":  [
+                                                       "Heavily armed guards escort small chests through the streets.",
+                                                       "Jewellers behind thick bars display their wares in their shopfronts."
+                                                   ]
+                                        },
+                      "theme":  "gothic"
+                  },
+                  {
+                      "id":  "rubies",
+                      "nl":  "Robijnen",
+                      "en":  "Rubies",
+                      "category":  "gems",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "volcanic",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "coastal",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "desert"
+                  },
+                  {
+                      "id":  "sapphires",
+                      "nl":  "Saffieren",
+                      "en":  "Sapphires",
+                      "category":  "gems",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "greek"
+                  },
+                  {
+                      "id":  "pearls",
+                      "nl":  "Parels",
+                      "en":  "Pearls",
+                      "category":  "gems",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "mountains",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "temperate_forest",
+                                                                "swamp",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "military",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Duikers komen dagelijks terug met netten vol oesters.",
+                                                       "Kraampjes op de markt pronken met strengen parels in alle kleuren."
+                                                   ],
+                                            "en":  [
+                                                       "Divers return daily with nets full of oysters.",
+                                                       "Market stalls display strings of pearls in every colour."
+                                                   ]
+                                        },
+                      "theme":  "tropical"
+                  },
+                  {
+                      "id":  "grain",
+                      "nl":  "Graan",
+                      "en":  "Grain",
+                      "category":  "agriculture",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic",
+                                                                "arctic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Gouden korenvelden omringen de stad zover het oog reikt.",
+                                                       "Molens aan de rand van de stad malen dag en nacht het graan."
+                                                   ],
+                                            "en":  [
+                                                       "Golden wheat fields surround the city as far as the eye can see.",
+                                                       "Mills at the edge of town grind grain day and night."
+                                                   ]
+                                        },
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "vegetables",
+                      "nl":  "Groenten",
+                      "en":  "Vegetables",
+                      "category":  "agriculture",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "fruits",
+                      "nl":  "Fruit",
+                      "en":  "Fruit",
+                      "category":  "agriculture",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "coastal",
+                                              "jungle",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Fruitbomen bloeien aan de rand van de stad in alle seizoenen.",
+                                                       "De markt staat vol met manden gevuld met kleurrijke vruchten."
+                                                   ],
+                                            "en":  [
+                                                       "Fruit trees blossom at the edge of town in every season.",
+                                                       "The market is full of baskets filled with colourful fruits."
+                                                   ]
+                                        },
+                      "theme":  "medieval,tropical"
+                  },
+                  {
+                      "id":  "herbs",
+                      "nl":  "Kruiden",
+                      "en":  "Herbs",
+                      "category":  "agriculture",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "feywild",
+                                              "swamp",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "holy",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Geur van kruiden en medicinale planten drijft van de kruidenmarkt af.",
+                                                       "Kruideniers verkopen bundels gedroogde planten voor elke kwaal."
+                                                   ],
+                                            "en":  [
+                                                       "The scent of herbs and medicinal plants drifts from the herb market.",
+                                                       "Herbalists sell bundles of dried plants for every ailment."
+                                                   ]
+                                        },
+                      "theme":  "medieval,tropical,asian"
+                  },
+                  {
+                      "id":  "tobacco",
+                      "nl":  "Tabak",
+                      "en":  "Tobacco",
+                      "category":  "agriculture",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "coastal",
+                                              "jungle",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Rokers voor de herberg blazen wolken tabaksrook de straat op.",
+                                                       "De geur van gedroogde tabaksbladeren hangt boven het pakhuiskwartier."
+                                                   ],
+                                            "en":  [
+                                                       "Smokers outside the inn blow clouds of tobacco smoke into the street.",
+                                                       "The smell of dried tobacco leaves hangs over the warehouse district."
+                                                   ]
+                                        },
+                      "theme":  "tropical"
+                  },
+                  {
+                      "id":  "cotton_flax",
+                      "nl":  "Katoen \u0026 Vlas",
+                      "en":  "Cotton \u0026 Flax",
+                      "category":  "agriculture",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "coastal",
+                                              "desert",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "spices",
+                      "nl":  "Specerijen",
+                      "en":  "Spices",
+                      "category":  "food",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "desert",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "mountains"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "De lucht staat scherp van specerijen bij de oosterse markt.",
+                                                       "Handelaars van ver weg prijzen hun kleurrijke specerijen aan."
+                                                   ],
+                                            "en":  [
+                                                       "The air is sharp with spices near the eastern market.",
+                                                       "Traders from far away advertise their colourful spices."
+                                                   ]
+                                        },
+                      "theme":  "desert,tropical,asian"
+                  },
+                  {
+                      "id":  "olive_oil",
+                      "nl":  "Olijfolie",
+                      "en":  "Olive Oil",
+                      "category":  "food",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "desert",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming",
+                                                 "greek"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Olijfbomen op de heuvels rondom de stad zijn generaties oud.",
+                                                       "Amforen vol olijfolie worden ingeladen op karren bij de perserij."
+                                                   ],
+                                            "en":  [
+                                                       "Olive trees on the hills surrounding the town are generations old.",
+                                                       "Amphorae of olive oil are loaded onto carts at the press."
+                                                   ]
+                                        },
+                      "theme":  "medieval,desert,greek"
+                  },
+                  {
+                      "id":  "honey",
+                      "nl":  "Honing",
+                      "en":  "Honey",
+                      "category":  "food",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "cheese",
+                      "nl":  "Kaas \u0026 Zuivel",
+                      "en":  "Cheese \u0026 Dairy",
+                      "category":  "food",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "desert",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "dried_meat",
+                      "nl":  "Gedroogd Vlees",
+                      "en":  "Dried Meat",
+                      "category":  "food",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "arctic",
+                                              "mountains",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "military",
+                                                 "viking"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "ale_beer",
+                      "nl":  "Bier \u0026 Ale",
+                      "en":  "Ale \u0026 Beer",
+                      "category":  "drinks",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "military",
+                                                 "viking",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "De geur van mouten graan drijft vanuit de brouwerijen door de stad.",
+                                                       "Bierkarren rijden af en aan tussen de brouwerij en de herbergen."
+                                                   ],
+                                            "en":  [
+                                                       "The smell of malted grain drifts from the breweries through the city.",
+                                                       "Beer carts travel back and forth between the brewery and the inns."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "wine",
+                      "nl":  "Wijn",
+                      "en":  "Wine",
+                      "category":  "drinks",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "greek",
+                                                 "holy",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Wijngaarden op de heuvels rondom de stad leveren de beroemde lokale wijn.",
+                                                       "Wijnhandelaars pronken met flessen en amforen voor hun pakhuis."
+                                                   ],
+                                            "en":  [
+                                                       "Vineyards on the hills surrounding the city produce the famous local wine.",
+                                                       "Wine merchants display bottles and amphorae outside their warehouse."
+                                                   ]
+                                        },
+                      "theme":  "medieval,desert,greek"
+                  },
+                  {
+                      "id":  "spirits",
+                      "nl":  "Sterke Dranken",
+                      "en":  "Spirits \u0026 Liquor",
+                      "category":  "drinks",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "mountains",
+                                              "coastal",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "pirate",
+                                                 "harbour",
+                                                 "mining"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "mead",
+                      "nl":  "Mede",
+                      "en":  "Mead",
+                      "category":  "drinks",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "arctic",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "viking",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "exotic_drinks",
+                      "nl":  "Exotische Dranken",
+                      "en":  "Exotic Beverages",
+                      "category":  "drinks",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "desert",
+                                              "feywild",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "magic",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "underground",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "tropical,asian,caribbean"
+                  },
+                  {
+                      "id":  "swords",
+                      "nl":  "Zwaarden",
+                      "en":  "Swords",
+                      "category":  "weapons",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "temperate_forest",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "military",
+                                                 "trade",
+                                                 "mining"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "swamp"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Wapensmeden werken dag en nacht en hun aambeelden klinken door de stad.",
+                                                       "Wapenwinkels met gevulde rekken domineren de smidswijk."
+                                                   ],
+                                            "en":  [
+                                                       "Weaponsmiths work day and night and their anvils ring through the city.",
+                                                       "Weapon shops with full racks dominate the smithing district."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "armor",
+                      "nl":  "Wapenrusting",
+                      "en":  "Armor",
+                      "category":  "weapons",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "temperate_forest",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "military",
+                                                 "trade",
+                                                 "mining"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "swamp",
+                                                                "jungle"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "bows_arrows",
+                      "nl":  "Bogen \u0026 Pijlen",
+                      "en":  "Bows \u0026 Arrows",
+                      "category":  "weapons",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "military",
+                                                 "trade",
+                                                 "farming"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "ships_cannons",
+                      "nl":  "Scheepskanonnen",
+                      "en":  "Ship Cannons",
+                      "category":  "weapons",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "pirate",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "mountains",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "temperate_forest",
+                                                                "swamp",
+                                                                "feywild",
+                                                                "jungle"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy",
+                                                                   "magic",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Kanongieterijen werken op volle kracht langs de haven.",
+                                                       "Enorme bronzen kanonnen wachten op de kade om te worden ingescheept."
+                                                   ],
+                                            "en":  [
+                                                       "Cannon foundries work at full capacity along the harbour.",
+                                                       "Enormous bronze cannons wait on the quay to be loaded onto ships."
+                                                   ]
+                                        },
+                      "theme":  "caribbean"
+                  },
+                  {
+                      "id":  "lumber",
+                      "nl":  "Timmerhout",
+                      "en":  "Lumber",
+                      "category":  "materials",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "jungle",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "desert",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Stapels vers gezaagd hout liggen bij de zagerij aan de rand van de stad.",
+                                                       "Houtvlotten drijven de rivier af naar de stadshaven."
+                                                   ],
+                                            "en":  [
+                                                       "Stacks of freshly sawn timber lie at the sawmill on the edge of town.",
+                                                       "Timber rafts float down the river to the city harbour."
+                                                   ]
+                                        },
+                      "theme":  "medieval,tropical"
+                  },
+                  {
+                      "id":  "cut_stone",
+                      "nl":  "Bewerkte Steen",
+                      "en":  "Cut Stone",
+                      "category":  "materials",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "mountains",
+                                              "underground",
+                                              "coastal",
+                                              "volcanic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "mining",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "swamp",
+                                                                "feywild",
+                                                                "grasslands"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,greek,gothic"
+                  },
+                  {
+                      "id":  "bricks",
+                      "nl":  "Bakstenen",
+                      "en":  "Bricks",
+                      "category":  "materials",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "coastal",
+                                              "desert",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "glass",
+                      "nl":  "Glas",
+                      "en":  "Glass",
+                      "category":  "materials",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "desert",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "magic",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Glasblazerijen langs de rivier produceren kleurrijk gebrandschilderd glas.",
+                                                       "Kraampjes vol glazen vazen en flessen kleuren de markt."
+                                                   ],
+                                            "en":  [
+                                                       "Glassblowers along the river produce colourful stained glass.",
+                                                       "Stalls full of glass vases and bottles colour the market."
+                                                   ]
+                                        },
+                      "theme":  "medieval,desert,gothic"
+                  },
+                  {
+                      "id":  "wool",
+                      "nl":  "Wol",
+                      "en":  "Wool",
+                      "category":  "textiles",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "mountains",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "desert",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Wevers werken bij open ramen en hun getouwen zijn te horen op straat.",
+                                                       "Wollen laken in alle kleuren hangt te drogen op de gevels."
+                                                   ],
+                                            "en":  [
+                                                       "Weavers work at open windows and their looms can be heard on the street.",
+                                                       "Woollen cloth in every colour hangs drying on the facades."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "silk",
+                      "nl":  "Zijde",
+                      "en":  "Silk",
+                      "category":  "textiles",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "coastal",
+                                              "feywild",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "mountains"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Zijdehandelaars bewaken hun kostbare balen in zwaar beveiligde pakhuizen.",
+                                                       "Kleurrijke zijden doeken hangen als decoratie bij de rijkere winkels."
+                                                   ],
+                                            "en":  [
+                                                       "Silk traders guard their precious bales in heavily secured warehouses.",
+                                                       "Colourful silk cloths hang as decoration at the wealthier shops."
+                                                   ]
+                                        },
+                      "theme":  "asian,tropical,desert"
+                  },
+                  {
+                      "id":  "leather",
+                      "nl":  "Leer",
+                      "en":  "Leather",
+                      "category":  "textiles",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "De scherpe geur van looierijen drijft over het armere deel van de stad.",
+                                                       "Leerlooiers werken langs de rivier aan de rand van de stad."
+                                                   ],
+                                            "en":  [
+                                                       "The sharp smell of tanneries drifts over the poorer part of the city.",
+                                                       "Tanners work along the river at the edge of town."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "linen",
+                      "nl":  "Linnen",
+                      "en":  "Linen",
+                      "category":  "textiles",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "coastal",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "farming",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,desert"
+                  },
+                  {
+                      "id":  "furs",
+                      "nl":  "Bont \u0026 Pelzen",
+                      "en":  "Furs \u0026 Pelts",
+                      "category":  "textiles",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "arctic",
+                                              "temperate_forest",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "viking",
+                                                 "harbour",
+                                                 "farming"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "desert",
+                                                                "jungle",
+                                                                "feywild",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Pelzenhandelaars hangen hun waren buiten in de koude lucht.",
+                                                       "De markt ruikt naar rook en gedroogde dierenhuid."
+                                                   ],
+                                            "en":  [
+                                                       "Fur traders hang their wares outside in the cold air.",
+                                                       "The market smells of smoke and dried animal hide."
+                                                   ]
+                                        },
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "charcoal",
+                      "nl":  "Houtskool",
+                      "en":  "Charcoal",
+                      "category":  "timber",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "mountains",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "mining",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "desert",
+                                                                "underground",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Zwarte karren vol houtskool rijden van de bosrand naar de smidsen.",
+                                                       "Houtskoolbranders werken in de bossen aan de rand van de stad."
+                                                   ],
+                                            "en":  [
+                                                       "Black carts full of charcoal travel from the forest edge to the smithies.",
+                                                       "Charcoal burners work in the forests at the edge of town."
+                                                   ]
+                                        },
+                      "theme":  "medieval,nordic"
+                  },
+                  {
+                      "id":  "furniture",
+                      "nl":  "Meubels",
+                      "en":  "Furniture",
+                      "category":  "timber",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "farming"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "desert",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "mining",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "ships_timber",
+                      "nl":  "Scheepshout",
+                      "en":  "Ship Timber",
+                      "category":  "timber",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "temperate_forest",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "pirate",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "mountains",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "volcanic",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "mining",
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Scheepswerven langs de haven liggen vol met vers hout voor nieuwe schepen.",
+                                                       "De geur van teer en vers gezaagd hout hangt boven de havenbuurt."
+                                                   ],
+                                            "en":  [
+                                                       "Shipyards along the harbour are filled with fresh timber for new ships.",
+                                                       "The smell of tar and freshly sawn wood hangs over the harbour district."
+                                                   ]
+                                        },
+                      "theme":  "tropical,caribbean"
+                  },
+                  {
+                      "id":  "fresh_fish",
+                      "nl":  "Verse Vis",
+                      "en":  "Fresh Fish",
+                      "category":  "fish",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "swamp",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "trade",
+                                                 "pirate"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "mountains",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "volcanic",
+                                                                "feywild",
+                                                                "temperate_forest"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "mining",
+                                                                   "military",
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Vissers lossen hun vangst in de vroege ochtend op de kade.",
+                                                       "De vismarkt is de vroegst openende markt in de stad â€” en de luidste."
+                                                   ],
+                                            "en":  [
+                                                       "Fishermen unload their catch in the early morning at the quay.",
+                                                       "The fish market is the earliest opening market in the city â€” and the loudest."
+                                                   ]
+                                        },
+                      "theme":  "tropical,caribbean"
+                  },
+                  {
+                      "id":  "dried_fish",
+                      "nl":  "Gedroogde Vis",
+                      "en":  "Dried Fish",
+                      "category":  "fish",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "arctic",
+                                              "swamp"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "trade",
+                                                 "viking",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "mountains",
+                                                                "volcanic",
+                                                                "feywild",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Rijen gedroogde vis hangen aan rekken langs de kade te drogen in de wind.",
+                                                       "De scherpe zoute geur van gedroogde vis is in de hele stad te ruiken."
+                                                   ],
+                                            "en":  [
+                                                       "Rows of dried fish hang on racks along the quay drying in the wind.",
+                                                       "The sharp salty smell of dried fish can be smelled throughout the entire city."
+                                                   ]
+                                        },
+                      "theme":  "nordic"
+                  },
+                  {
+                      "id":  "shellfish",
+                      "nl":  "Schaaldieren",
+                      "en":  "Shellfish",
+                      "category":  "fish",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "swamp",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "mountains",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "volcanic",
+                                                                "feywild",
+                                                                "temperate_forest"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "mining",
+                                                                   "military",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "tropical,caribbean"
+                  },
+                  {
+                      "id":  "books",
+                      "nl":  "Boeken",
+                      "en":  "Books",
+                      "category":  "books",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "magic",
+                                                 "holy",
+                                                 "greek"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "pirate",
+                                                                   "viking"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Boekhandelaren en kopiisten vullen een heel straatje in de geleerde wijk.",
+                                                       "De bibliotheek trekt geleerden van ver weg die maanden blijven."
+                                                   ],
+                                            "en":  [
+                                                       "Booksellers and scribes fill an entire street in the scholarly district.",
+                                                       "The library attracts scholars from afar who stay for months."
+                                                   ]
+                                        },
+                      "theme":  "medieval,gothic,greek,asian"
+                  },
+                  {
+                      "id":  "maps_charts",
+                      "nl":  "Kaarten \u0026 Zeekaarten",
+                      "en":  "Maps \u0026 Sea Charts",
+                      "category":  "books",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "temperate_forest",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "pirate",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "holy",
+                                                                   "mining"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,greek,asian"
+                  },
+                  {
+                      "id":  "scrolls",
+                      "nl":  "Perkamenten \u0026 Rollen",
+                      "en":  "Parchment \u0026 Scrolls",
+                      "category":  "books",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "magic",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "military",
+                                                                   "pirate"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,gothic,greek"
+                  },
+                  {
+                      "id":  "potions",
+                      "nl":  "Drankjes \u0026 Elixers",
+                      "en":  "Potions \u0026 Elixirs",
+                      "category":  "magic",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "feywild",
+                                              "temperate_forest",
+                                              "underground",
+                                              "swamp"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "magic",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "pirate",
+                                                                   "viking",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Alchemisten en kruidendokters pronken met gekleurde flesjes in hun etalage.",
+                                                       "Een merkwaardige geur van zwavel en lavendel drijft uit de alchemistenwijk."
+                                                   ],
+                                            "en":  [
+                                                       "Alchemists and herbalists display colourful bottles in their shopfronts.",
+                                                       "A curious smell of sulfur and lavender drifts from the alchemist district."
+                                                   ]
+                                        },
+                      "theme":  "gothic,asian"
+                  },
+                  {
+                      "id":  "spell_components",
+                      "nl":  "Toverstoffen",
+                      "en":  "Spell Components",
+                      "category":  "magic",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "feywild",
+                                              "underground",
+                                              "temperate_forest",
+                                              "swamp",
+                                              "volcanic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "magic",
+                                                 "trade",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "grasslands",
+                                                                "desert"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "pirate",
+                                                                   "viking",
+                                                                   "farming",
+                                                                   "military"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "gothic"
+                  },
+                  {
+                      "id":  "enchanted_items",
+                      "nl":  "Betoverde Voorwerpen",
+                      "en":  "Enchanted Items",
+                      "category":  "magic",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "feywild",
+                                              "underground",
+                                              "temperate_forest"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "magic",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "arctic",
+                                                                "desert",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "pirate",
+                                                                   "viking",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Een magierswinkel toont glinsterende voorwerpen achter een versterkte ruit.",
+                                                       "MagiÃ«rs in gewaden lopen de winkelstraat op met mysterieuze pakketten."
+                                                   ],
+                                            "en":  [
+                                                       "A wizard\u0027s shop displays glittering items behind a reinforced window.",
+                                                       "Wizards in robes walk the shopping street carrying mysterious packages."
+                                                   ]
+                                        },
+                      "theme":  "gothic,asian"
+                  },
+                  {
+                      "id":  "ivory",
+                      "nl":  "Ivoor",
+                      "en":  "Ivory",
+                      "category":  "exotic",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "desert",
+                                              "coastal"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic",
+                                                                "mountains",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "military",
+                                                                   "mining",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "desert,tropical,caribbean"
+                  },
+                  {
+                      "id":  "perfumes",
+                      "nl":  "Parfums \u0026 Reukwaters",
+                      "en":  "Perfumes \u0026 Fragrant Oils",
+                      "category":  "exotic",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "desert",
+                                              "coastal",
+                                              "jungle",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "holy"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "mining",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Parfumeurs in de rijkere wijk verkopen geuren van verre landen.",
+                                                       "Een zoete bloemengeur hangt bij de markt voor luxegoederen."
+                                                   ],
+                                            "en":  [
+                                                       "Perfumers in the wealthier district sell scents from distant lands.",
+                                                       "A sweet floral scent hangs near the luxury goods market."
+                                                   ]
+                                        },
+                      "theme":  "desert,tropical,asian"
+                  },
+                  {
+                      "id":  "feathers_dyes",
+                      "nl":  "Veren \u0026 Kleurstoffen",
+                      "en":  "Feathers \u0026 Dyes",
+                      "category":  "exotic",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "jungle",
+                                              "coastal",
+                                              "feywild",
+                                              "desert"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "magic"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "military",
+                                                                   "mining",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Kleurrijke geverfde stoffen wapperen als vlaggen voor de verfhuizen.",
+                                                       "Exotische veren pronken in de etalages van modieuze handelaren."
+                                                   ],
+                                            "en":  [
+                                                       "Colourfully dyed fabrics flutter like flags before the dye houses.",
+                                                       "Exotic feathers are displayed in the shopfronts of fashionable traders."
+                                                   ]
+                                        },
+                      "theme":  "tropical,desert"
+                  },
+                  {
+                      "id":  "mercenaries",
+                      "nl":  "Huurlingen",
+                      "en":  "Mercenaries",
+                      "category":  "services",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "grasslands",
+                                              "temperate_forest",
+                                              "coastal",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "military",
+                                                 "trade",
+                                                 "pirate",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "underground"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "farming",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Zwaar gewapende huurlingen hangen rond in de herbergen op zoek naar werk.",
+                                                       "Een aanplakbiljet bij de stadspoort biedt goed loon voor zwaardbeoefenaars."
+                                                   ],
+                                            "en":  [
+                                                       "Heavily armed mercenaries lounge in the inns looking for work.",
+                                                       "A notice at the city gate offers good pay for sword-wielders."
+                                                   ]
+                                        },
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "guides_scouts",
+                      "nl":  "Gidsen \u0026 Verkenners",
+                      "en":  "Guides \u0026 Scouts",
+                      "category":  "services",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "mountains",
+                                              "jungle",
+                                              "desert",
+                                              "arctic"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "trade",
+                                                 "harbour",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "feywild"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "mining",
+                                                                   "holy",
+                                                                   "magic"
+                                                               ]
+                                             },
+                      "sceneSentence":  null,
+                      "theme":  "medieval,nordic,tropical,desert"
+                  },
+                  {
+                      "id":  "healers",
+                      "nl":  "Geneesheren \u0026 Priesters",
+                      "en":  "Healers \u0026 Priests",
+                      "category":  "services",
+                      "rarity":  "common",
+                      "biomeAffinities":  [
+                                              "temperate_forest",
+                                              "grasslands",
+                                              "coastal",
+                                              "feywild"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "holy",
+                                                 "trade",
+                                                 "farming",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "volcanic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "pirate",
+                                                                   "cursed"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Een rij wachtenden staat voor de deur van de helende tempel.",
+                                                       "Geneesheren in grijze gewaden lopen van deur tot deur in de armere wijken."
+                                                   ],
+                                            "en":  [
+                                                       "A queue of people waits at the door of the healing temple.",
+                                                       "Healers in grey robes move from door to door in the poorer districts."
+                                                   ]
+                                        },
+                      "theme":  "medieval,gothic,asian"
+                  },
+                  {
+                      "id":  "shipwrights",
+                      "nl":  "Scheepstimmerlieden",
+                      "en":  "Shipwrights",
+                      "category":  "services",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "jungle"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "harbour",
+                                                 "pirate",
+                                                 "trade",
+                                                 "military"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "underground",
+                                                                "arctic",
+                                                                "mountains",
+                                                                "desert",
+                                                                "grasslands",
+                                                                "volcanic",
+                                                                "feywild",
+                                                                "temperate_forest",
+                                                                "swamp"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "farming",
+                                                                   "mining",
+                                                                   "magic",
+                                                                   "holy"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Het gebonk en gezaag van de scheepswerven is overal in de stad te horen.",
+                                                       "Scheepstimmerlieden hangen als apen in de half-gebouwde romp van een nieuw schip."
+                                                   ],
+                                            "en":  [
+                                                       "The hammering and sawing of the shipyards can be heard throughout the city.",
+                                                       "Shipwrights hang like monkeys in the half-built hull of a new vessel."
+                                                   ]
+                                        },
+                      "theme":  "tropical,caribbean"
+                  },
+                  {
+                      "id":  "slaves",
+                      "nl":  "Slaven",
+                      "en":  "Slaves",
+                      "category":  "slaves",
+                      "rarity":  "uncommon",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "desert",
+                                              "grasslands"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "pirate",
+                                                 "cursed",
+                                                 "harbour",
+                                                 "trade"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "underground",
+                                                                "arctic"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "fey",
+                                                                   "magic",
+                                                                   "farming"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Geketende gevangenen worden bewaakt door zwaarbewapende handelaars op de markt.",
+                                                       "Een slavenveiling trekt kooplieden en omstanders op het centrale plein."
+                                                   ],
+                                            "en":  [
+                                                       "Chained prisoners are guarded by heavily armed traders on the market.",
+                                                       "A slave auction draws merchants and onlookers to the central square."
+                                                   ]
+                                        },
+                      "theme":  "medieval"
+                  },
+                  {
+                      "id":  "prisoners",
+                      "nl":  "Gevangenen",
+                      "en":  "Prisoners",
+                      "category":  "slaves",
+                      "rarity":  "rare",
+                      "biomeAffinities":  [
+                                              "coastal",
+                                              "grasslands",
+                                              "mountains"
+                                          ],
+                      "cityTypeAffinities":  [
+                                                 "pirate",
+                                                 "cursed",
+                                                 "military",
+                                                 "harbour"
+                                             ],
+                      "negativeAffinities":  {
+                                                 "biomes":  [
+                                                                "feywild",
+                                                                "underground"
+                                                            ],
+                                                 "cityTypes":  [
+                                                                   "holy",
+                                                                   "fey",
+                                                                   "magic",
+                                                                   "farming",
+                                                                   "trade"
+                                                               ]
+                                             },
+                      "sceneSentence":  {
+                                            "nl":  [
+                                                       "Kooien op karren vervoeren gevangenen door de straten naar het gildehuis.",
+                                                       "Bewakers drijven een groep geboeide gevangenen door de stadspoort."
+                                                   ],
+                                            "en":  [
+                                                       "Cages on carts transport prisoners through the streets to the guild house.",
+                                                       "Guards drive a group of shackled prisoners through the city gate."
+                                                   ]
+                                        },
+                      "theme":  "medieval"
+                  }
+              ]
+}

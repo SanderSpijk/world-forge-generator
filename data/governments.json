@@ -1,0 +1,1004 @@
+{
+  "governments": [
+    {
+      "category": "Authoritarian",
+      "form": "Shadow Council",
+      "nl": "Schaduwraad",
+      "leader": "Deep Shadow",
+      "desc": "Een geheim comité regeert vanuit de schaduw. Niemand weet wie er echt aan de macht is.",
+      "descEn": "A secret committee rules from the shadows. Nobody knows who truly holds power.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Triumvirate of Judges",
+      "nl": "Triumviraat van Rechters",
+      "leader": "High Judge",
+      "desc": "Drie rechters met absolute macht over wet en bestuur. Beslissingen worden bij meerderheid genomen.",
+      "descEn": "Three judges with absolute authority over law and governance. Decisions are made by majority.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Trading Company",
+      "nl": "Handelscompagnie",
+      "leader": "Gouverneur",
+      "desc": "Een handelsmaatschappij bezit de stad als bezitting. Winst gaat voor alles.",
+      "descEn": "A trading company owns the city as an asset. Profit comes before all else.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Military Officers",
+      "nl": "Militaire Officieren",
+      "leader": "General",
+      "desc": "Het leger heeft het bestuur overgenomen. Orde en discipline zijn de hoogste waarden.",
+      "descEn": "The military has taken over governance. Order and discipline are the highest values.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Iron Syndicate",
+      "nl": "IJzeren Syndicaat",
+      "leader": "Syndicate Master",
+      "desc": "Een coalitie van industriëlen en machtshebbers die de stad met ijzeren vuist besturen.",
+      "descEn": "A coalition of industrialists and power brokers who rule the city with an iron fist.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Inquisitorial State",
+      "nl": "Inquisitoriële Staat",
+      "leader": "Grand Inquisitor",
+      "desc": "Een elite van ondervragingsexperts handhaaft de wet door angst en surveillance.",
+      "descEn": "An elite of interrogation experts enforces the law through fear and surveillance.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Puppet Government",
+      "nl": "Marionettenbestuur",
+      "leader": "Puppet Master",
+      "desc": "Een schijnbestuur regeert op papier; de echte macht ligt bij een externe mogendheid.",
+      "descEn": "A facade government rules on paper; real power lies with an external force.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Bureau of Control",
+      "nl": "Bureau van Controle",
+      "leader": "Chief Controller",
+      "desc": "Een alomtegenwoordig bureaucratisch apparaat regelt elk aspect van het dagelijks leven.",
+      "descEn": "An omnipresent bureaucratic apparatus regulates every aspect of daily life.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Warlord Pact",
+      "nl": "Oorlogsheerenpact",
+      "leader": "Warlord",
+      "desc": "Meerdere oorlogsheren hebben een gewapend evenwicht bereikt. Elk beheert zijn eigen zone.",
+      "descEn": "Several warlords have reached an armed balance. Each controls their own zone.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Authoritarian",
+      "form": "Secret Police State",
+      "nl": "Geheime Politiestaat",
+      "leader": "Director",
+      "desc": "De geheime politie bewaakt loyaliteit. Verklikkers worden beloond, dissidenten verdwijnen.",
+      "descEn": "The secret police monitor loyalty. Informants are rewarded, dissidents disappear.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Elected Council",
+      "nl": "Gekozen Raad",
+      "leader": "Mayor",
+      "desc": "Een gekozen raad bestuurt de stad namens de bevolking. De burgemeester leidt vergaderingen.",
+      "descEn": "An elected council governs the city on behalf of its citizens. The mayor chairs meetings.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Senatorial Council",
+      "nl": "Senaatsraad",
+      "leader": "Senator",
+      "desc": "Senatoren vertegenwoordigen districten of klassen. Wetten worden na debat aangenomen.",
+      "descEn": "Senators represent districts or classes. Laws are passed after debate.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "District Council",
+      "nl": "Districtraad",
+      "leader": "Councillor",
+      "desc": "Elk stadsdeel kiest eigen raadsleden die samen de stadsraad vormen.",
+      "descEn": "Each city district elects its own councillors who together form the city council.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Public Vote",
+      "nl": "Volksstemming",
+      "leader": "The Speaker",
+      "desc": "Elke vrije burger mag stemmen over belangrijke beslissingen. Directe democratie.",
+      "descEn": "Every free citizen may vote on important decisions. Direct democracy.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Craftsmen Council",
+      "nl": "Ambachtsraad",
+      "leader": "Crafter",
+      "desc": "Vertegenwoordigers van de gilden en ambachten besturen gezamenlijk.",
+      "descEn": "Representatives of the guilds and crafts govern together.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Citizens Assembly",
+      "nl": "Burgersvergadering",
+      "leader": "Moderator",
+      "desc": "Willekeurig gekozen burgers vergaderen periodiek over stadszaken.",
+      "descEn": "Randomly selected citizens meet periodically to discuss city affairs.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Jury Republic",
+      "nl": "Juryrepubliek",
+      "leader": "Foreman",
+      "desc": "Wisselende jury's van burgers besluiten over wetten en bestuur per zaak.",
+      "descEn": "Rotating juries of citizens decide on laws and governance case by case.",
+      "scope": ["city"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Democracy",
+      "form": "Federated Boroughs",
+      "nl": "Federatie van Wijken",
+      "leader": "Borough Chief",
+      "desc": "Autonome wijken werken samen in een federatief verband met gedeelde basisregels.",
+      "descEn": "Autonomous boroughs cooperate within a federal framework with shared basic rules.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Open Parliament",
+      "nl": "Open Parlement",
+      "leader": "Prime Speaker",
+      "desc": "Iedereen mag het parlement bijwonen en inspreken; stemrecht is voor geregistreerde burgers.",
+      "descEn": "Anyone may attend and speak in parliament; voting rights are for registered citizens.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Democracy",
+      "form": "Rotating Presidency",
+      "nl": "Roulerend Presidentschap",
+      "leader": "President",
+      "desc": "Het presidentschap roteert jaarlijks tussen vertegenwoordigers van de grote buurten.",
+      "descEn": "The presidency rotates annually between representatives of the major districts.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Kingdom",
+      "nl": "Koninkrijk",
+      "leader": "King",
+      "desc": "Erfelijke alleenheerschappij. De troon wordt doorgegeven binnen de koninklijke familie.",
+      "descEn": "Hereditary sole rule. The throne is passed within the royal family.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Queendom",
+      "nl": "Koninginnenrijk",
+      "leader": "Queen",
+      "desc": "Een koninginnenrijkdom met matrilineaire troonsopvolging.",
+      "descEn": "A queendom with matrilineal succession to the throne.",
+      "scope": ["city", "nation"],
+      "leaderGender": "female"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Princedom",
+      "nl": "Vorstendom",
+      "leader": "Prince",
+      "desc": "Een klein vorstendom, vaak als bufferzone tussen grotere rijken.",
+      "descEn": "A small principality, often serving as a buffer zone between larger realms.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Vassal Dom",
+      "nl": "Vazaldom",
+      "leader": "Knight",
+      "desc": "Een heerlijkheid schatplichtig aan een groter koninkrijk. De ridder regeert in naam van zijn heer.",
+      "descEn": "A lordship owing tribute to a greater kingdom. The knight rules in his lord's name.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Regency",
+      "nl": "Regentschap",
+      "leader": "Regent",
+      "desc": "Een regent bestuurt totdat de rechtmatige erfgenaam oud genoeg is om te regeren.",
+      "descEn": "A regent governs until the rightful heir is old enough to rule.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Elective Monarchy",
+      "nl": "Electieve Monarchie",
+      "leader": "Elected King",
+      "desc": "De monarch wordt gekozen door een kleine groep keurvorsten bij elke troonswissel.",
+      "descEn": "The monarch is chosen by a small group of electors at each succession.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Twin Throne",
+      "nl": "Dubbele Troon",
+      "leader": "Co-Monarchs",
+      "desc": "Twee gelijkwaardige vorsten regeren samen, vaak door huwelijk of verdrag verbonden.",
+      "descEn": "Two equal rulers reign together, often bound by marriage or treaty.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Exiled Crown",
+      "nl": "Kroon in Ballingschap",
+      "leader": "King in Exile",
+      "desc": "De rechtmatige vorst regeert in ballingschap; een usurpator of bezetter zit op de troon.",
+      "descEn": "The rightful ruler reigns in exile; a usurper or occupier sits on the throne.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Sacred Bloodline",
+      "nl": "Heilige Bloedlijn",
+      "leader": "The Blessed One",
+      "desc": "Alleen wie het heilige bloed draagt mag regeren. Afkomst wordt bewaakt door tempelpriester.",
+      "descEn": "Only those who carry the sacred blood may rule. Lineage is guarded by temple priests.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Monarchy",
+      "form": "Interregnum",
+      "nl": "Interregnum",
+      "leader": "Steward",
+      "desc": "Er is geen erkende monarch. Een tijdelijk bestuur houdt de boel draaiende tot er een opvolger is.",
+      "descEn": "There is no recognised monarch. A temporary administration keeps things running until a successor is found.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Council of Guilds",
+      "nl": "Gildenraad",
+      "leader": "Guild Master",
+      "desc": "De rijkste en machtigste gildenmeesters verdelen de macht onder elkaar.",
+      "descEn": "The wealthiest and most powerful guild masters divide power among themselves.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Trade Council",
+      "nl": "Handelsraad",
+      "leader": "Trade Master",
+      "desc": "Kooplieden en handelaren bepalen het beleid op basis van economisch belang.",
+      "descEn": "Merchants and traders determine policy based on economic interest.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Mining Magnates",
+      "nl": "Mijnmagnaten",
+      "leader": "Mine Lord",
+      "desc": "Eigenaren van de mijnen beheersen de economie en daarmee het bestuur.",
+      "descEn": "Owners of the mines control the economy and thereby governance.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Criminal Organisation",
+      "nl": "Criminele Organisatie",
+      "leader": "Crimelord",
+      "desc": "De onderwereld heeft de officiële macht vervangen. Loyaliteit wordt gekocht of afgedwongen.",
+      "descEn": "The underworld has replaced official power. Loyalty is bought or coerced.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Noble Cabal",
+      "nl": "Adellijk Complot",
+      "leader": "First Noble",
+      "desc": "Een klein groepje adellijke families deelt informeel de macht via gunsten en intriges.",
+      "descEn": "A small group of noble families informally share power through favours and intrigue.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Merchant Princes",
+      "nl": "Koopmansprinsen",
+      "leader": "Merchant Prince",
+      "desc": "Steenrijke kooplieden kopen politieke invloed en regeren via hun economische macht.",
+      "descEn": "Immensely wealthy merchants buy political influence and rule through economic power.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Banking Consortium",
+      "nl": "Bankiersconsortium",
+      "leader": "Grand Banker",
+      "desc": "Banken en geldschieters houden de stad in hun greep via schulden en kredietverlening.",
+      "descEn": "Banks and moneylenders hold the city in their grip through debts and credit.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Wizard Conclave",
+      "nl": "Tovenaarsconclaaf",
+      "leader": "Archmage",
+      "desc": "Een klein aantal machtige magiërs deelt de controle over de stad en haar magische bronnen.",
+      "descEn": "A small number of powerful mages share control of the city and its magical resources.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Landowning Bloc",
+      "nl": "Grondbezittersbloc",
+      "leader": "Land Baron",
+      "desc": "Grondbezitters controleren wie waar woont en werkt. Huur is macht.",
+      "descEn": "Landowners control who lives and works where. Rent is power.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Oligarchy",
+      "form": "Pirate Consortium",
+      "nl": "Piratenconsortium",
+      "leader": "Admiral",
+      "desc": "Een verbond van piraten en vrijbuiters beheert de haven en de handelswegen.",
+      "descEn": "An alliance of pirates and privateers manages the harbour and trade routes.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Duchy",
+      "nl": "Hertogdom",
+      "leader": "Duke",
+      "desc": "Een hertogdom geleid door een hertog, vaak met eigen leger en belastingheffing.",
+      "descEn": "A duchy led by a duke, often with its own army and taxation.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Earldom",
+      "nl": "Graafschap",
+      "leader": "Earl",
+      "desc": "Een graafschap bestuurd door een graaf, doorgaans schatplichtig aan een hertog of koning.",
+      "descEn": "An earldom governed by an earl, typically owing tribute to a duke or king.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Monastic State",
+      "nl": "Kloosterstaat",
+      "leader": "Abbott / Abbess",
+      "desc": "Een kloosterorde bestuurt het land. Religie en bestuur zijn volledig verweven.",
+      "descEn": "A monastic order governs the land. Religion and governance are fully intertwined.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Five Noble Houses",
+      "nl": "Vijf Adellijke Huizen",
+      "leader": "High Lord",
+      "desc": "Vijf adellijke huizen wisselen macht af via erfrecht, huwelijk en onderhandeling.",
+      "descEn": "Five noble houses alternate power through inheritance, marriage and negotiation.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Barony",
+      "nl": "Baronnie",
+      "leader": "Baron / Baroness",
+      "desc": "Een baronnie: de laagste rang van adel met eigen grondgebied en rechtspraak.",
+      "descEn": "A barony: the lowest rank of nobility with its own territory and jurisdiction.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Grand Marquisate",
+      "nl": "Groot Markizaat",
+      "leader": "Marquis",
+      "desc": "Een grensgebied bestuurd door een markies, belast met de verdediging van de grens.",
+      "descEn": "A border territory governed by a marquis, charged with defending the frontier.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Viscountcy",
+      "nl": "Burggraafschap",
+      "leader": "Viscount",
+      "desc": "Een middelgrote adellijke heerlijkheid, rang tussen graaf en baron.",
+      "descEn": "A mid-sized noble lordship, ranked between earl and baron.",
+      "scope": ["city"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Council of Peers",
+      "nl": "Pairsraad",
+      "leader": "First Peer",
+      "desc": "De hoogste adel vergadert als gelijken. Niemand is formeel baas, maar invloed bepaalt alles.",
+      "descEn": "The highest nobility meet as equals. Nobody is formally in charge, but influence decides all.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Hereditary Senate",
+      "nl": "Erfelijke Senaat",
+      "leader": "Patriarch",
+      "desc": "Senaatsstoelen worden geërfd binnen adellijke families. Bloed bepaalt wie mag meestemmen.",
+      "descEn": "Senate seats are inherited within noble families. Blood determines who may vote.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Aristocracy",
+      "form": "Knight Order State",
+      "nl": "Ridderordesstaat",
+      "leader": "Grand Master",
+      "desc": "Een ridderorde bestuurt het grondgebied dat hen ooit als beloning werd gegeven.",
+      "descEn": "A knightly order governs the territory once granted to them as a reward.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Child of Prophecy",
+      "nl": "Kind der Profetie",
+      "leader": "The Chosen",
+      "desc": "Een profetisch uitverkoren individu regeert als spreekbuis van een godheid.",
+      "descEn": "A prophetically chosen individual rules as the mouthpiece of a deity.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Avatars of a Deity",
+      "nl": "Avatars van een Godheid",
+      "leader": "The Avatar",
+      "desc": "Gelovigen die beweren de vleesgeworden wil van een god te zijn besturen de gemeenschap.",
+      "descEn": "Believers who claim to embody the living will of a god govern the community.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Council of Temples",
+      "nl": "Tempelraad",
+      "leader": "High Priest",
+      "desc": "Hoofdpriesters van meerdere tempels regeren gezamenlijk. Religieuze wet is staatswet.",
+      "descEn": "High priests of multiple temples rule jointly. Religious law is state law.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Religious Writings",
+      "nl": "Heilige Geschriften",
+      "leader": "Interpreter",
+      "desc": "Heilige teksten vormen de grondwet. Geleerden interpreteren de wet voor het volk.",
+      "descEn": "Sacred texts form the constitution. Scholars interpret the law for the people.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Inquisition",
+      "nl": "Inquisitie",
+      "leader": "Grand Inquisitor",
+      "desc": "Een religieuze orde handhaaft de doctrine met militaire macht. Ketterij is misdaad.",
+      "descEn": "A religious order enforces doctrine with military might. Heresy is a crime.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Oracle State",
+      "nl": "Orakelstaat",
+      "leader": "Oracle",
+      "desc": "Een ziener of orakel spreekt de wil van de goden. Elke uitspraak is wet.",
+      "descEn": "A seer or oracle speaks the will of the gods. Every utterance is law.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Temple Monarchy",
+      "nl": "Tempelmonarchie",
+      "leader": "God-King",
+      "desc": "De monarch wordt beschouwd als levende god of directe nakomeling van een godheid.",
+      "descEn": "The monarch is regarded as a living god or direct descendant of a deity.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Martyr Council",
+      "nl": "Martelaarsraad",
+      "leader": "Saint",
+      "desc": "Heiligverklaarde martelaren worden als rolmodellen vereerd; hun leer bepaalt het beleid.",
+      "descEn": "Canonised martyrs are venerated as role models; their teachings determine policy.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Pilgrim State",
+      "nl": "Pelgrimsstaat",
+      "leader": "High Pilgrim",
+      "desc": "De stad is een heilige pelgrimsplaats. Het bestuur beschermt en exploiteert de heiligdommen.",
+      "descEn": "The city is a sacred place of pilgrimage. Governance protects and exploits the shrines.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Theocracy",
+      "form": "Monastic Brotherhood",
+      "nl": "Kloosterbroederschap",
+      "leader": "Elder Brother",
+      "desc": "Een gesloten religieuze broederschap bestuurt de stad strikt volgens kloosterregels.",
+      "descEn": "A closed religious brotherhood governs the city strictly according to monastic rules.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Council of Elders",
+      "nl": "Oudstenraad",
+      "leader": "Elder",
+      "desc": "De oudsten van de stam nemen beslissingen op basis van traditie en ervaring.",
+      "descEn": "The tribal elders make decisions based on tradition and experience.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Trio of Fierce Warriors",
+      "nl": "Trio van Strijders",
+      "leader": "War Chief",
+      "desc": "Drie kampioenvechters regeren gezamenlijk. Macht wordt bewezen op het slagveld.",
+      "descEn": "Three champion fighters rule together. Power is proven on the battlefield.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Tribal Chiefdom",
+      "nl": "Stamhoofdschap",
+      "leader": "Chief",
+      "desc": "Eén opperhoofd leidt de stam. Autoriteit is verdiend door kracht, moed of afkomst.",
+      "descEn": "One chief leads the tribe. Authority is earned through strength, courage or lineage.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Shamanic Rule",
+      "nl": "Sjamaans Bestuur",
+      "leader": "Shaman",
+      "desc": "De stam wordt geleid door spirituele gidsen die spreken namens voorouders en geesten.",
+      "descEn": "The tribe is led by spiritual guides who speak on behalf of ancestors and spirits.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Hunters Mark",
+      "nl": "Jagersmerk",
+      "leader": "Prowler",
+      "desc": "De beste jagers en verkenners vormen een elite die de gemeenschap beschermt en bestuurt.",
+      "descEn": "The best hunters and scouts form an elite that protects and governs the community.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Blood Rite Council",
+      "nl": "Bloedritesraad",
+      "leader": "Blood Speaker",
+      "desc": "Leiderschap wordt bepaald door rituele bloedproeven en stamoudste ceremonies.",
+      "descEn": "Leadership is determined by ritual blood tests and elder ceremonies.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Totem Clan Alliance",
+      "nl": "Totemclanalliantie",
+      "leader": "Totem Keeper",
+      "desc": "Clans georganiseerd rondom heilige totemgeesten sluiten een bondgenootschap voor bestuur.",
+      "descEn": "Clans organised around sacred totem spirits form an alliance for governance.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Ancestor Worship State",
+      "nl": "Voorouderverering",
+      "leader": "Ancestor Voice",
+      "desc": "De geesten van de voorouders worden geraadpleegd via rituelen. Hun wil is wet.",
+      "descEn": "The spirits of the ancestors are consulted through ritual. Their will is law.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Warrior Lodge",
+      "nl": "Krijgersloge",
+      "leader": "Lodge Master",
+      "desc": "Een elite krijgersgilde vormt de heersende klasse. Lidmaatschap vereist bewezen moed.",
+      "descEn": "An elite warrior guild forms the ruling class. Membership requires proven courage.",
+      "scope": ["city", "nation"],
+      "leaderGender": "male"
+    },
+    {
+      "category": "Tribalism",
+      "form": "Nomadic Council",
+      "nl": "Nomadische Raad",
+      "leader": "Trail Chief",
+      "desc": "Een rondtrekkende gemeenschap bestuurt zichzelf via roulerende raadsvergaderingen.",
+      "descEn": "A travelling community governs itself through rotating council meetings.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Village Meeting",
+      "nl": "Dorpsvergadering",
+      "leader": "Speaker",
+      "desc": "Alle inwoners vergaderen regelmatig. Iedereen heeft een stem, beslissingen bij consensus.",
+      "descEn": "All inhabitants meet regularly. Everyone has a voice, decisions by consensus.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Women's Circle",
+      "nl": "Vrouwencirkel",
+      "leader": "Circle Keeper",
+      "desc": "Een matriarchale raad van vrouwen bewaakt traditie en gemeenschapswelzijn.",
+      "descEn": "A matriarchal council of women guards tradition and community welfare.",
+      "scope": ["city"],
+      "leaderGender": "female"
+    },
+    {
+      "category": "Communalism",
+      "form": "Wisdom Council",
+      "nl": "Wijsheidsraad",
+      "leader": "The Wise",
+      "desc": "De meest geleerde en wijze personen begeleiden de gemeenschap zonder formele macht.",
+      "descEn": "The most learned and wise persons guide the community without formal authority.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Racial Council",
+      "nl": "Rassenraad",
+      "leader": "Race Elder",
+      "desc": "Vertegenwoordigers van elk ras in de gemeenschap vormen samen een raad.",
+      "descEn": "Representatives of each race in the community form a council together.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Clan Chief Council",
+      "nl": "Clanhoofdraad",
+      "leader": "Clan Chief",
+      "desc": "Hoofden van verschillende clans vergaderen periodiek over gemeenschappelijke belangen.",
+      "descEn": "Heads of different clans meet periodically on matters of common interest.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Cooperative Commune",
+      "nl": "Coöperatieve Commune",
+      "leader": "Steward",
+      "desc": "Alle bezittingen zijn gemeenschappelijk. Een gekozen beheerder coördineert het dagelijks leven.",
+      "descEn": "All property is communal. An elected steward coordinates daily life.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Artisan Collective",
+      "nl": "Ambachtscollectief",
+      "leader": "Master Artisan",
+      "desc": "Ambachtslieden en kunstenaars regeren gezamenlijk op basis van vakmanschap en reputatie.",
+      "descEn": "Craftspeople and artists govern together based on skill and reputation.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Seasonal Council",
+      "nl": "Seizoensraad",
+      "leader": "Season Keeper",
+      "desc": "Bestuur wisselt per seizoen. Elk seizoen heeft zijn eigen raad met bijbehorende taken.",
+      "descEn": "Governance rotates by season. Each season has its own council with corresponding duties.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Fellowship of Equals",
+      "nl": "Broederschap der Gelijken",
+      "leader": "First Among Equals",
+      "desc": "Iedereen is formeel gelijk. Een woordvoerder coördineert zonder echte autoriteit.",
+      "descEn": "Everyone is formally equal. A spokesperson coordinates without real authority.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Communalism",
+      "form": "Hearth Assembly",
+      "nl": "Haardvuurgemeenschap",
+      "leader": "Hearth Mother",
+      "desc": "Families vormen de basiseenheid. Gezinshoofden vergaderen als gelijkwaardige stemgerechtigden.",
+      "descEn": "Families form the basic unit. Household heads meet as equal voting members.",
+      "scope": ["city"],
+      "leaderGender": "female"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Military Junta",
+      "nl": "Militaire Junta",
+      "leader": "General",
+      "desc": "Een groep officieren heeft de macht gegrepen na een staatsgreep. Geen verkiezingen.",
+      "descEn": "A group of officers seized power after a coup. No elections.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Empire Far Away",
+      "nl": "Ver Keizerrijk",
+      "leader": "Emperor / Empress",
+      "desc": "De stad is een provincie van een ver keizerrijk. Een gouverneur bestuurt namens de keizer.",
+      "descEn": "The city is a province of a distant empire. A governor rules on behalf of the emperor.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Savior of the People",
+      "nl": "Redder des Volks",
+      "leader": "Warlord",
+      "desc": "Een charismatisch leider claimt de stad te hebben bevrijd. Zijn woord is wet.",
+      "descEn": "A charismatic leader claims to have liberated the city. Their word is law.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Cult of Personality",
+      "nl": "Persoonlijkheidscultus",
+      "leader": "The Eternal",
+      "desc": "Een alom vereerde dictator heeft een persoonsverheerlijkingscultus opgebouwd rond zichzelf.",
+      "descEn": "A universally venerated dictator has built a cult of personality around themselves.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Occupation Force",
+      "nl": "Bezettingsmacht",
+      "leader": "Commandant",
+      "desc": "Een buitenlandse bezettingsmacht regeert. De lokale bevolking heeft weinig te zeggen.",
+      "descEn": "A foreign occupying force rules. The local population has little say.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Revolutionary Vanguard",
+      "nl": "Revolutionaire Voorhoede",
+      "leader": "Commissar",
+      "desc": "Een revolutionaire beweging heeft de macht gegrepen en regeert in naam van het volk.",
+      "descEn": "A revolutionary movement has seized power and rules in the name of the people.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Iron Chancellor",
+      "nl": "IJzeren Kanselier",
+      "leader": "Chancellor",
+      "desc": "Een ogenschijnlijk legale machtsgreep via manipulatie van wetgeving en instituties.",
+      "descEn": "A seemingly legal power grab through manipulation of legislation and institutions.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Emergency Council",
+      "nl": "Noodraad",
+      "leader": "Crisis Commander",
+      "desc": "Tijdelijke noodmaatregelen zijn nooit opgeheven. De noodtoestand is de permanente staat.",
+      "descEn": "Temporary emergency measures were never lifted. The state of emergency is permanent.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Dynastic Conqueror",
+      "nl": "Dynastieke Veroveraar",
+      "leader": "Conqueror",
+      "desc": "Een veroveraar regeert de stad als persoonlijk bezit na militaire verovering.",
+      "descEn": "A conqueror rules the city as personal property after military conquest.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Dictatorship",
+      "form": "Puppet Emperor",
+      "nl": "Marionettkeizerschap",
+      "leader": "Shadow Regent",
+      "desc": "Een zwakke keizer zit op de troon; de echte macht ligt bij een regerende minister.",
+      "descEn": "A weak emperor sits on the throne; real power lies with a ruling minister.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Philosophical Republic",
+      "nl": "Filosofische Republiek",
+      "leader": "Guru",
+      "desc": "Denkers en filosofen besturen op basis van ethiek en rede. Ideaal boven macht.",
+      "descEn": "Thinkers and philosophers govern based on ethics and reason. Ideals over power.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Healer's Collective",
+      "nl": "Genezerschollectief",
+      "leader": "Healer",
+      "desc": "Geneesheren en verzorgers leiden de gemeenschap. Gezondheid en welzijn staan centraal.",
+      "descEn": "Healers and carers lead the community. Health and wellbeing are central.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Hivemind",
+      "nl": "Bijenkorfgeest",
+      "leader": "The Collective",
+      "desc": "Een telepathisch verbonden gemeenschap neemt beslissingen als één bewustzijn.",
+      "descEn": "A telepathically connected community makes decisions as one consciousness.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Sentient Artifact",
+      "nl": "Denkend Artefact",
+      "leader": "The Oracle",
+      "desc": "Een oude, denkende constructie of artefact bestuurt de stad via uitspraken en bevelen.",
+      "descEn": "An ancient, thinking construct or artefact governs the city through pronouncements and commands.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Druidic Circle",
+      "nl": "Druïdenkring",
+      "leader": "High Druid",
+      "desc": "Een kring van druïden bestuurt in harmonie met de natuur. Seizoenen bepalen het beleid.",
+      "descEn": "A circle of druids governs in harmony with nature. Seasons determine policy.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Arcane Technocracy",
+      "nl": "Arcane Technocratie",
+      "leader": "Tinkerer",
+      "desc": "Magiërs en uitvinders regeren op basis van kennis en magische technologie.",
+      "descEn": "Mages and inventors rule based on knowledge and magical technology.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Fey Dreamers",
+      "nl": "Feëdromers",
+      "leader": "Dream Weaver",
+      "desc": "Feëwezens besturen via dromen en illusies. Realiteit en fantasie zijn nauwelijks te onderscheiden.",
+      "descEn": "Fey beings govern through dreams and illusions. Reality and fantasy are barely distinguishable.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Ancestor Commune",
+      "nl": "Vooroudercommune",
+      "leader": "Spirit Keeper",
+      "desc": "De levenden en de geesten van de doden besturen samen. Seances zijn raadsvergaderingen.",
+      "descEn": "The living and the spirits of the dead govern together. Séances are council meetings.",
+      "scope": ["city"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Nature's Chosen",
+      "nl": "Uitverkorenen der Natuur",
+      "leader": "The Green",
+      "desc": "De natuur zelf wordt beschouwd als heerser. Haar spreekbuizen interpreteren teken en seizoen.",
+      "descEn": "Nature itself is considered the ruler. Its spokespersons interpret signs and seasons.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    },
+    {
+      "category": "Utopian",
+      "form": "Order of Perfection",
+      "nl": "Orde der Perfectie",
+      "leader": "The Perfected",
+      "desc": "Een gemeenschap die streeft naar het perfecte individu. De meest volmaakte persoon regeert.",
+      "descEn": "A community striving for the perfect individual. The most accomplished person rules.",
+      "scope": ["city", "nation"],
+      "leaderGender": "any"
+    }
+  ]
+}

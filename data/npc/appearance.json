@@ -1,0 +1,1195 @@
+﻿{
+    "items":  [
+                  {
+                      "nl":  "Leather Armor",
+                      "en":  "Leather Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Noble Outfit",
+                      "en":  "Noble Outfit",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Padded Armor",
+                      "en":  "Padded Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Studded Leather Armor",
+                      "en":  "Studded Leather Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Hide Armor",
+                      "en":  "Hide Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Chain Shirt",
+                      "en":  "Chain Shirt",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Scale Mail Armor",
+                      "en":  "Scale Mail Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Breastplate",
+                      "en":  "Breastplate",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Half Plate Armor",
+                      "en":  "Half Plate Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Ring Mail Armor",
+                      "en":  "Ring Mail Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Chainmail Armor",
+                      "en":  "Chainmail Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Splint Armor",
+                      "en":  "Splint Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Plate Armor",
+                      "en":  "Plate Armor",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Clerics Vestment",
+                      "en":  "Clerics Vestment",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Traveler\u0027s Outfit",
+                      "en":  "Traveler\u0027s Outfit",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Peasant\u0027s Outfit",
+                      "en":  "Peasant\u0027s Outfit",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "Explorer\u0027s Outfit",
+                      "en":  "Explorer\u0027s Outfit",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "clr Hemd",
+                      "en":  "clr Shirt",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "clr Broek",
+                      "en":  "clr Pants",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "clr Taberd",
+                      "en":  "clr Tabard",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "clr Overhemd",
+                      "en":  "clr Blouse",
+                      "type":  "clothing"
+                  },
+                  {
+                      "nl":  "clr sjerp",
+                      "en":  "clr sash",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr cape",
+                      "en":  "clr cloak",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "riem",
+                      "en":  "belt",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr sjaal",
+                      "en":  "clr shawl",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr hoed",
+                      "en":  "clr hat",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "helm",
+                      "en":  "helmet",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr kap",
+                      "en":  "clr hood",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr mantel",
+                      "en":  "clr mantle",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "poncho",
+                      "en":  "poncho",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr handschoenen",
+                      "en":  "clr gloves",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr wanten",
+                      "en":  "clr mittens",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "armband",
+                      "en":  "bracelet",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "armring",
+                      "en":  "armlet",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "ring",
+                      "en":  "ring",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "ketting",
+                      "en":  "necklace",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "hanger",
+                      "en":  "pendant",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "broche",
+                      "en":  "brooch",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "speld",
+                      "en":  "pin",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "oorbellen",
+                      "en":  "earrings",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "bril",
+                      "en":  "glasses",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "clr ooglapje",
+                      "en":  "clr eyepatch",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "riemtas",
+                      "en":  "belt pouch",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "tas",
+                      "en":  "bag",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "rugzak",
+                      "en":  "backpack",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "buidel",
+                      "en":  "pouch",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "schede",
+                      "en":  "scabbard",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "schouderstuk",
+                      "en":  "pauldron",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "kniebeschermer",
+                      "en":  "knee guard",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "scheenbeschermer",
+                      "en":  "greaves",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "polsband",
+                      "en":  "wristband",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "laarzen",
+                      "en":  "boots",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "sandalen",
+                      "en":  "sandals",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "schoenen",
+                      "en":  "shoes",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "medaille",
+                      "en":  "medallion",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "onderscheiding",
+                      "en":  "insignia",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "riemgesp",
+                      "en":  "beltbuckle",
+                      "type":  "accessory"
+                  },
+                  {
+                      "nl":  "Club",
+                      "en":  "Club",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Cudgel",
+                      "en":  "Cudgel",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Bludgeon",
+                      "en":  "Bludgeon",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Truncheon",
+                      "en":  "Truncheon",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dagger",
+                      "en":  "Dagger",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Knife",
+                      "en":  "Knife",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dirk",
+                      "en":  "Dirk",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Poniard",
+                      "en":  "Poniard",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Stiletto",
+                      "en":  "Stiletto",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Greatclub",
+                      "en":  "Greatclub",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Maul-Staff",
+                      "en":  "Maul-Staff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Club",
+                      "en":  "War Club",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Iron-Shod Club",
+                      "en":  "Iron-Shod Club",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Handaxe",
+                      "en":  "Handaxe",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Hatchet",
+                      "en":  "Hatchet",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Throwing Axe",
+                      "en":  "Throwing Axe",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Belt Axe",
+                      "en":  "Belt Axe",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Javelin",
+                      "en":  "Javelin",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Throwing Spear",
+                      "en":  "Throwing Spear",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Light Lance",
+                      "en":  "Light Lance",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Dart",
+                      "en":  "War Dart",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Light Hammer",
+                      "en":  "Light Hammer",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Throwing Hammer",
+                      "en":  "Throwing Hammer",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Mallet",
+                      "en":  "Mallet",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Hammer",
+                      "en":  "War Hammer",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Mace",
+                      "en":  "Mace",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Flanged Mace",
+                      "en":  "Flanged Mace",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Mace",
+                      "en":  "War Mace",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Iron Mace",
+                      "en":  "Iron Mace",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Quarterstaff",
+                      "en":  "Quarterstaff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Staff",
+                      "en":  "Staff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Bo Staff",
+                      "en":  "Bo Staff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Walking Staff",
+                      "en":  "Walking Staff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Iron-Tipped Staff",
+                      "en":  "Iron-Tipped Staff",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Sickle",
+                      "en":  "Sickle",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Kama",
+                      "en":  "Kama",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Ritual Blade",
+                      "en":  "Ritual Blade",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Harvest Blade",
+                      "en":  "Harvest Blade",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Spear",
+                      "en":  "Spear",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Shortspear",
+                      "en":  "Shortspear",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Boar Spear",
+                      "en":  "Boar Spear",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Spear",
+                      "en":  "War Spear",
+                      "subtype":  "simple_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Light Crossbow",
+                      "en":  "Light Crossbow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Crossbow",
+                      "en":  "Crossbow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Hand Crossbow",
+                      "en":  "Hand Crossbow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Bolt Thrower",
+                      "en":  "Bolt Thrower",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dart",
+                      "en":  "Dart",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Throwing Dart",
+                      "en":  "Throwing Dart",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Needle",
+                      "en":  "Needle",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Blowdart",
+                      "en":  "Blowdart",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Shortbow",
+                      "en":  "Shortbow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Hunting Bow",
+                      "en":  "Hunting Bow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Recurve Bow",
+                      "en":  "Recurve Bow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Yew Bow",
+                      "en":  "Yew Bow",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Sling",
+                      "en":  "Sling",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Stone Sling",
+                      "en":  "Stone Sling",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Sling",
+                      "en":  "War Sling",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Shepherd\u0027s Sling",
+                      "en":  "Shepherd\u0027s Sling",
+                      "subtype":  "simple_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Battleaxe",
+                      "en":  "Battleaxe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Axe",
+                      "en":  "War Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Broad Axe",
+                      "en":  "Broad Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Viking Axe",
+                      "en":  "Viking Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Flail",
+                      "en":  "Flail",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Morning Chain",
+                      "en":  "Morning Chain",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Flail",
+                      "en":  "War Flail",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Iron Flail",
+                      "en":  "Iron Flail",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Glaive",
+                      "en":  "Glaive",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Glaive",
+                      "en":  "War Glaive",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Blade-Pole",
+                      "en":  "Blade-Pole",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Voulge",
+                      "en":  "Voulge",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Greataxe",
+                      "en":  "Greataxe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Two-Handed Axe",
+                      "en":  "Two-Handed Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Executioner\u0027s Axe",
+                      "en":  "Executioner\u0027s Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dane Axe",
+                      "en":  "Dane Axe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Greatsword",
+                      "en":  "Greatsword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Two-Handed Sword",
+                      "en":  "Two-Handed Sword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Claymore",
+                      "en":  "Claymore",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Zweihander",
+                      "en":  "Zweihander",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Halberd",
+                      "en":  "Halberd",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Poleaxe",
+                      "en":  "Poleaxe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Glaive-Guisarme",
+                      "en":  "Glaive-Guisarme",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Poleaxe",
+                      "en":  "War Poleaxe",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Lance",
+                      "en":  "Lance",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Jousting Lance",
+                      "en":  "Jousting Lance",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Lance",
+                      "en":  "War Lance",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Cavalry Spear",
+                      "en":  "Cavalry Spear",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Longsword",
+                      "en":  "Longsword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Longblade",
+                      "en":  "Longblade",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Katana",
+                      "en":  "Katana",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Cutlass",
+                      "en":  "Cutlass",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Arming Sword",
+                      "en":  "Arming Sword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Maul",
+                      "en":  "Maul",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Great Hammer",
+                      "en":  "Great Hammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Warhammer",
+                      "en":  "Warhammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Siege Hammer",
+                      "en":  "Siege Hammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Morningstar",
+                      "en":  "Morningstar",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Spiked Club",
+                      "en":  "Spiked Club",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Star",
+                      "en":  "War Star",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Spiked Mace",
+                      "en":  "Spiked Mace",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Pike",
+                      "en":  "Pike",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Pike",
+                      "en":  "War Pike",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Long Spear",
+                      "en":  "Long Spear",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Infantry Spear",
+                      "en":  "Infantry Spear",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Rapier",
+                      "en":  "Rapier",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dueling Sword",
+                      "en":  "Dueling Sword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Estoc",
+                      "en":  "Estoc",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Side Sword",
+                      "en":  "Side Sword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Scimitar",
+                      "en":  "Scimitar",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Falchion",
+                      "en":  "Falchion",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Sabre",
+                      "en":  "Sabre",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Curved Blade",
+                      "en":  "Curved Blade",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Shortsword",
+                      "en":  "Shortsword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Gladius",
+                      "en":  "Gladius",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Wakizashi",
+                      "en":  "Wakizashi",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Hunting Sword",
+                      "en":  "Hunting Sword",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Trident",
+                      "en":  "Trident",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Trident",
+                      "en":  "War Trident",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Sea Fork",
+                      "en":  "Sea Fork",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Three-Tine Spear",
+                      "en":  "Three-Tine Spear",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Pick",
+                      "en":  "War Pick",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Military Pick",
+                      "en":  "Military Pick",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Rock Pick",
+                      "en":  "Rock Pick",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Iron Pick",
+                      "en":  "Iron Pick",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Warhammer",
+                      "en":  "Warhammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Battle Hammer",
+                      "en":  "Battle Hammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Forge Hammer",
+                      "en":  "Forge Hammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dwarf Hammer",
+                      "en":  "Dwarf Hammer",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Whip",
+                      "en":  "Whip",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Lash",
+                      "en":  "Lash",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Chain Whip",
+                      "en":  "Chain Whip",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Scourge",
+                      "en":  "Scourge",
+                      "subtype":  "martial_melee",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Blowgun",
+                      "en":  "Blowgun",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Breath Pipe",
+                      "en":  "Breath Pipe",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Dart Pipe",
+                      "en":  "Dart Pipe",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Jungle Blowpipe",
+                      "en":  "Jungle Blowpipe",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Hand Crossbow",
+                      "en":  "Hand Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Pistol Crossbow",
+                      "en":  "Pistol Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Wrist Crossbow",
+                      "en":  "Wrist Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Compact Crossbow",
+                      "en":  "Compact Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Heavy Crossbow",
+                      "en":  "Heavy Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Crossbow",
+                      "en":  "War Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Siege Crossbow",
+                      "en":  "Siege Crossbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Arbalest",
+                      "en":  "Arbalest",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Longbow",
+                      "en":  "Longbow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Bow",
+                      "en":  "War Bow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Elven Bow",
+                      "en":  "Elven Bow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Great Bow",
+                      "en":  "Great Bow",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Net",
+                      "en":  "Net",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Throwing Net",
+                      "en":  "Throwing Net",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "Capture Net",
+                      "en":  "Capture Net",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  },
+                  {
+                      "nl":  "War Net",
+                      "en":  "War Net",
+                      "subtype":  "martial_ranged",
+                      "type":  "weapon"
+                  }
+              ]
+}
