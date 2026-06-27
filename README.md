@@ -124,7 +124,7 @@ Als je voorkeur hebt voor handmatig beheer:
 
 | Instelling | Opties | Standaard | Beschrijving |
 |-----------|--------|-----------|-------------|
-| **Generator Taal** | NL / EN | NL | Taal voor gegenereerde content |
+| **Generator Taal** | NL / EN | EN | Taal voor gegenereerde content |
 | **Campaign Theme** | Medieval, Gothic, Asian, Desert, Nordic, Greek, Caribbean, Custom | Medieval | Theme voor thema-aware content (winkels, gebouwen, weer) |
 | **Campaign Theme Tags** | (custom) | empty | Extra tags voor custom theme filtering (optioneel) |
 | **Campaign Theme Negatives** | (custom) | empty | Uitsluiten bepaalde elementen (bijv. "magic-heavy") |

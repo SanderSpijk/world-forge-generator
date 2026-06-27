@@ -2,7 +2,7 @@
   "id": "world-forge-generator",
   "title": "WorldForge Generator",
   "description": "D&D 5e content generator for NPCs, shops, inns, cities, ships, creatures, weather, and more. Thema-aware generation with optional ComfyUI integration for AI artwork.",
-  "version": "0.9.3",
+  "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -15,9 +15,9 @@
   "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/[owner]/world-forge-generator"
+    "url": "https://github.com/SanderSpijk/world-forge-generator"
   },
-  "bugs": "https://github.com/[owner]/world-forge-generator/issues",
+  "bugs": "https://github.com/SanderSpijk/world-forge-generator/issues",
   "esmodules": [
     "scripts/main.js"
   ],
