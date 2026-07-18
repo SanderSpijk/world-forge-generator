@@ -2,7 +2,7 @@
   "id": "world-forge-generator",
   "title": "WorldForge Generator",
   "description": "D&D 5e content generator for NPCs, shops, inns, cities, ships, creatures, weather, and more. Thema-aware generation with optional ComfyUI integration for AI artwork.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
