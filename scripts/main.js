@@ -122,10 +122,10 @@ Hooks.once("ready", () => {
     Object.assign(game.i18n.translations, mod._translations.en);
   }
 
-  // Maak ComfyUI asset folders aan (async, op achtergrond)
-  _createAssetFolders().catch(err => {
-    console.warn("WorldForge | Asset folders aanmaken mislukt:", err);
-  });
+  // Asset folders: gebruikers maken deze manueel aan of ComfyUI doet het automatisch
+  // _createAssetFolders().catch(err => {
+  //   console.warn("WorldForge | Asset folders aanmaken mislukt:", err);
+  // });
 
   // DEBUG MODE — zet op false wanneer prompts correct zijn
   window.DEBUG_MODE = true;
