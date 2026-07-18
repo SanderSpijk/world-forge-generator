@@ -406,7 +406,7 @@ export async function generateTavern() {
 // =============================================================================
 
 export class TavernGenerator extends BaseGenerator {
-  static codexType = "tavern";
+  static codexType = "shop";
   static folder    = "_Random Taverns";
   static icon      = "fa-beer-mug-empty";
   static hasActor  = false;

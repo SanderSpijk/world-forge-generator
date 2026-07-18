@@ -490,7 +490,7 @@ export async function generateInn() {
 // =============================================================================
 
 export class InnGenerator extends BaseGenerator {
-  static codexType = "inn";
+  static codexType = "shop";
   static folder    = "_Random Inns";
   static icon      = "fa-bed";
   static hasActor  = false;
