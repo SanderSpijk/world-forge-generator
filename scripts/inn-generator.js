@@ -473,6 +473,7 @@ export async function generateInn() {
     building, roof, height, sfeer, detail, drukte, description,
     rooms, breakfast, beerAle, spirit, wine, fullMeal, randomMeal,
     owner, employeeCount, customerCount, employees, customers, gossip,
+    npcs: [owner, ...employees, ...customers],  // v1.1.0: Nested NPC export
     renderStatus: "Nog niet gegenereerd",
     comfyFileName: null, currentImagePath: null, isRendering: false
   };

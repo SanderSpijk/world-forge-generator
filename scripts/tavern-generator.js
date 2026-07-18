@@ -389,6 +389,7 @@ export async function generateTavern() {
     building, roof, sfeer, detail, drukte, description,
     beerAle, spirit, wine, fullMeal, randomMeal,
     owner, employeeCount, customerCount, employees, customers, gossip,
+    npcs: [owner, ...employees, ...customers],  // v1.1.0: Nested NPC export
     renderStatus: wft("WF.Status.NotGenerated"),
     comfyFileName: null, currentImagePath: null, isRendering: false
   };

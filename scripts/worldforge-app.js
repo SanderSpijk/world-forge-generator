@@ -1875,7 +1875,15 @@ export class WorldForgeApp extends foundry.applications.api.ApplicationV2 {
 
   async _saveToCodex() {
     if (!this.currentItem) return;
-    await CC.save(this.activeType, this.currentItem, TYPE_CONFIG[this.activeType]);
+    const cfg = TYPE_CONFIG[this.activeType];
+
+    // v1.1.0: Nested NPC export voor shops/inns/taverns
+    if ((this.activeType === "shop" || this.activeType === "inn" || this.activeType === "tavern") &&
+        this.currentItem.npcs?.length > 0) {
+      await CC.saveWithNestedNPCs(this.activeType, this.currentItem, cfg, this.currentItem.npcs);
+    } else {
+      await CC.save(this.activeType, this.currentItem, cfg);
+    }
   }
 
   // Pre-flight: maakt stil een CC journal aan voor drag. Delegeert naar CC.

@@ -130,6 +130,67 @@ export const CC = {
       ?.uuid ?? null;
   },
 
+  // ── Nested NPCs (v1.1.0) ────────────────────────────────────────────────────
+
+  /**
+   * Sla een parent item (shop/inn/tavern) + nested NPCs op naar Campaign Codex.
+   * Maakt aparte NPC entries voor elk item in npcs[].
+   *
+   * @param {string} type           - "shop", "inn", "tavern"
+   * @param {object} item           - Parent item met npcs[] array
+   * @param {object} cfg            - TYPE_CONFIG
+   * @param {array}  npcs           - Array van NPC objects [{ name, race, age, job, ... }]
+   * @returns {Promise<{parentUuid, npcUuids[]}>}
+   */
+  async saveWithNestedNPCs(type, item, cfg, npcs = []) {
+    if (!this.available) return null;
+
+    const { renderNPC } = await import("./npc-generator.js");
+    const name = cfg.getName(item);
+
+    try {
+      // 1. Sla parent op
+      const parentResult = await saveToCodex(
+        name,
+        cfg.folder,
+        cfg.render(item),
+        this._getImage(item, cfg),
+        cfg.codexType ?? type
+      );
+
+      // 2. Sla elke NPC op
+      const npcUuids = [];
+      for (const npc of npcs) {
+        try {
+          const npcResult = await saveToCodex(
+            npc.name,
+            "_Random NPCs",
+            renderNPC(npc, { buttons: false }),
+            npc.currentImagePath || "",
+            "npc"
+          );
+          if (npcResult?.codexUuid) {
+            npcUuids.push(npcResult.codexUuid);
+          }
+        } catch (err) {
+          console.warn(`WorldForge | NPC "${npc.name}" export fout:`, err);
+        }
+      }
+
+      ui.notifications.info(`✅ ${name} + ${npcUuids.length} NPCs opgeslagen naar Campaign Codex`);
+
+      return {
+        parentUuid: parentResult.codexUuid,
+        npcUuids: npcUuids,
+        count: npcUuids.length
+      };
+    } catch (err) {
+      console.error("WorldForge | Nested NPC save fout:", err);
+      ui.notifications.error(`Campaign Codex fout: ${err.message}`);
+      return null;
+    }
+  },
+
   // ── Intern ──────────────────────────────────────────────────────────────────
 
   _getImage(item, cfg) {

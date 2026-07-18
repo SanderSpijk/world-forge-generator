@@ -273,6 +273,7 @@ export async function generateShop({ forceType = null } = {}) {
     description,
     building, roof, height, detail, drukte,
     flavorQuirk, gameplayQuirk, owner,
+    npcs:             [owner],  // v1.1.0: Nested NPC export
     renderStatus:     wft("WF.Status.NotGenerated"),
     comfyFileName:    null,
     currentImagePath: null,
