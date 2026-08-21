@@ -232,9 +232,9 @@ const TYPE_CONFIG = {
     getName:     (item) => { const lang = WorldForgeSettings.lang ?? "nl"; return (typeof item.name === "object" ? (item.name[lang] ?? item.name.nl) : item.name) ?? "POI"; },
     getSub:      (item) => item.category ?? "",
     hasActor:    false,
-    hasComfy:    false,
-    comfyW:      0,
-    comfyH:      0
+    hasComfy:    true,
+    comfyW:      1024,
+    comfyH:      768
   },
   weather: {
     icon:        "fa-cloud-sun",

@@ -16,8 +16,9 @@ import { WorldForgeSettings }  from "./settings.js";
 import { BaseGenerator } from "./base-generator.js";
 import { DataLoader } from "./data-loader.js";
 import { generateNPC }         from "./npc-generator.js";
+import { runComfyRender, baseNegativeExterior } from "./comfyui.js";
 import {
-  escapeHtml, wfSectionHeader, wfReadout, wfBadge, wfNpcItem
+  escapeHtml, wfSectionHeader, wfReadout, wfBadge, wfNpcItem, uniqueParts
 } from "./utils.js";
 
 const wft = (key) => WorldForgeSettings.t(key);
@@ -25,6 +26,31 @@ const wft = (key) => WorldForgeSettings.t(key);
 // =============================================================================
 // HELPERS
 // =============================================================================
+
+/**
+ * Bouwt de ComfyUI prompt voor POI exterieur.
+ */
+function buildPOIComfyPrompt(poi) {
+  const themeTags = WorldForgeSettings.campaignThemeTags
+    .split(",").map(t => t.trim()).filter(Boolean);
+
+  return uniqueParts([
+    "wide cinematic fantasy landmark building",
+    "environment concept art",
+    "high fantasy architecture illustration",
+    "establishing shot",
+    "front three-quarter view",
+    ...themeTags,
+    "detailed architecture",
+    "weathered materials",
+    "daylight", "soft dramatic lighting", "sharp focus",
+    poi.category,
+    "landmark", "iconic building",
+    "exterior only",
+    "no interior visible", "no people", "no characters",
+    "no signage text", "no watermark"
+  ]).join(", ");
+}
 
 function pickRandom(arr) {
   if (!arr?.length) return null;
@@ -127,7 +153,7 @@ export async function generatePOI({ category = null, buildingId = "random" } = {
     npcs.push(npc);
   }
 
-  return {
+  const poi = {
     type:       "poi",
     id:         building.id,
     name:       { nl: building.nl, en: building.en },
@@ -137,7 +163,15 @@ export async function generatePOI({ category = null, buildingId = "random" } = {
     rarity:     building.rarity ?? "common",
     readout,
     npcs,
+    currentImagePath: null,
+    isRendering:      false,
+    comfyFileName:    null
   };
+
+  poi.comfyPrompt   = buildPOIComfyPrompt(poi);
+  poi.comfyNegative = baseNegativeExterior(poi.category);
+
+  return poi;
 }
 
 // =============================================================================
