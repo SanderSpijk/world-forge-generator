@@ -173,16 +173,24 @@ Hooks.once("ready", () => {
     version: game.modules.get("world-forge-generator")?.version ?? "unknown"
   };
 
-  // GM: WorldForge D20 knop
+  // GM: WorldForge D20 knop via hook (blijft zichtbaar bij menu switches)
   if (game.user?.isGM) {
-    document.getElementById("wf-toolbar-btn")?.closest("li")?.remove();
-    _injectWFButton();
+    Hooks.on("renderSceneControls", () => {
+      if (!document.getElementById("wf-toolbar-btn")) {
+        _injectWFButton();
+      }
+    });
+    _injectWFButton(); // Initial inject
   }
 
-  // Alle gebruikers (ook spelers): PDF Export knop
+  // Alle gebruikers (ook spelers): PDF Export knop via hook
   window._wfPdfApp = new PdfExportApp();
-  document.getElementById("wf-pdf-toolbar-btn")?.closest("li")?.remove();
-  _injectPdfButton();
+  Hooks.on("renderSceneControls", () => {
+    if (!document.getElementById("wf-pdf-toolbar-btn")) {
+      _injectPdfButton();
+    }
+  });
+  _injectPdfButton(); // Initial inject
 });
 
 // =============================================================================
