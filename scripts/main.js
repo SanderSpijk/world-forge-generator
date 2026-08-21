@@ -195,7 +195,7 @@ Hooks.once("ready", () => {
  * hij al open is).
  */
 function _injectWFButton() {
-  const menu = document.getElementById("scene-controls-layers");
+  const menu = document.getElementById("scene-controls-tools");
   if (!menu) {
     setTimeout(_injectWFButton, 1000);
     return;
@@ -230,7 +230,7 @@ function _injectWFButton() {
  * Opent een simpele popup met dropzone en downloadlijst.
  */
 function _injectPdfButton() {
-  const menu = document.getElementById("scene-controls-layers");
+  const menu = document.getElementById("scene-controls-tools");
   if (!menu) {
     setTimeout(_injectPdfButton, 1000);
     return;
