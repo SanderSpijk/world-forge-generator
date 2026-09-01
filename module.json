@@ -13,10 +13,6 @@
   "readme": "README.md",
   "changelog": "",
   "license": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SanderSpijk/world-forge-generator"
-  },
   "bugs": "https://github.com/SanderSpijk/world-forge-generator/issues",
   "esmodules": [
     "scripts/main.js"
